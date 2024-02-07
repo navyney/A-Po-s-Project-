@@ -56,9 +56,9 @@ namespace Project0 {
 	private: System::Windows::Forms::Button^ button9;
 	private: System::Windows::Forms::Button^ button10;
 	private: System::Windows::Forms::Button^ button11;
-	private: System::Windows::Forms::Button^ button12;
-	private: System::Windows::Forms::Button^ button13;
-	private: System::Windows::Forms::Button^ button14;
+
+
+
 	private: System::Windows::Forms::TextBox^ textBox5;
 	private: System::Windows::Forms::Button^ button15;
 	private: System::Windows::Forms::Button^ button16;
@@ -70,6 +70,11 @@ namespace Project0 {
 	private: System::Windows::Forms::Button^ button3;
 	private: System::Windows::Forms::TextBox^ textBox7;
 	private: System::Windows::Forms::Button^ button19;
+	private: System::Windows::Forms::TextBox^ textBox8;
+	private: System::Windows::Forms::Button^ button20;
+	private: System::Windows::Forms::Button^ button21;
+	private: System::Windows::Forms::Button^ button22;
+
 
 
 
@@ -123,9 +128,6 @@ namespace Project0 {
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->button10 = (gcnew System::Windows::Forms::Button());
 			this->button11 = (gcnew System::Windows::Forms::Button());
-			this->button12 = (gcnew System::Windows::Forms::Button());
-			this->button13 = (gcnew System::Windows::Forms::Button());
-			this->button14 = (gcnew System::Windows::Forms::Button());
 			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
 			this->button15 = (gcnew System::Windows::Forms::Button());
 			this->button16 = (gcnew System::Windows::Forms::Button());
@@ -137,6 +139,10 @@ namespace Project0 {
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
 			this->button19 = (gcnew System::Windows::Forms::Button());
+			this->textBox8 = (gcnew System::Windows::Forms::TextBox());
+			this->button20 = (gcnew System::Windows::Forms::Button());
+			this->button21 = (gcnew System::Windows::Forms::Button());
+			this->button22 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// textBox1
@@ -288,10 +294,9 @@ namespace Project0 {
 			this->textBox4->Location = System::Drawing::Point(420, 127);
 			this->textBox4->Multiline = true;
 			this->textBox4->Name = L"textBox4";
-			this->textBox4->Size = System::Drawing::Size(542, 238);
+			this->textBox4->Size = System::Drawing::Size(262, 238);
 			this->textBox4->TabIndex = 12;
-			this->textBox4->Text = L"   \r\n   d   เตอ\t       t   เทอ\t\r\n\t\r\n   n   เนอ\t       l   เลอ\t\r\n\t\r\n   g   เกอ\t   "
-				L"    k   เคอ\t\r\n\t\r\n            h   เฮอ";
+			this->textBox4->Text = L"   \r\n   d   เตอ\t\r\n\t\r\n   n   เนอ\t\r\n\t\r\n   g   เกอ\t\r\n\t\r\n   h   เฮอ";
 			// 
 			// button8
 			// 
@@ -331,44 +336,11 @@ namespace Project0 {
 			this->button11->BackColor = System::Drawing::Color::White;
 			this->button11->ForeColor = System::Drawing::SystemColors::Control;
 			this->button11->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button11.Image")));
-			this->button11->Location = System::Drawing::Point(710, 317);
+			this->button11->Location = System::Drawing::Point(596, 317);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(55, 31);
 			this->button11->TabIndex = 16;
 			this->button11->UseVisualStyleBackColor = false;
-			// 
-			// button12
-			// 
-			this->button12->BackColor = System::Drawing::Color::White;
-			this->button12->ForeColor = System::Drawing::SystemColors::Control;
-			this->button12->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button12.Image")));
-			this->button12->Location = System::Drawing::Point(889, 262);
-			this->button12->Name = L"button12";
-			this->button12->Size = System::Drawing::Size(55, 31);
-			this->button12->TabIndex = 17;
-			this->button12->UseVisualStyleBackColor = false;
-			// 
-			// button13
-			// 
-			this->button13->BackColor = System::Drawing::Color::White;
-			this->button13->ForeColor = System::Drawing::SystemColors::Control;
-			this->button13->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button13.Image")));
-			this->button13->Location = System::Drawing::Point(889, 210);
-			this->button13->Name = L"button13";
-			this->button13->Size = System::Drawing::Size(55, 31);
-			this->button13->TabIndex = 18;
-			this->button13->UseVisualStyleBackColor = false;
-			// 
-			// button14
-			// 
-			this->button14->BackColor = System::Drawing::Color::White;
-			this->button14->ForeColor = System::Drawing::SystemColors::Control;
-			this->button14->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button14.Image")));
-			this->button14->Location = System::Drawing::Point(889, 156);
-			this->button14->Name = L"button14";
-			this->button14->Size = System::Drawing::Size(55, 31);
-			this->button14->TabIndex = 19;
-			this->button14->UseVisualStyleBackColor = false;
 			// 
 			// textBox5
 			// 
@@ -486,7 +458,7 @@ namespace Project0 {
 			this->textBox7->Location = System::Drawing::Point(710, 380);
 			this->textBox7->Multiline = true;
 			this->textBox7->Name = L"textBox7";
-			this->textBox7->Size = System::Drawing::Size(252, 39);
+			this->textBox7->Size = System::Drawing::Size(236, 39);
 			this->textBox7->TabIndex = 29;
 			this->textBox7->Text = L" w    อู\r\n\r\n";
 			this->textBox7->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox7_TextChanged);
@@ -496,17 +468,68 @@ namespace Project0 {
 			this->button19->BackColor = System::Drawing::Color::White;
 			this->button19->ForeColor = System::Drawing::SystemColors::Control;
 			this->button19->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button19.Image")));
-			this->button19->Location = System::Drawing::Point(867, 383);
+			this->button19->Location = System::Drawing::Point(863, 383);
 			this->button19->Name = L"button19";
 			this->button19->Size = System::Drawing::Size(55, 31);
 			this->button19->TabIndex = 30;
 			this->button19->UseVisualStyleBackColor = false;
+			// 
+			// textBox8
+			// 
+			this->textBox8->BackColor = System::Drawing::Color::White;
+			this->textBox8->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox8->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 18.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(177)));
+			this->textBox8->ForeColor = System::Drawing::Color::OrangeRed;
+			this->textBox8->Location = System::Drawing::Point(710, 127);
+			this->textBox8->Multiline = true;
+			this->textBox8->Name = L"textBox8";
+			this->textBox8->Size = System::Drawing::Size(236, 238);
+			this->textBox8->TabIndex = 31;
+			this->textBox8->Text = L"\r\n t   เทอ\t\r\n\t\r\n l   เลอ\t\r\n\t\r\n k   เคอ";
+			// 
+			// button20
+			// 
+			this->button20->BackColor = System::Drawing::Color::White;
+			this->button20->ForeColor = System::Drawing::SystemColors::Control;
+			this->button20->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button20.Image")));
+			this->button20->Location = System::Drawing::Point(860, 154);
+			this->button20->Name = L"button20";
+			this->button20->Size = System::Drawing::Size(55, 31);
+			this->button20->TabIndex = 34;
+			this->button20->UseVisualStyleBackColor = false;
+			// 
+			// button21
+			// 
+			this->button21->BackColor = System::Drawing::Color::White;
+			this->button21->ForeColor = System::Drawing::SystemColors::Control;
+			this->button21->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button21.Image")));
+			this->button21->Location = System::Drawing::Point(860, 208);
+			this->button21->Name = L"button21";
+			this->button21->Size = System::Drawing::Size(55, 31);
+			this->button21->TabIndex = 33;
+			this->button21->UseVisualStyleBackColor = false;
+			// 
+			// button22
+			// 
+			this->button22->BackColor = System::Drawing::Color::White;
+			this->button22->ForeColor = System::Drawing::SystemColors::Control;
+			this->button22->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button22.Image")));
+			this->button22->Location = System::Drawing::Point(860, 260);
+			this->button22->Name = L"button22";
+			this->button22->Size = System::Drawing::Size(55, 31);
+			this->button22->TabIndex = 32;
+			this->button22->UseVisualStyleBackColor = false;
 			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1319, 658);
+			this->Controls->Add(this->button20);
+			this->Controls->Add(this->button21);
+			this->Controls->Add(this->button22);
+			this->Controls->Add(this->textBox8);
 			this->Controls->Add(this->button19);
 			this->Controls->Add(this->textBox7);
 			this->Controls->Add(this->button3);
@@ -518,9 +541,6 @@ namespace Project0 {
 			this->Controls->Add(this->button16);
 			this->Controls->Add(this->button15);
 			this->Controls->Add(this->textBox5);
-			this->Controls->Add(this->button14);
-			this->Controls->Add(this->button13);
-			this->Controls->Add(this->button12);
 			this->Controls->Add(this->button11);
 			this->Controls->Add(this->button10);
 			this->Controls->Add(this->button9);
