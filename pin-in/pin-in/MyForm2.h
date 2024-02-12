@@ -242,13 +242,13 @@ private: System::Windows::Forms::Button^ button22;
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->Size = System::Drawing::Size(725, 595);
 			this->textBox4->TabIndex = 12;
-			this->textBox4->Text = L"\r\n  อันนี้เป็นตัวอย่างการผสมเสียง  ?  er   \r\n\r\n   ?? hu? + er = hu?r    \r\n\r\n\r\n   "
-				L"?? zh? + er = zh?r\r\n\r\n\r\n   ?? n? +  er = n?r\r\n\r\n\r\n   ?? w?n + er = w?nr\r\n";
+			this->textBox4->Text = L"\r\n  อันนี้เป็นตัวอย่างการผสมเสียง  ?  er   \r\n\r\n   ?? hu?  + er = hu?r    \r\n\r\n\r\n  "
+				L" ?? zh?  + er = zh?r\r\n\r\n\r\n   ?? n? +  er = n?r\r\n\r\n\r\n   ?? w?n + er = w?nr\r\n";
 			this->textBox4->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox4_TextChanged);
 			// 
 			// NEXT
 			// 
-			this->NEXT->Location = System::Drawing::Point(1621, 899);
+			this->NEXT->Location = System::Drawing::Point(1634, 911);
 			this->NEXT->Name = L"NEXT";
 			this->NEXT->Size = System::Drawing::Size(189, 63);
 			this->NEXT->TabIndex = 57;
@@ -280,7 +280,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button11->BackColor = System::Drawing::Color::White;
 			this->button11->ForeColor = System::Drawing::SystemColors::Control;
-			this->button11->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button11->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button11.Image")));
 			this->button11->Location = System::Drawing::Point(226, 401);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(73, 46);
@@ -291,7 +291,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button2->BackColor = System::Drawing::Color::White;
 			this->button2->ForeColor = System::Drawing::SystemColors::Control;
-			this->button2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button2.Image")));
 			this->button2->Location = System::Drawing::Point(383, 401);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(73, 46);
@@ -303,7 +303,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button1->BackColor = System::Drawing::Color::White;
 			this->button1->ForeColor = System::Drawing::SystemColors::Control;
-			this->button1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.Image")));
 			this->button1->Location = System::Drawing::Point(444, 468);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(73, 46);
@@ -314,7 +314,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button3->BackColor = System::Drawing::Color::White;
 			this->button3->ForeColor = System::Drawing::SystemColors::Control;
-			this->button3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button3.Image")));
 			this->button3->Location = System::Drawing::Point(226, 594);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(73, 46);
@@ -325,7 +325,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button4->BackColor = System::Drawing::Color::White;
 			this->button4->ForeColor = System::Drawing::SystemColors::Control;
-			this->button4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button4.Image")));
 			this->button4->Location = System::Drawing::Point(383, 594);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(73, 46);
@@ -336,7 +336,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button5->BackColor = System::Drawing::Color::White;
 			this->button5->ForeColor = System::Drawing::SystemColors::Control;
-			this->button5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button5.Image")));
 			this->button5->Location = System::Drawing::Point(444, 661);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(73, 46);
@@ -347,7 +347,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button6->BackColor = System::Drawing::Color::White;
 			this->button6->ForeColor = System::Drawing::SystemColors::Control;
-			this->button6->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button6->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button6.Image")));
 			this->button6->Location = System::Drawing::Point(226, 791);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(73, 46);
@@ -358,7 +358,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button7->BackColor = System::Drawing::Color::White;
 			this->button7->ForeColor = System::Drawing::SystemColors::Control;
-			this->button7->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button7->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button7.Image")));
 			this->button7->Location = System::Drawing::Point(383, 791);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(73, 46);
@@ -369,7 +369,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button8->BackColor = System::Drawing::Color::White;
 			this->button8->ForeColor = System::Drawing::SystemColors::Control;
-			this->button8->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button8->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button8.Image")));
 			this->button8->Location = System::Drawing::Point(444, 855);
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(73, 46);
@@ -380,7 +380,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button9->BackColor = System::Drawing::Color::White;
 			this->button9->ForeColor = System::Drawing::SystemColors::Control;
-			this->button9->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button9->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button9.Image")));
 			this->button9->Location = System::Drawing::Point(984, 468);
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(73, 46);
@@ -391,7 +391,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button10->BackColor = System::Drawing::Color::White;
 			this->button10->ForeColor = System::Drawing::SystemColors::Control;
-			this->button10->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button10->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button10.Image")));
 			this->button10->Location = System::Drawing::Point(1141, 468);
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(73, 46);
@@ -402,7 +402,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button12->BackColor = System::Drawing::Color::White;
 			this->button12->ForeColor = System::Drawing::SystemColors::Control;
-			this->button12->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button12->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button12.Image")));
 			this->button12->Location = System::Drawing::Point(984, 585);
 			this->button12->Name = L"button12";
 			this->button12->Size = System::Drawing::Size(73, 46);
@@ -413,7 +413,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button13->BackColor = System::Drawing::Color::White;
 			this->button13->ForeColor = System::Drawing::SystemColors::Control;
-			this->button13->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button13->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button13.Image")));
 			this->button13->Location = System::Drawing::Point(1141, 585);
 			this->button13->Name = L"button13";
 			this->button13->Size = System::Drawing::Size(73, 46);
@@ -424,7 +424,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button14->BackColor = System::Drawing::Color::White;
 			this->button14->ForeColor = System::Drawing::SystemColors::Control;
-			this->button14->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button14->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button14.Image")));
 			this->button14->Location = System::Drawing::Point(984, 706);
 			this->button14->Name = L"button14";
 			this->button14->Size = System::Drawing::Size(73, 46);
@@ -435,7 +435,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button15->BackColor = System::Drawing::Color::White;
 			this->button15->ForeColor = System::Drawing::SystemColors::Control;
-			this->button15->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button15->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button15.Image")));
 			this->button15->Location = System::Drawing::Point(1141, 706);
 			this->button15->Name = L"button15";
 			this->button15->Size = System::Drawing::Size(73, 46);
@@ -446,7 +446,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button16->BackColor = System::Drawing::Color::White;
 			this->button16->ForeColor = System::Drawing::SystemColors::Control;
-			this->button16->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button16->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button16.Image")));
 			this->button16->Location = System::Drawing::Point(984, 823);
 			this->button16->Name = L"button16";
 			this->button16->Size = System::Drawing::Size(73, 46);
@@ -457,7 +457,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button17->BackColor = System::Drawing::Color::White;
 			this->button17->ForeColor = System::Drawing::SystemColors::Control;
-			this->button17->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button17->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button17.Image")));
 			this->button17->Location = System::Drawing::Point(1141, 823);
 			this->button17->Name = L"button17";
 			this->button17->Size = System::Drawing::Size(73, 46);
@@ -468,7 +468,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button18->BackColor = System::Drawing::Color::White;
 			this->button18->ForeColor = System::Drawing::SystemColors::Control;
-			this->button18->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button18->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button18.Image")));
 			this->button18->Location = System::Drawing::Point(1410, 346);
 			this->button18->Name = L"button18";
 			this->button18->Size = System::Drawing::Size(73, 46);
@@ -479,7 +479,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button19->BackColor = System::Drawing::Color::White;
 			this->button19->ForeColor = System::Drawing::SystemColors::Control;
-			this->button19->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button19->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button19.Image")));
 			this->button19->Location = System::Drawing::Point(1270, 468);
 			this->button19->Name = L"button19";
 			this->button19->Size = System::Drawing::Size(73, 46);
@@ -490,7 +490,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button20->BackColor = System::Drawing::Color::White;
 			this->button20->ForeColor = System::Drawing::SystemColors::Control;
-			this->button20->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button20->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button20.Image")));
 			this->button20->Location = System::Drawing::Point(1270, 585);
 			this->button20->Name = L"button20";
 			this->button20->Size = System::Drawing::Size(73, 46);
@@ -501,7 +501,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button21->BackColor = System::Drawing::Color::White;
 			this->button21->ForeColor = System::Drawing::SystemColors::Control;
-			this->button21->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button21->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button21.Image")));
 			this->button21->Location = System::Drawing::Point(1270, 706);
 			this->button21->Name = L"button21";
 			this->button21->Size = System::Drawing::Size(73, 46);
@@ -512,7 +512,7 @@ private: System::Windows::Forms::Button^ button22;
 			// 
 			this->button22->BackColor = System::Drawing::Color::White;
 			this->button22->ForeColor = System::Drawing::SystemColors::Control;
-			this->button22->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button.Image")));
+			this->button22->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button22.Image")));
 			this->button22->Location = System::Drawing::Point(1270, 823);
 			this->button22->Name = L"button22";
 			this->button22->Size = System::Drawing::Size(73, 46);

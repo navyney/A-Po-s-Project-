@@ -1,3 +1,4 @@
+
 #include "MyForm.h"
 
 using namespace System;
@@ -8,8 +9,6 @@ void main(array<String^>^ args)
 {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    
-    pinyin::MyForm form;
+    Project1::MyForm form;
     Application::Run(% form);
-
 }
