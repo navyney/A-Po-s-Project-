@@ -37,8 +37,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MyForm.resx">
+    <Image Include="button.Image.png">
       <Filter>Resource Files</Filter>
-    </EmbeddedResource>
+    </Image>
   </ItemGroup>
 </Project>
