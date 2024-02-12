@@ -8,8 +8,6 @@ void main(array<String^>^ args)
 {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    
-    pinyin::MyForm form;
+    mungi::MyForm form;
     Application::Run(% form);
-
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-namespace pinyin {
+namespace mungi {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -59,6 +59,7 @@ namespace pinyin {
 
 
 
+	private: System::Windows::Forms::TextBox^ textBox5;
 
 
 
@@ -70,8 +71,7 @@ namespace pinyin {
 
 
 
-
-
+	private: System::Windows::Forms::TextBox^ textBox9;
 
 
 
@@ -83,7 +83,7 @@ namespace pinyin {
 	private: System::Windows::Forms::Button^ button2;
 	private: System::Windows::Forms::Button^ button3;
 	private: System::Windows::Forms::Button^ button12;
-
+	private: System::Windows::Forms::TextBox^ textBox4;
 	private: System::Windows::Forms::Button^ button8;
 	private: System::Windows::Forms::Button^ button9;
 	private: System::Windows::Forms::Button^ button10;
@@ -100,9 +100,6 @@ namespace pinyin {
 	private: System::Windows::Forms::Button^ button22;
 	private: System::Windows::Forms::Button^ button24;
 	private: System::Windows::Forms::Button^ NEXT;
-	private: System::Windows::Forms::TextBox^ textBox9;
-	private: System::Windows::Forms::TextBox^ textBox5;
-	private: System::Windows::Forms::TextBox^ textBox4;
 
 
 
@@ -147,6 +144,8 @@ namespace pinyin {
 			this->button5 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
+			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox9 = (gcnew System::Windows::Forms::TextBox());
 			this->progressBar1 = (gcnew System::Windows::Forms::ProgressBar());
 			this->textBox8 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox10 = (gcnew System::Windows::Forms::TextBox());
@@ -155,6 +154,7 @@ namespace pinyin {
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button12 = (gcnew System::Windows::Forms::Button());
+			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
 			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->button10 = (gcnew System::Windows::Forms::Button());
@@ -171,9 +171,6 @@ namespace pinyin {
 			this->button22 = (gcnew System::Windows::Forms::Button());
 			this->button24 = (gcnew System::Windows::Forms::Button());
 			this->NEXT = (gcnew System::Windows::Forms::Button());
-			this->textBox9 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
 			this->SuspendLayout();
 			// 
 			// textBox1
@@ -192,7 +189,7 @@ namespace pinyin {
 			// 
 			// treeView1
 			// 
-			this->treeView1->Location = System::Drawing::Point(53, 53);
+			this->treeView1->Location = System::Drawing::Point(51, 71);
 			this->treeView1->Name = L"treeView1";
 			this->treeView1->Size = System::Drawing::Size(1801, 947);
 			this->treeView1->TabIndex = 1;
@@ -210,7 +207,7 @@ namespace pinyin {
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(337, 337);
 			this->textBox2->TabIndex = 2;
-			this->textBox2->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox2_TextChanged);
+			this->textBox2->Text = L"\r\n b    ปัว\r\n\r\n p    พัว\r\n\r\n m    มัว\r\n\r\n f    ฟัว";
 			// 
 			// button4
 			// 
@@ -256,6 +253,35 @@ namespace pinyin {
 			this->button7->TabIndex = 11;
 			this->button7->UseVisualStyleBackColor = false;
 			// 
+			// textBox5
+			// 
+			this->textBox5->BackColor = System::Drawing::Color::White;
+			this->textBox5->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox5->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(177)));
+			this->textBox5->ForeColor = System::Drawing::Color::OrangeRed;
+			this->textBox5->Location = System::Drawing::Point(915, 210);
+			this->textBox5->Multiline = true;
+			this->textBox5->Name = L"textBox5";
+			this->textBox5->Size = System::Drawing::Size(321, 337);
+			this->textBox5->TabIndex = 20;
+			this->textBox5->Text = L"\r\n j    จี\r\n\r\n q    ชี\r\n\r\n x    ซี\r\n\r\n y    อี";
+			this->textBox5->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox5_TextChanged);
+			// 
+			// textBox9
+			// 
+			this->textBox9->BackColor = System::Drawing::Color::White;
+			this->textBox9->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox9->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(177)));
+			this->textBox9->ForeColor = System::Drawing::Color::OrangeRed;
+			this->textBox9->Location = System::Drawing::Point(1316, 210);
+			this->textBox9->Multiline = true;
+			this->textBox9->Name = L"textBox9";
+			this->textBox9->Size = System::Drawing::Size(321, 337);
+			this->textBox9->TabIndex = 32;
+			this->textBox9->Text = L"   \r\n  t   เทอ\t\r\n\t\r\n  l   เลอ\t\r\n\t\r\n  k   เคอ\t\r\n";
+			// 
 			// progressBar1
 			// 
 			this->progressBar1->Location = System::Drawing::Point(915, 899);
@@ -275,6 +301,7 @@ namespace pinyin {
 			this->textBox8->Name = L"textBox8";
 			this->textBox8->Size = System::Drawing::Size(337, 332);
 			this->textBox8->TabIndex = 7;
+			this->textBox8->Text = L"\r\n zh   จรือ\r\n\r\n ch   ชรือ\r\n\r\n sh   ซรือ\r\n\r\n r    ยรือ";
 			// 
 			// textBox10
 			// 
@@ -288,6 +315,7 @@ namespace pinyin {
 			this->textBox10->Name = L"textBox10";
 			this->textBox10->Size = System::Drawing::Size(321, 305);
 			this->textBox10->TabIndex = 25;
+			this->textBox10->Text = L"\r\n z    จือ\r\n\r\n c    ชือ\r\n\r\n s    ซือ";
 			this->textBox10->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox10_TextChanged);
 			// 
 			// textBox11
@@ -302,6 +330,7 @@ namespace pinyin {
 			this->textBox11->Name = L"textBox11";
 			this->textBox11->Size = System::Drawing::Size(321, 53);
 			this->textBox11->TabIndex = 29;
+			this->textBox11->Text = L" w    อู\r\n\r\n";
 			this->textBox11->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox7_TextChanged);
 			// 
 			// button1
@@ -347,6 +376,21 @@ namespace pinyin {
 			this->button12->Size = System::Drawing::Size(73, 46);
 			this->button12->TabIndex = 40;
 			this->button12->UseVisualStyleBackColor = false;
+			// 
+			// textBox4
+			// 
+			this->textBox4->BackColor = System::Drawing::Color::White;
+			this->textBox4->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox4->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(177)));
+			this->textBox4->ForeColor = System::Drawing::Color::OrangeRed;
+			this->textBox4->Location = System::Drawing::Point(517, 210);
+			this->textBox4->Multiline = true;
+			this->textBox4->Name = L"textBox4";
+			this->textBox4->Size = System::Drawing::Size(316, 337);
+			this->textBox4->TabIndex = 12;
+			this->textBox4->Text = L"   \r\n  d   เตอ\r\n\t\r\n  n   เนอ\t\r\n\t\r\n  g   เกอ\t\r\n\t\r\n  h   เฮอ";
+			this->textBox4->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox4_TextChanged);
 			// 
 			// button8
 			// 
@@ -495,7 +539,6 @@ namespace pinyin {
 			// 
 			this->button22->BackColor = System::Drawing::Color::White;
 			this->button22->ForeColor = System::Drawing::SystemColors::Control;
-			this->button22->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button22.Image")));
 			this->button22->Location = System::Drawing::Point(1541, 404);
 			this->button22->Name = L"button22";
 			this->button22->Size = System::Drawing::Size(73, 46);
@@ -521,47 +564,6 @@ namespace pinyin {
 			this->NEXT->TabIndex = 57;
 			this->NEXT->Text = L"NEXT";
 			this->NEXT->UseVisualStyleBackColor = true;
-			// 
-			// textBox9
-			// 
-			this->textBox9->BackColor = System::Drawing::Color::White;
-			this->textBox9->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->textBox9->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(177)));
-			this->textBox9->ForeColor = System::Drawing::Color::OrangeRed;
-			this->textBox9->Location = System::Drawing::Point(1316, 210);
-			this->textBox9->Multiline = true;
-			this->textBox9->Name = L"textBox9";
-			this->textBox9->Size = System::Drawing::Size(321, 337);
-			this->textBox9->TabIndex = 32;
-			// 
-			// textBox5
-			// 
-			this->textBox5->BackColor = System::Drawing::Color::White;
-			this->textBox5->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->textBox5->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(177)));
-			this->textBox5->ForeColor = System::Drawing::Color::OrangeRed;
-			this->textBox5->Location = System::Drawing::Point(915, 210);
-			this->textBox5->Multiline = true;
-			this->textBox5->Name = L"textBox5";
-			this->textBox5->Size = System::Drawing::Size(321, 337);
-			this->textBox5->TabIndex = 20;
-			this->textBox5->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox5_TextChanged);
-			// 
-			// textBox4
-			// 
-			this->textBox4->BackColor = System::Drawing::Color::White;
-			this->textBox4->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->textBox4->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(177)));
-			this->textBox4->ForeColor = System::Drawing::Color::OrangeRed;
-			this->textBox4->Location = System::Drawing::Point(517, 210);
-			this->textBox4->Multiline = true;
-			this->textBox4->Name = L"textBox4";
-			this->textBox4->Size = System::Drawing::Size(316, 337);
-			this->textBox4->TabIndex = 12;
-			this->textBox4->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox4_TextChanged);
 			// 
 			// MyForm
 			// 
@@ -639,7 +641,5 @@ namespace pinyin {
 	}
 	private: System::Void textBox10_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
-	private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
-	}
-};
+	};
 }
