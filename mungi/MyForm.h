@@ -1,6 +1,6 @@
 #pragma once
 
-namespace mungi {
+namespace mungi{
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -176,6 +176,7 @@ namespace mungi {
 			// textBox1
 			// 
 			this->textBox1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox1->Enabled = false;
 			this->textBox1->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 36, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(177)));
 			this->textBox1->ForeColor = System::Drawing::Color::OrangeRed;
@@ -189,9 +190,9 @@ namespace mungi {
 			// 
 			// treeView1
 			// 
-			this->treeView1->Location = System::Drawing::Point(51, 71);
+			this->treeView1->Location = System::Drawing::Point(46, 42);
 			this->treeView1->Name = L"treeView1";
-			this->treeView1->Size = System::Drawing::Size(1801, 947);
+			this->treeView1->Size = System::Drawing::Size(1801, 959);
 			this->treeView1->TabIndex = 1;
 			this->treeView1->AfterSelect += gcnew System::Windows::Forms::TreeViewEventHandler(this, &MyForm::treeView1_AfterSelect);
 			// 
@@ -199,6 +200,7 @@ namespace mungi {
 			// 
 			this->textBox2->BackColor = System::Drawing::Color::White;
 			this->textBox2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox2->Enabled = false;
 			this->textBox2->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(177)));
 			this->textBox2->ForeColor = System::Drawing::Color::OrangeRed;
@@ -257,6 +259,7 @@ namespace mungi {
 			// 
 			this->textBox5->BackColor = System::Drawing::Color::White;
 			this->textBox5->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox5->Enabled = false;
 			this->textBox5->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(177)));
 			this->textBox5->ForeColor = System::Drawing::Color::OrangeRed;
@@ -272,6 +275,7 @@ namespace mungi {
 			// 
 			this->textBox9->BackColor = System::Drawing::Color::White;
 			this->textBox9->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox9->Enabled = false;
 			this->textBox9->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(177)));
 			this->textBox9->ForeColor = System::Drawing::Color::OrangeRed;
@@ -293,6 +297,7 @@ namespace mungi {
 			// 
 			this->textBox8->BackColor = System::Drawing::Color::White;
 			this->textBox8->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox8->Enabled = false;
 			this->textBox8->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(177)));
 			this->textBox8->ForeColor = System::Drawing::Color::OrangeRed;
@@ -307,6 +312,7 @@ namespace mungi {
 			// 
 			this->textBox10->BackColor = System::Drawing::Color::White;
 			this->textBox10->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox10->Enabled = false;
 			this->textBox10->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(177)));
 			this->textBox10->ForeColor = System::Drawing::Color::OrangeRed;
@@ -322,6 +328,7 @@ namespace mungi {
 			// 
 			this->textBox11->BackColor = System::Drawing::Color::White;
 			this->textBox11->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox11->Enabled = false;
 			this->textBox11->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(177)));
 			this->textBox11->ForeColor = System::Drawing::Color::OrangeRed;
@@ -381,6 +388,7 @@ namespace mungi {
 			// 
 			this->textBox4->BackColor = System::Drawing::Color::White;
 			this->textBox4->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->textBox4->Enabled = false;
 			this->textBox4->Font = (gcnew System::Drawing::Font(L"Miriam Mono CLM", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(177)));
 			this->textBox4->ForeColor = System::Drawing::Color::OrangeRed;
@@ -564,6 +572,7 @@ namespace mungi {
 			this->NEXT->TabIndex = 57;
 			this->NEXT->Text = L"NEXT";
 			this->NEXT->UseVisualStyleBackColor = true;
+			this->NEXT->Click += gcnew System::EventHandler(this, &MyForm::NEXT_Click);
 			// 
 			// MyForm
 			// 
@@ -616,7 +625,6 @@ namespace mungi {
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
-
 	}
 
 	private: System::Void dataGridView1_CellContentClick(System::Object^ sender, System::Windows::Forms::DataGridViewCellEventArgs^ e) {
@@ -641,5 +649,12 @@ namespace mungi {
 	}
 	private: System::Void textBox10_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+
+	public: bool switchTo69 = false;
+	private: System::Void NEXT_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
+		switchTo69 = true;
+	//	treeView1->Hide();
+	}
+};
 }

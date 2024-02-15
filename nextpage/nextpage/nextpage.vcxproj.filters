@@ -18,7 +18,7 @@
     <ClCompile Include="MyForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test69.cpp">
+    <ClCompile Include="mix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,7 +26,7 @@
     <ClInclude Include="MyForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="test69.h">
+    <ClInclude Include="mix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
