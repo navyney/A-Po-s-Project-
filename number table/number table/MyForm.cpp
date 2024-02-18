@@ -8,6 +8,6 @@ void main(array<String^>^ args)
 {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    v::MyForm form;
+    numbertable::MyForm form;
     Application::Run(% form);
 }
