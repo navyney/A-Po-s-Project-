@@ -42,7 +42,8 @@ namespace nextpage {
 
 	private: System::Windows::Forms::TextBox^ textBox3;
 	private: System::Windows::Forms::TextBox^ textBox2;
-	private: System::Windows::Forms::Button^ p;
+	private: System::Windows::Forms::Button^ GoBack;
+
 	private: System::Windows::Forms::TextBox^ textBox4;
 	private: System::Windows::Forms::TextBox^ textBox5;
 	private: System::Windows::Forms::TextBox^ textBox7;
@@ -162,7 +163,7 @@ namespace nextpage {
 			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
-			this->p = (gcnew System::Windows::Forms::Button());
+			this->GoBack = (gcnew System::Windows::Forms::Button());
 			this->NEXT = (gcnew System::Windows::Forms::Button());
 			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
@@ -201,7 +202,7 @@ namespace nextpage {
 			this->panel1->Controls->Add(this->textBox6);
 			this->panel1->Controls->Add(this->textBox5);
 			this->panel1->Controls->Add(this->textBox4);
-			this->panel1->Controls->Add(this->p);
+			this->panel1->Controls->Add(this->GoBack);
 			this->panel1->Controls->Add(this->NEXT);
 			this->panel1->Controls->Add(this->textBox3);
 			this->panel1->Controls->Add(this->textBox2);
@@ -431,6 +432,7 @@ namespace nextpage {
 			this->progressBar1->Name = L"progressBar1";
 			this->progressBar1->Size = System::Drawing::Size(923, 53);
 			this->progressBar1->TabIndex = 9;
+			this->progressBar1->Click += gcnew System::EventHandler(this, &MyForm::progressBar1_Click);
 			// 
 			// textBox8
 			// 
@@ -494,14 +496,14 @@ namespace nextpage {
 			this->textBox4->Text = L"\r\n j    ¨Õ\r\n\r\n q    ªÕ\r\n\r\n x    «Õ\r\n\r\n y    ÍÕ\r\n";
 			this->textBox4->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox4_TextChanged);
 			// 
-			// p
+			// GoBack
 			// 
-			this->p->Location = System::Drawing::Point(44, 858);
-			this->p->Name = L"p";
-			this->p->Size = System::Drawing::Size(172, 56);
-			this->p->TabIndex = 3;
-			this->p->Text = L"NEXTp\r\n";
-			this->p->UseVisualStyleBackColor = true;
+			this->GoBack->Location = System::Drawing::Point(44, 858);
+			this->GoBack->Name = L"GoBack";
+			this->GoBack->Size = System::Drawing::Size(172, 56);
+			this->GoBack->TabIndex = 3;
+			this->GoBack->Text = L"PREVIOUS";
+			this->GoBack->UseVisualStyleBackColor = true;
 			// 
 			// NEXT
 			// 
@@ -567,9 +569,6 @@ namespace nextpage {
 #pragma endregion
 	private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
 	}
-	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		panel1->Hide();
-	}
 	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
 private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
@@ -582,11 +581,14 @@ private: System::Void textBox8_TextChanged(System::Object^ sender, System::Event
 	private: System::Void NEXT_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();
 		switchTomix = true;
-		//	treeView1->Hide();
+		
 	}
 private: System::Void textBox5_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button01_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void progressBar1_Click(System::Object^ sender, System::EventArgs^ e) {
+
 }
 };
 }

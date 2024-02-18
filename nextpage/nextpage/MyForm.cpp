@@ -1,5 +1,6 @@
 #include "MyForm.h"
 #include"mix.h"
+#include"vocab.h"
 //using namespace nextpage;
 using namespace System;
 using namespace System::Windows::Forms;
@@ -12,7 +13,8 @@ void main(array<String^>^ args)
 
 	nextpage::MyForm form;
 	nextpage::mix formmix;
-	//Application::Run(gcnew MyForm());
+    nextpage::vocab formvocab;
+	
 
     form.ShowDialog();
     while (true) {
@@ -24,7 +26,15 @@ void main(array<String^>^ args)
             form.ShowDialog();
             formmix.switchToMyForm = false;
         }
-        else {
+        else if (formmix.switchTovocab) {
+            formvocab.ShowDialog();
+            formmix.switchTovocab = false;
+        }
+        else if (formvocab.switchTomix) {
+            formmix.ShowDialog();
+            formvocab.switchTomix = false;
+        }else {
+           
             break;
         }
     }
