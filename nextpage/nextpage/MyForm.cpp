@@ -1,41 +1,43 @@
 #include "MyForm.h"
+#include"MyForm1.h"
+#include"tone.h"
 #include"mix.h"
-#include"vocab.h"
-//using namespace nextpage;
+
+
 using namespace System;
 using namespace System::Windows::Forms;
 [STAThread]
 
-void main(array<String^>^ args) 
+void main(array<String^>^ args)
 {
-	Application::EnableVisualStyles();
-	Application::SetCompatibleTextRenderingDefault(false);
+    Application::EnableVisualStyles();
+    Application::SetCompatibleTextRenderingDefault(false);
 
-	nextpage::MyForm form;
-	nextpage::mix formmix;
-    nextpage::vocab formvocab;
-	
+    nextpage::MyForm form;
+    nextpage::MyForm1 form1;
+    nextpage::tone formtone;
+    nextpage::mix formmix;
 
     form.ShowDialog();
     while (true) {
-        if (form.switchTomix) {
-            formmix.ShowDialog();
-            form.switchTomix = false;
+        if (form.switchToform1) {
+            form1.ShowDialog();
+            form.switchToform1 = false;
         }
-        else if (formmix.switchToMyForm) {
+        else if (form1.switchToform) {
             form.ShowDialog();
-            formmix.switchToMyForm = false;
+            form1.switchToform= false;
         }
-        else if (formmix.switchTovocab) {
-            formvocab.ShowDialog();
-            formmix.switchTovocab = false;
+        else if (form1.switchToformtone) {
+            formtone.ShowDialog();
+            form1.switchToformtone = false;
         }
-        else if (formvocab.switchTomix) {
-            formmix.ShowDialog();
-            formvocab.switchTomix = false;
-        }else {
-           
+        else if (formtone.switchToform1) {
+            form1.ShowDialog();
+            formtone.switchToform1 = false;
+        }
+        else {
             break;
         }
     }
-}	
+}

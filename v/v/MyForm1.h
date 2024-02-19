@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-namespace v {
+namespace nextpage {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -9,8 +9,9 @@ namespace v {
 	using namespace System::Data;
 	using namespace System::Drawing;
 
+
 	/// <summary>
-	/// Summary for MyForm
+	/// Summary for MyForm1
 	/// </summary>
 	public ref class MyForm1 : public System::Windows::Forms::Form
 	{

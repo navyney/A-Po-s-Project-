@@ -43,6 +43,8 @@ namespace nextpage {
 	private: System::Windows::Forms::TextBox^ textBox3;
 	private: System::Windows::Forms::TextBox^ textBox2;
 	private: System::Windows::Forms::Button^ GoBack;
+			// GoBack
+
 
 	private: System::Windows::Forms::TextBox^ textBox4;
 	private: System::Windows::Forms::TextBox^ textBox5;
@@ -577,10 +579,10 @@ private: System::Void textBox4_TextChanged(System::Object^ sender, System::Event
 }
 private: System::Void textBox8_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
-	public: bool switchTomix = false;
+	public: bool switchToform1 = false;
 	private: System::Void NEXT_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();
-		switchTomix = true;
+		switchToform1 = true;
 		
 	}
 private: System::Void textBox5_TextChanged(System::Object^ sender, System::EventArgs^ e) {

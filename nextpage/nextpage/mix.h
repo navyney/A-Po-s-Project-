@@ -469,10 +469,10 @@ private: System::Void textBox4_TextChanged(System::Object^ sender, System::Event
 	}
 private: System::Void button01_Click(System::Object^ sender, System::EventArgs^ e) {
 }
-public: bool switchTovocab = false;
+//public: bool switchTovocab = false;
 private: System::Void buttonnext_Click(System::Object^ sender, System::EventArgs^ e) {
-	this->Close();
-	switchTovocab = true;
+	//this->Close();
+	//switchTovocab = true;
 }
 };
 }
