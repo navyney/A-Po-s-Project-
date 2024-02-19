@@ -200,7 +200,7 @@ namespace tone {
 			// label3
 			// 
 			this->label3->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 30, System::Drawing::FontStyle::Italic));
-			this->label3->Location = System::Drawing::Point(400, 814);
+			this->label3->Location = System::Drawing::Point(389, 812);
 			this->label3->Margin = System::Windows::Forms::Padding(12, 0, 12, 0);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(501, 71);
