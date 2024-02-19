@@ -66,6 +66,23 @@ namespace vocab1 {
 	private: System::Windows::Forms::PictureBox^ pic12;
 	private: System::Windows::Forms::PictureBox^ pic13;
 	private: System::Windows::Forms::PictureBox^ pic14;
+	private: System::Windows::Forms::PictureBox^ pic15;
+	private: System::Windows::Forms::PictureBox^ pic16;
+	private: System::Windows::Forms::PictureBox^ pic17;
+
+	private: System::Windows::Forms::PictureBox^ pic18;
+	private: System::Windows::Forms::PictureBox^ pic19;
+	private: System::Windows::Forms::PictureBox^ pic20;
+	private: System::Windows::Forms::PictureBox^ pic21;
+	private: System::Windows::Forms::PictureBox^ pic22;
+	private: System::Windows::Forms::PictureBox^ pic23;
+	private: System::Windows::Forms::PictureBox^ pic24;
+
+
+
+
+
+
 
 
 
@@ -116,6 +133,16 @@ namespace vocab1 {
 			this->pic12 = (gcnew System::Windows::Forms::PictureBox());
 			this->pic13 = (gcnew System::Windows::Forms::PictureBox());
 			this->pic14 = (gcnew System::Windows::Forms::PictureBox());
+			this->pic15 = (gcnew System::Windows::Forms::PictureBox());
+			this->pic16 = (gcnew System::Windows::Forms::PictureBox());
+			this->pic17 = (gcnew System::Windows::Forms::PictureBox());
+			this->pic18 = (gcnew System::Windows::Forms::PictureBox());
+			this->pic19 = (gcnew System::Windows::Forms::PictureBox());
+			this->pic20 = (gcnew System::Windows::Forms::PictureBox());
+			this->pic21 = (gcnew System::Windows::Forms::PictureBox());
+			this->pic22 = (gcnew System::Windows::Forms::PictureBox());
+			this->pic23 = (gcnew System::Windows::Forms::PictureBox());
+			this->pic24 = (gcnew System::Windows::Forms::PictureBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic3))->BeginInit();
@@ -130,6 +157,16 @@ namespace vocab1 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic12))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic13))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic14))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic15))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic16))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic17))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic18))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic19))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic20))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic21))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic22))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic23))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic24))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// button8
@@ -217,7 +254,7 @@ namespace vocab1 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(133, 102);
 			this->label2->TabIndex = 49;
-			this->label2->Text = L"是";
+			this->label2->Text = L"你";
 			// 
 			// label3
 			// 
@@ -225,9 +262,9 @@ namespace vocab1 {
 			this->label3->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 32));
 			this->label3->Location = System::Drawing::Point(710, 368);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(72, 46);
+			this->label3->Size = System::Drawing::Size(53, 46);
 			this->label3->TabIndex = 50;
-			this->label3->Text = L"shì";
+			this->label3->Text = L"nǐ";
 			// 
 			// label4
 			// 
@@ -235,9 +272,9 @@ namespace vocab1 {
 			this->label4->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 32));
 			this->label4->Location = System::Drawing::Point(710, 414);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(110, 46);
+			this->label4->Size = System::Drawing::Size(67, 46);
 			this->label4->TabIndex = 51;
-			this->label4->Text = L"คือ เป็น\t";
+			this->label4->Text = L"คุณ";
 			// 
 			// button6
 			// 
@@ -256,9 +293,9 @@ namespace vocab1 {
 				static_cast<System::Byte>(0)));
 			this->label5->Location = System::Drawing::Point(670, 598);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(176, 39);
+			this->label5->Size = System::Drawing::Size(289, 39);
 			this->label5->TabIndex = 53;
-			this->label5->Text = L"他是老师。";
+			this->label5->Text = L"你认识这个人吗？";
 			// 
 			// label6
 			// 
@@ -267,9 +304,9 @@ namespace vocab1 {
 				static_cast<System::Byte>(0)));
 			this->label6->Location = System::Drawing::Point(670, 646);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(204, 39);
+			this->label6->Size = System::Drawing::Size(330, 39);
 			this->label6->TabIndex = 54;
-			this->label6->Text = L"tā shì lǎo shī";
+			this->label6->Text = L"Nǐrènshizhègerénma";
 			// 
 			// label7
 			// 
@@ -278,9 +315,9 @@ namespace vocab1 {
 				static_cast<System::Byte>(0)));
 			this->label7->Location = System::Drawing::Point(670, 697);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(150, 39);
+			this->label7->Size = System::Drawing::Size(207, 39);
 			this->label7->TabIndex = 55;
-			this->label7->Text = L"เขาคือคุณครู";
+			this->label7->Text = L"คุณรู้จักคนคนนี้มั้ย";
 			// 
 			// pic1
 			// 
@@ -423,11 +460,121 @@ namespace vocab1 {
 			this->pic14->TabIndex = 69;
 			this->pic14->TabStop = false;
 			// 
+			// pic15
+			// 
+			this->pic15->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic15.BackgroundImage")));
+			this->pic15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pic15->Location = System::Drawing::Point(892, 249);
+			this->pic15->Name = L"pic15";
+			this->pic15->Size = System::Drawing::Size(303, 277);
+			this->pic15->TabIndex = 70;
+			this->pic15->TabStop = false;
+			// 
+			// pic16
+			// 
+			this->pic16->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic16.BackgroundImage")));
+			this->pic16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pic16->Location = System::Drawing::Point(1022, 552);
+			this->pic16->Name = L"pic16";
+			this->pic16->Size = System::Drawing::Size(404, 256);
+			this->pic16->TabIndex = 71;
+			this->pic16->TabStop = false;
+			// 
+			// pic17
+			// 
+			this->pic17->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic17.BackgroundImage")));
+			this->pic17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pic17->Location = System::Drawing::Point(892, 249);
+			this->pic17->Name = L"pic17";
+			this->pic17->Size = System::Drawing::Size(303, 277);
+			this->pic17->TabIndex = 72;
+			this->pic17->TabStop = false;
+			// 
+			// pic18
+			// 
+			this->pic18->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic18.BackgroundImage")));
+			this->pic18->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pic18->Location = System::Drawing::Point(1022, 552);
+			this->pic18->Name = L"pic18";
+			this->pic18->Size = System::Drawing::Size(321, 256);
+			this->pic18->TabIndex = 73;
+			this->pic18->TabStop = false;
+			// 
+			// pic19
+			// 
+			this->pic19->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic19.BackgroundImage")));
+			this->pic19->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pic19->Location = System::Drawing::Point(1034, 249);
+			this->pic19->Name = L"pic19";
+			this->pic19->Size = System::Drawing::Size(215, 277);
+			this->pic19->TabIndex = 74;
+			this->pic19->TabStop = false;
+			// 
+			// pic20
+			// 
+			this->pic20->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic20.BackgroundImage")));
+			this->pic20->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pic20->Location = System::Drawing::Point(1152, 552);
+			this->pic20->Name = L"pic20";
+			this->pic20->Size = System::Drawing::Size(321, 256);
+			this->pic20->TabIndex = 75;
+			this->pic20->TabStop = false;
+			// 
+			// pic21
+			// 
+			this->pic21->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic21.BackgroundImage")));
+			this->pic21->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pic21->Location = System::Drawing::Point(1069, 249);
+			this->pic21->Name = L"pic21";
+			this->pic21->Size = System::Drawing::Size(239, 277);
+			this->pic21->TabIndex = 76;
+			this->pic21->TabStop = false;
+			// 
+			// pic22
+			// 
+			this->pic22->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic22.BackgroundImage")));
+			this->pic22->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pic22->Location = System::Drawing::Point(1225, 552);
+			this->pic22->Name = L"pic22";
+			this->pic22->Size = System::Drawing::Size(296, 256);
+			this->pic22->TabIndex = 77;
+			this->pic22->TabStop = false;
+			// 
+			// pic23
+			// 
+			this->pic23->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic23.BackgroundImage")));
+			this->pic23->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pic23->Location = System::Drawing::Point(1069, 273);
+			this->pic23->Name = L"pic23";
+			this->pic23->Size = System::Drawing::Size(254, 253);
+			this->pic23->TabIndex = 78;
+			this->pic23->TabStop = false;
+			// 
+			// pic24
+			// 
+			this->pic24->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic24.BackgroundImage")));
+			this->pic24->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pic24->Location = System::Drawing::Point(1069, 552);
+			this->pic24->Name = L"pic24";
+			this->pic24->Size = System::Drawing::Size(254, 253);
+			this->pic24->TabIndex = 79;
+			this->pic24->TabStop = false;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->pic24);
+			this->Controls->Add(this->pic23);
+			this->Controls->Add(this->pic22);
+			this->Controls->Add(this->pic21);
+			this->Controls->Add(this->pic20);
+			this->Controls->Add(this->pic19);
+			this->Controls->Add(this->pic18);
+			this->Controls->Add(this->pic17);
+			this->Controls->Add(this->pic16);
+			this->Controls->Add(this->pic15);
 			this->Controls->Add(this->pic14);
 			this->Controls->Add(this->pic13);
 			this->Controls->Add(this->pic12);
@@ -474,6 +621,16 @@ namespace vocab1 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic12))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic13))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic14))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic15))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic16))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic17))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic18))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic19))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic20))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic21))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic22))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic23))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic24))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -485,14 +642,16 @@ namespace vocab1 {
 	private: System::Void changepage(int numpage) {
 		switch (numpage) {
 		case 1:
-			label2->Text = L"是";
-			label3->Text = L"shì";
-			label4->Text = L"คือ เป็น	";
-			label5->Text = L"他是老师。	";
-			label6->Text = L"tā shì lǎo shī";
-			label7->Text = L"เขาคือคุณครู";
-			pic1->Show();
-			pic2->Show();
+			label2->Text = L"你";
+			label3->Text = L"nǐ";
+			label4->Text = L"คุณ";
+			label5->Text = L"你认识这个人吗？";
+			label6->Text = L"Nǐrènshizhègerénma";
+			label7->Text = L"คุณรู้จักคนคนนี้มั้ย";
+			pic15->Show();
+			pic16->Show();
+			pic1->Hide();
+			pic2->Hide();
 			pic3->Hide();
 			pic4->Hide();
 			pic5->Hide();
@@ -505,9 +664,76 @@ namespace vocab1 {
 			pic12->Hide();
 			pic13->Hide();
 			pic14->Hide();
+			pic17->Hide();
+			pic18->Hide();
+			pic19->Hide();
+			pic20->Hide();
+			pic21->Hide();
+			pic22->Hide();
+			pic23->Hide();
+			pic24->Hide();
+		break; 
+		
+		case 2:
+			label2->Text = L"我";
+			label3->Text = L"wǒ";
+			label4->Text = L"ฉัน";
+			label5->Text = L"我不知道。";
+			label6->Text = L"wǒ bùzhīdào";
+			label7->Text = L"ฉันไม่รู้";
+			pic17->Show();
+			pic18->Show();
+			break; 
+		case 3:
+			label2->Text = L"叫";
+			label3->Text = L"jiào";
+			label4->Text = L"เรียกว่า(ใช้กับชื่อ)";
+			label5->Text = L"我的名字叫贾斯汀比伯 ";
+			label6->Text = L"wǒdemíngzìjiàoJiǎsītīngbǐbó";
+			label7->Text = L"ชื่อของฉันคือ justin Bieber";
+			pic19->Show();
+			pic20->Show();;
+			break;
+		case 4:
+			label2->Text = L"再见";
+			label3->Text = L"zàijiàn";
+			label4->Text = L"ลาก่อน";
+			label5->Text = L"妈妈，我去学校了，再见。";
+			label6->Text = L"māmā ,wǒqùxuéxiàole , zàijiàn";
+			label7->Text = L"แม่ ฉันไปจะไปโรงเรียนแล้ว ลาก่อน";
+			//pic1->Hide();
+			//pic2->Hide();
+			pic21->Show();
+			pic22->Show();
+			//pic5->Hide();
+			//pic6->Hide();
 			break;
 
-		case 2: 
+		case 5: 
+			label2->Text = L"好";
+			label3->Text = L"hǎo";
+			label4->Text = L"ดี";
+			label5->Text = L"今天天气很好。";
+			label6->Text = L"Jīntiāntiānqìhěnhǎo";
+			label7->Text = L"วันนี้อากาศดีมาก";
+			//pic1->Hide();
+			//pic2->Hide();
+			pic23->Show();
+			pic24->Show();
+			//pic5->Hide();
+			//pic6->Hide();
+			break;
+		case 6:
+			label2->Text = L"是";
+			label3->Text = L"shì";
+			label4->Text = L"คือ เป็น	";
+			label5->Text = L"他是老师。	";
+			label6->Text = L"tā shì lǎo shī";
+			label7->Text = L"เขาคือคุณครู";
+			pic1->Show();
+			pic2->Show();
+			break;
+		case 7:
 			label2->Text = L"大";
 			label3->Text = L"dà";
 			label4->Text = L"ใหญ่";
@@ -521,8 +747,7 @@ namespace vocab1 {
 			//pic5->Hide();
 			//pic6->Hide();
 			break;
-
-		case 3:
+		case 8:
 			label2->Text = L"什么";
 			label3->Text = L"shénme";
 			label4->Text = L"อะไร";
@@ -536,7 +761,7 @@ namespace vocab1 {
 			//pic7->Hide();
 			//pic8->Hide();
 			break;
-		case 4:
+		case 9:
 			label2->Text = L"不";
 			label3->Text = L"bù";
 			label4->Text = L"ไม่";
@@ -550,7 +775,7 @@ namespace vocab1 {
 			//pic9->Hide();
 			//pic10->Hide();
 			break;
-		case 5:
+		case 10:
 			label2->Text = L"做";
 			label3->Text = L"zuò";
 			label4->Text = L"ทำ";
@@ -564,7 +789,7 @@ namespace vocab1 {
 			//pic11->Hide();
 			//pic12->Hide();
 			break;
-		case 6:
+		case 11:
 			label2->Text = L"你好";
 			label3->Text = L"nǐhǎo";
 			label4->Text = L"สวัสดี";
@@ -578,7 +803,7 @@ namespace vocab1 {
 			//pic13->Hide();
 			//pic14->Hide();
 			break;
-		case 7:
+		case 12:
 			label2->Text = L"谢谢";
 			label3->Text = L"xiè xiè";
 			label4->Text = L"ขอบคุณ";
@@ -595,7 +820,7 @@ namespace vocab1 {
 	
 	}
 private: System::Void next_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (numpage < 7) {
+	if (numpage < 12) {
 		numpage++;
 		pic1->Hide();
 		pic2->Hide();
@@ -611,9 +836,20 @@ private: System::Void next_Click(System::Object^ sender, System::EventArgs^ e) {
 		pic12->Hide();
 		pic13->Hide();
 		pic14->Hide();
+		pic15->Hide();
+		pic16->Hide();
+		pic17->Hide();
+		pic18->Hide();
+		pic19->Hide();
+		pic20->Hide();
+		pic21->Hide();
+		pic22->Hide();
+		pic23->Hide();
+		pic24->Hide();
 		changepage(numpage);
 
 	}
+
 }
 private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (numpage > 1) {
@@ -632,6 +868,16 @@ private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ 
 		pic12->Hide();
 		pic13->Hide();
 		pic14->Hide();
+		pic15->Hide();
+		pic16->Hide();
+		pic17->Hide();
+		pic18->Hide();
+		pic19->Hide();
+		pic20->Hide();
+		pic21->Hide();
+		pic22->Hide();
+		pic23->Hide();
+		pic24->Hide();
 		changepage(numpage);
 		
 	}
