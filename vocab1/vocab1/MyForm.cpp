@@ -1,6 +1,6 @@
 #include "MyForm.h"
 
-using namespace numbertable;
+using namespace vocab1;
 
 void main() {
     Application::EnableVisualStyles();
