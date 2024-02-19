@@ -103,6 +103,7 @@ namespace nextpage {
 			this->pictureBox2->Location = System::Drawing::Point(876, 558);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(251, 205);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 16;
 			this->pictureBox2->TabStop = false;
 			// 
@@ -157,10 +158,10 @@ namespace nextpage {
 			this->textBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 72, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->textBox3->ForeColor = System::Drawing::SystemColors::MenuText;
-			this->textBox3->Location = System::Drawing::Point(591, 143);
+			this->textBox3->Location = System::Drawing::Point(578, 141);
 			this->textBox3->Multiline = true;
 			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(576, 126);
+			this->textBox3->Size = System::Drawing::Size(589, 126);
 			this->textBox3->TabIndex = 11;
 			this->textBox3->Text = resources->GetString(L"text00");
 			this->textBox3->TextChanged += gcnew System::EventHandler(this, &vocab::textBox3_TextChanged);
