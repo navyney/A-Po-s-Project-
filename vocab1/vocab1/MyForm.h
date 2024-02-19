@@ -213,7 +213,7 @@ namespace vocab1 {
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(701, 237);
+			this->label2->Location = System::Drawing::Point(687, 249);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(133, 102);
 			this->label2->TabIndex = 49;
