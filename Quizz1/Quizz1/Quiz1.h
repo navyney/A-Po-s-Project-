@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include "Form_alert.h"
 namespace Quizz1 {
 
 	using namespace System;
@@ -14,6 +15,7 @@ namespace Quizz1 {
 		int questionNumber = 1;
 		int score = 0;
 		int totalQuestion = 10;
+		String^ msg;
 
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::Label^ label3;
@@ -63,12 +65,12 @@ namespace Quizz1 {
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->button7 = (gcnew System::Windows::Forms::Button());
-			this->button7->Click += gcnew System::EventHandler(this, &Quiz1::button7_Click);
+
 			this->panel1->SuspendLayout();
 			this->SuspendLayout();
-			// 
+
 			// label1
-			// 
+
 			this->label1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
@@ -79,9 +81,9 @@ namespace Quizz1 {
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Quiz1";
 			this->label1->Click += gcnew System::EventHandler(this, &Quiz1::label1_Click);
-			// 
+
 			// panel1
-			// 
+
 			this->panel1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->panel1->Controls->Add(this->label2);
 			this->panel1->Controls->Add(this->button4);
@@ -94,9 +96,9 @@ namespace Quizz1 {
 			this->panel1->Name = L"panel1";
 			this->panel1->Size = System::Drawing::Size(1843, 778);
 			this->panel1->TabIndex = 1;
-			// 
+			
 			// label2
-			// 
+			
 			this->label2->Anchor = System::Windows::Forms::AnchorStyles::None;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Kanit", 71.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -106,9 +108,9 @@ namespace Quizz1 {
 			this->label2->TabIndex = 5;
 			this->label2->Text = L"\r\n我 \r\nwǒ\r\n";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
+			
 			// button4
-			// 
+			
 			this->button4->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button4->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -121,14 +123,14 @@ namespace Quizz1 {
 			this->button4->Text = L"Ans4";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &Quiz1::checkAnswerEvent);
-			// 
+			
 			// button3
-			// 
+			
 			this->button3->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button3->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(955, 586);
+			this->button3->Location = System::Drawing::Point(273, 688);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(556, 71);
 			this->button3->TabIndex = 3;
@@ -136,14 +138,14 @@ namespace Quizz1 {
 			this->button3->Text = L"Ans3";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &Quiz1::checkAnswerEvent);
-			// 
+			
 			// button2
-			// 
+			
 			this->button2->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button2->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(273, 688);
+			this->button2->Location = System::Drawing::Point(955, 586);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(556, 71);
 			this->button2->TabIndex = 2;
@@ -151,9 +153,9 @@ namespace Quizz1 {
 			this->button2->Text = L"Ans2";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &Quiz1::checkAnswerEvent);
-			// 
+			
 			// button1
-			// 
+			
 			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -167,9 +169,9 @@ namespace Quizz1 {
 			this->button1->Text = L"Ans1";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Quiz1::checkAnswerEvent);
-			// 
+			
 			// button5
-			// 
+			
 			this->button5->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button5->Location = System::Drawing::Point(1541, 939);
@@ -179,9 +181,9 @@ namespace Quizz1 {
 			this->button5->Text = L" Next";
 			this->button5->UseVisualStyleBackColor = true;
 			this->button5->Click += gcnew System::EventHandler(this, &Quiz1::button5_Click);
-			// 
+			
 			// button6
-			// 
+			
 			this->button6->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button6->Location = System::Drawing::Point(28, 939);
@@ -191,9 +193,9 @@ namespace Quizz1 {
 			this->button6->Text = L"Previous";
 			this->button6->UseVisualStyleBackColor = true;
 			this->button6->Click += gcnew System::EventHandler(this, &Quiz1::button6_Click);
-			// 
+			
 			// label3
-			// 
+			
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Minecraft", 26.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -202,9 +204,9 @@ namespace Quizz1 {
 			this->label3->Size = System::Drawing::Size(165, 42);
 			this->label3->TabIndex = 4;
 			this->label3->Text = L"Lesson1";
-			// 
+			
 			// button7
-			// 
+			
 			this->button7->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button7->Location = System::Drawing::Point(709, 939);
@@ -214,9 +216,9 @@ namespace Quizz1 {
 			this->button7->Text = L"Try Agian";
 			this->button7->UseVisualStyleBackColor = true;
 			this->button7->Click += gcnew System::EventHandler(this, &Quiz1::button7_Click);
-			// 
+			
 			// Quiz1
-			// 
+			
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
@@ -396,6 +398,10 @@ namespace Quizz1 {
 			}
 		}
 }
+	public: System::Void Alert(String^ msg) {
+		Form_alert^ frm = gcnew Form_alert();
+		frm->showAlert(msg);
+	}
 
 	private: System::Void checkAnswerEvent(System::Object^ sender, System::EventArgs^ e) {
 		Button^ selectedButton = dynamic_cast<Button^>(sender);
@@ -406,6 +412,8 @@ namespace Quizz1 {
 		{
 			selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(0)));;
+			Alert("correct");
+			//MessageBox::Show("Correct!" , "Answer", MessageBoxButtons::OK, MessageBoxIcon::None);
 			score++;
 		}
 		//แสดงคำตอบที่ตอบผิดเป็นสีแดง
@@ -413,25 +421,34 @@ namespace Quizz1 {
 		{
 			selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
 				static_cast<System::Int32>(static_cast<System::Byte>(0)));
-		}
+			
 		//สำหรับแสดงคำตอบที่ถูกเมื่อตอบผิด
-		switch (correctAnswer) {
-		case 1:
-			button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-			break;
-		case 2:
-			button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-			break;
-		case 3:
-			button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-			break;
-		case 4:
-			button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-			break;
+			switch (correctAnswer) {
+			case 1:
+				button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+				Alert("Answer is not correct");
+				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button1->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				break;
+			case 2:
+				button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+				Alert("Answer is not correct");
+				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button2->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				break;
+			case 3:
+				button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+				Alert("Answer is not correct");
+				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button3->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				break;
+			case 4:
+				button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+				Alert("Answer is not correct");
+				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button4->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				break;
+			}
 		}
 	}
 	
