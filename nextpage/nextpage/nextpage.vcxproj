@@ -120,12 +120,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Lyv0.cpp" />
     <ClCompile Include="mix.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="MyForm1.cpp" />
     <ClCompile Include="tone.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Lyv0.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="mix.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -140,6 +144,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Lyv0.resx">
+      <DependentUpon>Lyv0.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mix.resx">
       <DependentUpon>mix.h</DependentUpon>
     </EmbeddedResource>

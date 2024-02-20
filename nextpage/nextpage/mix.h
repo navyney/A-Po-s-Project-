@@ -451,7 +451,8 @@ namespace nextpage {
 
 		}
 #pragma endregion
-	public: bool switchToMyForm = false;
+	public: bool switchToformtone = false;
+	public: bool switchToformLy = false;
 	private: System::Void mix_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void textBox3_TextChanged(System::Object^ sender, System::EventArgs^ e) {
@@ -465,14 +466,14 @@ private: System::Void textBox4_TextChanged(System::Object^ sender, System::Event
 	}
 	private: System::Void GoBack_Click_1(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();
-		switchToMyForm = true;
+		switchToformtone = true;
 	}
 private: System::Void button01_Click(System::Object^ sender, System::EventArgs^ e) {
 }
-//public: bool switchTovocab = false;
+
 private: System::Void buttonnext_Click(System::Object^ sender, System::EventArgs^ e) {
-	//this->Close();
-	//switchTovocab = true;
+	this->Close();
+	switchToformLy = true;
 }
 };
 }

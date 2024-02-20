@@ -258,6 +258,7 @@ namespace nextpage {
 			this->buttonnext->TabIndex = 1;
 			this->buttonnext->Text = L"NEXT\r\n";
 			this->buttonnext->UseVisualStyleBackColor = true;
+			this->buttonnext->Click += gcnew System::EventHandler(this, &tone::buttonnext_Click);
 			// 
 			// textBox7
 			// 
@@ -302,7 +303,7 @@ namespace nextpage {
 		}
 #pragma endregion
 	public: bool switchToform1 = false;
-	//public: bool switchToform.... = false;
+	public: bool switchToformmix = false;
 	private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -314,6 +315,10 @@ private: System::Void textBox7_TextChanged(System::Object^ sender, System::Event
 private: System::Void GoBack_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Close();
 	switchToform1 = true;
+}
+private: System::Void buttonnext_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->Close();
+	switchToformmix = true;
 }
 };
 }

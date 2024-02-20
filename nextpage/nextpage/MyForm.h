@@ -42,7 +42,7 @@ namespace nextpage {
 
 	private: System::Windows::Forms::TextBox^ textBox3;
 	private: System::Windows::Forms::TextBox^ textBox2;
-	private: System::Windows::Forms::Button^ GoBack;
+
 			// GoBack
 
 
@@ -165,7 +165,6 @@ namespace nextpage {
 			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
-			this->GoBack = (gcnew System::Windows::Forms::Button());
 			this->NEXT = (gcnew System::Windows::Forms::Button());
 			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
@@ -204,7 +203,6 @@ namespace nextpage {
 			this->panel1->Controls->Add(this->textBox6);
 			this->panel1->Controls->Add(this->textBox5);
 			this->panel1->Controls->Add(this->textBox4);
-			this->panel1->Controls->Add(this->GoBack);
 			this->panel1->Controls->Add(this->NEXT);
 			this->panel1->Controls->Add(this->textBox3);
 			this->panel1->Controls->Add(this->textBox2);
@@ -497,15 +495,6 @@ namespace nextpage {
 			this->textBox4->TabIndex = 4;
 			this->textBox4->Text = L"\r\n j    ¨Õ\r\n\r\n q    ªÕ\r\n\r\n x    «Õ\r\n\r\n y    ÍÕ\r\n";
 			this->textBox4->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox4_TextChanged);
-			// 
-			// GoBack
-			// 
-			this->GoBack->Location = System::Drawing::Point(44, 858);
-			this->GoBack->Name = L"GoBack";
-			this->GoBack->Size = System::Drawing::Size(172, 56);
-			this->GoBack->TabIndex = 3;
-			this->GoBack->Text = L"PREVIOUS";
-			this->GoBack->UseVisualStyleBackColor = true;
 			// 
 			// NEXT
 			// 
