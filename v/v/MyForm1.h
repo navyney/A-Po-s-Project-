@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-namespace v {
+namespace nextpage {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -9,13 +9,14 @@ namespace v {
 	using namespace System::Data;
 	using namespace System::Drawing;
 
+
 	/// <summary>
-	/// Summary for MyForm
+	/// Summary for MyForm1
 	/// </summary>
-	public ref class MyForm : public System::Windows::Forms::Form
+	public ref class MyForm1 : public System::Windows::Forms::Form
 	{
 	public:
-		MyForm(void)
+		MyForm1(void)
 		{
 			InitializeComponent();
 			//
@@ -27,7 +28,7 @@ namespace v {
 		/// <summary>
 		/// Clean up any resources being used.
 		/// </summary>
-		~MyForm()
+		~MyForm1()
 		{
 			if (components)
 			{
@@ -169,7 +170,7 @@ namespace v {
 			this->textBox1->Size = System::Drawing::Size(153, 263);
 			this->textBox1->TabIndex = 37;
 			this->textBox1->Text = L"a อา\r\nai อาย\r\nao เอา\r\nan อัน\r\nang อัง";
-			this->textBox1->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox1_TextChanged);
+			this->textBox1->TextChanged += gcnew System::EventHandler(this, &MyForm1::textBox1_TextChanged);
 			// 
 			// label2
 			// 

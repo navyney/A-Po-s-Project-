@@ -120,30 +120,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Lyv0.cpp" />
     <ClCompile Include="mix.cpp" />
     <ClCompile Include="MyForm.cpp" />
-    <ClCompile Include="vocab.cpp" />
+    <ClCompile Include="MyForm1.cpp" />
+    <ClCompile Include="tone.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Lyv0.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="mix.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="vocab.h">
+    <ClInclude Include="MyForm1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="tone.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Lyv0.resx">
+      <DependentUpon>Lyv0.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mix.resx">
       <DependentUpon>mix.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vocab.resx">
-      <DependentUpon>vocab.h</DependentUpon>
+    <EmbeddedResource Include="MyForm1.resx">
+      <DependentUpon>MyForm1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tone.resx">
+      <DependentUpon>tone.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
