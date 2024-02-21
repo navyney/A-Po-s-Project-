@@ -3,6 +3,8 @@
 #include"tone.h"
 #include"mix.h"
 #include"Lyv0.h"
+#include"MyForm0.h"
+#include"Quiz.h"
 
 
 using namespace System;
@@ -19,6 +21,8 @@ void main(array<String^>^ args)
     nextpage::tone formtone;
     nextpage::mix formmix;
     nextpage::Lyv0 formLy;
+    nextpage::MyForm0 formBQuiz;
+    nextpage::Quiz formQuiz;
 
     form.ShowDialog();
     while (true) {
@@ -62,6 +66,25 @@ void main(array<String^>^ args)
         else if (formLy.switchToformmix) {
             formmix.ShowDialog();
             formLy.switchToformmix = false;
+        }
+        //before page Quiz
+        else if (formLy.switchToformBQuiz) {
+            formBQuiz.ShowDialog();
+            formLy.switchToformBQuiz = false;
+        }
+        //back to Ly
+        else if (formBQuiz.switchToformLy) {
+            formLy.ShowDialog();
+            formBQuiz.switchToformLy = false;
+        }
+        //Quiz 0
+        else if (formBQuiz.switchToformQuiz) {
+            formQuiz.ShowDialog();
+            formBQuiz.switchToformQuiz = false;
+        }
+        else if (formQuiz.switchToformBQuiz) {
+            formBQuiz.ShowDialog();
+            formQuiz.switchToformBQuiz = false;
         }
         else {
             break;

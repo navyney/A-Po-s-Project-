@@ -205,7 +205,7 @@ namespace nextpage {
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(176, 37);
 			this->label10->TabIndex = 65;
-			this->label10->Text = L"y?  ?  yu\r\n\r\n";
+			this->label10->Text = L"y\?  \?  yu\r\n\r\n";
 			// 
 			// label9
 			// 
@@ -217,7 +217,7 @@ namespace nextpage {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(176, 37);
 			this->label9->TabIndex = 64;
-			this->label9->Text = L"x?  ?  xu    \r\n\r\n";
+			this->label9->Text = L"x\?  \?  xu    \r\n\r\n";
 			// 
 			// label8
 			// 
@@ -229,7 +229,7 @@ namespace nextpage {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(176, 37);
 			this->label8->TabIndex = 63;
-			this->label8->Text = L"q?  ?  qu \r\n\r\n\r\n";
+			this->label8->Text = L"q\?  \?  qu \r\n\r\n\r\n";
 			// 
 			// label7
 			// 
@@ -241,7 +241,7 @@ namespace nextpage {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(176, 37);
 			this->label7->TabIndex = 62;
-			this->label7->Text = L"j?  ?  ju\r\n\r\n";
+			this->label7->Text = L"j\?  \?  ju\r\n\r\n";
 			// 
 			// label5
 			// 
@@ -262,12 +262,12 @@ namespace nextpage {
 			this->label3->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label3->Location = System::Drawing::Point(251, 187);
+			this->label3->Location = System::Drawing::Point(242, 187);
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(1365, 57);
 			this->label3->TabIndex = 60;
-			this->label3->Text = L" 1.  เมื่อ พยัญชนะ j q x y  เจอกับ ? จะทำการละตัวจุดด้านบน";
+			this->label3->Text = L" 1.  เมื่อ พยัญชนะ j q x y  เจอกับ \? จะทำการละตัวจุดด้านบน";
 			this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->label3->UseCompatibleTextRendering = true;
 			// 
@@ -410,7 +410,7 @@ namespace nextpage {
 			this->label19->Name = L"label19";
 			this->label19->Size = System::Drawing::Size(176, 37);
 			this->label19->TabIndex = 81;
-			this->label19->Text = L"y ? yu\r\n\r\n";
+			this->label19->Text = L"y \? yu\r\n\r\n";
 			// 
 			// label20
 			// 
@@ -422,7 +422,7 @@ namespace nextpage {
 			this->label20->Name = L"label20";
 			this->label20->Size = System::Drawing::Size(176, 37);
 			this->label20->TabIndex = 80;
-			this->label20->Text = L"x ? xu    \r\n\r\n";
+			this->label20->Text = L"x \? xu    \r\n\r\n";
 			// 
 			// label21
 			// 
@@ -434,7 +434,7 @@ namespace nextpage {
 			this->label21->Name = L"label21";
 			this->label21->Size = System::Drawing::Size(176, 37);
 			this->label21->TabIndex = 79;
-			this->label21->Text = L"q ? qu \r\n\r\n\r\n";
+			this->label21->Text = L"q \? qu \r\n\r\n\r\n";
 			// 
 			// label22
 			// 
@@ -446,7 +446,7 @@ namespace nextpage {
 			this->label22->Name = L"label22";
 			this->label22->Size = System::Drawing::Size(176, 37);
 			this->label22->TabIndex = 78;
-			this->label22->Text = L"j ? ju\r\n\r\n";
+			this->label22->Text = L"j \? ju\r\n\r\n";
 			// 
 			// label14
 			// 
@@ -458,7 +458,7 @@ namespace nextpage {
 			this->label14->Name = L"label14";
 			this->label14->Size = System::Drawing::Size(176, 37);
 			this->label14->TabIndex = 77;
-			this->label14->Text = L"uo  ?  wo\r\n\r\n\r\n";
+			this->label14->Text = L"uo  \?  wo\r\n\r\n\r\n";
 			// 
 			// label13
 			// 
@@ -470,7 +470,7 @@ namespace nextpage {
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(272, 37);
 			this->label13->TabIndex = 76;
-			this->label13->Text = L"iao  ?  yao\r\n\r\n";
+			this->label13->Text = L"iao  \?  yao\r\n\r\n";
 			// 
 			// label12
 			// 
@@ -482,7 +482,7 @@ namespace nextpage {
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(176, 37);
 			this->label12->TabIndex = 75;
-			this->label12->Text = L"ua  ?  wa\r\n\r\n";
+			this->label12->Text = L"ua  \?  wa\r\n\r\n";
 			// 
 			// label11
 			// 
@@ -494,7 +494,7 @@ namespace nextpage {
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(176, 37);
 			this->label11->TabIndex = 74;
-			this->label11->Text = L"ia  ?  ya\r\n\r\n";
+			this->label11->Text = L"ia  \?  ya\r\n\r\n";
 			// 
 			// label2
 			// 
@@ -527,12 +527,12 @@ namespace nextpage {
 			this->label25->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label25->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label25->Location = System::Drawing::Point(251, 674);
+			this->label25->Location = System::Drawing::Point(242, 674);
 			this->label25->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label25->Name = L"label25";
 			this->label25->Size = System::Drawing::Size(1365, 57);
 			this->label25->TabIndex = 71;
-			this->label25->Text = L" 3.  เมื่อ ui un iu ?  อยู่ตัวเดียวจะกลายเป็น\r\n";
+			this->label25->Text = L" 3.  เมื่อ ui un iu \?  อยู่ตัวเดียวจะกลายเป็น\r\n";
 			this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->label25->UseCompatibleTextRendering = true;
 			// 
@@ -543,7 +543,7 @@ namespace nextpage {
 			this->label4->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label4->Location = System::Drawing::Point(251, 431);
+			this->label4->Location = System::Drawing::Point(242, 431);
 			this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(1365, 57);
@@ -558,7 +558,7 @@ namespace nextpage {
 			this->radioButton17->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->radioButton17->Appearance = System::Windows::Forms::Appearance::Button;
 			this->radioButton17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton17->Location = System::Drawing::Point(567, 1236);
+			this->radioButton17->Location = System::Drawing::Point(558, 1236);
 			this->radioButton17->Margin = System::Windows::Forms::Padding(2);
 			this->radioButton17->Name = L"radioButton17";
 			this->radioButton17->Size = System::Drawing::Size(27, 29);
@@ -572,7 +572,7 @@ namespace nextpage {
 			this->radioButton16->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->radioButton16->Appearance = System::Windows::Forms::Appearance::Button;
 			this->radioButton16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton16->Location = System::Drawing::Point(404, 1236);
+			this->radioButton16->Location = System::Drawing::Point(395, 1236);
 			this->radioButton16->Margin = System::Windows::Forms::Padding(2);
 			this->radioButton16->Name = L"radioButton16";
 			this->radioButton16->Size = System::Drawing::Size(27, 29);
@@ -586,7 +586,7 @@ namespace nextpage {
 			this->radioButton15->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->radioButton15->Appearance = System::Windows::Forms::Appearance::Button;
 			this->radioButton15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton15->Location = System::Drawing::Point(1057, 1171);
+			this->radioButton15->Location = System::Drawing::Point(1040, 1171);
 			this->radioButton15->Margin = System::Windows::Forms::Padding(2);
 			this->radioButton15->Name = L"radioButton15";
 			this->radioButton15->Size = System::Drawing::Size(27, 29);
@@ -600,7 +600,7 @@ namespace nextpage {
 			this->radioButton14->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->radioButton14->Appearance = System::Windows::Forms::Appearance::Button;
 			this->radioButton14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton14->Location = System::Drawing::Point(380, 1072);
+			this->radioButton14->Location = System::Drawing::Point(371, 1072);
 			this->radioButton14->Margin = System::Windows::Forms::Padding(2);
 			this->radioButton14->Name = L"radioButton14";
 			this->radioButton14->Size = System::Drawing::Size(27, 29);
@@ -614,7 +614,7 @@ namespace nextpage {
 			this->radioButton13->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->radioButton13->Appearance = System::Windows::Forms::Appearance::Button;
 			this->radioButton13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton13->Location = System::Drawing::Point(936, 1008);
+			this->radioButton13->Location = System::Drawing::Point(919, 1008);
 			this->radioButton13->Margin = System::Windows::Forms::Padding(2);
 			this->radioButton13->Name = L"radioButton13";
 			this->radioButton13->Size = System::Drawing::Size(27, 29);
@@ -631,7 +631,7 @@ namespace nextpage {
 			this->label16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label16->ForeColor = System::Drawing::Color::Black;
-			this->label16->Location = System::Drawing::Point(294, 1202);
+			this->label16->Location = System::Drawing::Point(285, 1202);
 			this->label16->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label16->Name = L"label16";
 			this->label16->Size = System::Drawing::Size(34, 37);
@@ -646,7 +646,7 @@ namespace nextpage {
 			this->label18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label18->ForeColor = System::Drawing::Color::Black;
-			this->label18->Location = System::Drawing::Point(294, 1040);
+			this->label18->Location = System::Drawing::Point(285, 1040);
 			this->label18->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label18->Name = L"label18";
 			this->label18->Size = System::Drawing::Size(34, 37);
@@ -659,13 +659,13 @@ namespace nextpage {
 			this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label17->ForeColor = System::Drawing::Color::Black;
-			this->label17->Location = System::Drawing::Point(354, 1040);
+			this->label17->Location = System::Drawing::Point(345, 1040);
 			this->label17->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label17->Name = L"label17";
 			this->label17->Size = System::Drawing::Size(1230, 130);
 			this->label17->TabIndex = 91;
-			this->label17->Text = L"หากคำที่มีเสียง 3 อยู่ติดกัน เช่น ?? n?h?o สวัสดี ให้เปลี่ยนเสียงวรรณยุกต์คำหน้าเ"
-				L"ป็นเสียง 2 โดยอ่านว่า\r\n\r\nn?h?o แต่ในการเขียนคำยังคงรูปวรรณยุกต์เดิมไว้\r\n\r\n\r\n\r\n";
+			this->label17->Text = L"หากคำที่มีเสียง 3 อยู่ติดกัน เช่น \?\? n\?h\?o สวัสดี ให้เปลี่ยนเสียงวรรณยุกต์คำหน้าเ"
+				L"ป็นเสียง 2 โดยอ่านว่า\r\n\r\nn\?h\?o แต่ในการเขียนคำยังคงรูปวรรณยุกต์เดิมไว้\r\n\r\n\r\n\r\n";
 			// 
 			// label24
 			// 
@@ -674,7 +674,7 @@ namespace nextpage {
 			this->label24->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label24->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label24->Location = System::Drawing::Point(251, 918);
+			this->label24->Location = System::Drawing::Point(242, 918);
 			this->label24->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label24->Name = L"label24";
 			this->label24->Size = System::Drawing::Size(1365, 57);
@@ -689,19 +689,19 @@ namespace nextpage {
 			this->label23->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label23->ForeColor = System::Drawing::Color::Black;
-			this->label23->Location = System::Drawing::Point(354, 1202);
+			this->label23->Location = System::Drawing::Point(345, 1202);
 			this->label23->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label23->Name = L"label23";
 			this->label23->Size = System::Drawing::Size(1230, 104);
 			this->label23->TabIndex = 99;
-			this->label23->Text = L"หากคำที่มีเสียง 3 อยู่ติดกันสามคำ เช่น ??? w?xi?ngn? ฉันคิดถึงคุณ เวลาอ่านสามารถอ"
-				L"อกเสียงได้ 2 แบบ คือ \r\n\r\nw?xi?ngn? หรือ w?xi?ngn? ก็ได้ แต่ในการเขียนคำยังคงรูปว"
+			this->label23->Text = L"หากคำที่มีเสียง 3 อยู่ติดกันสามคำ เช่น \?\?\? w\?xi\?ngn\? ฉันคิดถึงคุณ เวลาอ่านสามารถอ"
+				L"อกเสียงได้ 2 แบบ คือ \r\n\r\nw\?xi\?ngn\? หรือ w\?xi\?ngn\? ก็ได้ แต่ในการเขียนคำยังคงรูปว"
 				L"รรณยุกต์เดิมไว้ \r\n\r\n\r\n\r\n\r\n";
 			// 
 			// progressBar1
 			// 
 			this->progressBar1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->progressBar1->Location = System::Drawing::Point(598, 1454);
+			this->progressBar1->Location = System::Drawing::Point(589, 1454);
 			this->progressBar1->Margin = System::Windows::Forms::Padding(2);
 			this->progressBar1->Name = L"progressBar1";
 			this->progressBar1->Size = System::Drawing::Size(675, 16);
@@ -713,7 +713,7 @@ namespace nextpage {
 			this->Previous->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->Previous->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->Previous->Location = System::Drawing::Point(251, 1430);
+			this->Previous->Location = System::Drawing::Point(242, 1430);
 			this->Previous->Margin = System::Windows::Forms::Padding(2);
 			this->Previous->Name = L"Previous";
 			this->Previous->Size = System::Drawing::Size(150, 61);
@@ -728,7 +728,7 @@ namespace nextpage {
 			this->Next->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->Next->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->Next->Location = System::Drawing::Point(1465, 1430);
+			this->Next->Location = System::Drawing::Point(1456, 1430);
 			this->Next->Margin = System::Windows::Forms::Padding(2);
 			this->Next->Name = L"Next";
 			this->Next->Size = System::Drawing::Size(150, 61);
@@ -800,10 +800,12 @@ namespace nextpage {
 		}
 #pragma endregion
 	public: bool switchToformmix = false;
-	//public: bool switchToform... = false;
+	public: bool switchToformBQuiz = false;
 	private: System::Void radioButton7_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void Next_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
+		switchToformBQuiz = true;
 	}
 private: System::Void Previous_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Close();

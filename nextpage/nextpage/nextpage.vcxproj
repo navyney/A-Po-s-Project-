@@ -123,7 +123,9 @@
     <ClCompile Include="Lyv0.cpp" />
     <ClCompile Include="mix.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="MyForm0.cpp" />
     <ClCompile Include="MyForm1.cpp" />
+    <ClCompile Include="Quiz.cpp" />
     <ClCompile Include="tone.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -136,7 +138,13 @@
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="MyForm0.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="MyForm1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Quiz.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="tone.h">
@@ -153,8 +161,14 @@
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MyForm0.resx">
+      <DependentUpon>MyForm0.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyForm1.resx">
       <DependentUpon>MyForm1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz.resx">
+      <DependentUpon>Quiz.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tone.resx">
       <DependentUpon>tone.h</DependentUpon>
