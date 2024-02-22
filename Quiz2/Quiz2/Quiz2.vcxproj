@@ -141,6 +141,9 @@
     <EmbeddedResource Include="MenuQuiz2.resx">
       <DependentUpon>MenuQuiz2.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Quiz2.resx">
+      <DependentUpon>Quiz2.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

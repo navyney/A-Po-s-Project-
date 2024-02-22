@@ -94,6 +94,7 @@ namespace Quiz2 {
 			this->button2->TabIndex = 0;
 			this->button2->Text = L"Quiz 2";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &MenuQuiz2::button2_Click);
 			// 
 			// button1
 			// 
@@ -121,12 +122,10 @@ namespace Quiz2 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
-			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(1904, 1041);
 			this->Controls->Add(this->button4);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->panel1);
-			this->ClientSize = System::Drawing::Size(1904, 1041);
 			this->MaximumSize = System::Drawing::Size(1920, 1080);
 			this->MinimumSize = System::Drawing::Size(1918, 1038);
 			this->Name = L"MenuQuiz2";
@@ -136,5 +135,10 @@ namespace Quiz2 {
 
 		}
 #pragma endregion
+		public: bool switchToQ2 = false;
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
+		switchToQ2 = true;
+}
 };
 }
