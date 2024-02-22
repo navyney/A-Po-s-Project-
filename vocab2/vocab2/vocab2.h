@@ -14,7 +14,7 @@ namespace vocab2 {
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
-		int numpage2 = 1;
+		int numpage2 = 9;
 	public:
 		MyForm(void)
 		{
@@ -249,33 +249,66 @@ namespace vocab2 {
 #pragma endregion
 	private: System::Void changepage(int numpage2) {
 		switch (numpage2) {
-		case 1:
-			label2->Text = L"你";
-			label3->Text = L"nǐ";
-			label4->Text = L"คุณ";
-			label5->Text = L"你认识这个人吗？";
-			label6->Text = L"Nǐrènshizhègerénma";
-			label7->Text = L"คุณรู้จักคนคนนี้มั้ย";
+		case 9:
+			label2->Text = L"她";
+			label3->Text = L"tā";
+			label4->Text = L"เขาผู้หญิง";
+			label5->Text = L"我认识她的妈妈。";
+			label6->Text = L"wǒ rènshí tā de māmā";
+			label7->Text = L"ฉันรู้จักแม่ของเขา";
 			break;
-		case 2:
-			label2->Text = L"我";
-			label3->Text = L"wǒ";
-			label4->Text = L"ฉัน";
-			label5->Text = L"我不知道。";
-			label6->Text = L"wǒ bùzhīdào";
-			label7->Text = L"ฉันไม่รู้";
+		case 10:
+			label2->Text = L"老师";
+			label3->Text = L"lǎoshī";
+			label4->Text = L"คุณครู";
+			label5->Text = L"他就是我们的科学老师。";
+			label6->Text = L"tā jiù shì wǒmén de kēxué lǎoshī";
+			label7->Text = L"เขาก็คือคุณครูวิทยาศาสตร์ของพวกเรา";
+			break;
+		case 11:
+			label2->Text = L"喜欢";
+			label3->Text = L"xǐhuān";
+			label4->Text = L"ชอบ";
+			label5->Text = L"我喜欢吃面条。";
+			label6->Text = L"wǒ xǐhuān chī miàntiáo";
+			label7->Text = L"ฉันชอบกินก๋วยเตี๋ยว";
+			break;
+		case 12:
+			label2->Text = L"医生";
+			label3->Text = L"yīshēng";
+			label4->Text = L"หมอ";
+			label5->Text = L"李医生在医院吗。";
+			label6->Text = L"lǐ yīshēng zài yīyuàn má";
+			label7->Text = L"หมอลี่อยู่โรงพยาบาลมั้ย";
+			break;
+		case 13:
+			label2->Text = L"学生";
+			label3->Text = L"xuéshēng";
+			label4->Text = L"นักเรียน";
+			label5->Text = L"我们学校里的学生很多。";
+			label6->Text = L"wǒmén xuéxiào lǐ de xuéshēng hěn duō";
+			label7->Text = L"ข้างในโรงเรียนของฉันมีนักเรียนเยอะ";
+			break;
+		case 14:
+			label2->Text = L"学";
+			label3->Text = L"xué";
+			label4->Text = L"เรียน";
+			label5->Text = L"他学韩语。";
+			label6->Text = L"tā xué hányǔ";
+			label7->Text = L"เขาเรียนภาษาเกาหลี";
 			break;
 		}
+
 	}
 	private: System::Void next_Click(System::Object^ sender, System::EventArgs^ e) {
-		if (numpage2 < 2) {
+		if (numpage2 < 14) {
 			numpage2++;
 			changepage(numpage2);
 
 		}
 	}
 private: System::Void previous_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (numpage2 > 1) {
+	if (numpage2 > 9) {
 		numpage2--;
 		changepage(numpage2);
 
