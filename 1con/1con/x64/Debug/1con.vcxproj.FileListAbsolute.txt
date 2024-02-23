@@ -1,4 +1,0 @@
-D:\261102\pro Jek\po\1con\1con\x64\Debug\1con.vcxproj.AssemblyReference.cache
-D:\261102\pro Jek\po\1con\1con\x64\Debug\My1con.con.resources
-D:\261102\pro Jek\po\1con\1con\x64\Debug\1con.vcxproj.GenerateResource.cache
-D:\261102\pro Jek\po\1con\1con\x64\Debug\1con.exe
