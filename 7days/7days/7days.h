@@ -105,7 +105,7 @@ namespace My7days {
 			// 
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 48));
-			this->label2->Location = System::Drawing::Point(200, 126);
+			this->label2->Location = System::Drawing::Point(194, 123);
 			this->label2->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(411, 68);
