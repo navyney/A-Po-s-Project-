@@ -1,9 +1,9 @@
-#include "Lyv0.h"
+#include "menu.h"
 
-using namespace excaptation;
+using namespace hom;
 
 void main() {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Application::Run(gcnew Lyv0());
+	Application::Run(gcnew menu());
 }
