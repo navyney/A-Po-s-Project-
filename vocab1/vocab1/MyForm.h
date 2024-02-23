@@ -545,7 +545,7 @@ namespace vocab1 {
 			// 
 			this->pic23->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic23.BackgroundImage")));
 			this->pic23->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic23->Location = System::Drawing::Point(1078, 273);
+			this->pic23->Location = System::Drawing::Point(1069, 273);
 			this->pic23->Name = L"pic23";
 			this->pic23->Size = System::Drawing::Size(254, 253);
 			this->pic23->TabIndex = 78;
