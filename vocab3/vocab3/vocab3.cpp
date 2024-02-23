@@ -1,9 +1,13 @@
 #include "vocab3.h"
 
-using namespace vocab3;
+using namespace System;
+using namespace System::Windows::Forms;
+[STAThread]
 
-void main() {
+void main(array<String^>^ args)
+{
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    Application::Run(gcnew MyForm());
+    vocab3::vocab3 form;
+    Application::Run(% form);
 }
