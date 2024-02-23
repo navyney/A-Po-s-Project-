@@ -227,12 +227,13 @@ namespace vocab1 {
 			// 
 			this->next->Anchor = System::Windows::Forms::AnchorStyles::None;
 			this->next->AutoSize = true;
+			this->next->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->next->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 20));
-			this->next->Location = System::Drawing::Point(1572, 897);
+			this->next->Location = System::Drawing::Point(1492, 829);
 			this->next->MaximumSize = System::Drawing::Size(400, 200);
 			this->next->MinimumSize = System::Drawing::Size(136, 60);
 			this->next->Name = L"next";
-			this->next->Size = System::Drawing::Size(320, 132);
+			this->next->Size = System::Drawing::Size(400, 200);
 			this->next->TabIndex = 48;
 			this->next->Text = L"Next";
 			this->next->UseVisualStyleBackColor = true;
@@ -289,13 +290,16 @@ namespace vocab1 {
 			// label5
 			// 
 			this->label5->AutoSize = true;
+			this->label5->BackColor = System::Drawing::SystemColors::Control;
 			this->label5->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->label5->ForeColor = System::Drawing::Color::Black;
 			this->label5->Location = System::Drawing::Point(670, 598);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(289, 39);
 			this->label5->TabIndex = 53;
 			this->label5->Text = L"你认识这个人吗？";
+			this->label5->Click += gcnew System::EventHandler(this, &MyForm::label5_Click);
 			// 
 			// label6
 			// 
@@ -883,6 +887,8 @@ private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ 
 	}
 }
 private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void label5_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }
