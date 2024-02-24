@@ -45,6 +45,7 @@ namespace templatedesign {
 	private: System::Windows::Forms::PictureBox^ previousbutton;
 
 	private: System::Windows::Forms::PictureBox^ nextbutton;
+	private: System::Windows::Forms::Label^ label1;
 
 
 	private:
@@ -68,6 +69,7 @@ namespace templatedesign {
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->previousbutton = (gcnew System::Windows::Forms::PictureBox());
 			this->nextbutton = (gcnew System::Windows::Forms::PictureBox());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->BeginInit();
@@ -85,7 +87,7 @@ namespace templatedesign {
 			// 
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 48));
-			this->label2->Location = System::Drawing::Point(809, 227);
+			this->label2->Location = System::Drawing::Point(805, 192);
 			this->label2->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(330, 68);
@@ -144,11 +146,23 @@ namespace templatedesign {
 			this->nextbutton->TabIndex = 54;
 			this->nextbutton->TabStop = false;
 			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 48));
+			this->label1->Location = System::Drawing::Point(918, 298);
+			this->label1->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(118, 68);
+			this->label1->TabIndex = 55;
+			this->label1->Text = L"test";
+			// 
 			// temdesign
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->label1);
 			this->Controls->Add(this->nextbutton);
 			this->Controls->Add(this->previousbutton);
 			this->Controls->Add(this->pictureBox1);
