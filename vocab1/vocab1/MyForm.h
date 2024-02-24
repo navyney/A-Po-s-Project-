@@ -227,13 +227,12 @@ namespace vocab1 {
 			// 
 			this->next->Anchor = System::Windows::Forms::AnchorStyles::None;
 			this->next->AutoSize = true;
-			this->next->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->next->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 20));
-			this->next->Location = System::Drawing::Point(1492, 829);
+			this->next->Location = System::Drawing::Point(1572, 897);
 			this->next->MaximumSize = System::Drawing::Size(400, 200);
 			this->next->MinimumSize = System::Drawing::Size(136, 60);
 			this->next->Name = L"next";
-			this->next->Size = System::Drawing::Size(400, 200);
+			this->next->Size = System::Drawing::Size(320, 132);
 			this->next->TabIndex = 48;
 			this->next->Text = L"Next";
 			this->next->UseVisualStyleBackColor = true;
@@ -249,19 +248,20 @@ namespace vocab1 {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label2->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(687, 249);
+			this->label2->Location = System::Drawing::Point(647, 249);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(133, 102);
+			this->label2->Size = System::Drawing::Size(150, 128);
 			this->label2->TabIndex = 49;
 			this->label2->Text = L"你";
+			this->label2->Click += gcnew System::EventHandler(this, &MyForm::label2_Click);
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 32));
-			this->label3->Location = System::Drawing::Point(710, 368);
+			this->label3->Location = System::Drawing::Point(670, 368);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(53, 46);
 			this->label3->TabIndex = 50;
@@ -271,7 +271,7 @@ namespace vocab1 {
 			// 
 			this->label4->AutoSize = true;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 32));
-			this->label4->Location = System::Drawing::Point(710, 414);
+			this->label4->Location = System::Drawing::Point(670, 414);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(67, 46);
 			this->label4->TabIndex = 51;
@@ -281,7 +281,7 @@ namespace vocab1 {
 			// 
 			this->button6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button6.BackgroundImage")));
 			this->button6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->button6->Location = System::Drawing::Point(718, 463);
+			this->button6->Location = System::Drawing::Point(678, 463);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(60, 63);
 			this->button6->TabIndex = 52;
@@ -290,25 +290,22 @@ namespace vocab1 {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->BackColor = System::Drawing::SystemColors::Control;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label5->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label5->ForeColor = System::Drawing::Color::Black;
-			this->label5->Location = System::Drawing::Point(670, 598);
+			this->label5->Location = System::Drawing::Point(630, 598);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(289, 39);
+			this->label5->Size = System::Drawing::Size(338, 50);
 			this->label5->TabIndex = 53;
 			this->label5->Text = L"你认识这个人吗？";
-			this->label5->Click += gcnew System::EventHandler(this, &MyForm::label5_Click);
 			// 
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label6->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label6->Location = System::Drawing::Point(670, 646);
+			this->label6->Location = System::Drawing::Point(629, 650);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(330, 39);
+			this->label6->Size = System::Drawing::Size(361, 50);
 			this->label6->TabIndex = 54;
 			this->label6->Text = L"Nǐrènshizhègerénma";
 			// 
@@ -317,7 +314,7 @@ namespace vocab1 {
 			this->label7->AutoSize = true;
 			this->label7->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label7->Location = System::Drawing::Point(670, 697);
+			this->label7->Location = System::Drawing::Point(631, 700);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(207, 39);
 			this->label7->TabIndex = 55;
@@ -694,7 +691,7 @@ namespace vocab1 {
 			label4->Text = L"เรียกว่า(ใช้กับชื่อ)";
 			label5->Text = L"我的名字叫贾斯汀比伯 ";
 			label6->Text = L"wǒdemíngzìjiàoJiǎsītīngbǐbó";
-			label7->Text = L"ชื่อของฉันคือ justin Bieber";
+			label7->Text = L"ชื่อของฉันคือ Justin Bieber";
 			pic19->Show();
 			pic20->Show();;
 			break;
@@ -887,8 +884,6 @@ private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ 
 	}
 }
 private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void label5_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }
