@@ -150,7 +150,7 @@ namespace templatedesign {
 			// 
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 48));
-			this->label1->Location = System::Drawing::Point(945, 288);
+			this->label1->Location = System::Drawing::Point(918, 280);
 			this->label1->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(118, 68);
