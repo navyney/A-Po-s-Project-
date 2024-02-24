@@ -9,7 +9,7 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="Header Files\Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
@@ -21,8 +21,20 @@
     <ClCompile Include="mix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="vocab.cpp">
+    <ClCompile Include="MyForm1.cpp">
+      <Filter>Header Files\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tone.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lyv0.cpp">
+      <Filter>Header Files\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm0.cpp">
+      <Filter>Header Files\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz.cpp">
+      <Filter>Header Files\Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -32,8 +44,20 @@
     <ClInclude Include="mix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="vocab.h">
+    <ClInclude Include="MyForm1.h">
+      <Filter>Header Files\Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tone.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lyv0.h">
+      <Filter>Header Files\Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm0.h">
+      <Filter>Header Files\Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz.h">
+      <Filter>Header Files\Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

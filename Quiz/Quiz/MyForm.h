@@ -23,8 +23,7 @@ namespace QUIZZ {
 		int Questionnumber = 1;
 		int Score = 0;
 		int Percentage;
-	private: System::Windows::Forms::Button^ button2;
-		   int totalQuestion = 5;
+		int totalQuestion = 5;
 
 	public:
 		MyForm(void)
@@ -53,8 +52,9 @@ namespace QUIZZ {
 	private: System::Windows::Forms::RadioButton^ radioButton2;
 	private: System::Windows::Forms::RadioButton^ radioButton1;
 	private: System::Windows::Forms::Label^ lblQuestion;
-
 	private: System::Windows::Forms::Label^ label2;
+	private: System::Windows::Forms::Button^ button2;
+	private: System::Windows::Forms::Label^ label1;
 	protected:
 
 	private:
@@ -80,47 +80,46 @@ namespace QUIZZ {
 			this->radioButton2 = (gcnew System::Windows::Forms::RadioButton());
 			this->radioButton1 = (gcnew System::Windows::Forms::RadioButton());
 			this->lblQuestion = (gcnew System::Windows::Forms::Label());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->panel1->SuspendLayout();
 			this->groupBox1->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// panel1
 			// 
-			this->panel1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(139)), static_cast<System::Int32>(static_cast<System::Byte>(26)),
-				static_cast<System::Int32>(static_cast<System::Byte>(26)));
+			this->panel1->BackColor = System::Drawing::Color::White;
+			this->panel1->Controls->Add(this->label1);
 			this->panel1->Controls->Add(this->label2);
 			this->panel1->Dock = System::Windows::Forms::DockStyle::Top;
 			this->panel1->Location = System::Drawing::Point(0, 0);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1904, 100);
+			this->panel1->Size = System::Drawing::Size(1904, 148);
 			this->panel1->TabIndex = 0;
 			// 
 			// label2
 			// 
 			this->label2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label2->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label2->Location = System::Drawing::Point(882, 21);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(175, 58);
+			this->label2->Size = System::Drawing::Size(232, 77);
 			this->label2->TabIndex = 0;
 			this->label2->Text = L"Quiz0";
 			// 
 			// groupBox1
 			// 
+			this->groupBox1->Anchor = System::Windows::Forms::AnchorStyles::None;
 			this->groupBox1->BackColor = System::Drawing::Color::White;
-			this->groupBox1->Controls->Add(this->button2);
-			this->groupBox1->Controls->Add(this->button1);
 			this->groupBox1->Controls->Add(this->radioButton4);
 			this->groupBox1->Controls->Add(this->radioButton3);
 			this->groupBox1->Controls->Add(this->radioButton2);
 			this->groupBox1->Controls->Add(this->radioButton1);
 			this->groupBox1->Controls->Add(this->lblQuestion);
-			this->groupBox1->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->groupBox1->Location = System::Drawing::Point(0, 100);
+			this->groupBox1->Location = System::Drawing::Point(157, 164);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(1904, 941);
+			this->groupBox1->Size = System::Drawing::Size(1554, 693);
 			this->groupBox1->TabIndex = 1;
 			this->groupBox1->TabStop = false;
 			// 
@@ -128,7 +127,7 @@ namespace QUIZZ {
 			// 
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(85, 779);
+			this->button2->Location = System::Drawing::Point(12, 929);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(300, 100);
 			this->button2->TabIndex = 6;
@@ -140,7 +139,7 @@ namespace QUIZZ {
 			// 
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->button1->Location = System::Drawing::Point(1525, 779);
+			this->button1->Location = System::Drawing::Point(1592, 929);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(300, 100);
 			this->button1->TabIndex = 5;
@@ -221,11 +220,25 @@ namespace QUIZZ {
 			this->lblQuestion->Text = L"Question";
 			this->lblQuestion->Click += gcnew System::EventHandler(this, &MyForm::checkAnswerEvent);
 			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Minecraft", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label1->Location = System::Drawing::Point(935, 98);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(105, 38);
+			this->label1->TabIndex = 1;
+			this->label1->Text = L"Pinyin";
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::Color::White;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->button1);
+			this->Controls->Add(this->button2);
 			this->Controls->Add(this->groupBox1);
 			this->Controls->Add(this->panel1);
 			this->MaximumSize = System::Drawing::Size(1920, 1080);
@@ -233,6 +246,7 @@ namespace QUIZZ {
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"MyForm";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->panel1->ResumeLayout(false);
 			this->panel1->PerformLayout();
 			this->groupBox1->ResumeLayout(false);
@@ -267,8 +281,7 @@ namespace QUIZZ {
 			Questionnumber--;
 			askQuestion(Questionnumber);
 		}
-	}
-	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
+
 	}
 
 
