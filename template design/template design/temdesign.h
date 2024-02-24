@@ -45,7 +45,7 @@ namespace templatedesign {
 	private: System::Windows::Forms::PictureBox^ previousbutton;
 
 	private: System::Windows::Forms::PictureBox^ nextbutton;
-	private: System::Windows::Forms::Label^ label1;
+
 
 
 	private:
@@ -69,7 +69,6 @@ namespace templatedesign {
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->previousbutton = (gcnew System::Windows::Forms::PictureBox());
 			this->nextbutton = (gcnew System::Windows::Forms::PictureBox());
-			this->label1 = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->BeginInit();
@@ -86,11 +85,14 @@ namespace templatedesign {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 48));
-			this->label2->Location = System::Drawing::Point(805, 192);
+			this->label2->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label2->Location = System::Drawing::Point(765, 159);
 			this->label2->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(330, 68);
+			this->label2->Size = System::Drawing::Size(387, 82);
 			this->label2->TabIndex = 47;
 			this->label2->Text = L"Consonants";
 			// 
@@ -99,7 +101,9 @@ namespace templatedesign {
 			this->lesson3->AutoSize = true;
 			this->lesson3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 87.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->lesson3->Location = System::Drawing::Point(457, 26);
+			this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->lesson3->Location = System::Drawing::Point(470, 9);
 			this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 			this->lesson3->Name = L"lesson3";
 			this->lesson3->Size = System::Drawing::Size(973, 150);
@@ -146,23 +150,11 @@ namespace templatedesign {
 			this->nextbutton->TabIndex = 54;
 			this->nextbutton->TabStop = false;
 			// 
-			// label1
-			// 
-			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 48));
-			this->label1->Location = System::Drawing::Point(918, 280);
-			this->label1->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(118, 68);
-			this->label1->TabIndex = 55;
-			this->label1->Text = L"test";
-			// 
 			// temdesign
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
-			this->Controls->Add(this->label1);
 			this->Controls->Add(this->nextbutton);
 			this->Controls->Add(this->previousbutton);
 			this->Controls->Add(this->pictureBox1);
