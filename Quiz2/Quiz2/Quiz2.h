@@ -17,7 +17,7 @@ namespace Quiz2 {
 		int correctAnswer;
 		int questionNumber = 1;
 		int score = 0;
-		int totalQuestion = 13;
+		int totalQuestion = 13+1;
 		String^ msg;
 
 	private: System::Windows::Forms::Label^ label2;
@@ -31,6 +31,7 @@ namespace Quiz2 {
 	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::Button^ button5;
 	private: System::Windows::Forms::Button^ button6;
+	private: System::Windows::Forms::TextBox^ textBox1;
 
 	private: array<int>^ userAnswers;
 	public:
@@ -65,6 +66,7 @@ namespace Quiz2 {
 		{
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
@@ -74,12 +76,11 @@ namespace Quiz2 {
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->button7 = (gcnew System::Windows::Forms::Button());
-
 			this->panel1->SuspendLayout();
 			this->SuspendLayout();
-
+			// 
 			// label1
-
+			// 
 			this->label1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
@@ -89,10 +90,11 @@ namespace Quiz2 {
 			this->label1->Size = System::Drawing::Size(232, 77);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Quiz2";
-
+			// 
 			// panel1
-
+			// 
 			this->panel1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->panel1->Controls->Add(this->textBox1);
 			this->panel1->Controls->Add(this->label2);
 			this->panel1->Controls->Add(this->button4);
 			this->panel1->Controls->Add(this->button3);
@@ -104,10 +106,22 @@ namespace Quiz2 {
 			this->panel1->Name = L"panel1";
 			this->panel1->Size = System::Drawing::Size(1843, 778);
 			this->panel1->TabIndex = 1;
-
+			// 
+			// textBox1
+			// 
+			this->textBox1->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->textBox1->Location = System::Drawing::Point(738, 438);
+			this->textBox1->Multiline = true;
+			this->textBox1->Name = L"textBox1";
+			this->textBox1->Size = System::Drawing::Size(300, 100);
+			this->textBox1->TabIndex = 0;
+			this->textBox1->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
 			// label2
-
-			this->label2->Anchor = System::Windows::Forms::AnchorStyles::None;
+			// 
+			this->label2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->label2->Font = (gcnew System::Drawing::Font(L"Kanit", 71.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label2->Location = System::Drawing::Point(427, 40);
@@ -116,9 +130,9 @@ namespace Quiz2 {
 			this->label2->TabIndex = 5;
 			this->label2->Text = L"QUESTION";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-
+			// 
 			// button4
-
+			// 
 			this->button4->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button4->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -131,9 +145,9 @@ namespace Quiz2 {
 			this->button4->Text = L"Ans4";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &Quiz2::checkAnswerEvent);
-
+			// 
 			// button3
-
+			// 
 			this->button3->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button3->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -146,9 +160,9 @@ namespace Quiz2 {
 			this->button3->Text = L"Ans3";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &Quiz2::checkAnswerEvent);
-
+			// 
 			// button2
-
+			// 
 			this->button2->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button2->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -161,9 +175,9 @@ namespace Quiz2 {
 			this->button2->Text = L"Ans2";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &Quiz2::checkAnswerEvent);
-
+			// 
 			// button1
-
+			// 
 			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -177,9 +191,9 @@ namespace Quiz2 {
 			this->button1->Text = L"Ans1";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Quiz2::checkAnswerEvent);
-
+			// 
 			// button5
-
+			// 
 			this->button5->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button5->Location = System::Drawing::Point(1541, 939);
@@ -189,9 +203,9 @@ namespace Quiz2 {
 			this->button5->Text = L" Next";
 			this->button5->UseVisualStyleBackColor = true;
 			this->button5->Click += gcnew System::EventHandler(this, &Quiz2::button5_Click);
-
+			// 
 			// button6
-
+			// 
 			this->button6->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button6->Location = System::Drawing::Point(28, 939);
@@ -201,9 +215,9 @@ namespace Quiz2 {
 			this->button6->Text = L"Previous";
 			this->button6->UseVisualStyleBackColor = true;
 			this->button6->Click += gcnew System::EventHandler(this, &Quiz2::button6_Click);
-
+			// 
 			// label3
-
+			// 
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Minecraft", 26.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -212,12 +226,13 @@ namespace Quiz2 {
 			this->label3->Size = System::Drawing::Size(165, 42);
 			this->label3->TabIndex = 4;
 			this->label3->Text = L"Lesson2";
-
+			// 
 			// button7
-
+			// 
+			this->button7->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Left | System::Windows::Forms::AnchorStyles::Right));
 			this->button7->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button7->Location = System::Drawing::Point(709, 939);
+			this->button7->Location = System::Drawing::Point(733, 939);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(396, 90);
 			this->button7->TabIndex = 5;
@@ -239,17 +254,39 @@ namespace Quiz2 {
 			this->MaximumSize = System::Drawing::Size(1920, 1080);
 			this->MinimumSize = System::Drawing::Size(1918, 1038);
 			this->Name = L"Quiz2";
-			this->Load += gcnew System::EventHandler(this, &Quiz2::Quiz2_Load);
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
+			this->Load += gcnew System::EventHandler(this, &Quiz2::Quiz2_Load);
+			this->panel1->ResumeLayout(false);
+			this->panel1->PerformLayout();
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion
+	private: System::Void ShowButton() {
+		button1->Show();
+		button2->Show();
+		button3->Show();
+		button4->Show();
+	}
 	private: System::Void TextBlack() {
 		button1->ForeColor = System::Drawing::Color::Black;
 		button2->ForeColor = System::Drawing::Color::Black;
 		button3->ForeColor = System::Drawing::Color::Black;
 		button4->ForeColor = System::Drawing::Color::Black;
+	}
+	private: System::Void Answer(int questionNumber) {
+		switch (questionNumber) {
+		case 12:
+			label2->Text = L"1.哥哥 / 2.医生 / 3.我 / 4.的 / 5.。/ 6.是 \n我 的 哥哥 是 医生。";
+			break;
+		case 13:
+			label2->Text = L"1.我 / 2.汉语 / 3.。/ 4.学 \n他 是 我 的 老师。";
+			break;
+		case 14:
+			label2->Text = L"1.我 / 2.汉语 / 3.。/ 4.学 \n我 学 汉语。";
+			break;
+		}
 	}
 	private: System::Void Changcolor() { //Text CorrectAnwer to Green
 		switch (correctAnswer) {
@@ -286,9 +323,11 @@ namespace Quiz2 {
 
 			correctAnswer = 3;
 			button5->Text = L" Next";
+			ShowButton();
 			panel1->Show();
 			button6->Hide();
 			button7->Hide();
+			textBox1->Hide();
 			break;
 		case 2:
 			label2->Text = L"māmā\n妈妈";
@@ -362,9 +401,6 @@ namespace Quiz2 {
 			button4->Text = "ภาษาญี่ปุ่น";
 
 			correctAnswer = 1;
-			button5->Text = L" Next";
-			button5->Location = System::Drawing::Point(1541, 939);
-			button5->Size = System::Drawing::Size(330, 90);
 			break;
 		case 10:
 			label2->Text = L"tā\n她";
@@ -374,16 +410,60 @@ namespace Quiz2 {
 			button4->Text = "เขาใหญ่";
 
 			correctAnswer = 1;
-			
-			button5->Location = System::Drawing::Point(1271, 939);
-			button5->Size = System::Drawing::Size(600, 90);
+			ShowButton();
+			label2->Size = System::Drawing::Size(901, 527);
+			label2->Location = System::Drawing::Point(427, 40);
 			break;
 		case 11:
 			button1->Hide();
 			button2->Hide();
 			button3->Hide();
 			button4->Hide();
-			label2->Text = L"Step2";
+			button7->Hide();
+			textBox1->Hide();
+			label2->Text = L"Step2\nจงเรียงประโยคให้ถูกต้อง";
+			label2->Font = (gcnew System::Drawing::Font(L"Kanit", 56, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			label2->Size = System::Drawing::Size(1300, 527);
+			label2->Location = System::Drawing::Point(240, 40);
+			break;
+		case 12:
+			label2->Font = (gcnew System::Drawing::Font(L"Kanit", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			label2->Text = L"1.哥哥 / 2.医生 / 3.我 / 4.的 / 5.。/ 6.是";
+			textBox1->Text = L"";
+			correctAnswer = 341625;
+			button7->Text = L"Check";
+			button7->Show();
+			textBox1->Show();
+			break;
+		case 13:
+			label2->Text = L"1.。/ 2.是 / 3.我 / 4.他 / 5.的 / 6.老师";
+			textBox1->Text = L"";
+
+			correctAnswer = 423561;
+			button5->Text = L"Next";
+			textBox1->Show();
+			button7->Show();
+			button5->Size = System::Drawing::Size(330, 90);
+			break;
+		case 14:
+			label2->Text = L"1.我 / 2.汉语 / 3.。/ 4.学";
+			textBox1->Text = L"";
+
+			correctAnswer = 1423;
+			textBox1->Show();
+			button7->Show();
+			button5->Text = L"Submit";
+			button5->Size = System::Drawing::Size(330, 90);
+			break;
+		case 15:
+			label2->Text = L"Your Score\n" + score + "/15" ;
+			button7->Text = L"Try Again";
+			button5->Text = L"Next";
+			textBox1->Hide();
+			button6->Hide();
+			button7->Show();
 			break;
 		}
 	}
@@ -424,9 +504,6 @@ namespace Quiz2 {
 					}
 				}
 			}
-			if (questionNumber > totalQuestion) {
-				MessageBox::Show("Total Score: " + score.ToString() + "/" + totalQuestion, "Quiz Completed");
-			}
 		}
 	//PREVIOUS
 	private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -466,13 +543,39 @@ namespace Quiz2 {
 					}}}}
 	//TRY AGAIN
 	private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
-		questionNumber = 1;
-		score = 0;
-		Array::Clear(userAnswers, 0, userAnswers->Length);
-		TextBlack();
-		button5->Location = System::Drawing::Point(1541, 939);
-		button5->Size = System::Drawing::Size(330, 90);
-		askquestion(questionNumber);
+		if (questionNumber == 15) {
+			questionNumber = 1;
+			score = 0;
+			Array::Clear(userAnswers, 0, userAnswers->Length);
+			TextBlack();
+			button5->Location = System::Drawing::Point(1541, 939);
+			button5->Size = System::Drawing::Size(330, 90);
+			askquestion(questionNumber);
+		}
+		else {
+			try {
+				int CheckAnswer = System::Convert::ToInt32(textBox1->Text);
+				if (CheckAnswer == correctAnswer) {
+					MessageBox::Show("Correct!", "Answer", MessageBoxButtons::OK, MessageBoxIcon::None);
+					score++;
+					Answer(questionNumber);
+					textBox1->Hide();
+					button7->Hide();
+				}
+				else {
+					MessageBox::Show("Incorrect!", "Answer", MessageBoxButtons::OK, MessageBoxIcon::None);
+					Answer(questionNumber);
+					textBox1->Hide();
+					button7->Hide();
+				}
+			}
+			catch (FormatException^) {
+				MessageBox::Show("Please enter a valid number.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+			}
+			catch (OverflowException^) {
+				MessageBox::Show("Entered number is too large or too small.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+			}
+		}
 	}
 	private: System::Void checkAnswerEvent(System::Object^ sender, System::EventArgs^ e) {
 		Button^ selectedButton = dynamic_cast<Button^>(sender);
@@ -483,7 +586,7 @@ namespace Quiz2 {
 		{
 			selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(0)));;
-			//MessageBox::Show("Correct!" , "Answer", MessageBoxButtons::OK, MessageBoxIcon::None);
+			MessageBox::Show("Correct!" , "Answer", MessageBoxButtons::OK, MessageBoxIcon::None);
 			score++;
 		}
 		//แสดงคำตอบที่ตอบผิดเป็นสีแดง
@@ -497,22 +600,22 @@ namespace Quiz2 {
 			case 1:
 				button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button1->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button1->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 2:
 				button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button2->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button2->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 3:
 				button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button3->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button3->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 4:
 				button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button4->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button4->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			}
 		}
