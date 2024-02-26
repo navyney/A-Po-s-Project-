@@ -84,6 +84,7 @@ namespace vocab1 {
 	private: System::Windows::Forms::ProgressBar^ progressBar2;
 	private: System::Windows::Forms::Label^ label8;
 	private: System::Windows::Forms::Label^ lesson3;
+	private: System::Windows::Forms::Button^ button1;
 
 
 
@@ -153,6 +154,7 @@ namespace vocab1 {
 			this->progressBar2 = (gcnew System::Windows::Forms::ProgressBar());
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic3))->BeginInit();
@@ -252,11 +254,12 @@ namespace vocab1 {
 			// 
 			this->button6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button6.BackgroundImage")));
 			this->button6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->button6->Location = System::Drawing::Point(572, 502);
+			this->button6->Location = System::Drawing::Point(577, 502);
 			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(60, 63);
+			this->button6->Size = System::Drawing::Size(40, 40);
 			this->button6->TabIndex = 52;
 			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &MyForm::button6_Click);
 			// 
 			// label5
 			// 
@@ -615,11 +618,22 @@ namespace vocab1 {
 			this->lesson3->TabIndex = 80;
 			this->lesson3->Text = L"Lesson 1 : Hello!";
 			// 
+			// button1
+			// 
+			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
+			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->Location = System::Drawing::Point(577, 781);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(40, 40);
+			this->button1->TabIndex = 87;
+			this->button1->UseVisualStyleBackColor = true;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->button1);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->nextbutton);
 			this->Controls->Add(this->previousbutton);
@@ -881,71 +895,6 @@ namespace vocab1 {
 		
 	
 	}
-private: System::Void next_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (numpage < 12) {
-		numpage++;
-		pic1->Hide();
-		pic2->Hide();
-		pic3->Hide();
-		pic4->Hide();
-		pic5->Hide();
-		pic6->Hide();
-		pic7->Hide();
-		pic8->Hide();
-		pic9->Hide();
-		pic10->Hide();
-		pic11->Hide();
-		pic12->Hide();
-		pic13->Hide();
-		pic14->Hide();
-		pic15->Hide();
-		pic16->Hide();
-		pic17->Hide();
-		pic18->Hide();
-		pic19->Hide();
-		pic20->Hide();
-		pic21->Hide();
-		pic22->Hide();
-		pic23->Hide();
-		pic24->Hide();
-		changepage(numpage);
-
-	}
-
-}
-private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (numpage > 1) {
-		numpage--;
-		pic1->Hide();
-		pic2->Hide();
-		pic3->Hide();
-		pic4->Hide();
-		pic5->Hide();
-		pic6->Hide();
-		pic7->Hide();
-		pic8->Hide();
-		pic9->Hide();
-		pic10->Hide();
-		pic11->Hide();
-		pic12->Hide();
-		pic13->Hide();
-		pic14->Hide();
-		pic15->Hide();
-		pic16->Hide();
-		pic17->Hide();
-		pic18->Hide();
-		pic19->Hide();
-		pic20->Hide();
-		pic21->Hide();
-		pic22->Hide();
-		pic23->Hide();
-		pic24->Hide();
-		changepage(numpage);
-		
-	}
-}
-private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
-}
 private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (numpage > 1) {
 		numpage--;
@@ -1007,6 +956,8 @@ private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs
 		changepage(numpage);
 
 	}
+}
+private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }
