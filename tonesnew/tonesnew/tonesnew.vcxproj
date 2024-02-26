@@ -20,10 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{27754085-075F-46ED-90E3-CAD145AFBCB4}</ProjectGuid>
+    <ProjectGuid>{9A51CBDC-2A3B-4D71-AD2D-01852FEF0603}</ProjectGuid>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
-    <RootNamespace>tone</RootNamespace>
+    <RootNamespace>tonesnew</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -120,16 +120,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tone.cpp" />
+    <ClCompile Include="tonenew.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tones.h">
+    <ClInclude Include="tonenew.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="tones.resx">
-      <DependentUpon>tones.h</DependentUpon>
+    <EmbeddedResource Include="tonenew.resx">
+      <DependentUpon>tonenew.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

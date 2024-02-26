@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tone.cpp">
+    <ClCompile Include="tonenew.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tones.h">
+    <ClInclude Include="tonenew.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
