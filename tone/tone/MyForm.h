@@ -37,7 +37,7 @@ namespace tone {
 	private: System::Windows::Forms::ProgressBar^ progressBar1;
 	protected:
 	private: System::Windows::Forms::Button^ button9;
-	private: System::Windows::Forms::Button^ button8;
+
 	private: System::Windows::Forms::Button^ button5;
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::Button^ button3;
@@ -50,6 +50,7 @@ namespace tone {
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::Label^ label1;
+	private: System::Windows::Forms::Button^ button8;
 
 	private:
 		/// <summary>
@@ -67,7 +68,6 @@ namespace tone {
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
 			this->progressBar1 = (gcnew System::Windows::Forms::ProgressBar());
 			this->button9 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
@@ -80,6 +80,7 @@ namespace tone {
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->button8 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -103,20 +104,6 @@ namespace tone {
 			this->button9->TabIndex = 31;
 			this->button9->Text = L"Next";
 			this->button9->UseVisualStyleBackColor = true;
-			// 
-			// button8
-			// 
-			this->button8->Anchor = System::Windows::Forms::AnchorStyles::None;
-			this->button8->AutoSize = true;
-			this->button8->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 20));
-			this->button8->Location = System::Drawing::Point(12, 898);
-			this->button8->MaximumSize = System::Drawing::Size(400, 200);
-			this->button8->MinimumSize = System::Drawing::Size(136, 60);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(320, 132);
-			this->button8->TabIndex = 30;
-			this->button8->Text = L"Previous";
-			this->button8->UseVisualStyleBackColor = true;
 			// 
 			// button5
 			// 
@@ -253,6 +240,20 @@ namespace tone {
 			this->label1->Size = System::Drawing::Size(566, 80);
 			this->label1->TabIndex = 18;
 			this->label1->Text = L"Lesson 0 : pin yin";
+			// 
+			// button8
+			// 
+			this->button8->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->button8->AutoSize = true;
+			this->button8->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 20));
+			this->button8->Location = System::Drawing::Point(12, 898);
+			this->button8->MaximumSize = System::Drawing::Size(400, 200);
+			this->button8->MinimumSize = System::Drawing::Size(136, 60);
+			this->button8->Name = L"button8";
+			this->button8->Size = System::Drawing::Size(320, 132);
+			this->button8->TabIndex = 30;
+			this->button8->Text = L"Previous";
+			this->button8->UseVisualStyleBackColor = true;
 			// 
 			// MyForm
 			// 
