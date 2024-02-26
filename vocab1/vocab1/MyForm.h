@@ -264,39 +264,39 @@ namespace vocab1 {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label5->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label5->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label5->Location = System::Drawing::Point(524, 637);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(338, 50);
+			this->label5->Size = System::Drawing::Size(332, 47);
 			this->label5->TabIndex = 53;
 			this->label5->Text = L"你认识这个人吗？";
 			// 
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label6->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label6->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label6->Location = System::Drawing::Point(523, 689);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(361, 50);
+			this->label6->Size = System::Drawing::Size(371, 47);
 			this->label6->TabIndex = 54;
 			this->label6->Text = L"Nǐrènshizhègerénma";
 			// 
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label7->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label7->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label7->Location = System::Drawing::Point(525, 739);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(207, 39);
+			this->label7->Size = System::Drawing::Size(259, 47);
 			this->label7->TabIndex = 55;
 			this->label7->Text = L"คุณรู้จักคนคนนี้มั้ย";
 			// 
@@ -304,7 +304,7 @@ namespace vocab1 {
 			// 
 			this->pic1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic1.BackgroundImage")));
 			this->pic1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic1->Location = System::Drawing::Point(786, 591);
+			this->pic1->Location = System::Drawing::Point(844, 591);
 			this->pic1->Name = L"pic1";
 			this->pic1->Size = System::Drawing::Size(366, 244);
 			this->pic1->TabIndex = 56;
@@ -335,7 +335,7 @@ namespace vocab1 {
 			// 
 			this->pic4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic4.BackgroundImage")));
 			this->pic4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic4->Location = System::Drawing::Point(896, 591);
+			this->pic4->Location = System::Drawing::Point(954, 591);
 			this->pic4->Name = L"pic4";
 			this->pic4->Size = System::Drawing::Size(256, 244);
 			this->pic4->TabIndex = 59;
@@ -355,7 +355,7 @@ namespace vocab1 {
 			// 
 			this->pic8->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic8.BackgroundImage")));
 			this->pic8->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic8->Location = System::Drawing::Point(853, 591);
+			this->pic8->Location = System::Drawing::Point(911, 591);
 			this->pic8->Name = L"pic8";
 			this->pic8->Size = System::Drawing::Size(303, 256);
 			this->pic8->TabIndex = 61;
@@ -375,7 +375,7 @@ namespace vocab1 {
 			// 
 			this->pic6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic6.BackgroundImage")));
 			this->pic6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic6->Location = System::Drawing::Point(853, 591);
+			this->pic6->Location = System::Drawing::Point(911, 591);
 			this->pic6->Name = L"pic6";
 			this->pic6->Size = System::Drawing::Size(364, 256);
 			this->pic6->TabIndex = 63;
@@ -395,7 +395,7 @@ namespace vocab1 {
 			// 
 			this->pic10->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic10.BackgroundImage")));
 			this->pic10->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic10->Location = System::Drawing::Point(916, 591);
+			this->pic10->Location = System::Drawing::Point(974, 591);
 			this->pic10->Name = L"pic10";
 			this->pic10->Size = System::Drawing::Size(364, 256);
 			this->pic10->TabIndex = 65;
@@ -415,7 +415,7 @@ namespace vocab1 {
 			// 
 			this->pic12->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic12.BackgroundImage")));
 			this->pic12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic12->Location = System::Drawing::Point(916, 591);
+			this->pic12->Location = System::Drawing::Point(974, 591);
 			this->pic12->Name = L"pic12";
 			this->pic12->Size = System::Drawing::Size(364, 256);
 			this->pic12->TabIndex = 67;
@@ -435,7 +435,7 @@ namespace vocab1 {
 			// 
 			this->pic14->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic14.BackgroundImage")));
 			this->pic14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic14->Location = System::Drawing::Point(963, 591);
+			this->pic14->Location = System::Drawing::Point(1006, 591);
 			this->pic14->Name = L"pic14";
 			this->pic14->Size = System::Drawing::Size(404, 256);
 			this->pic14->TabIndex = 69;
@@ -455,7 +455,7 @@ namespace vocab1 {
 			// 
 			this->pic16->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic16.BackgroundImage")));
 			this->pic16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic16->Location = System::Drawing::Point(916, 591);
+			this->pic16->Location = System::Drawing::Point(974, 591);
 			this->pic16->Name = L"pic16";
 			this->pic16->Size = System::Drawing::Size(404, 256);
 			this->pic16->TabIndex = 71;
@@ -475,7 +475,7 @@ namespace vocab1 {
 			// 
 			this->pic18->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic18.BackgroundImage")));
 			this->pic18->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic18->Location = System::Drawing::Point(916, 591);
+			this->pic18->Location = System::Drawing::Point(911, 591);
 			this->pic18->Name = L"pic18";
 			this->pic18->Size = System::Drawing::Size(321, 256);
 			this->pic18->TabIndex = 73;
@@ -495,7 +495,7 @@ namespace vocab1 {
 			// 
 			this->pic20->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic20.BackgroundImage")));
 			this->pic20->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic20->Location = System::Drawing::Point(1046, 591);
+			this->pic20->Location = System::Drawing::Point(1079, 591);
 			this->pic20->Name = L"pic20";
 			this->pic20->Size = System::Drawing::Size(321, 256);
 			this->pic20->TabIndex = 75;
@@ -515,7 +515,7 @@ namespace vocab1 {
 			// 
 			this->pic22->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic22.BackgroundImage")));
 			this->pic22->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic22->Location = System::Drawing::Point(1119, 591);
+			this->pic22->Location = System::Drawing::Point(1104, 591);
 			this->pic22->Name = L"pic22";
 			this->pic22->Size = System::Drawing::Size(296, 256);
 			this->pic22->TabIndex = 77;
@@ -535,7 +535,7 @@ namespace vocab1 {
 			// 
 			this->pic24->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic24.BackgroundImage")));
 			this->pic24->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic24->Location = System::Drawing::Point(963, 591);
+			this->pic24->Location = System::Drawing::Point(974, 591);
 			this->pic24->Name = L"pic24";
 			this->pic24->Size = System::Drawing::Size(254, 253);
 			this->pic24->TabIndex = 79;
@@ -622,11 +622,12 @@ namespace vocab1 {
 			// 
 			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->button1->Location = System::Drawing::Point(577, 781);
+			this->button1->Location = System::Drawing::Point(577, 795);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(40, 40);
 			this->button1->TabIndex = 87;
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// MyForm
 			// 
@@ -678,7 +679,6 @@ namespace vocab1 {
 			this->MinimumSize = System::Drawing::Size(1918, 1030);
 			this->Name = L"MyForm";
 			this->Text = L"MyForm";
-			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic3))->EndInit();
@@ -722,7 +722,7 @@ namespace vocab1 {
 			label3->Text = L"nǐ";
 			label4->Text = L"คุณ";
 			label5->Text = L"你认识这个人吗？";
-			label6->Text = L"Nǐrènshizhègerénma";
+			label6->Text = L"Nǐ rènshi zhè ge rén ma";
 			label7->Text = L"คุณรู้จักคนคนนี้มั้ย";
 			pic15->Show();
 			pic16->Show();
@@ -755,7 +755,7 @@ namespace vocab1 {
 			label3->Text = L"wǒ";
 			label4->Text = L"ฉัน";
 			label5->Text = L"我不知道。";
-			label6->Text = L"wǒ bùzhīdào";
+			label6->Text = L"wǒ bù zhīdào";
 			label7->Text = L"ฉันไม่รู้";
 			pic17->Show();
 			pic18->Show();
@@ -765,7 +765,7 @@ namespace vocab1 {
 			label3->Text = L"jiào";
 			label4->Text = L"เรียกว่า(ใช้กับชื่อ)";
 			label5->Text = L"我的名字叫贾斯汀比伯 ";
-			label6->Text = L"wǒdemíngzìjiàoJiǎsītīngbǐbó";
+			label6->Text = L"wǒ de míngzì jiào Jiǎsītīngbǐbó";
 			label7->Text = L"ชื่อของฉันคือ Justin Bieber";
 			pic19->Show();
 			pic20->Show();;
@@ -775,8 +775,8 @@ namespace vocab1 {
 			label3->Text = L"zàijiàn";
 			label4->Text = L"ลาก่อน";
 			label5->Text = L"妈妈，我去学校了，再见。";
-			label6->Text = L"māmā ,wǒqùxuéxiàole , zàijiàn";
-			label7->Text = L"แม่ ฉันไปจะไปโรงเรียนแล้ว ลาก่อน";
+			label6->Text = L"wǒ qù xuéxiào le , zàijiàn";
+			label7->Text = L"ฉันไปจะไปโรงเรียนแล้ว ลาก่อน";
 			//pic1->Hide();
 			//pic2->Hide();
 			pic21->Show();
@@ -790,7 +790,7 @@ namespace vocab1 {
 			label3->Text = L"hǎo";
 			label4->Text = L"ดี";
 			label5->Text = L"今天天气很好。";
-			label6->Text = L"Jīntiāntiānqìhěnhǎo";
+			label6->Text = L"Jīntiān tiānqì hěn hǎo";
 			label7->Text = L"วันนี้อากาศดีมาก";
 			//pic1->Hide();
 			//pic2->Hide();
@@ -804,7 +804,7 @@ namespace vocab1 {
 			label3->Text = L"shì";
 			label4->Text = L"คือ เป็น	";
 			label5->Text = L"他是老师。	";
-			label6->Text = L"tā shì lǎo shī";
+			label6->Text = L"tā shì lǎoshī";
 			label7->Text = L"เขาคือคุณครู";
 			pic1->Show();
 			pic2->Show();
@@ -814,7 +814,7 @@ namespace vocab1 {
 			label3->Text = L"dà";
 			label4->Text = L"ใหญ่";
 			label5->Text = L"这个苹果很大。";
-			label6->Text = L"Zhègepíngguǒhěndà";
+			label6->Text = L"Zhè ge píngguǒ hěn dà";
 			label7->Text = L"แอปเปิ้ลลูกนี้ใหญ่มาก";
 			//pic1->Hide();
 			//pic2->Hide();
@@ -828,7 +828,7 @@ namespace vocab1 {
 			label3->Text = L"shénme";
 			label4->Text = L"อะไร";
 			label5->Text = L"你做什么？";
-			label6->Text = L"Nǐzuòshénme";
+			label6->Text = L"Nǐ zuò shénme";
 			label7->Text = L"คุณทำอะไร";
 			//pic3->Hide();
 			//pic4->Hide();
@@ -842,7 +842,7 @@ namespace vocab1 {
 			label3->Text = L"bù";
 			label4->Text = L"ไม่";
 			label5->Text = L"我不是大夫。";
-			label6->Text = L"Wǒbùshìdàifu";
+			label6->Text = L"Wǒ bù shì dàifu";
 			label7->Text = L"ฉันไม่ใช่หมอ";
 			//pic5->Hide();
 			//pic6->Hide();
@@ -856,7 +856,7 @@ namespace vocab1 {
 			label3->Text = L"zuò";
 			label4->Text = L"ทำ";
 			label5->Text = L"我每天做作业。";
-			label6->Text = L"Wǒměitiānzuòzuòyè";
+			label6->Text = L"Wǒ měitiān zuò zuòyè";
 			label7->Text = L"ฉันทำการบ้านทุกวัน";
 			//pic7->Hide();
 			//pic8->Hide();
@@ -884,7 +884,7 @@ namespace vocab1 {
 			label3->Text = L"xiè xiè";
 			label4->Text = L"ขอบคุณ";
 			label5->Text = L"A: 谢谢你!     B:不客气";
-			label6->Text = L"A: xièxiènǐ     B: bùkèqì";
+			label6->Text = L"A: xièxiè nǐ     B: bùkèqì";
 			label7->Text = L"A:ขอบคุณ        B:ไม่เป็นไร";
 			//pic11->Hide();
 			//pic12->Hide();
@@ -959,5 +959,8 @@ private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs
 }
 private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
 }
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+
 };
 }
