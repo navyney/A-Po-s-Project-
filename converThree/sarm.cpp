@@ -1,9 +1,10 @@
-#include "praTwo.h"
+#include "sarm.h"
 
-using namespace converTwo;
+using namespace converThree;
 
 void main() {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Application::Run(gcnew praTwo());
+	Application::Run(gcnew sarm());
 }
+
