@@ -1,5 +1,4 @@
 ﻿#pragma once
-#include "Form_alert.h"
 namespace Quizz1 {
 
 	using namespace System;
@@ -310,6 +309,32 @@ namespace Quizz1 {
 
 
 #pragma endregion
+	private: System::Void TextBlack() {
+		button1->ForeColor = System::Drawing::Color::Black;
+		button2->ForeColor = System::Drawing::Color::Black;
+		button3->ForeColor = System::Drawing::Color::Black;
+		button4->ForeColor = System::Drawing::Color::Black;
+	}
+	private: System::Void Changcolor() { //Text CorrectAnwer to Green
+		switch (correctAnswer) {
+		case 1:
+			button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			break;
+		case 2:
+			button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			break;
+		case 3:
+			button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			break;
+		case 4:
+			button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			break;
+		}
+	}
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	// Next!
@@ -466,10 +491,6 @@ namespace Quizz1 {
 			}
 		}
 }*/
-	public: System::Void Alert(String^ msg) {
-		Form_alert^ frm = gcnew Form_alert();
-		frm->showAlert(msg);
-	}
 
 	private: System::Void checkAnswerEvent(System::Object^ sender, System::EventArgs^ e) {
 		Button^ selectedButton = dynamic_cast<Button^>(sender);
@@ -480,7 +501,6 @@ namespace Quizz1 {
 		{
 			selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(0)));;
-			Alert("correct");
 			//MessageBox::Show("Correct!" , "Answer", MessageBoxButtons::OK, MessageBoxIcon::None);
 			score++;
 		}
@@ -495,25 +515,21 @@ namespace Quizz1 {
 			case 1:
 				button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				Alert("Answer is not correct");
 				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button1->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 2:
 				button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				Alert("Answer is not correct");
 				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button2->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 3:
 				button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				Alert("Answer is not correct");
 				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button3->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 4:
 				button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				Alert("Answer is not correct");
 				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button4->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			}
@@ -543,7 +559,6 @@ namespace Quizz1 {
 			button4->Text = "เสีย";
 
 			correctAnswer = 1;
-			button6->Show();
 			break;
 		case 3:
 			label2->Text = L"dà\n大";
@@ -636,12 +651,7 @@ private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e
 	questionNumber = 1;
 	score = 0;
 	Array::Clear(userAnswers, 0, userAnswers->Length);
-
-	button1->ForeColor = System::Drawing::Color::Black;
-	button2->ForeColor = System::Drawing::Color::Black;
-	button3->ForeColor = System::Drawing::Color::Black;
-	button4->ForeColor = System::Drawing::Color::Black;
-
+	TextBlack();
 	button5->Location = System::Drawing::Point(1541, 939);
 	button5->Size = System::Drawing::Size(330, 90);
 
@@ -651,32 +661,12 @@ private: System::Void previousbutton_Click(System::Object^ sender, System::Event
 	if (questionNumber > 1) {
 		questionNumber--;
 		askquestion(questionNumber);
-		if (userAnswers[questionNumber - 1] != 0) {
+		if (questionNumber < totalQuestion + 1) {
 			// Reset button colors
-			button1->ForeColor = System::Drawing::Color::Black;
-			button2->ForeColor = System::Drawing::Color::Black;
-			button3->ForeColor = System::Drawing::Color::Black;
-			button4->ForeColor = System::Drawing::Color::Black;
+			TextBlack();
 			if (userAnswers[questionNumber - 1] == correctAnswer) {
 				// Previous answer was correct
-				switch (correctAnswer) {
-				case 1:
-					button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				case 2:
-					button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				case 3:
-					button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				case 4:
-					button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				}
+				Changcolor();
 			}
 			else {
 				// Previous answer was wrong
@@ -698,25 +688,8 @@ private: System::Void previousbutton_Click(System::Object^ sender, System::Event
 				if (selectedButton != nullptr) {
 					selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)),
 						static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				}
-				// Highlight the correct answer in green
-				switch (correctAnswer) {
-				case 1:
-					button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				case 2:
-					button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				case 3:
-					button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				case 4:
-					button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
+					// Highlight the correct answer in green
+					Changcolor();
 				}
 			}
 		}
@@ -728,30 +701,10 @@ private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs
 		askquestion(questionNumber);
 		if (questionNumber < totalQuestion + 1) {
 			// Reset button colors
-			button1->ForeColor = System::Drawing::Color::Black;
-			button2->ForeColor = System::Drawing::Color::Black;
-			button3->ForeColor = System::Drawing::Color::Black;
-			button4->ForeColor = System::Drawing::Color::Black;
+			TextBlack();
 			if (userAnswers[questionNumber - 1] == correctAnswer) {
 				// Next answer was correct
-				switch (correctAnswer) {
-				case 1:
-					button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				case 2:
-					button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				case 3:
-					button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				case 4:
-					button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-						static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					break;
-				}
+				Changcolor();
 			}
 			else {
 				// Next answer was wrong
@@ -773,31 +726,14 @@ private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs
 				if (selectedButton != nullptr) {
 					selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)),
 						static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					switch (correctAnswer) {
-					case 1:
-						button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 2:
-						button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 3:
-						button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 4:
-						button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					}
+					Changcolor();
 				}
 			}
 		}
+	}
 		if (questionNumber > totalQuestion) {
 			MessageBox::Show("Total Score: " + score.ToString() + "/" + totalQuestion, "Quiz Completed");
 		}
 	}
-}
 };
 }
