@@ -262,7 +262,7 @@ namespace nextpage {
 			this->label3->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label3->Location = System::Drawing::Point(242, 187);
+			this->label3->Location = System::Drawing::Point(224, 187);
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(1365, 57);
@@ -527,7 +527,7 @@ namespace nextpage {
 			this->label25->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label25->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label25->Location = System::Drawing::Point(242, 674);
+			this->label25->Location = System::Drawing::Point(224, 674);
 			this->label25->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label25->Name = L"label25";
 			this->label25->Size = System::Drawing::Size(1365, 57);
@@ -543,7 +543,7 @@ namespace nextpage {
 			this->label4->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label4->Location = System::Drawing::Point(242, 431);
+			this->label4->Location = System::Drawing::Point(224, 431);
 			this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(1365, 57);
@@ -558,7 +558,7 @@ namespace nextpage {
 			this->radioButton17->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->radioButton17->Appearance = System::Windows::Forms::Appearance::Button;
 			this->radioButton17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton17->Location = System::Drawing::Point(558, 1236);
+			this->radioButton17->Location = System::Drawing::Point(540, 1236);
 			this->radioButton17->Margin = System::Windows::Forms::Padding(2);
 			this->radioButton17->Name = L"radioButton17";
 			this->radioButton17->Size = System::Drawing::Size(27, 29);
@@ -572,7 +572,7 @@ namespace nextpage {
 			this->radioButton16->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->radioButton16->Appearance = System::Windows::Forms::Appearance::Button;
 			this->radioButton16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton16->Location = System::Drawing::Point(395, 1236);
+			this->radioButton16->Location = System::Drawing::Point(377, 1236);
 			this->radioButton16->Margin = System::Windows::Forms::Padding(2);
 			this->radioButton16->Name = L"radioButton16";
 			this->radioButton16->Size = System::Drawing::Size(27, 29);
@@ -586,7 +586,7 @@ namespace nextpage {
 			this->radioButton15->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->radioButton15->Appearance = System::Windows::Forms::Appearance::Button;
 			this->radioButton15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton15->Location = System::Drawing::Point(1040, 1171);
+			this->radioButton15->Location = System::Drawing::Point(1006, 1171);
 			this->radioButton15->Margin = System::Windows::Forms::Padding(2);
 			this->radioButton15->Name = L"radioButton15";
 			this->radioButton15->Size = System::Drawing::Size(27, 29);
@@ -600,7 +600,7 @@ namespace nextpage {
 			this->radioButton14->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->radioButton14->Appearance = System::Windows::Forms::Appearance::Button;
 			this->radioButton14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton14->Location = System::Drawing::Point(371, 1072);
+			this->radioButton14->Location = System::Drawing::Point(353, 1072);
 			this->radioButton14->Margin = System::Windows::Forms::Padding(2);
 			this->radioButton14->Name = L"radioButton14";
 			this->radioButton14->Size = System::Drawing::Size(27, 29);
@@ -614,7 +614,7 @@ namespace nextpage {
 			this->radioButton13->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->radioButton13->Appearance = System::Windows::Forms::Appearance::Button;
 			this->radioButton13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton13->Location = System::Drawing::Point(919, 1008);
+			this->radioButton13->Location = System::Drawing::Point(885, 1008);
 			this->radioButton13->Margin = System::Windows::Forms::Padding(2);
 			this->radioButton13->Name = L"radioButton13";
 			this->radioButton13->Size = System::Drawing::Size(27, 29);
@@ -631,7 +631,7 @@ namespace nextpage {
 			this->label16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label16->ForeColor = System::Drawing::Color::Black;
-			this->label16->Location = System::Drawing::Point(285, 1202);
+			this->label16->Location = System::Drawing::Point(267, 1202);
 			this->label16->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label16->Name = L"label16";
 			this->label16->Size = System::Drawing::Size(34, 37);
@@ -646,7 +646,7 @@ namespace nextpage {
 			this->label18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label18->ForeColor = System::Drawing::Color::Black;
-			this->label18->Location = System::Drawing::Point(285, 1040);
+			this->label18->Location = System::Drawing::Point(267, 1040);
 			this->label18->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label18->Name = L"label18";
 			this->label18->Size = System::Drawing::Size(34, 37);
@@ -659,7 +659,7 @@ namespace nextpage {
 			this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label17->ForeColor = System::Drawing::Color::Black;
-			this->label17->Location = System::Drawing::Point(345, 1040);
+			this->label17->Location = System::Drawing::Point(327, 1040);
 			this->label17->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label17->Name = L"label17";
 			this->label17->Size = System::Drawing::Size(1230, 130);
@@ -674,7 +674,7 @@ namespace nextpage {
 			this->label24->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label24->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label24->Location = System::Drawing::Point(242, 918);
+			this->label24->Location = System::Drawing::Point(224, 918);
 			this->label24->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label24->Name = L"label24";
 			this->label24->Size = System::Drawing::Size(1365, 57);
@@ -689,7 +689,7 @@ namespace nextpage {
 			this->label23->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label23->ForeColor = System::Drawing::Color::Black;
-			this->label23->Location = System::Drawing::Point(345, 1202);
+			this->label23->Location = System::Drawing::Point(327, 1202);
 			this->label23->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label23->Name = L"label23";
 			this->label23->Size = System::Drawing::Size(1230, 104);
@@ -701,7 +701,7 @@ namespace nextpage {
 			// progressBar1
 			// 
 			this->progressBar1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->progressBar1->Location = System::Drawing::Point(589, 1454);
+			this->progressBar1->Location = System::Drawing::Point(571, 1454);
 			this->progressBar1->Margin = System::Windows::Forms::Padding(2);
 			this->progressBar1->Name = L"progressBar1";
 			this->progressBar1->Size = System::Drawing::Size(675, 16);
@@ -713,7 +713,7 @@ namespace nextpage {
 			this->Previous->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->Previous->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->Previous->Location = System::Drawing::Point(242, 1430);
+			this->Previous->Location = System::Drawing::Point(224, 1430);
 			this->Previous->Margin = System::Windows::Forms::Padding(2);
 			this->Previous->Name = L"Previous";
 			this->Previous->Size = System::Drawing::Size(150, 61);
@@ -728,7 +728,7 @@ namespace nextpage {
 			this->Next->BackColor = System::Drawing::SystemColors::ButtonHighlight;
 			this->Next->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->Next->Location = System::Drawing::Point(1456, 1430);
+			this->Next->Location = System::Drawing::Point(1438, 1430);
 			this->Next->Margin = System::Windows::Forms::Padding(2);
 			this->Next->Name = L"Next";
 			this->Next->Size = System::Drawing::Size(150, 61);
@@ -743,7 +743,7 @@ namespace nextpage {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
 			this->AutoScrollMargin = System::Drawing::Size(0, 10);
-			this->ClientSize = System::Drawing::Size(1921, 991);
+			this->ClientSize = System::Drawing::Size(1904, 991);
 			this->Controls->Add(this->Next);
 			this->Controls->Add(this->progressBar1);
 			this->Controls->Add(this->Previous);
