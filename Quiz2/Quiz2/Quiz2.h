@@ -344,7 +344,7 @@ namespace Quiz2 {
 			button1->Text = "พี่สาว";
 			button2->Text = "พี่ชาย";
 			button3->Text = "น้องสาว";
-			button4->Text = "น้องสาว";
+			button4->Text = "น้องชาย";
 
 			correctAnswer = 4;
 			break;
@@ -360,7 +360,7 @@ namespace Quiz2 {
 		case 5:
 			label2->Text = L"lǎoshī\n老师";
 			button1->Text = "หมอ";
-			button2->Text = "คุพยาบาล";
+			button2->Text = "คุณพยาบาล";
 			button3->Text = "คุณครู";
 			button4->Text = "พระ";
 
@@ -431,16 +431,15 @@ namespace Quiz2 {
 			label2->Font = (gcnew System::Drawing::Font(L"Kanit", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			label2->Text = L"1.哥哥 / 2.医生 / 3.我 / 4.的 / 5.。/ 6.是";
-			textBox1->Text = L"";
+			textBox1->Text = L"";			
 			correctAnswer = 341625;
 			button7->Text = L"Check";
-			button7->Show();
 			textBox1->Show();
+			button7->Show();
 			break;
 		case 13:
 			label2->Text = L"1.。/ 2.是 / 3.我 / 4.他 / 5.的 / 6.老师";
 			textBox1->Text = L"";
-
 			correctAnswer = 423561;
 			button5->Text = L"Next";
 			textBox1->Show();
@@ -450,7 +449,7 @@ namespace Quiz2 {
 		case 14:
 			label2->Text = L"1.我 / 2.汉语 / 3.。/ 4.学";
 			textBox1->Text = L"";
-
+			textBox1->Show();
 			correctAnswer = 1423;
 			textBox1->Show();
 			button7->Show();
@@ -458,7 +457,7 @@ namespace Quiz2 {
 			button5->Size = System::Drawing::Size(330, 90);
 			break;
 		case 15:
-			label2->Text = L"Your Score\n" + score + "/15" ;
+			label2->Text = L"Your Score\n" + score + "/13" ;
 			button7->Text = L"Try Again";
 			button5->Text = L"Next";
 			textBox1->Hide();
