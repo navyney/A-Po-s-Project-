@@ -26,6 +26,7 @@ namespace Quizz1 {
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::Label^ lesson3;
 
+
 	private: array<int>^ userAnswers;
 	public:
 		Quiz1(void)
@@ -63,6 +64,7 @@ namespace Quizz1 {
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->label2 = (gcnew System::Windows::Forms::Label());
@@ -73,7 +75,6 @@ namespace Quizz1 {
 			this->previousbutton = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->decorleft = (gcnew System::Windows::Forms::PictureBox());
-			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
 			this->panel1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->BeginInit();
@@ -84,9 +85,9 @@ namespace Quizz1 {
 			// 
 			// panel1
 			// 
-			this->panel1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->panel1->Controls->Add(this->button4);
 			this->panel1->Controls->Add(this->button3);
+			this->panel1->Controls->Add(this->label1);
 			this->panel1->Controls->Add(this->button2);
 			this->panel1->Controls->Add(this->button1);
 			this->panel1->Controls->Add(this->label2);
@@ -94,7 +95,7 @@ namespace Quizz1 {
 				static_cast<System::Byte>(0)));
 			this->panel1->Location = System::Drawing::Point(28, 139);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1843, 778);
+			this->panel1->Size = System::Drawing::Size(1843, 752);
 			this->panel1->TabIndex = 1;
 			// 
 			// button4
@@ -126,6 +127,20 @@ namespace Quizz1 {
 			this->button3->Text = L"Ans3";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &Quiz1::checkAnswerEvent);
+			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label1->Location = System::Drawing::Point(855, 20);
+			this->label1->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(210, 82);
+			this->label1->TabIndex = 56;
+			this->label1->Text = L"Hello!";
 			// 
 			// button2
 			// 
@@ -163,7 +178,9 @@ namespace Quizz1 {
 			this->label2->Anchor = System::Windows::Forms::AnchorStyles::None;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(493, 39);
+			this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label2->Location = System::Drawing::Point(510, 27);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(901, 527);
 			this->label2->TabIndex = 5;
@@ -198,7 +215,7 @@ namespace Quizz1 {
 			// 
 			this->button7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button7->Location = System::Drawing::Point(709, 939);
+			this->button7->Location = System::Drawing::Point(762, 939);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(396, 90);
 			this->button7->TabIndex = 5;
@@ -210,6 +227,7 @@ namespace Quizz1 {
 			// 
 			this->nextbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nextbutton.BackgroundImage")));
 			this->nextbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->nextbutton->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->nextbutton->Location = System::Drawing::Point(1584, 897);
 			this->nextbutton->Name = L"nextbutton";
 			this->nextbutton->Size = System::Drawing::Size(282, 133);
@@ -221,6 +239,7 @@ namespace Quizz1 {
 			// 
 			this->previousbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"previousbutton.BackgroundImage")));
 			this->previousbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->previousbutton->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->previousbutton->Location = System::Drawing::Point(33, 897);
 			this->previousbutton->Name = L"previousbutton";
 			this->previousbutton->Size = System::Drawing::Size(300, 130);
@@ -248,20 +267,6 @@ namespace Quizz1 {
 			this->decorleft->TabIndex = 58;
 			this->decorleft->TabStop = false;
 			// 
-			// label1
-			// 
-			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label1->Location = System::Drawing::Point(765, 160);
-			this->label1->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(387, 82);
-			this->label1->TabIndex = 56;
-			this->label1->Text = L"Consonants";
-			// 
 			// lesson3
 			// 
 			this->lesson3->AutoSize = true;
@@ -269,28 +274,27 @@ namespace Quizz1 {
 				static_cast<System::Byte>(0)));
 			this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->lesson3->Location = System::Drawing::Point(470, 10);
+			this->lesson3->Location = System::Drawing::Point(549, 9);
 			this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 			this->lesson3->Name = L"lesson3";
-			this->lesson3->Size = System::Drawing::Size(973, 150);
+			this->lesson3->Size = System::Drawing::Size(822, 150);
 			this->lesson3->TabIndex = 55;
-			this->lesson3->Text = L"Lesson 0 : pinyin";
+			this->lesson3->Text = L"Quiz Lesson 1";
 			// 
 			// Quiz1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
-			this->Controls->Add(this->nextbutton);
-			this->Controls->Add(this->previousbutton);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->decorleft);
-			this->Controls->Add(this->label1);
 			this->Controls->Add(this->lesson3);
 			this->Controls->Add(this->button7);
-			this->Controls->Add(this->button6);
-			this->Controls->Add(this->button5);
 			this->Controls->Add(this->panel1);
+			this->Controls->Add(this->previousbutton);
+			this->Controls->Add(this->nextbutton);
+			this->Controls->Add(this->button5);
+			this->Controls->Add(this->button6);
 			this->MaximumSize = System::Drawing::Size(1920, 1080);
 			this->MinimumSize = System::Drawing::Size(1918, 1030);
 			this->Name = L"Quiz1";
@@ -298,6 +302,7 @@ namespace Quizz1 {
 			this->Text = L"Quiz1";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->panel1->ResumeLayout(false);
+			this->panel1->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
@@ -540,10 +545,10 @@ namespace Quizz1 {
 		switch (qnum) {
 		case 1 :
 			label2->Text = L"wǒ\n我";
-			button1->Text = "คุณ";
-			button2->Text = "ฉัน";
-			button3->Text = "พวกเรา";
-			button4->Text = "พวกคุณ";
+			button1->Text = L"คุณ";
+			button2->Text = L"ฉัน";
+			button3->Text = L"พวกเรา";
+			button4->Text = L"พวกคุณ";
 
 			correctAnswer = 2;
 			button5->Text = L" Next";
@@ -553,73 +558,73 @@ namespace Quizz1 {
 			break;
 		case 2:
 			label2->Text = L"hǎo\n好";
-			button1->Text = "ดี";
-			button2->Text = "แย่";
-			button3->Text = "ยาก";
-			button4->Text = "เสีย";
+			button1->Text = L"ดี";
+			button2->Text = L"แย่";
+			button3->Text = L"ยาก";
+			button4->Text = L"เสีย";
 
 			correctAnswer = 1;
 			break;
 		case 3:
 			label2->Text = L"dà\n大";
-			button1->Text = "อ้วน";
-			button2->Text = "ผอม";
-			button3->Text = "ใหญ่";
-			button4->Text = "เล็ก";
+			button1->Text = L"อ้วน";
+			button2->Text = L"ผอม";
+			button3->Text = L"ใหญ่";
+			button4->Text = L"เล็ก";
 
 			correctAnswer = 3;
 			break;
 		case 4:
 			label2->Text = L"zàijiàn\n再见";
-			button1->Text = "เป็น";
-			button2->Text = "ถูกต้อง";
-			button3->Text = "สวัสดี";
-			button4->Text = "ลาก่อน";
+			button1->Text = L"เป็น";
+			button2->Text = L"ถูกต้อง";
+			button3->Text = L"สวัสดี";
+			button4->Text = L"ลาก่อน";
 
 			correctAnswer = 4;
 			break;
 		case 5:
 			label2->Text = L"nǐ\n你";
-			button1->Text = "ฉัน";
-			button2->Text = "คุณ";
-			button3->Text = "ทำ";
-			button4->Text = "ไม่";
+			button1->Text = L"ฉัน";
+			button2->Text = L"คุณ";
+			button3->Text = L"ทำ";
+			button4->Text = L"ไม่";
 
 			correctAnswer = 2;
 			break;
 		case 6:
 			label2->Text = L"bù\n不";
-			button1->Text = "ไม่";
-			button2->Text = "ใช่";
-			button3->Text = "หรือ	";
-			button4->Text = "เป็น";
+			button1->Text = L"ไม่";
+			button2->Text = L"ใช่";
+			button3->Text = L"หรือ";
+			button4->Text = L"เป็น";
 
 			correctAnswer = 1;
 			break;
 		case 7:
 			label2->Text = L"zuò\n做";
-			button1->Text = "ยาก";
-			button2->Text = "มาก";
-			button3->Text = "เรียกว่า";
-			button4->Text = "ทำ";
+			button1->Text = L"ยาก";
+			button2->Text = L"มาก";
+			button3->Text = L"เรียกว่า";
+			button4->Text = L"ทำ";
 
 			correctAnswer = 4;
 			break;
 		case 8:
 			label2->Text = L"shì\n是";
-			button1->Text = "เป็น";
-			button2->Text = "ไม่";
-			button3->Text = "ใช่";
-			button4->Text = "ชอบ";
+			button1->Text = L"เป็น";
+			button2->Text = L"ไม่";
+			button3->Text = L"ใช่";
+			button4->Text = L"ชอบ";
 
 			correctAnswer = 1;
 			break;
 		case 9:
 			label2->Text = L"shénme\n什么";
-			button1->Text = "ใคร";
-			button2->Text = "ไหน";
-			button3->Text = "อะไร";
-			button4->Text = "ทำไม";
+			button1->Text = L"ใคร";
+			button2->Text = L"ไหน";
+			button3->Text = L"อะไร";
+			button4->Text = L"ทำไม";
 
 			correctAnswer = 3;
 			button5->Text = L" Next";
@@ -628,10 +633,10 @@ namespace Quizz1 {
 			break;
 		case 10:
 			label2->Text = L"nǐhǎo\n你好";
-			button1->Text = "รัก";
-			button2->Text = "ลาก่อน";
-			button3->Text = "ขอบคุณ";
-			button4->Text = "สวัสดี";
+			button1->Text = L"รัก";
+			button2->Text = L"ลาก่อน";
+			button3->Text = L"ขอบคุณ";
+			button4->Text = L"สวัสดี";
 
 			correctAnswer = 4;
 			button5->Text = L" Check Score";
@@ -735,5 +740,7 @@ private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs
 			MessageBox::Show("Total Score: " + score.ToString() + "/" + totalQuestion, "Quiz Completed");
 		}
 	}
+
+
 };
 }
