@@ -260,7 +260,9 @@ namespace nextpage {
 		if (Questionnumber < totalQuestion) {
 			Questionnumber++;
 			askQuestion(Questionnumber);
+
 		}
+
 		else {
 			Percentage = (int)round((double)(Score * 100 / totalQuestion));;
 			MessageBox::Show(
@@ -268,6 +270,8 @@ namespace nextpage {
 				"You have answered " + Score + " Question Correctly." + "\n" +
 				"Your total percentage is " + Percentage + "%" + "\n" +
 				"Click OK to do again");
+			Questionnumber = 1;
+			askQuestion(Questionnumber);
 			this->Close();
 			switchToformBQuiz = true;
 			/*/Score = 0;
@@ -282,8 +286,11 @@ namespace nextpage {
 		if (Questionnumber > 1) {
 			Questionnumber--;
 			askQuestion(Questionnumber);
+			
 		}
-
+		if (Questionnumber = 0) {
+			Questionnumber+5;
+		}
 	}
 
 

@@ -2,9 +2,10 @@
 
 using namespace converTwo;
 
+
 void main() {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Application::Run(gcnew praTwo());
+	Application::Run(gcnew one());
 }
 
