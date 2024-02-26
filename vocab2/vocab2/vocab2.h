@@ -35,17 +35,20 @@ namespace vocab2 {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::PictureBox^ pictureBox3;
+
+
 	protected:
-	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::PictureBox^ nextbutton;
-	private: System::Windows::Forms::PictureBox^ previousbutton;
+
+	protected:
+
+
+
 	private: System::Windows::Forms::ProgressBar^ progressBar2;
 
 	private: System::Windows::Forms::Label^ label7;
 	private: System::Windows::Forms::Label^ label6;
 	private: System::Windows::Forms::Label^ label5;
-	private: System::Windows::Forms::Button^ button6;
+
 	private: System::Windows::Forms::Label^ label4;
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::Label^ label2;
@@ -53,9 +56,22 @@ namespace vocab2 {
 	private: System::Windows::Forms::Button^ button9;
 	private: System::Windows::Forms::Label^ label8;
 	private: System::Windows::Forms::Label^ lesson3;
-	private: System::Windows::Forms::PictureBox^ pictureBox2;
-	private: System::Windows::Forms::PictureBox^ pictureBox1;
-	private: System::Windows::Forms::PictureBox^ decorleft;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	protected:
 
@@ -72,16 +88,10 @@ namespace vocab2 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
-			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
-			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->nextbutton = (gcnew System::Windows::Forms::PictureBox());
-			this->previousbutton = (gcnew System::Windows::Forms::PictureBox());
 			this->progressBar2 = (gcnew System::Windows::Forms::ProgressBar());
 			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
@@ -89,57 +99,7 @@ namespace vocab2 {
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
-			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
-			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
-			this->decorleft = (gcnew System::Windows::Forms::PictureBox());
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
 			this->SuspendLayout();
-			// 
-			// pictureBox3
-			// 
-			this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
-			this->pictureBox3->Location = System::Drawing::Point(487, 576);
-			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(960, 5);
-			this->pictureBox3->TabIndex = 132;
-			this->pictureBox3->TabStop = false;
-			// 
-			// button1
-			// 
-			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
-			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->button1->Location = System::Drawing::Point(577, 794);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(40, 40);
-			this->button1->TabIndex = 130;
-			this->button1->UseVisualStyleBackColor = true;
-			// 
-			// nextbutton
-			// 
-			this->nextbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nextbutton.BackgroundImage")));
-			this->nextbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->nextbutton->Location = System::Drawing::Point(1584, 896);
-			this->nextbutton->Name = L"nextbutton";
-			this->nextbutton->Size = System::Drawing::Size(282, 133);
-			this->nextbutton->TabIndex = 129;
-			this->nextbutton->TabStop = false;
-			this->nextbutton->Click += gcnew System::EventHandler(this, &MyForm::nextbutton_Click);
-			// 
-			// previousbutton
-			// 
-			this->previousbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"previousbutton.BackgroundImage")));
-			this->previousbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->previousbutton->Location = System::Drawing::Point(33, 896);
-			this->previousbutton->Name = L"previousbutton";
-			this->previousbutton->Size = System::Drawing::Size(300, 130);
-			this->previousbutton->TabIndex = 128;
-			this->previousbutton->TabStop = false;
-			this->previousbutton->Click += gcnew System::EventHandler(this, &MyForm::previousbutton_Click);
 			// 
 			// progressBar2
 			// 
@@ -186,16 +146,6 @@ namespace vocab2 {
 			this->label5->Size = System::Drawing::Size(332, 47);
 			this->label5->TabIndex = 96;
 			this->label5->Text = L"你认识这个人吗？";
-			// 
-			// button6
-			// 
-			this->button6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button6.BackgroundImage")));
-			this->button6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->button6->Location = System::Drawing::Point(577, 501);
-			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(40, 40);
-			this->button6->TabIndex = 95;
-			this->button6->UseVisualStyleBackColor = true;
 			// 
 			// label4
 			// 
@@ -290,50 +240,15 @@ namespace vocab2 {
 			this->lesson3->TabIndex = 123;
 			this->lesson3->Text = L"Lesson 2 : Family";
 			// 
-			// pictureBox2
-			// 
-			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
-			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pictureBox2->Location = System::Drawing::Point(468, 244);
-			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(1000, 632);
-			this->pictureBox2->TabIndex = 131;
-			this->pictureBox2->TabStop = false;
-			// 
-			// pictureBox1
-			// 
-			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
-			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pictureBox1->Location = System::Drawing::Point(1442, 12);
-			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(450, 450);
-			this->pictureBox1->TabIndex = 127;
-			this->pictureBox1->TabStop = false;
-			// 
-			// decorleft
-			// 
-			this->decorleft->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"decorleft.BackgroundImage")));
-			this->decorleft->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->decorleft->Location = System::Drawing::Point(12, 12);
-			this->decorleft->Name = L"decorleft";
-			this->decorleft->Size = System::Drawing::Size(450, 450);
-			this->decorleft->TabIndex = 126;
-			this->decorleft->TabStop = false;
-			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
-			this->Controls->Add(this->pictureBox3);
-			this->Controls->Add(this->button1);
-			this->Controls->Add(this->nextbutton);
-			this->Controls->Add(this->previousbutton);
 			this->Controls->Add(this->progressBar2);
 			this->Controls->Add(this->label7);
 			this->Controls->Add(this->label6);
 			this->Controls->Add(this->label5);
-			this->Controls->Add(this->button6);
 			this->Controls->Add(this->label4);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
@@ -341,20 +256,11 @@ namespace vocab2 {
 			this->Controls->Add(this->button9);
 			this->Controls->Add(this->label8);
 			this->Controls->Add(this->lesson3);
-			this->Controls->Add(this->pictureBox2);
-			this->Controls->Add(this->pictureBox1);
-			this->Controls->Add(this->decorleft);
 			this->Margin = System::Windows::Forms::Padding(2);
 			this->MaximumSize = System::Drawing::Size(1920, 1080);
 			this->MinimumSize = System::Drawing::Size(1918, 1030);
 			this->Name = L"MyForm";
-			this->Text = L"MyForm";
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
+			this->Text = L"vocab";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -470,35 +376,5 @@ namespace vocab2 {
 		}
 
 	}
-	private: System::Void next_Click(System::Object^ sender, System::EventArgs^ e) {
-		if (numpage2 < 14) {
-			numpage2++;
-			changepage(numpage2);
-
-		}
-	}
-	private: System::Void previous_Click(System::Object^ sender, System::EventArgs^ e) {
-		if (numpage2 > 1) {
-			numpage2--;
-			changepage(numpage2);
-
-		}
-	}
-private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (numpage2 > 1) {
-		numpage2--;
-		changepage(numpage2);
-
-	}
-}
-private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (numpage2 < 14) {
-		numpage2++;
-		changepage(numpage2);
-
-	}
-}
 };
 }
