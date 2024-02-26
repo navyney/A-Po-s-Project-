@@ -166,6 +166,7 @@ namespace templatedesign {
 			this->MinimumSize = System::Drawing::Size(1918, 1030);
 			this->Name = L"temdesign";
 			this->Text = L"temdesign";
+			this->Load += gcnew System::EventHandler(this, &temdesign::temdesign_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
@@ -175,5 +176,7 @@ namespace templatedesign {
 
 		}
 #pragma endregion
-	};
+	private: System::Void temdesign_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }

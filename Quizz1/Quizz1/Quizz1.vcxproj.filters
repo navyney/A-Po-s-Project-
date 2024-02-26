@@ -18,15 +18,9 @@
     <ClCompile Include="Quiz1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="From_alert.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Quiz1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Form_alert.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
