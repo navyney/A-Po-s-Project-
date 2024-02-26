@@ -165,7 +165,7 @@ namespace vocab2new {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(259, 47);
 			this->label7->TabIndex = 98;
-			this->label7->Text = L"พ่อของฉันเป็นหมอ";
+			this->label7->Text = L"เขาเรียนภาษาจีน";
 			// 
 			// label6
 			// 
@@ -178,7 +178,7 @@ namespace vocab2new {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(371, 47);
 			this->label6->TabIndex = 97;
-			this->label6->Text = L"Wǒ bàbà shì yīshēng";
+			this->label6->Text = L"Tā xuéxí hànyǔ";
 			// 
 			// label5
 			// 
@@ -191,7 +191,7 @@ namespace vocab2new {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(279, 47);
 			this->label5->TabIndex = 96;
-			this->label5->Text = L"我爸爸是医生。";
+			this->label5->Text = L"他学习汉语。";
 			// 
 			// button6
 			// 
@@ -213,7 +213,7 @@ namespace vocab2new {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(58, 46);
 			this->label4->TabIndex = 94;
-			this->label4->Text = L"พ่อ";
+			this->label4->Text = L"ภาษาจีน";
 			// 
 			// label3
 			// 
@@ -225,7 +225,7 @@ namespace vocab2new {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(104, 46);
 			this->label3->TabIndex = 93;
-			this->label3->Text = L"bàba";
+			this->label3->Text = L"hànyǔ";
 			// 
 			// label2
 			// 
@@ -238,7 +238,7 @@ namespace vocab2new {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(246, 128);
 			this->label2->TabIndex = 92;
-			this->label2->Text = L"爸爸";
+			this->label2->Text = L"汉语";
 			// 
 			// button8
 			// 
