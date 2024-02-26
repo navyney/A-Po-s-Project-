@@ -5,6 +5,7 @@
 #include"Lyv0.h"
 #include"MyForm0.h"
 #include"Quiz.h"
+#include "Vocab1.h"
 
 
 using namespace System;
@@ -23,6 +24,7 @@ void main(array<String^>^ args)
     nextpage::Lyv0 formLy;
     nextpage::MyForm0 formBQuiz;
     nextpage::Quiz formQuiz;
+    nextpage::Vocab1 formv1;
 
     form.ShowDialog();
     while (true) {
@@ -35,7 +37,7 @@ void main(array<String^>^ args)
         //2 to 1
         else if (form1.switchToform) {
             form.ShowDialog();
-            form1.switchToform= false;
+            form1.switchToform = false;
         }
         //2 to 3
         else if (form1.switchToformtone) {
@@ -86,8 +88,16 @@ void main(array<String^>^ args)
             formBQuiz.ShowDialog();
             formQuiz.switchToformBQuiz = false;
         }
+        else if (formBQuiz.switchToformv1) {
+            formv1.ShowDialog();
+            formBQuiz.switchToformv1 = false;
+        }
+        else if (formv1.switchToformBQuiz) {
+            formBQuiz.ShowDialog();
+            formv1.switchToformBQuiz = false;
+        }
         else {
             break;
         }
-    }
+    };
 }

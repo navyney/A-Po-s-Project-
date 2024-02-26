@@ -145,7 +145,8 @@ namespace nextpage {
 
 #pragma endregion
 		public: bool switchToformLy = false;
-		 public: bool switchToformQuiz = false;
+		public: bool switchToformQuiz = false;
+		public: bool switchToformv1 = false;
 	private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
 	}
 	private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -157,6 +158,8 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	switchToformQuiz = true;
 }
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->Close();
+	switchToformv1 = true;
 }
 };
 }
