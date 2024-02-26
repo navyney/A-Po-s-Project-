@@ -365,6 +365,14 @@ namespace vocab2new {
 #pragma endregion
 		private: System::Void changepag(int numpage2) {
 			switch (numpage2) {
+			case 1:
+				label2->Text = L"汉语";
+				label3->Text = L"hànyǔ";
+				label4->Text = L"ภาษาจีน";
+				label5->Text = L"他学习汉语。";
+				label6->Text = L"Tā xuéxí hànyǔ";
+				label7->Text = L"เขาเรียนภาษาจีน";
+				break;
 			case 2:
 				label2->Text = L"爸爸";
 				label3->Text = L"bàba";
@@ -480,7 +488,7 @@ namespace vocab2new {
 		}
 	}
 	private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
-		if (numpages > 2) {
+		if (numpages > 1) {
 			numpages--;
 			changepag(numpages);
 		}
