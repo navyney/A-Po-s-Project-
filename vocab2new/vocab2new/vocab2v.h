@@ -14,10 +14,12 @@ namespace vocab2new {
 	/// </summary>
 	public ref class vocab2v : public System::Windows::Forms::Form
 	{
+		int numpages = 1;
 	public:
 		vocab2v(void)
 		{
 			InitializeComponent();
+			changepag(numpages);
 			//
 			//TODO: Add the constructor code here
 			//
@@ -143,6 +145,7 @@ namespace vocab2new {
 			this->previousbutton->Size = System::Drawing::Size(300, 130);
 			this->previousbutton->TabIndex = 128;
 			this->previousbutton->TabStop = false;
+			this->previousbutton->Click += gcnew System::EventHandler(this, &vocab2v::previousbutton_Click);
 			// 
 			// progressBar2
 			// 
@@ -162,7 +165,7 @@ namespace vocab2new {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(259, 47);
 			this->label7->TabIndex = 98;
-			this->label7->Text = L"คุณรู้จักคนคนนี้มั้ย";
+			this->label7->Text = L"พ่อของฉันเป็นหมอ";
 			// 
 			// label6
 			// 
@@ -175,7 +178,7 @@ namespace vocab2new {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(371, 47);
 			this->label6->TabIndex = 97;
-			this->label6->Text = L"Nǐrènshizhègerénma";
+			this->label6->Text = L"Wǒ bàbà shì yīshēng";
 			// 
 			// label5
 			// 
@@ -186,9 +189,9 @@ namespace vocab2new {
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label5->Location = System::Drawing::Point(524, 636);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(332, 47);
+			this->label5->Size = System::Drawing::Size(279, 47);
 			this->label5->TabIndex = 96;
-			this->label5->Text = L"你认识这个人吗？";
+			this->label5->Text = L"我爸爸是医生。";
 			// 
 			// button6
 			// 
@@ -208,9 +211,9 @@ namespace vocab2new {
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label4->Location = System::Drawing::Point(564, 452);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(67, 46);
+			this->label4->Size = System::Drawing::Size(58, 46);
 			this->label4->TabIndex = 94;
-			this->label4->Text = L"คุณ";
+			this->label4->Text = L"พ่อ";
 			// 
 			// label3
 			// 
@@ -220,9 +223,9 @@ namespace vocab2new {
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label3->Location = System::Drawing::Point(564, 406);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(53, 46);
+			this->label3->Size = System::Drawing::Size(104, 46);
 			this->label3->TabIndex = 93;
-			this->label3->Text = L"nǐ";
+			this->label3->Text = L"bàba";
 			// 
 			// label2
 			// 
@@ -233,9 +236,9 @@ namespace vocab2new {
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label2->Location = System::Drawing::Point(541, 287);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(150, 128);
+			this->label2->Size = System::Drawing::Size(246, 128);
 			this->label2->TabIndex = 92;
-			this->label2->Text = L"你";
+			this->label2->Text = L"爸爸";
 			// 
 			// button8
 			// 
@@ -360,7 +363,127 @@ namespace vocab2new {
 
 		}
 #pragma endregion
+		private: System::Void changepag(int numpage2) {
+			switch (numpage2) {
+			case 2:
+				label2->Text = L"爸爸";
+				label3->Text = L"bàba";
+				label4->Text = L"พ่อ";
+				label5->Text = L"我爸爸是医生。";
+				label6->Text = L"Wǒ bàbà shì yīshēng";
+				label7->Text = L"พ่อของฉันเป็นหมอ";
+				break;
+			case 3:
+				label2->Text = L"妈妈";
+				label3->Text = L"māmā";
+				label4->Text = L"แม่";
+				label5->Text = L"我妈妈不在家。";
+				label6->Text = L"Wǒ māmā bù zài jiā";
+				label7->Text = L"แม่ของฉันไม่อยู่บ้าน";
+				break;
+			case 4:
+				label2->Text = L"哥哥";
+				label3->Text = L"gēge";
+				label4->Text = L"พี่ชาย";
+				label5->Text = L"我哥哥比我大三岁。";
+				label6->Text = L"Wǒ gēgē bǐ wǒdà sān suì";
+				label7->Text = L"พี่ของฉันอายุมากว่าฉันสามปี";
+				break;
+			case 5:
+				label2->Text = L"弟弟";
+				label3->Text = L"dìdi";
+				label4->Text = L"น้องชาย";
+				label5->Text = L"我有两个弟弟。";
+				label6->Text = L"Wǒ hái yǒu liǎng gè dìdì";
+				label7->Text = L"ฉันมีน้องชายสองคน";
+				break;
+			case 6:
+				label2->Text = L"妹妹";
+				label3->Text = L"mèimèi";
+				label4->Text = L"น้องสาว";
+				label5->Text = L"我妹妹喜欢白色。";
+				label6->Text = L"Wǒ mèimèi xǐhuān báisè";
+				label7->Text = L"น้องสาวของฉันชอบสีขาว";
+				break;
+			case 7:
+				label2->Text = L"姐姐";
+				label3->Text = L"jiějiě";
+				label4->Text = L"พี่สาว";
+				label5->Text = L"我有两个姐姐。";
+				label6->Text = L"Wǒ yǒu liǎng gè jiějiě";
+				label7->Text = L"ฉันมีพี่สาวสองคน";
+				break;
+			case 8:
+				label2->Text = L"他";
+				label3->Text = L"tā";
+				label4->Text = L"เขา (ผู้ชาย) ";
+				label5->Text = L"他是我们的老师。";
+				label6->Text = L"Tā shì wǒmén de lǎoshī ";
+				label7->Text = L"เขาคือคุณครูของพวกเรา";
+				break;
+
+			case 9:
+				label2->Text = L"她";
+				label3->Text = L"tā";
+				label4->Text = L"เขาผู้หญิง";
+				label5->Text = L"我认识她的妈妈。";
+				label6->Text = L"wǒ rènshí tā de māmā";
+				label7->Text = L"ฉันรู้จักแม่ของเขา";
+				break;
+			case 10:
+				label2->Text = L"老师";
+				label3->Text = L"lǎoshī";
+				label4->Text = L"คุณครู";
+				label5->Text = L"他就是我们的科学老师。";
+				label6->Text = L"tā jiù shì wǒmén de kēxué lǎoshī";
+				label7->Text = L"เขาก็คือคุณครูวิทยาศาสตร์ของพวกเรา";
+				break;
+			case 11:
+				label2->Text = L"喜欢";
+				label3->Text = L"xǐhuān";
+				label4->Text = L"ชอบ";
+				label5->Text = L"我喜欢吃面条。";
+				label6->Text = L"wǒ xǐhuān chī miàntiáo";
+				label7->Text = L"ฉันชอบกินก๋วยเตี๋ยว";
+				break;
+			case 12:
+				label2->Text = L"医生";
+				label3->Text = L"yīshēng";
+				label4->Text = L"หมอ";
+				label5->Text = L"李医生在医院吗。";
+				label6->Text = L"lǐ yīshēng zài yīyuàn má";
+				label7->Text = L"หมอลี่อยู่โรงพยาบาลมั้ย";
+				break;
+			case 13:
+				label2->Text = L"学生";
+				label3->Text = L"xuéshēng";
+				label4->Text = L"นักเรียน";
+				label5->Text = L"我们学校里的学生很多。";
+				label6->Text = L"wǒmén xuéxiào lǐ de xuéshēng hěn duō";
+				label7->Text = L"ข้างในโรงเรียนของฉันมีนักเรียนเยอะ";
+				break;
+			case 14:
+				label2->Text = L"学";
+				label3->Text = L"xué";
+				label4->Text = L"เรียน";
+				label5->Text = L"他学韩语。";
+				label6->Text = L"tā xué hányǔ";
+				label7->Text = L"เขาเรียนภาษาเกาหลี";
+				break;
+			}
+
+		}
 	private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (numpages < 14) {
+			numpages++;
+			changepag(numpages);
+		}
+	}
+	private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (numpages > 2) {
+			numpages--;
+			changepag(numpages);
+		}
 	}
 };
 }
