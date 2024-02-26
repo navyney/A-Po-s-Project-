@@ -155,46 +155,46 @@ namespace EX0 {
 			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
 			this->panel2 = (gcnew System::Windows::Forms::Panel());
-			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->label8 = (gcnew System::Windows::Forms::Label());
-			this->label9 = (gcnew System::Windows::Forms::Label());
-			this->label10 = (gcnew System::Windows::Forms::Label());
-			this->radioButton11 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton1 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton2 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton3 = (gcnew System::Windows::Forms::RadioButton());
-			this->label4 = (gcnew System::Windows::Forms::Label());
-			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->label11 = (gcnew System::Windows::Forms::Label());
-			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->label13 = (gcnew System::Windows::Forms::Label());
-			this->label14 = (gcnew System::Windows::Forms::Label());
-			this->radioButton4 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton5 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton6 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton7 = (gcnew System::Windows::Forms::RadioButton());
-			this->label25 = (gcnew System::Windows::Forms::Label());
-			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->label22 = (gcnew System::Windows::Forms::Label());
-			this->label21 = (gcnew System::Windows::Forms::Label());
-			this->label20 = (gcnew System::Windows::Forms::Label());
-			this->label19 = (gcnew System::Windows::Forms::Label());
-			this->radioButton8 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton9 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton10 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton12 = (gcnew System::Windows::Forms::RadioButton());
-			this->label23 = (gcnew System::Windows::Forms::Label());
-			this->label24 = (gcnew System::Windows::Forms::Label());
-			this->label17 = (gcnew System::Windows::Forms::Label());
-			this->label18 = (gcnew System::Windows::Forms::Label());
-			this->label16 = (gcnew System::Windows::Forms::Label());
-			this->radioButton13 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton14 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton15 = (gcnew System::Windows::Forms::RadioButton());
-			this->radioButton16 = (gcnew System::Windows::Forms::RadioButton());
 			this->radioButton17 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton16 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton15 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton14 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton13 = (gcnew System::Windows::Forms::RadioButton());
+			this->label16 = (gcnew System::Windows::Forms::Label());
+			this->label18 = (gcnew System::Windows::Forms::Label());
+			this->label17 = (gcnew System::Windows::Forms::Label());
+			this->label24 = (gcnew System::Windows::Forms::Label());
+			this->label23 = (gcnew System::Windows::Forms::Label());
+			this->radioButton12 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton10 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton9 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton8 = (gcnew System::Windows::Forms::RadioButton());
+			this->label19 = (gcnew System::Windows::Forms::Label());
+			this->label20 = (gcnew System::Windows::Forms::Label());
+			this->label21 = (gcnew System::Windows::Forms::Label());
+			this->label22 = (gcnew System::Windows::Forms::Label());
+			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->label25 = (gcnew System::Windows::Forms::Label());
+			this->radioButton7 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton6 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton5 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton4 = (gcnew System::Windows::Forms::RadioButton());
+			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->label12 = (gcnew System::Windows::Forms::Label());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->label4 = (gcnew System::Windows::Forms::Label());
+			this->radioButton3 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton2 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton1 = (gcnew System::Windows::Forms::RadioButton());
+			this->radioButton11 = (gcnew System::Windows::Forms::RadioButton());
+			this->label10 = (gcnew System::Windows::Forms::Label());
+			this->label9 = (gcnew System::Windows::Forms::Label());
+			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->BeginInit();
@@ -330,153 +330,439 @@ namespace EX0 {
 			this->panel2->Size = System::Drawing::Size(1406, 624);
 			this->panel2->TabIndex = 62;
 			// 
-			// label3
+			// radioButton17
 			// 
-			this->label3->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label3->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->radioButton17->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton17->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton17->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton17.BackgroundImage")));
+			this->radioButton17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton17->Location = System::Drawing::Point(333, 1048);
+			this->radioButton17->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton17->Name = L"radioButton17";
+			this->radioButton17->Size = System::Drawing::Size(40, 40);
+			this->radioButton17->TabIndex = 114;
+			this->radioButton17->TabStop = true;
+			this->radioButton17->Text = L"\r\n";
+			this->radioButton17->UseVisualStyleBackColor = true;
+			// 
+			// radioButton16
+			// 
+			this->radioButton16->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton16->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton16->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton16.BackgroundImage")));
+			this->radioButton16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton16->Location = System::Drawing::Point(159, 1048);
+			this->radioButton16->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton16->Name = L"radioButton16";
+			this->radioButton16->Size = System::Drawing::Size(40, 40);
+			this->radioButton16->TabIndex = 113;
+			this->radioButton16->TabStop = true;
+			this->radioButton16->Text = L"\r\n";
+			this->radioButton16->UseVisualStyleBackColor = true;
+			// 
+			// radioButton15
+			// 
+			this->radioButton15->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton15->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton15->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton15.BackgroundImage")));
+			this->radioButton15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton15->Location = System::Drawing::Point(603, 974);
+			this->radioButton15->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton15->Name = L"radioButton15";
+			this->radioButton15->Size = System::Drawing::Size(40, 40);
+			this->radioButton15->TabIndex = 112;
+			this->radioButton15->TabStop = true;
+			this->radioButton15->Text = L"\r\n";
+			this->radioButton15->UseVisualStyleBackColor = true;
+			// 
+			// radioButton14
+			// 
+			this->radioButton14->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton14->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton14->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton14.BackgroundImage")));
+			this->radioButton14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton14->Location = System::Drawing::Point(140, 880);
+			this->radioButton14->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton14->Name = L"radioButton14";
+			this->radioButton14->Size = System::Drawing::Size(40, 40);
+			this->radioButton14->TabIndex = 111;
+			this->radioButton14->TabStop = true;
+			this->radioButton14->Text = L"\r\n";
+			this->radioButton14->UseVisualStyleBackColor = true;
+			// 
+			// radioButton13
+			// 
+			this->radioButton13->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton13->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton13->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton13.BackgroundImage")));
+			this->radioButton13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton13->Location = System::Drawing::Point(492, 811);
+			this->radioButton13->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton13->Name = L"radioButton13";
+			this->radioButton13->Size = System::Drawing::Size(40, 40);
+			this->radioButton13->TabIndex = 110;
+			this->radioButton13->TabStop = true;
+			this->radioButton13->Text = L"\r\n";
+			this->radioButton13->UseVisualStyleBackColor = true;
+			// 
+			// label16
+			// 
+			this->label16->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label16->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label3->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label16->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->label16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label16->ForeColor = System::Drawing::SystemColors::Control;
+			this->label16->Location = System::Drawing::Point(50, 1016);
+			this->label16->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label16->Name = L"label16";
+			this->label16->Size = System::Drawing::Size(34, 37);
+			this->label16->TabIndex = 109;
+			this->label16->Text = L"2\r\n\r\n\r\n\r\n\r\n";
+			// 
+			// label18
+			// 
+			this->label18->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label18->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label18->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->label18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label18->ForeColor = System::Drawing::SystemColors::Control;
+			this->label18->Location = System::Drawing::Point(50, 853);
+			this->label18->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label18->Name = L"label18";
+			this->label18->Size = System::Drawing::Size(34, 37);
+			this->label18->TabIndex = 108;
+			this->label18->Text = L"1\r\n\r\n\r\n\r\n";
+			// 
+			// label17
+			// 
+			this->label17->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label17->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label17->Location = System::Drawing::Point(110, 853);
+			this->label17->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label17->Name = L"label17";
+			this->label17->Size = System::Drawing::Size(1230, 130);
+			this->label17->TabIndex = 107;
+			this->label17->Text = L"หากคำที่มีเสียง 3 อยู่ติดกัน เช่น 你好 nǐhǎo สวัสดี ให้เปลี่ยนเสียงวรรณยุกต์คำหน้าเ"
+				L"ป็นเสียง 2 โดยอ่านว่า\r\n\r\nníhǎo แต่ในการเขียนคำยังคงรูปวรรณยุกต์เดิมไว้\r\n\r\n\r\n\r\n";
+			// 
+			// label24
+			// 
+			this->label24->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label24->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label24->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->label24->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label3->ForeColor = System::Drawing::SystemColors::Control;
-			this->label3->Location = System::Drawing::Point(7, 0);
-			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(1313, 57);
-			this->label3->TabIndex = 70;
-			this->label3->Text = L" 1.  เมื่อ พยัญชนะ j q x y  เจอกับ ü จะทำการละตัวจุดด้านบน";
-			this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->label3->UseCompatibleTextRendering = true;
+			this->label24->ForeColor = System::Drawing::SystemColors::Control;
+			this->label24->Location = System::Drawing::Point(7, 731);
+			this->label24->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label24->Name = L"label24";
+			this->label24->Size = System::Drawing::Size(1306, 57);
+			this->label24->TabIndex = 106;
+			this->label24->Text = L" 4.  เมื่อวรรณยุคไม้เอกอยู่ด้วยกัน \r\n";
+			this->label24->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->label24->UseCompatibleTextRendering = true;
 			// 
-			// label5
+			// label23
 			// 
-			this->label5->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label23->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label23->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label5->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label23->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label5->Location = System::Drawing::Point(133, 81);
-			this->label5->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(128, 37);
-			this->label5->TabIndex = 71;
-			this->label5->Text = L"ตัวอย่าง\r\n\r\n\r\n";
+			this->label23->Location = System::Drawing::Point(110, 1016);
+			this->label23->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label23->Name = L"label23";
+			this->label23->Size = System::Drawing::Size(1230, 104);
+			this->label23->TabIndex = 115;
+			this->label23->Text = L"หากคำที่มีเสียง 3 อยู่ติดกันสามคำ เช่น 我想你 wǒxiǎngnǐ ฉันคิดถึงคุณ เวลาอ่านสามารถอ"
+				L"อกเสียงได้ 2 แบบ คือ \r\n\r\nwǒxiángnǐ หรือ wóxiángnǐ ก็ได้ แต่ในการเขียนคำยังคงรูปว"
+				L"รรณยุกต์เดิมไว้ \r\n\r\n\r\n\r\n\r\n";
 			// 
-			// label7
+			// radioButton12
 			// 
-			this->label7->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->radioButton12->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton12->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton12->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton12.BackgroundImage")));
+			this->radioButton12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton12->Location = System::Drawing::Point(823, 650);
+			this->radioButton12->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton12->Name = L"radioButton12";
+			this->radioButton12->Size = System::Drawing::Size(40, 40);
+			this->radioButton12->TabIndex = 105;
+			this->radioButton12->TabStop = true;
+			this->radioButton12->Text = L"\r\n";
+			this->radioButton12->UseVisualStyleBackColor = true;
+			// 
+			// radioButton10
+			// 
+			this->radioButton10->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton10->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton10->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton10.BackgroundImage")));
+			this->radioButton10->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton10->Location = System::Drawing::Point(823, 570);
+			this->radioButton10->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton10->Name = L"radioButton10";
+			this->radioButton10->Size = System::Drawing::Size(40, 40);
+			this->radioButton10->TabIndex = 104;
+			this->radioButton10->TabStop = true;
+			this->radioButton10->Text = L"\r\n";
+			this->radioButton10->UseVisualStyleBackColor = true;
+			// 
+			// radioButton9
+			// 
+			this->radioButton9->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton9->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton9->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton9.BackgroundImage")));
+			this->radioButton9->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton9->Location = System::Drawing::Point(410, 650);
+			this->radioButton9->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton9->Name = L"radioButton9";
+			this->radioButton9->Size = System::Drawing::Size(40, 40);
+			this->radioButton9->TabIndex = 103;
+			this->radioButton9->TabStop = true;
+			this->radioButton9->Text = L"\r\n";
+			this->radioButton9->UseVisualStyleBackColor = true;
+			// 
+			// radioButton8
+			// 
+			this->radioButton8->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton8->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton8->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton8.BackgroundImage")));
+			this->radioButton8->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton8->Location = System::Drawing::Point(391, 570);
+			this->radioButton8->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton8->Name = L"radioButton8";
+			this->radioButton8->Size = System::Drawing::Size(40, 40);
+			this->radioButton8->TabIndex = 102;
+			this->radioButton8->TabStop = true;
+			this->radioButton8->Text = L"\r\n";
+			this->radioButton8->UseVisualStyleBackColor = true;
+			// 
+			// label19
+			// 
+			this->label19->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label7->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label19->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label7->Location = System::Drawing::Point(287, 81);
-			this->label7->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(176, 37);
-			this->label7->TabIndex = 72;
-			this->label7->Text = L"jü  →  ju\r\n\r\n";
+			this->label19->Location = System::Drawing::Point(699, 651);
+			this->label19->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label19->Name = L"label19";
+			this->label19->Size = System::Drawing::Size(176, 37);
+			this->label19->TabIndex = 101;
+			this->label19->Text = L"y → yu\r\n\r\n";
 			// 
-			// label8
+			// label20
 			// 
-			this->label8->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label20->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label8->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label20->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label8->Location = System::Drawing::Point(287, 162);
-			this->label8->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(176, 37);
-			this->label8->TabIndex = 73;
-			this->label8->Text = L"qü  →  qu \r\n\r\n\r\n";
+			this->label20->Location = System::Drawing::Point(287, 650);
+			this->label20->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label20->Name = L"label20";
+			this->label20->Size = System::Drawing::Size(176, 37);
+			this->label20->TabIndex = 100;
+			this->label20->Text = L"x → xu    \r\n\r\n";
 			// 
-			// label9
+			// label21
 			// 
-			this->label9->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label21->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label21->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label9->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label21->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label9->Location = System::Drawing::Point(695, 81);
-			this->label9->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(176, 37);
-			this->label9->TabIndex = 74;
-			this->label9->Text = L"xü  →  xu    \r\n\r\n";
+			this->label21->Location = System::Drawing::Point(699, 569);
+			this->label21->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label21->Name = L"label21";
+			this->label21->Size = System::Drawing::Size(176, 37);
+			this->label21->TabIndex = 99;
+			this->label21->Text = L"q → qu \r\n\r\n\r\n";
 			// 
-			// label10
+			// label22
 			// 
-			this->label10->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label22->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label22->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label10->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label22->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label10->Location = System::Drawing::Point(695, 162);
-			this->label10->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(176, 37);
-			this->label10->TabIndex = 75;
-			this->label10->Text = L"yü  →  yu\r\n\r\n";
+			this->label22->Location = System::Drawing::Point(287, 569);
+			this->label22->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label22->Name = L"label22";
+			this->label22->Size = System::Drawing::Size(176, 37);
+			this->label22->TabIndex = 98;
+			this->label22->Text = L"j → ju\r\n\r\n";
 			// 
-			// radioButton11
+			// label2
 			// 
-			this->radioButton11->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton11->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton11->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton11.BackgroundImage")));
-			this->radioButton11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton11->Location = System::Drawing::Point(853, 89);
-			this->radioButton11->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton11->Name = L"radioButton11";
-			this->radioButton11->Size = System::Drawing::Size(27, 29);
-			this->radioButton11->TabIndex = 76;
-			this->radioButton11->TabStop = true;
-			this->radioButton11->Text = L"\r\n";
-			this->radioButton11->UseVisualStyleBackColor = true;
+			this->label2->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label2->Location = System::Drawing::Point(133, 569);
+			this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(128, 37);
+			this->label2->TabIndex = 97;
+			this->label2->Text = L"ตัวอย่าง\r\n\r\n\r\n";
 			// 
-			// radioButton1
+			// label25
 			// 
-			this->radioButton1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton1->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton1.BackgroundImage")));
-			this->radioButton1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton1->Location = System::Drawing::Point(853, 171);
-			this->radioButton1->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton1->Name = L"radioButton1";
-			this->radioButton1->Size = System::Drawing::Size(27, 29);
-			this->radioButton1->TabIndex = 77;
-			this->radioButton1->TabStop = true;
-			this->radioButton1->Text = L"\r\n";
-			this->radioButton1->UseVisualStyleBackColor = true;
+			this->label25->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label25->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label25->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->label25->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(222)));
+			this->label25->ForeColor = System::Drawing::SystemColors::Control;
+			this->label25->Location = System::Drawing::Point(7, 488);
+			this->label25->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label25->Name = L"label25";
+			this->label25->Size = System::Drawing::Size(1313, 57);
+			this->label25->TabIndex = 96;
+			this->label25->Text = L" 3.  เมื่อ ui un iu ü  อยู่ตัวเดียวจะกลายเป็น\r\n";
+			this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->label25->UseCompatibleTextRendering = true;
 			// 
-			// radioButton2
+			// radioButton7
 			// 
-			this->radioButton2->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton2->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton2.BackgroundImage")));
-			this->radioButton2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton2->Location = System::Drawing::Point(429, 85);
-			this->radioButton2->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton2->Name = L"radioButton2";
-			this->radioButton2->Size = System::Drawing::Size(27, 29);
-			this->radioButton2->TabIndex = 78;
-			this->radioButton2->TabStop = true;
-			this->radioButton2->Text = L"\r\n";
-			this->radioButton2->UseVisualStyleBackColor = true;
+			this->radioButton7->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton7->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton7.BackgroundImage")));
+			this->radioButton7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton7->Location = System::Drawing::Point(863, 408);
+			this->radioButton7->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton7->Name = L"radioButton7";
+			this->radioButton7->Size = System::Drawing::Size(40, 40);
+			this->radioButton7->TabIndex = 95;
+			this->radioButton7->TabStop = true;
+			this->radioButton7->Text = L"\r\n";
+			this->radioButton7->UseVisualStyleBackColor = true;
 			// 
-			// radioButton3
+			// radioButton6
 			// 
-			this->radioButton3->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton3->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton3.BackgroundImage")));
-			this->radioButton3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton3->Location = System::Drawing::Point(444, 171);
-			this->radioButton3->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton3->Name = L"radioButton3";
-			this->radioButton3->Size = System::Drawing::Size(27, 29);
-			this->radioButton3->TabIndex = 79;
-			this->radioButton3->TabStop = true;
-			this->radioButton3->Text = L"\r\n";
-			this->radioButton3->UseVisualStyleBackColor = true;
+			this->radioButton6->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton6->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton6.BackgroundImage")));
+			this->radioButton6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton6->Location = System::Drawing::Point(864, 327);
+			this->radioButton6->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton6->Name = L"radioButton6";
+			this->radioButton6->Size = System::Drawing::Size(40, 40);
+			this->radioButton6->TabIndex = 94;
+			this->radioButton6->TabStop = true;
+			this->radioButton6->Text = L"\r\n";
+			this->radioButton6->UseVisualStyleBackColor = true;
+			// 
+			// radioButton5
+			// 
+			this->radioButton5->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton5->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton5.BackgroundImage")));
+			this->radioButton5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton5->Location = System::Drawing::Point(467, 408);
+			this->radioButton5->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton5->Name = L"radioButton5";
+			this->radioButton5->Size = System::Drawing::Size(40, 40);
+			this->radioButton5->TabIndex = 93;
+			this->radioButton5->TabStop = true;
+			this->radioButton5->Text = L"\r\n";
+			this->radioButton5->UseVisualStyleBackColor = true;
+			// 
+			// radioButton4
+			// 
+			this->radioButton4->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton4->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton4.BackgroundImage")));
+			this->radioButton4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton4->Location = System::Drawing::Point(435, 327);
+			this->radioButton4->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton4->Name = L"radioButton4";
+			this->radioButton4->Size = System::Drawing::Size(40, 40);
+			this->radioButton4->TabIndex = 92;
+			this->radioButton4->TabStop = true;
+			this->radioButton4->Text = L"\r\n";
+			this->radioButton4->UseVisualStyleBackColor = true;
+			// 
+			// label14
+			// 
+			this->label14->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label14->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label14->Location = System::Drawing::Point(695, 406);
+			this->label14->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(176, 37);
+			this->label14->TabIndex = 91;
+			this->label14->Text = L"uo  →  wo\r\n\r\n\r\n";
+			// 
+			// label13
+			// 
+			this->label13->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label13->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label13->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label13->Location = System::Drawing::Point(287, 406);
+			this->label13->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(272, 37);
+			this->label13->TabIndex = 90;
+			this->label13->Text = L"iao  →  yao\r\n\r\n";
+			// 
+			// label12
+			// 
+			this->label12->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label12->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label12->Location = System::Drawing::Point(695, 325);
+			this->label12->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(176, 37);
+			this->label12->TabIndex = 89;
+			this->label12->Text = L"ua  →  wa\r\n\r\n";
+			// 
+			// label11
+			// 
+			this->label11->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label11->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label11->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label11->Location = System::Drawing::Point(287, 325);
+			this->label11->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(176, 37);
+			this->label11->TabIndex = 88;
+			this->label11->Text = L"ia  →  ya\r\n\r\n";
+			// 
+			// label1
+			// 
+			this->label1->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label1->Location = System::Drawing::Point(133, 325);
+			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(128, 37);
+			this->label1->TabIndex = 87;
+			this->label1->Text = L"ตัวอย่าง\r\n\r\n\r\n";
 			// 
 			// label4
 			// 
@@ -497,439 +783,153 @@ namespace EX0 {
 			this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->label4->UseCompatibleTextRendering = true;
 			// 
-			// label1
+			// radioButton3
 			// 
-			this->label1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->radioButton3->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton3->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton3.BackgroundImage")));
+			this->radioButton3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton3->Location = System::Drawing::Point(444, 165);
+			this->radioButton3->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton3->Name = L"radioButton3";
+			this->radioButton3->Size = System::Drawing::Size(40, 40);
+			this->radioButton3->TabIndex = 79;
+			this->radioButton3->TabStop = true;
+			this->radioButton3->Text = L"\r\n";
+			this->radioButton3->UseVisualStyleBackColor = true;
+			// 
+			// radioButton2
+			// 
+			this->radioButton2->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton2->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton2.BackgroundImage")));
+			this->radioButton2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton2->Location = System::Drawing::Point(429, 82);
+			this->radioButton2->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton2->Name = L"radioButton2";
+			this->radioButton2->Size = System::Drawing::Size(40, 40);
+			this->radioButton2->TabIndex = 78;
+			this->radioButton2->TabStop = true;
+			this->radioButton2->Text = L"\r\n";
+			this->radioButton2->UseVisualStyleBackColor = true;
+			// 
+			// radioButton1
+			// 
+			this->radioButton1->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton1->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton1.BackgroundImage")));
+			this->radioButton1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton1->Location = System::Drawing::Point(853, 165);
+			this->radioButton1->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton1->Name = L"radioButton1";
+			this->radioButton1->Size = System::Drawing::Size(40, 40);
+			this->radioButton1->TabIndex = 77;
+			this->radioButton1->TabStop = true;
+			this->radioButton1->Text = L"\r\n";
+			this->radioButton1->UseVisualStyleBackColor = true;
+			// 
+			// radioButton11
+			// 
+			this->radioButton11->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->radioButton11->Appearance = System::Windows::Forms::Appearance::Button;
+			this->radioButton11->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton11.BackgroundImage")));
+			this->radioButton11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->radioButton11->Location = System::Drawing::Point(853, 82);
+			this->radioButton11->Margin = System::Windows::Forms::Padding(2);
+			this->radioButton11->Name = L"radioButton11";
+			this->radioButton11->Size = System::Drawing::Size(40, 40);
+			this->radioButton11->TabIndex = 76;
+			this->radioButton11->TabStop = true;
+			this->radioButton11->Text = L"\r\n";
+			this->radioButton11->UseVisualStyleBackColor = true;
+			// 
+			// label10
+			// 
+			this->label10->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label10->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label1->Location = System::Drawing::Point(133, 325);
-			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(128, 37);
-			this->label1->TabIndex = 87;
-			this->label1->Text = L"ตัวอย่าง\r\n\r\n\r\n";
+			this->label10->Location = System::Drawing::Point(695, 162);
+			this->label10->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(176, 37);
+			this->label10->TabIndex = 75;
+			this->label10->Text = L"yü  →  yu\r\n\r\n";
 			// 
-			// label11
+			// label9
 			// 
-			this->label11->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label11->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label9->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label11->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label9->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label11->Location = System::Drawing::Point(287, 325);
-			this->label11->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(176, 37);
-			this->label11->TabIndex = 88;
-			this->label11->Text = L"ia  →  ya\r\n\r\n";
+			this->label9->Location = System::Drawing::Point(695, 81);
+			this->label9->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label9->Name = L"label9";
+			this->label9->Size = System::Drawing::Size(176, 37);
+			this->label9->TabIndex = 74;
+			this->label9->Text = L"xü  →  xu    \r\n\r\n";
 			// 
-			// label12
+			// label8
 			// 
-			this->label12->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label8->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label12->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label8->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label12->Location = System::Drawing::Point(695, 325);
-			this->label12->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(176, 37);
-			this->label12->TabIndex = 89;
-			this->label12->Text = L"ua  →  wa\r\n\r\n";
+			this->label8->Location = System::Drawing::Point(287, 162);
+			this->label8->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(176, 37);
+			this->label8->TabIndex = 73;
+			this->label8->Text = L"qü  →  qu \r\n\r\n\r\n";
 			// 
-			// label13
+			// label7
 			// 
-			this->label13->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label13->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label7->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label13->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label7->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label13->Location = System::Drawing::Point(287, 406);
-			this->label13->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(272, 37);
-			this->label13->TabIndex = 90;
-			this->label13->Text = L"iao  →  yao\r\n\r\n";
+			this->label7->Location = System::Drawing::Point(287, 81);
+			this->label7->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(176, 37);
+			this->label7->TabIndex = 72;
+			this->label7->Text = L"jü  →  ju\r\n\r\n";
 			// 
-			// label14
+			// label5
 			// 
-			this->label14->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label5->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label14->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label5->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label14->Location = System::Drawing::Point(695, 406);
-			this->label14->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(176, 37);
-			this->label14->TabIndex = 91;
-			this->label14->Text = L"uo  →  wo\r\n\r\n\r\n";
+			this->label5->Location = System::Drawing::Point(133, 81);
+			this->label5->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(128, 37);
+			this->label5->TabIndex = 71;
+			this->label5->Text = L"ตัวอย่าง\r\n\r\n\r\n";
 			// 
-			// radioButton4
+			// label3
 			// 
-			this->radioButton4->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton4->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton4.BackgroundImage")));
-			this->radioButton4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton4->Location = System::Drawing::Point(435, 332);
-			this->radioButton4->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton4->Name = L"radioButton4";
-			this->radioButton4->Size = System::Drawing::Size(27, 29);
-			this->radioButton4->TabIndex = 92;
-			this->radioButton4->TabStop = true;
-			this->radioButton4->Text = L"\r\n";
-			this->radioButton4->UseVisualStyleBackColor = true;
-			// 
-			// radioButton5
-			// 
-			this->radioButton5->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton5->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton5.BackgroundImage")));
-			this->radioButton5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton5->Location = System::Drawing::Point(467, 414);
-			this->radioButton5->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton5->Name = L"radioButton5";
-			this->radioButton5->Size = System::Drawing::Size(27, 29);
-			this->radioButton5->TabIndex = 93;
-			this->radioButton5->TabStop = true;
-			this->radioButton5->Text = L"\r\n";
-			this->radioButton5->UseVisualStyleBackColor = true;
-			// 
-			// radioButton6
-			// 
-			this->radioButton6->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton6->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton6.BackgroundImage")));
-			this->radioButton6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton6->Location = System::Drawing::Point(864, 333);
-			this->radioButton6->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton6->Name = L"radioButton6";
-			this->radioButton6->Size = System::Drawing::Size(27, 29);
-			this->radioButton6->TabIndex = 94;
-			this->radioButton6->TabStop = true;
-			this->radioButton6->Text = L"\r\n";
-			this->radioButton6->UseVisualStyleBackColor = true;
-			// 
-			// radioButton7
-			// 
-			this->radioButton7->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton7->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton7.BackgroundImage")));
-			this->radioButton7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton7->Location = System::Drawing::Point(863, 414);
-			this->radioButton7->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton7->Name = L"radioButton7";
-			this->radioButton7->Size = System::Drawing::Size(27, 29);
-			this->radioButton7->TabIndex = 95;
-			this->radioButton7->TabStop = true;
-			this->radioButton7->Text = L"\r\n";
-			this->radioButton7->UseVisualStyleBackColor = true;
-			// 
-			// label25
-			// 
-			this->label25->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label25->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+			this->label3->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->label3->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label25->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label25->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label3->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label25->ForeColor = System::Drawing::SystemColors::Control;
-			this->label25->Location = System::Drawing::Point(7, 488);
-			this->label25->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label25->Name = L"label25";
-			this->label25->Size = System::Drawing::Size(1313, 57);
-			this->label25->TabIndex = 96;
-			this->label25->Text = L" 3.  เมื่อ ui un iu ü  อยู่ตัวเดียวจะกลายเป็น\r\n";
-			this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->label25->UseCompatibleTextRendering = true;
-			// 
-			// label2
-			// 
-			this->label2->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label2->Location = System::Drawing::Point(133, 569);
-			this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(128, 37);
-			this->label2->TabIndex = 97;
-			this->label2->Text = L"ตัวอย่าง\r\n\r\n\r\n";
-			// 
-			// label22
-			// 
-			this->label22->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label22->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label22->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label22->Location = System::Drawing::Point(287, 569);
-			this->label22->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(176, 37);
-			this->label22->TabIndex = 98;
-			this->label22->Text = L"j → ju\r\n\r\n";
-			// 
-			// label21
-			// 
-			this->label21->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label21->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label21->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label21->Location = System::Drawing::Point(699, 569);
-			this->label21->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(176, 37);
-			this->label21->TabIndex = 99;
-			this->label21->Text = L"q → qu \r\n\r\n\r\n";
-			// 
-			// label20
-			// 
-			this->label20->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label20->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label20->Location = System::Drawing::Point(287, 650);
-			this->label20->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(176, 37);
-			this->label20->TabIndex = 100;
-			this->label20->Text = L"x → xu    \r\n\r\n";
-			// 
-			// label19
-			// 
-			this->label19->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label19->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label19->Location = System::Drawing::Point(699, 651);
-			this->label19->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(176, 37);
-			this->label19->TabIndex = 101;
-			this->label19->Text = L"y → yu\r\n\r\n";
-			// 
-			// radioButton8
-			// 
-			this->radioButton8->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton8->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton8->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton8.BackgroundImage")));
-			this->radioButton8->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton8->Location = System::Drawing::Point(391, 577);
-			this->radioButton8->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton8->Name = L"radioButton8";
-			this->radioButton8->Size = System::Drawing::Size(27, 29);
-			this->radioButton8->TabIndex = 102;
-			this->radioButton8->TabStop = true;
-			this->radioButton8->Text = L"\r\n";
-			this->radioButton8->UseVisualStyleBackColor = true;
-			// 
-			// radioButton9
-			// 
-			this->radioButton9->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton9->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton9->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton9.BackgroundImage")));
-			this->radioButton9->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton9->Location = System::Drawing::Point(410, 658);
-			this->radioButton9->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton9->Name = L"radioButton9";
-			this->radioButton9->Size = System::Drawing::Size(27, 29);
-			this->radioButton9->TabIndex = 103;
-			this->radioButton9->TabStop = true;
-			this->radioButton9->Text = L"\r\n";
-			this->radioButton9->UseVisualStyleBackColor = true;
-			// 
-			// radioButton10
-			// 
-			this->radioButton10->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton10->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton10->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton10.BackgroundImage")));
-			this->radioButton10->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton10->Location = System::Drawing::Point(823, 577);
-			this->radioButton10->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton10->Name = L"radioButton10";
-			this->radioButton10->Size = System::Drawing::Size(27, 29);
-			this->radioButton10->TabIndex = 104;
-			this->radioButton10->TabStop = true;
-			this->radioButton10->Text = L"\r\n";
-			this->radioButton10->UseVisualStyleBackColor = true;
-			// 
-			// radioButton12
-			// 
-			this->radioButton12->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton12->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton12->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton12.BackgroundImage")));
-			this->radioButton12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton12->Location = System::Drawing::Point(823, 658);
-			this->radioButton12->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton12->Name = L"radioButton12";
-			this->radioButton12->Size = System::Drawing::Size(27, 29);
-			this->radioButton12->TabIndex = 105;
-			this->radioButton12->TabStop = true;
-			this->radioButton12->Text = L"\r\n";
-			this->radioButton12->UseVisualStyleBackColor = true;
-			// 
-			// label23
-			// 
-			this->label23->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label23->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label23->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label23->Location = System::Drawing::Point(110, 1016);
-			this->label23->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(1230, 104);
-			this->label23->TabIndex = 115;
-			this->label23->Text = L"หากคำที่มีเสียง 3 อยู่ติดกันสามคำ เช่น 我想你 wǒxiǎngnǐ ฉันคิดถึงคุณ เวลาอ่านสามารถอ"
-				L"อกเสียงได้ 2 แบบ คือ \r\n\r\nwǒxiángnǐ หรือ wóxiángnǐ ก็ได้ แต่ในการเขียนคำยังคงรูปว"
-				L"รรณยุกต์เดิมไว้ \r\n\r\n\r\n\r\n\r\n";
-			// 
-			// label24
-			// 
-			this->label24->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label24->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label24->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label24->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 25.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(222)));
-			this->label24->ForeColor = System::Drawing::SystemColors::Control;
-			this->label24->Location = System::Drawing::Point(7, 731);
-			this->label24->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(1306, 57);
-			this->label24->TabIndex = 106;
-			this->label24->Text = L" 4.  เมื่อวรรณยุคไม้เอกอยู่ด้วยกัน \r\n";
-			this->label24->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->label24->UseCompatibleTextRendering = true;
-			// 
-			// label17
-			// 
-			this->label17->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label17->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label17->Location = System::Drawing::Point(110, 853);
-			this->label17->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(1230, 130);
-			this->label17->TabIndex = 107;
-			this->label17->Text = L"หากคำที่มีเสียง 3 อยู่ติดกัน เช่น 你好 nǐhǎo สวัสดี ให้เปลี่ยนเสียงวรรณยุกต์คำหน้าเ"
-				L"ป็นเสียง 2 โดยอ่านว่า\r\n\r\nníhǎo แต่ในการเขียนคำยังคงรูปวรรณยุกต์เดิมไว้\r\n\r\n\r\n\r\n";
-			// 
-			// label18
-			// 
-			this->label18->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label18->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label18->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label18->ForeColor = System::Drawing::SystemColors::Control;
-			this->label18->Location = System::Drawing::Point(50, 853);
-			this->label18->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(34, 37);
-			this->label18->TabIndex = 108;
-			this->label18->Text = L"1\r\n\r\n\r\n\r\n";
-			// 
-			// label16
-			// 
-			this->label16->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->label16->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label16->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label16->ForeColor = System::Drawing::SystemColors::Control;
-			this->label16->Location = System::Drawing::Point(50, 1016);
-			this->label16->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label16->Name = L"label16";
-			this->label16->Size = System::Drawing::Size(34, 37);
-			this->label16->TabIndex = 109;
-			this->label16->Text = L"2\r\n\r\n\r\n\r\n\r\n";
-			// 
-			// radioButton13
-			// 
-			this->radioButton13->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton13->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton13->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton13.BackgroundImage")));
-			this->radioButton13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton13->Location = System::Drawing::Point(479, 821);
-			this->radioButton13->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton13->Name = L"radioButton13";
-			this->radioButton13->Size = System::Drawing::Size(27, 29);
-			this->radioButton13->TabIndex = 110;
-			this->radioButton13->TabStop = true;
-			this->radioButton13->Text = L"\r\n";
-			this->radioButton13->UseVisualStyleBackColor = true;
-			// 
-			// radioButton14
-			// 
-			this->radioButton14->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton14->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton14->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton14.BackgroundImage")));
-			this->radioButton14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton14->Location = System::Drawing::Point(134, 886);
-			this->radioButton14->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton14->Name = L"radioButton14";
-			this->radioButton14->Size = System::Drawing::Size(27, 29);
-			this->radioButton14->TabIndex = 111;
-			this->radioButton14->TabStop = true;
-			this->radioButton14->Text = L"\r\n";
-			this->radioButton14->UseVisualStyleBackColor = true;
-			// 
-			// radioButton15
-			// 
-			this->radioButton15->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton15->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton15->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton15.BackgroundImage")));
-			this->radioButton15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton15->Location = System::Drawing::Point(594, 983);
-			this->radioButton15->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton15->Name = L"radioButton15";
-			this->radioButton15->Size = System::Drawing::Size(27, 29);
-			this->radioButton15->TabIndex = 112;
-			this->radioButton15->TabStop = true;
-			this->radioButton15->Text = L"\r\n";
-			this->radioButton15->UseVisualStyleBackColor = true;
-			// 
-			// radioButton16
-			// 
-			this->radioButton16->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton16->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton16->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton16.BackgroundImage")));
-			this->radioButton16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton16->Location = System::Drawing::Point(159, 1048);
-			this->radioButton16->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton16->Name = L"radioButton16";
-			this->radioButton16->Size = System::Drawing::Size(27, 29);
-			this->radioButton16->TabIndex = 113;
-			this->radioButton16->TabStop = true;
-			this->radioButton16->Text = L"\r\n";
-			this->radioButton16->UseVisualStyleBackColor = true;
-			// 
-			// radioButton17
-			// 
-			this->radioButton17->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->radioButton17->Appearance = System::Windows::Forms::Appearance::Button;
-			this->radioButton17->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton17.BackgroundImage")));
-			this->radioButton17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->radioButton17->Location = System::Drawing::Point(320, 1048);
-			this->radioButton17->Margin = System::Windows::Forms::Padding(2);
-			this->radioButton17->Name = L"radioButton17";
-			this->radioButton17->Size = System::Drawing::Size(27, 29);
-			this->radioButton17->TabIndex = 114;
-			this->radioButton17->TabStop = true;
-			this->radioButton17->Text = L"\r\n";
-			this->radioButton17->UseVisualStyleBackColor = true;
+			this->label3->ForeColor = System::Drawing::SystemColors::Control;
+			this->label3->Location = System::Drawing::Point(7, 0);
+			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(1313, 57);
+			this->label3->TabIndex = 70;
+			this->label3->Text = L" 1.  เมื่อ พยัญชนะ j q x y  เจอกับ ü จะทำการละตัวจุดด้านบน";
+			this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->label3->UseCompatibleTextRendering = true;
 			// 
 			// panel1
 			// 
@@ -954,7 +954,7 @@ namespace EX0 {
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->decorleft);
 			this->Controls->Add(this->lesson3);
-			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"ex0";
 			this->Text = L"ex0";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
@@ -969,6 +969,7 @@ namespace EX0 {
 
 		}
 #pragma endregion
+
 
 };
 }
