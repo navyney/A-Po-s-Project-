@@ -344,7 +344,7 @@ namespace Quiz2 {
 			button1->Text = "พี่สาว";
 			button2->Text = "พี่ชาย";
 			button3->Text = "น้องสาว";
-			button4->Text = "น้องสาว";
+			button4->Text = "น้องชาย";
 
 			correctAnswer = 4;
 			break;
@@ -360,7 +360,7 @@ namespace Quiz2 {
 		case 5:
 			label2->Text = L"lǎoshī\n老师";
 			button1->Text = "หมอ";
-			button2->Text = "คุพยาบาล";
+			button2->Text = "คุณพยาบาล";
 			button3->Text = "คุณครู";
 			button4->Text = "พระ";
 
@@ -586,7 +586,6 @@ namespace Quiz2 {
 		{
 			selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(0)));;
-			MessageBox::Show("Correct!" , "Answer", MessageBoxButtons::OK, MessageBoxIcon::None);
 			score++;
 		}
 		//แสดงคำตอบที่ตอบผิดเป็นสีแดง
@@ -600,22 +599,18 @@ namespace Quiz2 {
 			case 1:
 				button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button1->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 2:
 				button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button2->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 3:
 				button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button3->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 4:
 				button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button4->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			}
 		}
