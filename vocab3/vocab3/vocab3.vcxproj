@@ -20,10 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{C95A3A2F-CB00-4C0A-B457-87F6CFA33713}</ProjectGuid>
+    <ProjectGuid>{C512D831-11EE-458B-9B70-03C018B10BCF}</ProjectGuid>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
-    <RootNamespace>nextpage</RootNamespace>
+    <RootNamespace>vocab3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,6 +110,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -120,58 +122,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lyv0.cpp" />
-    <ClCompile Include="mix.cpp" />
-    <ClCompile Include="MyForm.cpp" />
-    <ClCompile Include="MyForm0.cpp" />
-    <ClCompile Include="MyForm1.cpp" />
-    <ClCompile Include="Quiz.cpp" />
-    <ClCompile Include="tone.cpp" />
+    <ClCompile Include="vocab3.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Lyv0.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="mix.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="MyForm.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="MyForm0.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="MyForm1.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="Quiz.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="tone.h">
+    <ClInclude Include="vocab3.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Lyv0.resx">
-      <DependentUpon>Lyv0.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="mix.resx">
-      <DependentUpon>mix.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyForm.resx">
-      <DependentUpon>MyForm.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyForm0.resx">
-      <DependentUpon>MyForm0.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyForm1.resx">
-      <DependentUpon>MyForm1.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Quiz.resx">
-      <DependentUpon>Quiz.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="tone.resx">
-      <DependentUpon>tone.h</DependentUpon>
+    <EmbeddedResource Include="vocab3.resx">
+      <DependentUpon>vocab3.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

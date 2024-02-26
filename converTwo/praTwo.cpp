@@ -1,10 +1,11 @@
-#include "ConL1.h"
+#include "praTwo.h"
 
-using namespace CONVER1;
+using namespace converTwo;
+
 
 void main() {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Application::Run(gcnew ConL1());
+	Application::Run(gcnew one());
 }
 

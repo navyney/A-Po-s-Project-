@@ -30,6 +30,12 @@
     <ClCompile Include="Lyv0.cpp">
       <Filter>Header Files\Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="MyForm0.cpp">
+      <Filter>Header Files\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz.cpp">
+      <Filter>Header Files\Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -45,6 +51,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Lyv0.h">
+      <Filter>Header Files\Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm0.h">
+      <Filter>Header Files\Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz.h">
       <Filter>Header Files\Resource Files</Filter>
     </ClInclude>
   </ItemGroup>

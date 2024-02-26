@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConL1.cpp">
+    <ClCompile Include="temdesign.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ConL1.h">
+    <ClInclude Include="temdesign.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
