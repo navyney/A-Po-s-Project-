@@ -85,6 +85,8 @@ namespace vocab1 {
 	private: System::Windows::Forms::Label^ label8;
 	private: System::Windows::Forms::Label^ lesson3;
 	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::PictureBox^ pictureBox2;
+	private: System::Windows::Forms::PictureBox^ pictureBox3;
 
 
 
@@ -155,6 +157,8 @@ namespace vocab1 {
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
 			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic3))->BeginInit();
@@ -183,6 +187,8 @@ namespace vocab1 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// button8
@@ -467,7 +473,7 @@ namespace vocab1 {
 			this->pic17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pic17->Location = System::Drawing::Point(786, 288);
 			this->pic17->Name = L"pic17";
-			this->pic17->Size = System::Drawing::Size(303, 277);
+			this->pic17->Size = System::Drawing::Size(314, 277);
 			this->pic17->TabIndex = 72;
 			this->pic17->TabStop = false;
 			// 
@@ -487,7 +493,7 @@ namespace vocab1 {
 			this->pic19->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pic19->Location = System::Drawing::Point(928, 288);
 			this->pic19->Name = L"pic19";
-			this->pic19->Size = System::Drawing::Size(215, 277);
+			this->pic19->Size = System::Drawing::Size(274, 277);
 			this->pic19->TabIndex = 74;
 			this->pic19->TabStop = false;
 			// 
@@ -525,9 +531,9 @@ namespace vocab1 {
 			// 
 			this->pic23->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic23.BackgroundImage")));
 			this->pic23->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pic23->Location = System::Drawing::Point(963, 312);
+			this->pic23->Location = System::Drawing::Point(963, 288);
 			this->pic23->Name = L"pic23";
-			this->pic23->Size = System::Drawing::Size(254, 253);
+			this->pic23->Size = System::Drawing::Size(290, 277);
 			this->pic23->TabIndex = 78;
 			this->pic23->TabStop = false;
 			// 
@@ -629,13 +635,32 @@ namespace vocab1 {
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
+			// pictureBox2
+			// 
+			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
+			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pictureBox2->Location = System::Drawing::Point(468, 245);
+			this->pictureBox2->Name = L"pictureBox2";
+			this->pictureBox2->Size = System::Drawing::Size(1000, 632);
+			this->pictureBox2->TabIndex = 88;
+			this->pictureBox2->TabStop = false;
+			// 
+			// pictureBox3
+			// 
+			this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
+			this->pictureBox3->Location = System::Drawing::Point(487, 577);
+			this->pictureBox3->Name = L"pictureBox3";
+			this->pictureBox3->Size = System::Drawing::Size(960, 5);
+			this->pictureBox3->TabIndex = 89;
+			this->pictureBox3->TabStop = false;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->pictureBox3);
 			this->Controls->Add(this->button1);
-			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->nextbutton);
 			this->Controls->Add(this->previousbutton);
 			this->Controls->Add(this->progressBar2);
@@ -672,9 +697,11 @@ namespace vocab1 {
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->button8);
 			this->Controls->Add(this->button9);
-			this->Controls->Add(this->decorleft);
 			this->Controls->Add(this->label8);
 			this->Controls->Add(this->lesson3);
+			this->Controls->Add(this->pictureBox2);
+			this->Controls->Add(this->pictureBox1);
+			this->Controls->Add(this->decorleft);
 			this->MaximumSize = System::Drawing::Size(1920, 1080);
 			this->MinimumSize = System::Drawing::Size(1918, 1030);
 			this->Name = L"MyForm";
@@ -707,6 +734,8 @@ namespace vocab1 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
