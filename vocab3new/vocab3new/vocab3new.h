@@ -505,15 +505,15 @@ namespace vocab3new {
 			changepage(numpage2);
 		}
 	}
-	private: System::Void previousbutton_Click_1(System::Object^ sender, System::EventArgs^ e) {
-		if (numpage2 > 1) {
-			numpage2--;
-			changepage(numpage2);
-		}
-	}
 	private: System::Void nextbutton_Click_1(System::Object^ sender, System::EventArgs^ e) {
 		if (numpage2 < 14) {
 			numpage2++;
+			changepage(numpage2);
+		}
+	}
+	private: System::Void previousbutton_Click_1(System::Object^ sender, System::EventArgs^ e) {
+		if (numpage2 > 1) {
+			numpage2--;
 			changepage(numpage2);
 		}
 	}

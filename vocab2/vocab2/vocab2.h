@@ -102,12 +102,7 @@ namespace vocab2 {
 			// 
 			// pictureBox3
 			// 
-			this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
-			this->pictureBox3->Location = System::Drawing::Point(487, 576);
-			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(960, 5);
-			this->pictureBox3->TabIndex = 132;
-			this->pictureBox3->TabStop = false;
+			
 			// 
 			// button1
 			// 
