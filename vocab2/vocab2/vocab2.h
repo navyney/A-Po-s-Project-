@@ -56,6 +56,7 @@ namespace vocab2 {
 	private: System::Windows::Forms::Button^ button9;
 	private: System::Windows::Forms::Label^ label8;
 	private: System::Windows::Forms::Label^ lesson3;
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
 
 
 
@@ -88,6 +89,7 @@ namespace vocab2 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
 			this->progressBar2 = (gcnew System::Windows::Forms::ProgressBar());
 			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->label6 = (gcnew System::Windows::Forms::Label());
@@ -99,6 +101,8 @@ namespace vocab2 {
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// progressBar2
@@ -240,11 +244,21 @@ namespace vocab2 {
 			this->lesson3->TabIndex = 123;
 			this->lesson3->Text = L"Lesson 2 : Family";
 			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
+			this->pictureBox1->Location = System::Drawing::Point(143, 198);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(227, 194);
+			this->pictureBox1->TabIndex = 126;
+			this->pictureBox1->TabStop = false;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->progressBar2);
 			this->Controls->Add(this->label7);
 			this->Controls->Add(this->label6);
@@ -261,6 +275,7 @@ namespace vocab2 {
 			this->MinimumSize = System::Drawing::Size(1918, 1030);
 			this->Name = L"MyForm";
 			this->Text = L"vocab";
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
