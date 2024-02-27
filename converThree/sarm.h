@@ -55,6 +55,7 @@ namespace converThree {
 	private: System::Windows::Forms::Label^ label3;
 
 
+
 	protected:
 
 
@@ -210,7 +211,7 @@ namespace converThree {
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(493, 690);
-			this->label3->TabIndex = 17;
+			this->label3->TabIndex = 18;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
 			// sarm
