@@ -175,7 +175,7 @@ namespace vocab3new {
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label7->Location = System::Drawing::Point(525, 738);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(259, 47);
+			this->label7->Size = System::Drawing::Size(251, 47);
 			this->label7->TabIndex = 141;
 			this->label7->Text = L"วันนี้ฉันไปเชี่ยงใหม่";
 			// 
@@ -188,7 +188,7 @@ namespace vocab3new {
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label6->Location = System::Drawing::Point(523, 688);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(371, 47);
+			this->label6->Size = System::Drawing::Size(403, 47);
 			this->label6->TabIndex = 140;
 			this->label6->Text = L"Wǒ jīn tiān qù qīngmài";
 			// 
@@ -201,7 +201,7 @@ namespace vocab3new {
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label5->Location = System::Drawing::Point(524, 636);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(332, 47);
+			this->label5->Size = System::Drawing::Size(279, 47);
 			this->label5->TabIndex = 139;
 			this->label5->Text = L"我今天去清迈。";
 			// 
@@ -223,7 +223,7 @@ namespace vocab3new {
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label4->Location = System::Drawing::Point(564, 452);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(67, 46);
+			this->label4->Size = System::Drawing::Size(73, 46);
 			this->label4->TabIndex = 137;
 			this->label4->Text = L"วันนี้";
 			// 
@@ -235,7 +235,7 @@ namespace vocab3new {
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label3->Location = System::Drawing::Point(564, 406);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(53, 46);
+			this->label3->Size = System::Drawing::Size(145, 46);
 			this->label3->TabIndex = 136;
 			this->label3->Text = L"jīn tiān";
 			// 
@@ -248,7 +248,7 @@ namespace vocab3new {
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label2->Location = System::Drawing::Point(541, 287);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(150, 128);
+			this->label2->Size = System::Drawing::Size(246, 128);
 			this->label2->TabIndex = 135;
 			this->label2->Text = L"今天";
 			// 
@@ -336,7 +336,7 @@ namespace vocab3new {
 			this->lesson3->Name = L"lesson3";
 			this->lesson3->Size = System::Drawing::Size(986, 148);
 			this->lesson3->TabIndex = 142;
-			this->lesson3->Text = L"Lesson 2 : Family";
+			this->lesson3->Text = L"Lesson 3 : Where";
 			// 
 			// vocab3new
 			// 
