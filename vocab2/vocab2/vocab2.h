@@ -105,6 +105,45 @@ namespace vocab2 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
+<<<<<<< HEAD
+			// pictureBox3
+			// 
+			
+			// 
+			// button1
+			// 
+			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
+			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->Location = System::Drawing::Point(577, 794);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(40, 40);
+			this->button1->TabIndex = 130;
+			this->button1->UseVisualStyleBackColor = true;
+			// 
+			// nextbutton
+			// 
+			this->nextbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nextbutton.BackgroundImage")));
+			this->nextbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->nextbutton->Location = System::Drawing::Point(1584, 896);
+			this->nextbutton->Name = L"nextbutton";
+			this->nextbutton->Size = System::Drawing::Size(282, 133);
+			this->nextbutton->TabIndex = 129;
+			this->nextbutton->TabStop = false;
+			this->nextbutton->Click += gcnew System::EventHandler(this, &MyForm::nextbutton_Click);
+			// 
+			// previousbutton
+			// 
+			this->previousbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"previousbutton.BackgroundImage")));
+			this->previousbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->previousbutton->Location = System::Drawing::Point(33, 896);
+			this->previousbutton->Name = L"previousbutton";
+			this->previousbutton->Size = System::Drawing::Size(300, 130);
+			this->previousbutton->TabIndex = 128;
+			this->previousbutton->TabStop = false;
+			this->previousbutton->Click += gcnew System::EventHandler(this, &MyForm::previousbutton_Click);
+			// 
+=======
+>>>>>>> 71c732ca20c18be5884c0f08b37dcd3c47ef5953
 			// progressBar2
 			// 
 			this->progressBar2->Location = System::Drawing::Point(443, 945);
