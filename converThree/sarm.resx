@@ -117,23 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label3.Text" xml:space="preserve">
-    <value>A: 今天星期几？
-        jīn tiān xīng qī jī ？
-        วันนี้วันอะไร？
-
-B: 今天星期六。
-        jīn tiān xīng qī liù 
-        วันนี้วันเสาร์
-
-A: 明天星期几？
-        míng tiān xīng qī jī ？
-        พรุ่งนี้วันอะไร？
-
-B: 明天星期天。
-        míng tiān xīng qī tiān  
-        พรุ่งนี้วันอาทิตย์</value>
-  </data>
   <data name="label4.Text" xml:space="preserve">
     <value>A: 对不起，现在几点？
         duì bù qǐ， xiàn zài jī diǎn ？
@@ -6928,5 +6911,22 @@ B: 不客气。
         AMnY/wD1GtS8GV9Cvu8x/JdRg1zlMsK5u0Fr0qw+/wA9BejdNwdS8b9HjmSWPJ52UU4THFmCdkURPUvR
         Def+7bj/AOk/+1HVTwp/+W/Qf/q3H/7GWrT/AEJw/Y//2Q==
 </value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>A: 今天星期几？
+        jīn tiān xīng qī jī ？
+        วันนี้วันอะไร
+
+B: 今天星期六。
+         jīn tiān xīng qī liù 
+        วันนี้วันเสาร์
+
+A: 明天星期几？
+        míng tiān xīng qī jī ？
+        พรุ่งนี้วันอะไร
+
+B: 明天星期天。
+        míng tiān xīng qī tiān  
+        พรุ่งนี้วันอาทิตย์</value>
   </data>
 </root>
