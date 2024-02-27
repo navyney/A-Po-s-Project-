@@ -2,10 +2,8 @@
 
 using namespace converTwo;
 
-
 void main() {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Application::Run(gcnew one());
+	Application::Run(gcnew praTwo());
 }
-

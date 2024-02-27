@@ -66,10 +66,17 @@ namespace vocab3 {
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::Button^ button8;
 	private: System::Windows::Forms::Button^ button13;
-	private: System::Windows::Forms::Label^ label1;
+
 	private: System::Windows::Forms::Button^ button9;
 	private: System::Windows::Forms::Button^ next;
 	private: System::Windows::Forms::ProgressBar^ progressBar1;
+
+
+
+
+
+
+
 
 	private:
 		/// <summary>
@@ -94,7 +101,6 @@ namespace vocab3 {
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button13 = (gcnew System::Windows::Forms::Button());
-			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->next = (gcnew System::Windows::Forms::Button());
 			this->progressBar1 = (gcnew System::Windows::Forms::ProgressBar());
@@ -204,17 +210,6 @@ namespace vocab3 {
 			this->button13->UseVisualStyleBackColor = true;
 			this->button13->Click += gcnew System::EventHandler(this, &vocab3::button13_Click);
 			// 
-			// label1
-			// 
-			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 56));
-			this->label1->Location = System::Drawing::Point(19, 7);
-			this->label1->Margin = System::Windows::Forms::Padding(12, 0, 12, 0);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(691, 80);
-			this->label1->TabIndex = 82;
-			this->label1->Text = L"Lesson 3 : vocabulary";
-			// 
 			// button9
 			// 
 			this->button9->Anchor = System::Windows::Forms::AnchorStyles::None;
@@ -265,7 +260,6 @@ namespace vocab3 {
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->button8);
 			this->Controls->Add(this->button13);
-			this->Controls->Add(this->label1);
 			this->Controls->Add(this->button9);
 			this->Controls->Add(this->next);
 			this->Controls->Add(this->progressBar1);
