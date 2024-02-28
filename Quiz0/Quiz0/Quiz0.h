@@ -25,9 +25,10 @@ namespace Quiz0 {
 	private: System::Windows::Forms::PictureBox^ previousbutton;
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	private: System::Windows::Forms::PictureBox^ decorleft;
-	private: System::Windows::Forms::Label^ label1;
+
 	private: System::Windows::Forms::Label^ lesson3;
 	private: System::Windows::Forms::Label^ label3;
+	private: System::Windows::Forms::PictureBox^ pictureBox2;
 	private: array<int>^ userAnswers;
 
 	public:
@@ -72,7 +73,6 @@ namespace Quiz0 {
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
-			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
@@ -82,11 +82,13 @@ namespace Quiz0 {
 			this->decorleft = (gcnew System::Windows::Forms::PictureBox());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->panel1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// panel1
@@ -94,9 +96,9 @@ namespace Quiz0 {
 			this->panel1->Controls->Add(this->label2);
 			this->panel1->Controls->Add(this->button4);
 			this->panel1->Controls->Add(this->button3);
-			this->panel1->Controls->Add(this->label1);
 			this->panel1->Controls->Add(this->button2);
 			this->panel1->Controls->Add(this->button1);
+			this->panel1->Controls->Add(this->pictureBox2);
 			this->panel1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->panel1->Location = System::Drawing::Point(104, 139);
@@ -111,9 +113,9 @@ namespace Quiz0 {
 				static_cast<System::Byte>(0)));
 			this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label2->Location = System::Drawing::Point(3, 27);
+			this->label2->Location = System::Drawing::Point(20, 134);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(1687, 396);
+			this->label2->Size = System::Drawing::Size(1653, 291);
 			this->label2->TabIndex = 5;
 			this->label2->Text = L"QUESTION";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -147,20 +149,6 @@ namespace Quiz0 {
 			this->button3->Text = L"Ans3";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &Quiz0::checkAnswerEvent);
-			// 
-			// label1
-			// 
-			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label1->Location = System::Drawing::Point(855, 20);
-			this->label1->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(210, 82);
-			this->label1->TabIndex = 56;
-			this->label1->Text = L"Hello!";
 			// 
 			// button2
 			// 
@@ -285,6 +273,18 @@ namespace Quiz0 {
 			this->label3->TabIndex = 62;
 			this->label3->Text = L"Pinyin";
 			// 
+			// pictureBox2
+			// 
+			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
+			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pictureBox2->Location = System::Drawing::Point(0, 88);
+			this->pictureBox2->Name = L"pictureBox2";
+			this->pictureBox2->Size = System::Drawing::Size(1693, 600);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox2->TabIndex = 57;
+			this->pictureBox2->TabStop = false;
+			// 
 			// Quiz0
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -305,11 +305,11 @@ namespace Quiz0 {
 			this->Text = L"Quiz0";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->panel1->ResumeLayout(false);
-			this->panel1->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 

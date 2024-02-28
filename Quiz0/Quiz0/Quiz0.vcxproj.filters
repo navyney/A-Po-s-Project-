@@ -18,9 +18,15 @@
     <ClCompile Include="Quiz0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HQuiz0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Quiz0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HQuiz0.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
