@@ -25,6 +25,7 @@ namespace Quizz1 {
 	private: System::Windows::Forms::PictureBox^ decorleft;
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::Label^ lesson3;
+	private: System::Windows::Forms::PictureBox^ pictureBox2;
 
 
 	private: array<int>^ userAnswers;
@@ -50,8 +51,8 @@ namespace Quizz1 {
 	private: System::Windows::Forms::Button^ button3;
 	private: System::Windows::Forms::Button^ button2;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Button^ button5;
-	private: System::Windows::Forms::Button^ button6;
+
+
 	protected:
 
 	private:
@@ -68,19 +69,19 @@ namespace Quizz1 {
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->button5 = (gcnew System::Windows::Forms::Button());
-			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->nextbutton = (gcnew System::Windows::Forms::PictureBox());
 			this->previousbutton = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->decorleft = (gcnew System::Windows::Forms::PictureBox());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->panel1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// panel1
@@ -91,11 +92,12 @@ namespace Quizz1 {
 			this->panel1->Controls->Add(this->button2);
 			this->panel1->Controls->Add(this->button1);
 			this->panel1->Controls->Add(this->label2);
+			this->panel1->Controls->Add(this->pictureBox2);
 			this->panel1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->panel1->Location = System::Drawing::Point(28, 139);
+			this->panel1->Location = System::Drawing::Point(88, 139);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1843, 752);
+			this->panel1->Size = System::Drawing::Size(1725, 752);
 			this->panel1->TabIndex = 1;
 			// 
 			// button4
@@ -104,7 +106,7 @@ namespace Quizz1 {
 			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button4->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button4->Location = System::Drawing::Point(1015, 552);
+			this->button4->Location = System::Drawing::Point(933, 555);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(556, 71);
 			this->button4->TabIndex = 4;
@@ -119,7 +121,7 @@ namespace Quizz1 {
 			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(333, 552);
+			this->button3->Location = System::Drawing::Point(251, 555);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(556, 71);
 			this->button3->TabIndex = 3;
@@ -135,7 +137,7 @@ namespace Quizz1 {
 				static_cast<System::Byte>(0)));
 			this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label1->Location = System::Drawing::Point(855, 20);
+			this->label1->Location = System::Drawing::Point(756, 15);
 			this->label1->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(210, 82);
@@ -148,7 +150,7 @@ namespace Quizz1 {
 			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button2->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(1015, 450);
+			this->button2->Location = System::Drawing::Point(933, 453);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(556, 71);
 			this->button2->TabIndex = 2;
@@ -163,8 +165,8 @@ namespace Quizz1 {
 			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->ForeColor = System::Drawing::Color::Black;
-			this->button1->Location = System::Drawing::Point(333, 450);
+			this->button1->ForeColor = System::Drawing::SystemColors::ControlText;
+			this->button1->Location = System::Drawing::Point(251, 453);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(556, 71);
 			this->button1->TabIndex = 1;
@@ -180,47 +182,31 @@ namespace Quizz1 {
 				static_cast<System::Byte>(0)));
 			this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label2->Location = System::Drawing::Point(510, 27);
+			this->label2->Location = System::Drawing::Point(428, 141);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(901, 527);
+			this->label2->Size = System::Drawing::Size(901, 273);
 			this->label2->TabIndex = 5;
-			this->label2->Text = L"\r\n我 \r\nwǒ\r\n";
+			this->label2->Text = L"我 \r\nwǒ\r\n";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// button5
-			// 
-			this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button5->Location = System::Drawing::Point(1541, 939);
-			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(330, 90);
-			this->button5->TabIndex = 2;
-			this->button5->Text = L" Next";
-			this->button5->UseVisualStyleBackColor = true;
-			this->button5->Visible = false;
-			// 
-			// button6
-			// 
-			this->button6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button6->Location = System::Drawing::Point(28, 939);
-			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(330, 90);
-			this->button6->TabIndex = 3;
-			this->button6->Text = L"Previous";
-			this->button6->UseVisualStyleBackColor = true;
-			this->button6->Visible = false;
 			// 
 			// button7
 			// 
+			this->button7->BackColor = System::Drawing::SystemColors::Control;
+			this->button7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button7.BackgroundImage")));
+			this->button7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->button7->Cursor = System::Windows::Forms::Cursors::Hand;
+			this->button7->FlatAppearance->BorderColor = System::Drawing::SystemColors::Control;
+			this->button7->FlatAppearance->BorderSize = 0;
+			this->button7->FlatAppearance->MouseDownBackColor = System::Drawing::SystemColors::Control;
+			this->button7->FlatAppearance->MouseOverBackColor = System::Drawing::SystemColors::Control;
+			this->button7->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->button7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button7->Location = System::Drawing::Point(762, 939);
+			this->button7->Location = System::Drawing::Point(822, 897);
 			this->button7->Name = L"button7";
-			this->button7->Size = System::Drawing::Size(396, 90);
+			this->button7->Size = System::Drawing::Size(330, 130);
 			this->button7->TabIndex = 5;
-			this->button7->Text = L"Try Agian";
-			this->button7->UseVisualStyleBackColor = true;
+			this->button7->UseVisualStyleBackColor = false;
 			this->button7->Click += gcnew System::EventHandler(this, &Quiz1::button7_Click);
 			// 
 			// nextbutton
@@ -249,6 +235,7 @@ namespace Quizz1 {
 			// 
 			// pictureBox1
 			// 
+			this->pictureBox1->BackColor = System::Drawing::SystemColors::Control;
 			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->pictureBox1->Location = System::Drawing::Point(1442, 13);
@@ -281,20 +268,30 @@ namespace Quizz1 {
 			this->lesson3->TabIndex = 55;
 			this->lesson3->Text = L"Quiz Lesson 1";
 			// 
+			// pictureBox2
+			// 
+			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
+			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pictureBox2->Location = System::Drawing::Point(20, 81);
+			this->pictureBox2->Name = L"pictureBox2";
+			this->pictureBox2->Size = System::Drawing::Size(1673, 643);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox2->TabIndex = 58;
+			this->pictureBox2->TabStop = false;
+			// 
 			// Quiz1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->panel1);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->decorleft);
 			this->Controls->Add(this->lesson3);
 			this->Controls->Add(this->button7);
-			this->Controls->Add(this->panel1);
 			this->Controls->Add(this->previousbutton);
 			this->Controls->Add(this->nextbutton);
-			this->Controls->Add(this->button5);
-			this->Controls->Add(this->button6);
 			this->MaximumSize = System::Drawing::Size(1920, 1080);
 			this->MinimumSize = System::Drawing::Size(1918, 1030);
 			this->Name = L"Quiz1";
@@ -307,6 +304,7 @@ namespace Quizz1 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -342,160 +340,6 @@ namespace Quizz1 {
 	}
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-	// Next!
-	/*private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
-		if (questionNumber <= totalQuestion) {
-			questionNumber++;
-			askquestion(questionNumber);
-			if (questionNumber < totalQuestion + 1) {
-				// Reset button colors
-				button1->ForeColor = System::Drawing::Color::Black;
-				button2->ForeColor = System::Drawing::Color::Black;
-				button3->ForeColor = System::Drawing::Color::Black;
-				button4->ForeColor = System::Drawing::Color::Black;
-				if (userAnswers[questionNumber - 1] == correctAnswer) {
-					// Next answer was correct
-					switch (correctAnswer) {
-					case 1:
-						button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 2:
-						button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 3:
-						button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 4:
-						button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					}
-				}
-				else {
-					// Next answer was wrong
-					Button^ selectedButton = nullptr;
-					switch (userAnswers[questionNumber - 1]) {
-					case 1:
-						selectedButton = button1;
-						break;
-					case 2:
-						selectedButton = button2;
-						break;
-					case 3:
-						selectedButton = button3;
-						break;
-					case 4:
-						selectedButton = button4;
-						break;
-					}
-					if (selectedButton != nullptr) {
-						selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)),
-							static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						switch (correctAnswer) {
-						case 1:
-							button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-								static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-							break;
-						case 2:
-							button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-								static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-							break;
-						case 3:
-							button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-								static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-							break;
-						case 4:
-							button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-								static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-							break;
-						}
-					}
-				}
-			}
-			if (questionNumber > totalQuestion) {
-				MessageBox::Show("Total Score: " + score.ToString() + "/" + totalQuestion, "Quiz Completed");
-			}
-		}
-	}
-	//Previous
-	private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
-		if (questionNumber > 1) {
-			questionNumber--;
-			askquestion(questionNumber);
-			if (userAnswers[questionNumber - 1] != 0) {
-				// Reset button colors
-				button1->ForeColor = System::Drawing::Color::Black;
-				button2->ForeColor = System::Drawing::Color::Black;
-				button3->ForeColor = System::Drawing::Color::Black;
-				button4->ForeColor = System::Drawing::Color::Black;
-				if (userAnswers[questionNumber - 1] == correctAnswer) {
-					// Previous answer was correct
-					switch (correctAnswer) {
-					case 1:
-						button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 2:
-						button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 3:
-						button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 4:
-						button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					}
-				}
-				else {
-					// Previous answer was wrong
-					Button^ selectedButton = nullptr;
-					switch (userAnswers[questionNumber - 1]) {
-					case 1:
-						selectedButton = button1;
-						break;
-					case 2:
-						selectedButton = button2;
-						break;
-					case 3:
-						selectedButton = button3;
-						break;
-					case 4:
-						selectedButton = button4;
-						break;
-					}
-					if (selectedButton != nullptr) {
-						selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)),
-							static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-					}
-					// Highlight the correct answer in green
-					switch (correctAnswer) {
-					case 1:
-						button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 2:
-						button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 3:
-						button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					case 4:
-						button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-							static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-						break;
-					}
-				}
-			}
-		}
-}*/
 
 	private: System::Void checkAnswerEvent(System::Object^ sender, System::EventArgs^ e) {
 		Button^ selectedButton = dynamic_cast<Button^>(sender);
@@ -506,7 +350,6 @@ namespace Quizz1 {
 		{
 			selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(0)));;
-			//MessageBox::Show("Correct!" , "Answer", MessageBoxButtons::OK, MessageBoxIcon::None);
 			score++;
 		}
 		//แสดงคำตอบที่ตอบผิดเป็นสีแดง
@@ -520,22 +363,18 @@ namespace Quizz1 {
 			case 1:
 				button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button1->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 2:
 				button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button2->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 3:
 				button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button3->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			case 4:
 				button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
 					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				//MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button4->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			}
 		}
@@ -551,10 +390,11 @@ namespace Quizz1 {
 			button4->Text = L"พวกคุณ";
 
 			correctAnswer = 2;
-			button5->Text = L" Next";
 			panel1->Show();
-			button6->Hide();
 			button7->Hide();
+			previousbutton->Hide();
+
+			
 			break;
 		case 2:
 			label2->Text = L"hǎo\n好";
@@ -564,6 +404,7 @@ namespace Quizz1 {
 			button4->Text = L"เสีย";
 
 			correctAnswer = 1;
+			previousbutton->Show();
 			break;
 		case 3:
 			label2->Text = L"dà\n大";
@@ -627,9 +468,6 @@ namespace Quizz1 {
 			button4->Text = L"ทำไม";
 
 			correctAnswer = 3;
-			button5->Text = L" Next";
-			button5->Location = System::Drawing::Point(1541, 939);
-			button5->Size = System::Drawing::Size(330, 90);
 			break;
 		case 10:
 			label2->Text = L"nǐhǎo\n你好";
@@ -639,15 +477,15 @@ namespace Quizz1 {
 			button4->Text = L"สวัสดี";
 
 			correctAnswer = 4;
-			button5->Text = L" Check Score";
-			button5->Location = System::Drawing::Point(1271, 939);
-			button5->Size = System::Drawing::Size(600, 90);
 			break;
 		case 11:
-			panel1->Hide();
-			button5->Text = L" Next Lesson";
-			button6->Hide();
+			label2->Text = L"Your Score\n" + score + "/10";
+			button1->Hide();
+			button2->Hide();
+			button3->Hide();
+			button4->Hide();
 			button7->Show();
+			previousbutton->Hide();
 			break;
 		}
 
@@ -657,10 +495,12 @@ private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e
 	score = 0;
 	Array::Clear(userAnswers, 0, userAnswers->Length);
 	TextBlack();
-	button5->Location = System::Drawing::Point(1541, 939);
-	button5->Size = System::Drawing::Size(330, 90);
 
 	askquestion(questionNumber);
+	button1->Show();
+	button2->Show();
+	button3->Show();
+	button4->Show();
 	}
 private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (questionNumber > 1) {
@@ -732,15 +572,10 @@ private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs
 					selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)),
 						static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
 					Changcolor();
+					}
 				}
 			}
 		}
 	}
-		if (questionNumber > totalQuestion) {
-			MessageBox::Show("Total Score: " + score.ToString() + "/" + totalQuestion, "Quiz Completed");
-		}
-	}
-
-
 };
 }

@@ -127,14 +127,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HQuiz1.cpp" />
     <ClCompile Include="Quiz1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HQuiz1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Quiz1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="HQuiz1.resx">
+      <DependentUpon>HQuiz1.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Quiz1.resx">
       <DependentUpon>Quiz1.h</DependentUpon>
     </EmbeddedResource>
