@@ -67,21 +67,20 @@ namespace QuizThree {
 			this->panel1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->panel1->Controls->Add(this->button3);
 			this->panel1->Controls->Add(this->button2);
-			this->panel1->Location = System::Drawing::Point(13, 13);
-			this->panel1->Margin = System::Windows::Forms::Padding(4);
+			this->panel1->Location = System::Drawing::Point(11, 12);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1876, 895);
+			this->panel1->Size = System::Drawing::Size(1881, 930);
 			this->panel1->TabIndex = 1;
+			this->panel1->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MenuQTh::panel1_Paint);
 			// 
 			// button3
 			// 
 			this->button3->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->button3->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(646, 285);
-			this->button3->Margin = System::Windows::Forms::Padding(4);
+			this->button3->Location = System::Drawing::Point(720, 300);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(580, 119);
+			this->button3->Size = System::Drawing::Size(435, 97);
 			this->button3->TabIndex = 1;
 			this->button3->Text = L"Lesson 4";
 			this->button3->UseVisualStyleBackColor = true;
@@ -89,12 +88,12 @@ namespace QuizThree {
 			// button2
 			// 
 			this->button2->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->button2->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button2->AutoSize = true;
+			this->button2->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(646, 95);
-			this->button2->Margin = System::Windows::Forms::Padding(4);
+			this->button2->Location = System::Drawing::Point(720, 77);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(580, 119);
+			this->button2->Size = System::Drawing::Size(435, 138);
 			this->button2->TabIndex = 0;
 			this->button2->Text = L"Quiz 3";
 			this->button2->UseVisualStyleBackColor = true;
@@ -103,24 +102,27 @@ namespace QuizThree {
 			// button1
 			// 
 			this->button1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->button1->Location = System::Drawing::Point(12, 921);
+			this->button1->Location = System::Drawing::Point(11, 949);
+			this->button1->Margin = System::Windows::Forms::Padding(2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(500, 100);
+			this->button1->Size = System::Drawing::Size(375, 80);
 			this->button1->TabIndex = 2;
 			this->button1->Text = L"p";
 			this->button1->UseVisualStyleBackColor = true;
 			// 
 			// MenuQTh
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1902, 1033);
+			this->ClientSize = System::Drawing::Size(1904, 1041);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->panel1);
+			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"MenuQTh";
 			this->Text = L"MenuQTh";
 			this->Load += gcnew System::EventHandler(this, &MenuQTh::MenuQTh_Load);
 			this->panel1->ResumeLayout(false);
+			this->panel1->PerformLayout();
 			this->ResumeLayout(false);
 
 		}
@@ -132,5 +134,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 }
 	private: System::Void MenuQTh_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
+private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
+}
 };
 }

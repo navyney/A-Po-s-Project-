@@ -33,8 +33,10 @@ namespace QuizThree {
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::Button^ button5;
 	private: System::Windows::Forms::Button^ button6;
-	private: System::Windows::Forms::Button^ button7;
+
 	private: System::Windows::Forms::TextBox^ textBox1;
+	private: System::Windows::Forms::Button^ button7;
+
 
 	private: array<int>^ userAnswers;
 	public:
@@ -61,7 +63,7 @@ namespace QuizThree {
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -74,11 +76,11 @@ namespace QuizThree {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
-			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->button5 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
@@ -91,10 +93,9 @@ namespace QuizThree {
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 26.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label3->Location = System::Drawing::Point(849, 131);
-			this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label3->Location = System::Drawing::Point(870, 86);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(186, 52);
+			this->label3->Size = System::Drawing::Size(148, 39);
 			this->label3->TabIndex = 6;
 			this->label3->Text = L"Lesson3";
 			// 
@@ -104,10 +105,9 @@ namespace QuizThree {
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(820, 30);
-			this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->label1->Location = System::Drawing::Point(840, 10);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(251, 91);
+			this->label1->Size = System::Drawing::Size(205, 73);
 			this->label1->TabIndex = 5;
 			this->label1->Text = L"Quiz3";
 			// 
@@ -116,44 +116,27 @@ namespace QuizThree {
 			this->panel1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->panel1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->panel1->Controls->Add(this->textBox1);
-			this->panel1->Controls->Add(this->label2);
 			this->panel1->Controls->Add(this->button4);
 			this->panel1->Controls->Add(this->button3);
 			this->panel1->Controls->Add(this->button2);
 			this->panel1->Controls->Add(this->button1);
+			this->panel1->Controls->Add(this->label2);
 			this->panel1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->panel1->Location = System::Drawing::Point(13, 204);
-			this->panel1->Margin = System::Windows::Forms::Padding(4);
+			this->panel1->Location = System::Drawing::Point(28, 139);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1876, 700);
+			this->panel1->Size = System::Drawing::Size(1847, 778);
 			this->panel1->TabIndex = 7;
 			// 
 			// textBox1
 			// 
 			this->textBox1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->textBox1->Location = System::Drawing::Point(750, 300);
-			this->textBox1->Margin = System::Windows::Forms::Padding(4);
+			this->textBox1->Location = System::Drawing::Point(777, 438);
 			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(399, 122);
+			this->textBox1->Size = System::Drawing::Size(300, 100);
 			this->textBox1->TabIndex = 0;
 			this->textBox1->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
-			// 
-			// label2
-			// 
-			this->label2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(560, 5);
-			this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(766, 417);
-			this->label2->TabIndex = 5;
-			this->label2->Text = L"QUESTION";
-			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// button4
 			// 
@@ -162,10 +145,9 @@ namespace QuizThree {
 			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button4->Location = System::Drawing::Point(1060, 590);
-			this->button4->Margin = System::Windows::Forms::Padding(4);
+			this->button4->Location = System::Drawing::Point(1002, 688);
 			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(720, 80);
+			this->button4->Size = System::Drawing::Size(540, 65);
 			this->button4->TabIndex = 4;
 			this->button4->Tag = L"4";
 			this->button4->Text = L"Ans4";
@@ -178,10 +160,9 @@ namespace QuizThree {
 			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(80, 590);
-			this->button3->Margin = System::Windows::Forms::Padding(4);
+			this->button3->Location = System::Drawing::Point(302, 688);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(720, 80);
+			this->button3->Size = System::Drawing::Size(540, 65);
 			this->button3->TabIndex = 3;
 			this->button3->Tag = L"3";
 			this->button3->Text = L"Ans3";
@@ -194,10 +175,9 @@ namespace QuizThree {
 			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(1060, 475);
-			this->button2->Margin = System::Windows::Forms::Padding(4);
+			this->button2->Location = System::Drawing::Point(1002, 586);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(720, 80);
+			this->button2->Size = System::Drawing::Size(540, 65);
 			this->button2->TabIndex = 2;
 			this->button2->Tag = L"2";
 			this->button2->Text = L"Ans2";
@@ -211,56 +191,77 @@ namespace QuizThree {
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button1->ForeColor = System::Drawing::Color::Black;
-			this->button1->Location = System::Drawing::Point(80, 475);
-			this->button1->Margin = System::Windows::Forms::Padding(4);
+			this->button1->Location = System::Drawing::Point(302, 586);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(720, 80);
+			this->button1->Size = System::Drawing::Size(540, 65);
 			this->button1->TabIndex = 1;
 			this->button1->Tag = L"1";
 			this->button1->Text = L"Ans1";
 			this->button1->UseVisualStyleBackColor = true;
 			// 
+			// label2
+			// 
+			this->label2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->label2->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label2->Location = System::Drawing::Point(420, 40);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(1013, 548);
+			this->label2->TabIndex = 5;
+			this->label2->Text = L"QUESTION";
+			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
 			// button5
 			// 
 			this->button5->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->button5->Location = System::Drawing::Point(1390, 921);
+			this->button5->Location = System::Drawing::Point(1545, 940);
+			this->button5->Margin = System::Windows::Forms::Padding(2);
 			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(500, 100);
+			this->button5->Size = System::Drawing::Size(330, 90);
 			this->button5->TabIndex = 8;
 			this->button5->Text = L"N";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &QTh::button5_Click);
 			// 
 			// button6
 			// 
 			this->button6->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->button6->Location = System::Drawing::Point(12, 921);
+			this->button6->Location = System::Drawing::Point(28, 939);
+			this->button6->Margin = System::Windows::Forms::Padding(2);
 			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(500, 100);
+			this->button6->Size = System::Drawing::Size(330, 90);
 			this->button6->TabIndex = 9;
 			this->button6->Text = L"P";
 			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &QTh::button6_Click);
 			// 
 			// button7
 			// 
 			this->button7->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->button7->Location = System::Drawing::Point(689, 921);
+			this->button7->Location = System::Drawing::Point(790, 939);
+			this->button7->Margin = System::Windows::Forms::Padding(2);
 			this->button7->Name = L"button7";
-			this->button7->Size = System::Drawing::Size(500, 100);
+			this->button7->Size = System::Drawing::Size(330, 90);
 			this->button7->TabIndex = 10;
-			this->button7->Text = L"Try Agian";
+			this->button7->Text = L"T";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &QTh::button7_Click);
 			// 
 			// QTh
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1902, 1033);
+			this->BackColor = System::Drawing::Color::White;
+			this->ClientSize = System::Drawing::Size(1904, 1041);
 			this->Controls->Add(this->button7);
 			this->Controls->Add(this->button6);
 			this->Controls->Add(this->button5);
 			this->Controls->Add(this->panel1);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label1);
+			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"QTh";
 			this->Text = L"QTh";
 			this->Load += gcnew System::EventHandler(this, &QTh::QTh_Load);
@@ -471,6 +472,51 @@ namespace QuizThree {
 			break;
 		}
 	}
+	private: System::Void checkAnswerEvent(System::Object^ sender, System::EventArgs^ e) {
+		Button^ selectedButton = dynamic_cast<Button^>(sender);
+		int buttonTag = Convert::ToInt32(selectedButton->Tag);
+		userAnswers[questionNumber - 1] = buttonTag;
+		//แสดงคำตอบที่ตอบถูกเป็นสีเขียว
+		if (buttonTag == correctAnswer)
+		{
+			selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(0)));;
+			MessageBox::Show("Correct!", "Answer", MessageBoxButtons::OK, MessageBoxIcon::None);
+			score++;
+		}
+		//แสดงคำตอบที่ตอบผิดเป็นสีแดง
+		else
+		{
+			selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+
+			//สำหรับแสดงคำตอบที่ถูกเมื่อตอบผิด
+			switch (correctAnswer) {
+			case 1:
+				button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button1->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				break;
+			case 2:
+				button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button2->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				break;
+			case 3:
+				button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button3->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				break;
+			case 4:
+				button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button4->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				break;
+			}
+		}
+	}
+	private: System::Void QTh_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
 	private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (questionNumber <= totalQuestion) {
 			questionNumber++;
@@ -581,50 +627,7 @@ namespace QuizThree {
 			}
 		}
 	}
-	private: System::Void checkAnswerEvent(System::Object^ sender, System::EventArgs^ e) {
-		Button^ selectedButton = dynamic_cast<Button^>(sender);
-		int buttonTag = Convert::ToInt32(selectedButton->Tag);
-		userAnswers[questionNumber - 1] = buttonTag;
-		//แสดงคำตอบที่ตอบถูกเป็นสีเขียว
-		if (buttonTag == correctAnswer)
-		{
-			selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));;
-			MessageBox::Show("Correct!", "Answer", MessageBoxButtons::OK, MessageBoxIcon::None);
-			score++;
-		}
-		//แสดงคำตอบที่ตอบผิดเป็นสีแดง
-		else
-		{
-			selectedButton->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+};
+};
 
-			//สำหรับแสดงคำตอบที่ถูกเมื่อตอบผิด
-			switch (correctAnswer) {
-			case 1:
-				button1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button1->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
-				break;
-			case 2:
-				button2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button2->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
-				break;
-			case 3:
-				button3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button3->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
-				break;
-			case 4:
-				button4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-					static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				MessageBox::Show("InCorrect" + "\n\n" + "CorrectAnswer is " + button4->Text, "Answer", MessageBoxButtons::OK, MessageBoxIcon::Error);
-				break;
-			}
-		}
-	}
-	private: System::Void QTh_Load(System::Object^ sender, System::EventArgs^ e) {
-	}
-	};
-}
+
