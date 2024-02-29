@@ -288,9 +288,16 @@ namespace nextpage {
 			askQuestion(Questionnumber);
 			
 		}
+
 		if (Questionnumber = 0) {
 			Questionnumber+5;
+			askQuestion(Questionnumber);
+			this->Close();
+			switchToformBQuiz = true;
+
 		}
+	
+
 	}
 
 
