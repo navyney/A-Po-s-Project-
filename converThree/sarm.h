@@ -129,7 +129,7 @@ namespace converThree {
 			this->label4->Location = System::Drawing::Point(350, 275);
 			this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(463, 570);
+			this->label4->Size = System::Drawing::Size(448, 570);
 			this->label4->TabIndex = 8;
 			this->label4->Text = resources->GetString(L"label4.Text");
 			// 
@@ -193,7 +193,7 @@ namespace converThree {
 			this->label3->Location = System::Drawing::Point(350, 275);
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(377, 570);
+			this->label3->Size = System::Drawing::Size(371, 570);
 			this->label3->TabIndex = 18;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
@@ -255,13 +255,13 @@ namespace converThree {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::White;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->label4);
 			this->Controls->Add(this->Previous);
 			this->Controls->Add(this->Next);
 			this->Controls->Add(this->progressBar1);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->label2);
-			this->Controls->Add(this->label4);
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->pictureBox3);
