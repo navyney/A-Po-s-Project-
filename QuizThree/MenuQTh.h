@@ -71,6 +71,7 @@ namespace QuizThree {
 			this->panel1->Name = L"panel1";
 			this->panel1->Size = System::Drawing::Size(1881, 930);
 			this->panel1->TabIndex = 1;
+			this->panel1->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MenuQTh::panel1_Paint);
 			// 
 			// button3
 			// 
@@ -102,7 +103,7 @@ namespace QuizThree {
 			// 
 			this->button1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->button1->Location = System::Drawing::Point(11, 949);
-			this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->button1->Margin = System::Windows::Forms::Padding(2);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(375, 80);
 			this->button1->TabIndex = 2;
@@ -116,7 +117,7 @@ namespace QuizThree {
 			this->ClientSize = System::Drawing::Size(1904, 1041);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->panel1);
-			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"MenuQTh";
 			this->Text = L"MenuQTh";
 			this->Load += gcnew System::EventHandler(this, &MenuQTh::MenuQTh_Load);
@@ -133,5 +134,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 }
 	private: System::Void MenuQTh_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
+private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
+}
 };
 }
