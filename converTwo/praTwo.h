@@ -53,7 +53,8 @@ namespace converTwo {
 
 	private: System::Windows::Forms::PictureBox^ pictureBox3;
 	private: System::Windows::Forms::PictureBox^ Previous;
-	private: System::Windows::Forms::ProgressBar^ progressBar2;
+	private: System::Windows::Forms::ProgressBar^ progressBar1;
+
 	private: System::Windows::Forms::PictureBox^ Next;
 	private: System::Windows::Forms::PictureBox^ pictureBox4;
 	private: System::Windows::Forms::PictureBox^ pictureBox5;
@@ -84,7 +85,7 @@ namespace converTwo {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 			this->Previous = (gcnew System::Windows::Forms::PictureBox());
-			this->progressBar2 = (gcnew System::Windows::Forms::ProgressBar());
+			this->progressBar1 = (gcnew System::Windows::Forms::ProgressBar());
 			this->Next = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox5 = (gcnew System::Windows::Forms::PictureBox());
@@ -130,7 +131,7 @@ namespace converTwo {
 			this->label3->Location = System::Drawing::Point(290, 300);
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(772, 525);
+			this->label3->Size = System::Drawing::Size(744, 525);
 			this->label3->TabIndex = 6;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
@@ -143,7 +144,7 @@ namespace converTwo {
 			this->label4->Location = System::Drawing::Point(430, 275);
 			this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(439, 570);
+			this->label4->Size = System::Drawing::Size(431, 570);
 			this->label4->TabIndex = 8;
 			this->label4->Text = resources->GetString(L"label4.Text");
 			// 
@@ -155,7 +156,7 @@ namespace converTwo {
 				static_cast<System::Byte>(0)));
 			this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label2->Location = System::Drawing::Point(750, 160);
+			this->label2->Location = System::Drawing::Point(745, 160);
 			this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(413, 82);
@@ -166,14 +167,14 @@ namespace converTwo {
 			// 
 			this->label1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label1->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 87.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label1->Location = System::Drawing::Point(540, 10);
+			this->label1->Location = System::Drawing::Point(452, 10);
 			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(820, 124);
+			this->label1->Size = System::Drawing::Size(1001, 150);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Lesson 2 : Family";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -202,13 +203,13 @@ namespace converTwo {
 			this->Previous->TabStop = false;
 			this->Previous->Click += gcnew System::EventHandler(this, &praTwo::Previous_Click);
 			// 
-			// progressBar2
+			// progressBar1
 			// 
-			this->progressBar2->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->progressBar2->Location = System::Drawing::Point(445, 946);
-			this->progressBar2->Name = L"progressBar2";
-			this->progressBar2->Size = System::Drawing::Size(1000, 35);
-			this->progressBar2->TabIndex = 88;
+			this->progressBar1->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->progressBar1->Location = System::Drawing::Point(445, 946);
+			this->progressBar1->Name = L"progressBar1";
+			this->progressBar1->Size = System::Drawing::Size(1000, 35);
+			this->progressBar1->TabIndex = 88;
 			// 
 			// Next
 			// 
@@ -250,16 +251,16 @@ namespace converTwo {
 			this->ClientSize = System::Drawing::Size(1904, 1041);
 			this->Controls->Add(this->Next);
 			this->Controls->Add(this->Previous);
-			this->Controls->Add(this->progressBar2);
+			this->Controls->Add(this->progressBar1);
 			this->Controls->Add(this->pictureBox3);
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
-			this->Controls->Add(this->label1);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label4);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->pictureBox4);
 			this->Controls->Add(this->pictureBox5);
+			this->Controls->Add(this->label1);
 			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"praTwo";
 			this->Text = L"praTwo";
