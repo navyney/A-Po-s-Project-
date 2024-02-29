@@ -120,14 +120,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="conso.cpp" />
     <ClCompile Include="menu.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="conso.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="menu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="conso.resx">
+      <DependentUpon>conso.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.h</DependentUpon>
     </EmbeddedResource>

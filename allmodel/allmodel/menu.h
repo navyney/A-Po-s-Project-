@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 namespace allmodel {
 
@@ -100,7 +100,7 @@ namespace allmodel {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(1400, 97);
 			this->label2->TabIndex = 3;
-			this->label2->Text = L"??!   This is your online chinese class";
+			this->label2->Text = L"你好!   This is your online chinese class";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// label1
@@ -150,6 +150,7 @@ namespace allmodel {
 			this->pictureBox3->Size = System::Drawing::Size(729, 139);
 			this->pictureBox3->TabIndex = 22;
 			this->pictureBox3->TabStop = false;
+			this->pictureBox3->Click += gcnew System::EventHandler(this, &menu::pictureBox3_Click_1);
 			// 
 			// pictureBox4
 			// 
@@ -265,9 +266,15 @@ namespace allmodel {
 
 		}
 #pragma endregion
+		public:bool switchTocon = false;
 	private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void pictureBox3_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+
+	private: System::Void pictureBox3_Click_1(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
+		switchTocon = true;
+	}
+};
 }
