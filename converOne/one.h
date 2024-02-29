@@ -89,12 +89,14 @@ namespace converOne {
 			// 
 			this->label3->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 30, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label3->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 30, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label3->Location = System::Drawing::Point(245, 260);
+			this->label3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label3->Location = System::Drawing::Point(338, 242);
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(929, 612);
+			this->label3->Size = System::Drawing::Size(747, 648);
 			this->label3->TabIndex = 0;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
@@ -133,7 +135,7 @@ namespace converOne {
 			this->pictureBox2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
 			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pictureBox2->Location = System::Drawing::Point(1250, 400);
+			this->pictureBox2->Location = System::Drawing::Point(1106, 409);
 			this->pictureBox2->Margin = System::Windows::Forms::Padding(2);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(400, 340);

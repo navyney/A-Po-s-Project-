@@ -119,17 +119,17 @@
   </resheader>
   <data name="label3.Text" xml:space="preserve">
     <value>A: 你好! 
-        nǐhǎo hello
+        Nǐhǎo สวัสดี!
 B: 你好! 
-        nǐhǎo hello
+        Nǐhǎo สวัสดี!
 A: 你叫什么名字 ?
-        nǐ jiào shénme míngzì ?  What is your name ?
+        Nǐ jiào shénme míngzì ?  คุณชื่ออะไร?
 B: 我叫阿波。 
-        wǒ jiào A Po  my name is  A Po
+        Wǒ jiào A Po  ฉันชื่ออาโป
 A: 再见。
-        zàijiàn bye
+        Zàijiàn ลาก่อน
 B: 再见。
-        zàijiàn bye</value>
+        Zàijiàn บายยย</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -1590,7 +1590,7 @@ B: 再见。
   <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABe0AAAXpCAYAAADrszN8AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        vwAAMr8BereA9gAAU5tJREFUeF7s3LGubHl61mEHXIADX4ADZFmcbqvVu5EcTkjoSyAgQgQOEBGSQ0Jf
+        vQAAMr0BBUlDfwAAU5tJREFUeF7s3LGubHl61mEHXIADX4ADZFmcbqvVu5EcTkjoSyAgQgQOEBGSQ0Jf
         giMiLoAIDRkZjtw9TWIJLoAEicBIZpc5wd7rfOf/rrdYVavq7OeRXo01QU1/+q/pdv/Umt/79bsf/+J3
         3738vdnR++W7n37zewAAAAAA7Cfa260m2gMAAAAAlER7u9VEewAAAACAkmhvt5poDwAAAABQEu3tVhPt
         AQAAAABKor3daqI9AAAAAEBJtLdbTbQHAAAAACiJ9narifYAAAAAACXR3m410R4AAAAAoCTa260m2gMA
@@ -1953,7 +1953,7 @@ B: 再见。
   <data name="pictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABewAAAXpCAYAAAAEcVhCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        vwAAMr8BereA9gAAU8ZJREFUeF7s3bHOXWmaluEOOQQCgglb2DVCthEEBB0SEnAAk5AQDRIBWR8Ch9CH
+        vQAAMr0BBUlDfwAAU8ZJREFUeF7s3bHOXWmaluEOOQQCgglb2DVCthEEBB0SEnAAk5AQDRIBWR8Ch9CH
         0IfQhzARXWUhVGEHCHWAxIgIlps/sBeP9zNv/d7L3/72dUmPqlQl7fKrtbwt362u+hUAAAAAAP8wP779
         8Juf3r7/P2bfeh/fvvvty2sGAAAAAEAj2Nu9JtgDAAAAAAwI9navCfYAAAAAAAOCvd1rgj0AAAAAwIBg
         b/eaYA8AAAAAMCDY270m2AMAAAAADAj2dq8J9gAAAAAAA4K93WuCPQAAAADAgGBv95pgDwAAAAAwINjb
@@ -2316,7 +2316,7 @@ B: 再见。
   <data name="Next.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAw8AAAGFCAYAAAC7aM9BAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        vwAAMr8BereA9gAALQZJREFUeF7t3Qm8XVV96PG01tfWN0g/z/f6BtvaliqcvU9u7to3iHVAcahYq4ig
+        vQAAMr0BBUlDfwAALQZJREFUeF7t3Qm8XVV96PG01tfWN0g/z/f6BtvaliqcvU9u7to3iHVAcahYq4ig
         YlVsHbAOdcKBV6lVbB1alYqIE+JQpeBUrbMVKAoOoBRMzj7nJpAgM4QwJAFChvv2TlYIJCsk994z3+/v
         8/l+AuScfdbe95xk/UPuOYskSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
         SZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
@@ -2514,7 +2514,7 @@ B: 再见。
   <data name="Previous.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA0AAAAGFCAYAAADU2ZNsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        vwAAMr8BereA9gAARR9JREFUeF7t3XmYJHWd4H9mdmbH+e3sjvM8+8eu4zGPyyxQEdVNRVQjKtKogILI
+        vQAAMr0BBUlDfwAARR9JREFUeF7t3XmYJHWd4H9mdmbH+e3sjvM8+8eu4zGPyyxQEdVNRVQjKtKogILI
         DXIreCAqcgh4cMopKAgi2KCIoIjQgidHI3RzyCWXQFdGZh1dXX1VH9Vn9VHdXdXxi0/2t9em+lPVmZXx
         /WZG5Pv9PK+Hmd3pjMiozKrvJ4+IXYiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
         iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
