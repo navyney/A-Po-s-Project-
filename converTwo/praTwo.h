@@ -55,6 +55,8 @@ namespace converTwo {
 	private: System::Windows::Forms::PictureBox^ Previous;
 	private: System::Windows::Forms::ProgressBar^ progressBar2;
 	private: System::Windows::Forms::PictureBox^ Next;
+	private: System::Windows::Forms::PictureBox^ pictureBox4;
+	private: System::Windows::Forms::PictureBox^ pictureBox5;
 
 
 
@@ -84,11 +86,15 @@ namespace converTwo {
 			this->Previous = (gcnew System::Windows::Forms::PictureBox());
 			this->progressBar2 = (gcnew System::Windows::Forms::ProgressBar());
 			this->Next = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox5 = (gcnew System::Windows::Forms::PictureBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Previous))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Next))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// pictureBox2
@@ -96,10 +102,10 @@ namespace converTwo {
 			this->pictureBox2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
 			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pictureBox2->Location = System::Drawing::Point(1150, 175);
+			this->pictureBox2->Location = System::Drawing::Point(1150, 320);
 			this->pictureBox2->Margin = System::Windows::Forms::Padding(2);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(400, 340);
+			this->pictureBox2->Size = System::Drawing::Size(300, 240);
 			this->pictureBox2->TabIndex = 7;
 			this->pictureBox2->TabStop = false;
 			// 
@@ -108,7 +114,7 @@ namespace converTwo {
 			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->pictureBox1->Location = System::Drawing::Point(1305, 300);
+			this->pictureBox1->Location = System::Drawing::Point(1250, 360);
 			this->pictureBox1->Margin = System::Windows::Forms::Padding(2);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(400, 395);
@@ -119,12 +125,12 @@ namespace converTwo {
 			// 
 			this->label3->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(222)));
-			this->label3->Location = System::Drawing::Point(190, 200);
+			this->label3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label3->Location = System::Drawing::Point(290, 300);
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(1011, 630);
+			this->label3->Size = System::Drawing::Size(772, 525);
 			this->label3->TabIndex = 6;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
@@ -132,12 +138,12 @@ namespace converTwo {
 			// 
 			this->label4->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label4->AutoSize = true;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 30, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(222)));
-			this->label4->Location = System::Drawing::Point(330, 175);
+			this->label4->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 21.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label4->Location = System::Drawing::Point(430, 275);
 			this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(590, 690);
+			this->label4->Size = System::Drawing::Size(439, 570);
 			this->label4->TabIndex = 8;
 			this->label4->Text = resources->GetString(L"label4.Text");
 			// 
@@ -145,12 +151,14 @@ namespace converTwo {
 			// 
 			this->label2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(222)));
-			this->label2->Location = System::Drawing::Point(816, 133);
+			this->label2->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label2->Location = System::Drawing::Point(750, 160);
 			this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(397, 73);
+			this->label2->Size = System::Drawing::Size(413, 82);
 			this->label2->TabIndex = 1;
 			this->label2->Text = L"conversation";
 			// 
@@ -160,7 +168,9 @@ namespace converTwo {
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(623, 9);
+			this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label1->Location = System::Drawing::Point(540, 10);
 			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(820, 124);
@@ -173,10 +183,10 @@ namespace converTwo {
 			this->pictureBox3->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
 			this->pictureBox3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->pictureBox3->Location = System::Drawing::Point(1150, 535);
+			this->pictureBox3->Location = System::Drawing::Point(1150, 580);
 			this->pictureBox3->Margin = System::Windows::Forms::Padding(2);
 			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(400, 330);
+			this->pictureBox3->Size = System::Drawing::Size(300, 240);
 			this->pictureBox3->TabIndex = 17;
 			this->pictureBox3->TabStop = false;
 			// 
@@ -190,11 +200,12 @@ namespace converTwo {
 			this->Previous->Size = System::Drawing::Size(300, 130);
 			this->Previous->TabIndex = 89;
 			this->Previous->TabStop = false;
+			this->Previous->Click += gcnew System::EventHandler(this, &praTwo::Previous_Click);
 			// 
 			// progressBar2
 			// 
 			this->progressBar2->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->progressBar2->Location = System::Drawing::Point(443, 946);
+			this->progressBar2->Location = System::Drawing::Point(445, 946);
 			this->progressBar2->Name = L"progressBar2";
 			this->progressBar2->Size = System::Drawing::Size(1000, 35);
 			this->progressBar2->TabIndex = 88;
@@ -209,6 +220,27 @@ namespace converTwo {
 			this->Next->Size = System::Drawing::Size(282, 133);
 			this->Next->TabIndex = 90;
 			this->Next->TabStop = false;
+			this->Next->Click += gcnew System::EventHandler(this, &praTwo::Next_Click);
+			// 
+			// pictureBox4
+			// 
+			this->pictureBox4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.BackgroundImage")));
+			this->pictureBox4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->pictureBox4->Location = System::Drawing::Point(12, 12);
+			this->pictureBox4->Name = L"pictureBox4";
+			this->pictureBox4->Size = System::Drawing::Size(450, 450);
+			this->pictureBox4->TabIndex = 91;
+			this->pictureBox4->TabStop = false;
+			// 
+			// pictureBox5
+			// 
+			this->pictureBox5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.BackgroundImage")));
+			this->pictureBox5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->pictureBox5->Location = System::Drawing::Point(1442, 12);
+			this->pictureBox5->Name = L"pictureBox5";
+			this->pictureBox5->Size = System::Drawing::Size(450, 450);
+			this->pictureBox5->TabIndex = 92;
+			this->pictureBox5->TabStop = false;
 			// 
 			// praTwo
 			// 
@@ -226,6 +258,8 @@ namespace converTwo {
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label4);
 			this->Controls->Add(this->label3);
+			this->Controls->Add(this->pictureBox4);
+			this->Controls->Add(this->pictureBox5);
 			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"praTwo";
 			this->Text = L"praTwo";
@@ -236,6 +270,8 @@ namespace converTwo {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Previous))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Next))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -262,13 +298,14 @@ namespace converTwo {
 	}
 	private: System::Void praTwo_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+
+private: System::Void Previous_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (numpage > 1) {
 		numpage--;
 		changepage(numpage);
 	}
 }
-private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void Next_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (numpage < 2) {
 		numpage++;
 		changepage(numpage);
