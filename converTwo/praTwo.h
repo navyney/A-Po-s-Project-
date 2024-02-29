@@ -48,10 +48,13 @@ namespace converTwo {
 
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::Label^ label1;
-	private: System::Windows::Forms::ProgressBar^ progressBar1;
-	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Button^ button2;
+
+
+
 	private: System::Windows::Forms::PictureBox^ pictureBox3;
+	private: System::Windows::Forms::PictureBox^ Previous;
+	private: System::Windows::Forms::ProgressBar^ progressBar2;
+	private: System::Windows::Forms::PictureBox^ Next;
 
 
 
@@ -77,13 +80,15 @@ namespace converTwo {
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->progressBar1 = (gcnew System::Windows::Forms::ProgressBar());
-			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
+			this->Previous = (gcnew System::Windows::Forms::PictureBox());
+			this->progressBar2 = (gcnew System::Windows::Forms::ProgressBar());
+			this->Next = (gcnew System::Windows::Forms::PictureBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Previous))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Next))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// pictureBox2
@@ -102,6 +107,7 @@ namespace converTwo {
 			// 
 			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
+			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
 			this->pictureBox1->Location = System::Drawing::Point(1305, 300);
 			this->pictureBox1->Margin = System::Windows::Forms::Padding(2);
 			this->pictureBox1->Name = L"pictureBox1";
@@ -139,12 +145,12 @@ namespace converTwo {
 			// 
 			this->label2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(222)));
-			this->label2->Location = System::Drawing::Point(840, 100);
+			this->label2->Location = System::Drawing::Point(816, 133);
 			this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(198, 37);
+			this->label2->Size = System::Drawing::Size(397, 73);
 			this->label2->TabIndex = 1;
 			this->label2->Text = L"conversation";
 			// 
@@ -152,47 +158,15 @@ namespace converTwo {
 			// 
 			this->label1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(222)));
-			this->label1->Location = System::Drawing::Point(675, 15);
+			this->label1->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label1->Location = System::Drawing::Point(623, 9);
 			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(533, 73);
+			this->label1->Size = System::Drawing::Size(820, 124);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Lesson 2 : Family";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// progressBar1
-			// 
-			this->progressBar1->Location = System::Drawing::Point(450, 980);
-			this->progressBar1->Margin = System::Windows::Forms::Padding(2);
-			this->progressBar1->Name = L"progressBar1";
-			this->progressBar1->Size = System::Drawing::Size(1000, 15);
-			this->progressBar1->TabIndex = 15;
-			// 
-			// button1
-			// 
-			this->button1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->button1->Location = System::Drawing::Point(11, 950);
-			this->button1->Margin = System::Windows::Forms::Padding(2);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(300, 80);
-			this->button1->TabIndex = 14;
-			this->button1->Text = L"P";
-			this->button1->UseVisualStyleBackColor = true;
-			this->button1->Click += gcnew System::EventHandler(this, &praTwo::button1_Click);
-			// 
-			// button2
-			// 
-			this->button2->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->button2->Location = System::Drawing::Point(1593, 950);
-			this->button2->Margin = System::Windows::Forms::Padding(2);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(300, 80);
-			this->button2->TabIndex = 16;
-			this->button2->Text = L"N";
-			this->button2->UseVisualStyleBackColor = true;
-			this->button2->Click += gcnew System::EventHandler(this, &praTwo::button2_Click);
 			// 
 			// pictureBox3
 			// 
@@ -206,15 +180,46 @@ namespace converTwo {
 			this->pictureBox3->TabIndex = 17;
 			this->pictureBox3->TabStop = false;
 			// 
+			// Previous
+			// 
+			this->Previous->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->Previous->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Previous.BackgroundImage")));
+			this->Previous->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->Previous->Location = System::Drawing::Point(33, 897);
+			this->Previous->Name = L"Previous";
+			this->Previous->Size = System::Drawing::Size(300, 130);
+			this->Previous->TabIndex = 89;
+			this->Previous->TabStop = false;
+			// 
+			// progressBar2
+			// 
+			this->progressBar2->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->progressBar2->Location = System::Drawing::Point(443, 946);
+			this->progressBar2->Name = L"progressBar2";
+			this->progressBar2->Size = System::Drawing::Size(1000, 35);
+			this->progressBar2->TabIndex = 88;
+			// 
+			// Next
+			// 
+			this->Next->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->Next->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Next.BackgroundImage")));
+			this->Next->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->Next->Location = System::Drawing::Point(1584, 897);
+			this->Next->Name = L"Next";
+			this->Next->Size = System::Drawing::Size(282, 133);
+			this->Next->TabIndex = 90;
+			this->Next->TabStop = false;
+			// 
 			// praTwo
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::Color::White;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->Next);
+			this->Controls->Add(this->Previous);
+			this->Controls->Add(this->progressBar2);
 			this->Controls->Add(this->pictureBox3);
-			this->Controls->Add(this->button2);
-			this->Controls->Add(this->progressBar1);
-			this->Controls->Add(this->button1);
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->label1);
@@ -229,6 +234,8 @@ namespace converTwo {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Previous))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Next))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 

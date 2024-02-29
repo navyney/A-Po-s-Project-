@@ -89,12 +89,12 @@ namespace converOne {
 			// 
 			this->label3->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 30, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(222)));
-			this->label3->Location = System::Drawing::Point(245, 275);
+			this->label3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 30, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label3->Location = System::Drawing::Point(245, 260);
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(912, 552);
+			this->label3->Size = System::Drawing::Size(929, 612);
 			this->label3->TabIndex = 0;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
