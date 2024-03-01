@@ -30,7 +30,7 @@ void main(array<String^>^ args)
     allmodel::Quiz0 formQ0;
     allmodel::vo1 formvo01;
     allmodel::one formcon1;
-  //  allmodel::HQuiz
+   // allmodel::HQuiz1 formHQ1;
 
     form.ShowDialog();//menu page
 
