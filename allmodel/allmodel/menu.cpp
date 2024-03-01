@@ -5,6 +5,7 @@
 #include"msound.h"
 #include"ex0.h"
 #include"HQuiz0.h"
+#include"Quiz0.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -23,6 +24,7 @@ void main(array<String^>^ args)
     allmodel::msound formmix;
     allmodel::ex0 formex0;
     allmodel::HQuiz0 formHQ0;
+    allmodel::Quiz0 formQ0;
 
     form.ShowDialog();//menu page
 
@@ -75,6 +77,18 @@ void main(array<String^>^ args)
                 formex0.ShowDialog();
                 formHQ0.switchToformex0 = false;//back  Excaption0 page
             }
+        else if (formHQ0.switchToformQ0) {
+                formQ0.ShowDialog();
+                formHQ0.switchToformQ0 = false; //  Quiz0 page
+            }
+        else if (formQ0.switchToformHQ0) {
+                formHQ0.ShowDialog();
+                formQ0.switchToformHQ0 = false;//back  Before Quiz0  page
+            }
+        else if (form.switchToformHQ0) {
+                formHQ0.ShowDialog();
+                form.switchToformHQ0 = false; //  Quiz0 page
+            }
         else {
             break;
         }
@@ -82,3 +96,11 @@ void main(array<String^>^ args)
 
 }
 
+      /*this->Close();
+      switchToformHQ0 = true;
+      if (questionNumber = totalQuestion) {
+							askQuestion(questionNumber);
+							this->Close();
+							switchToformHQ0 = true;
+						}
+      */

@@ -30,10 +30,13 @@
     <ClCompile Include="tonenew.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex0.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="HQuiz0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -57,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HQuiz0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz0.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

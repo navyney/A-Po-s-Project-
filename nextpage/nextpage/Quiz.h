@@ -133,6 +133,7 @@ namespace nextpage {
 			this->groupBox1->Size = System::Drawing::Size(1554, 693);
 			this->groupBox1->TabIndex = 1;
 			this->groupBox1->TabStop = false;
+			this->groupBox1->Enter += gcnew System::EventHandler(this, &Quiz::groupBox1_Enter);
 			// 
 			// radioButton4
 			// 
@@ -231,7 +232,7 @@ namespace nextpage {
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Quiz::button1_Click);
 			// 
-			// MyForm
+			// Quiz
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
@@ -372,6 +373,8 @@ namespace nextpage {
 		}
 	private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
 	}
-	};
+	private: System::Void groupBox1_Enter(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }
 //

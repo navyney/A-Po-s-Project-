@@ -229,6 +229,7 @@ namespace allmodel {
 				this->label7->Size = System::Drawing::Size(280, 40);
 				this->label7->TabIndex = 111;
 				this->label7->Text = L"1.   m มัว    +     a อา";
+				this->label7->Click += gcnew System::EventHandler(this, &msound::label7_Click);
 				// 
 				// label6
 				// 
@@ -703,5 +704,7 @@ namespace allmodel {
 			this->Close();
 			switchToformex0 = true;
 		}
-		};
+		private: System::Void label7_Click(System::Object^ sender, System::EventArgs^ e) {
+		}
+};
 	}
