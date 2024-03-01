@@ -3,6 +3,7 @@
 #include"vo.h"
 #include"tonenew.h"
 #include"msound.h"
+#include"ex0.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -19,6 +20,7 @@ void main(array<String^>^ args)
     allmodel::vo formvo;
     allmodel::tonenew formtone;
     allmodel::msound formmix;
+    allmodel::ex0 formex0;
 
     form.ShowDialog();//menu page
 
@@ -54,6 +56,14 @@ void main(array<String^>^ args)
         else if (formmix.switchToformtone) {
                 formtone.ShowDialog();
                 formmix.switchToformtone = false;//back tone page
+            }
+        else if (formmix.switchToformex0) {
+                formex0.ShowDialog();
+                formmix.switchToformex0 = false; // Excaption0 page
+            }
+        else if (formex0.switchToformmix) {
+                formmix.ShowDialog();
+                formex0.switchToformmix = false;//back  mixsound page
             }
         else {
             break;

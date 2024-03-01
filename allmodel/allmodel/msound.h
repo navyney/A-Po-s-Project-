@@ -693,12 +693,15 @@ namespace allmodel {
 
 			}
 #pragma endregion
-			public:bool switchToformtone = false;
+		public:bool switchToformtone = false;
+		public:bool switchToformex0 = false;
 		private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
 			this -> Close();
 			switchToformtone = true;
 		}
 		private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+			this->Close();
+			switchToformex0 = true;
 		}
 		};
 	}
