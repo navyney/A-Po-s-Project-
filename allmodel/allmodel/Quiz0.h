@@ -29,7 +29,6 @@ namespace allmodel {
 	private: System::Windows::Forms::Label^ lesson3;
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::PictureBox^ pictureBox2;
-
 	private: array<int>^ userAnswers;
 
 	public:
@@ -76,7 +75,6 @@ namespace allmodel {
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->nextbutton = (gcnew System::Windows::Forms::PictureBox());
 			this->previousbutton = (gcnew System::Windows::Forms::PictureBox());
@@ -84,12 +82,13 @@ namespace allmodel {
 			this->decorleft = (gcnew System::Windows::Forms::PictureBox());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->panel1->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// panel1
@@ -181,18 +180,6 @@ namespace allmodel {
 			this->button1->Text = L"Ans1";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Quiz0::checkAnswerEvent);
-			// 
-			// pictureBox2
-			// 
-			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
-			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
-			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pictureBox2->Location = System::Drawing::Point(0, 88);
-			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(1693, 600);
-			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
-			this->pictureBox2->TabIndex = 57;
-			this->pictureBox2->TabStop = false;
 			// 
 			// button7
 			// 
@@ -286,6 +273,18 @@ namespace allmodel {
 			this->label3->TabIndex = 62;
 			this->label3->Text = L"Pinyin";
 			// 
+			// pictureBox2
+			// 
+			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
+			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pictureBox2->Location = System::Drawing::Point(0, 88);
+			this->pictureBox2->Name = L"pictureBox2";
+			this->pictureBox2->Size = System::Drawing::Size(1693, 600);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox2->TabIndex = 57;
+			this->pictureBox2->TabStop = false;
+			// 
 			// Quiz0
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -306,11 +305,11 @@ namespace allmodel {
 			this->Text = L"Quiz0";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->panel1->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -384,11 +383,11 @@ namespace allmodel {
 	private: System::Void askQuestion(int qnum) {
 		switch (qnum) {
 		case 1:
-			label2->Text = "1.“b” พยัญชนะต่อไปนี้อ่านออกเสียงอย่างไร";
-			button1->Text = "บัว";
-			button2->Text = "ปัว";
-			button3->Text = "พัว";
-			button4->Text = "เบอะ";
+			label2->Text = L"1.“b” พยัญชนะต่อไปนี้อ่านออกเสียงอย่างไร";
+			button1->Text = L"บัว";
+			button2->Text = L"ปัว";
+			button3->Text = L"พัว";
+			button4->Text = L"เบอะ";
 			previousbutton->Show();
 			button7->Hide();
 
@@ -396,40 +395,41 @@ namespace allmodel {
 
 			break;
 		case 2:
-			label2->Text = "2.พยัญชนะกลุ่มใดสามารถผสมกับสระ ü\nได้ทั้งหมด";
-			button1->Text = "1.b p m f ";
-			button2->Text = "2.d t n l";
-			button3->Text = "3.g k h";
-			button4->Text = "4.j q x y ";
+			label2->Text = L"2.พยัญชนะกลุ่มใดสามารถผสมกับสระ ü\nได้ทั้งหมด";
+			button1->Text = L"1.b p m f ";
+			button2->Text = L"2.d t n l";
+			button3->Text = L"3.g k h";
+			button4->Text = L"4.j q x y ";
 
 			correctAnswer = 4;
 
 			break;
 		case 3:
-			label2->Text = "3. “hǎo” คำต่อไปนี้อ่านออกเสียงอย่างไร";
-			button1->Text = "1.ฮาว";
-			button2->Text = "2.ห้าว";
-			button3->Text = "3.ห่าว";
-			button4->Text = "4.หาว";
+			label2->Text = L"3. “hǎo” คำต่อไปนี้อ่านออกเสียงอย่างไร";
+			button1->Text = L"1.ฮาว";
+			button2->Text = L"2.ห้าว";
+			button3->Text = L"3.ห่าว";
+			button4->Text = L"4.หาว";
+
 			correctAnswer = 3;
 
 			break;
 		case 4:
-			label2->Text = "4.“xióng” คำต่อไปนี้อ่านออกเสียงอย่างไร";
-			button1->Text = "1.สง";
-			button2->Text = "2.ชง";
-			button3->Text = "3.ซง";
-			button4->Text = "4.เซียง";
+			label2->Text = L"4.“xióng” คำต่อไปนี้อ่านออกเสียงอย่างไร";
+			button1->Text = L"1.สง";
+			button2->Text = L"2.ชง";
+			button3->Text = L"3.ซง";
+			button4->Text = L"4.เซียง";
 
 			correctAnswer = 1;
 
 			break;
 		case 5:
-			label2->Text = "5. tian ข้อใดสะกดได้ถูกต้อง ";
-			button1->Text = "1.ตัว + อาน = ตาน";
-			button2->Text = "2.ทัว + อาน = ทาน";
-			button3->Text = "3.เตอ + เอียน = เตียน";
-			button4->Text = "4.เทอ + เอียน = เทียน";
+			label2->Text = L"5. tian ข้อใดสะกดได้ถูกต้อง ";
+			button1->Text = L"1.ตัว + อาน = ตาน";
+			button2->Text = L"2.ทัว + อาน = ทาน";
+			button3->Text = L"3.เตอ + เอียน = เตียน";
+			button4->Text = L"4.เทอ + เอียน = เทียน";
 			correctAnswer = 4;
 
 			break;

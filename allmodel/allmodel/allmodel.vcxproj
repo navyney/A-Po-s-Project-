@@ -128,6 +128,7 @@
     <ClCompile Include="Quiz0.cpp" />
     <ClCompile Include="tonenew.cpp" />
     <ClCompile Include="vo.cpp" />
+    <ClCompile Include="vo1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="conso.h">
@@ -152,6 +153,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="vo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="vo1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -179,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="vo.resx">
       <DependentUpon>vo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vo1.resx">
+      <DependentUpon>vo1.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
