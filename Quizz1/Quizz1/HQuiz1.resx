@@ -121,7 +121,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA0AAAAGFCAYAAADU2ZNsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        vwAAMr8BereA9gAARR9JREFUeF7t3XmYJHWd4H9mdmbH+e3sjvM8+8eu4zGPyyxQEdVNRVQjKtKogILI
+        vgAAMr4BqPBiEgAARR9JREFUeF7t3XmYJHWd4H9mdmbH+e3sjvM8+8eu4zGPyyxQEdVNRVQjKtKogILI
         DXIreCAqcgh4cMopKAgi2KCIoIjQgidHI3RzyCWXQFdGZh1dXX1VH9Vn9VHdXdXxi0/2t9em+lPVmZXx
         /WZG5Pv9PK+Hmd3pjMiozKrvJ4+IXYiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
         iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
@@ -422,7 +422,7 @@
   <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABe0AAAXpCAYAAADrszN8AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        vwAAMr8BereA9gAA/7JJREFUeF7s3QmYHEd99/HBt81hfMg7VT0rcQhMjLlsjoSbQBISyPUGkryQA3K8
+        vgAAMr4BqPBiEgAA/7JJREFUeF7s3QmYHEd99/HBt81hfMg7VT0rcQhMjLlsjoSbQBISyPUGkryQA3K8
         5CSQBAIkIK4ECElIAoEACUdCSFA4DRjL0nbV7Eq7K1u+ZVu2ZcuWLdu6d6eqZ++Z9189tfLuelhGg6Sd
         2f1+nuf39DE91eo38/pVfqq3urDj4kvW7bj40johxzq3PvXSlxYAAAAAAAAAAK2jtCfHK5T2AAAAAAAA
         AHCUKO3J8QqlPQAAAAAAAAAcJUp7crxCaQ8AAAAAAAAAR4nSnhyvUNoDAAAAAAAAwFGitCfHK5T2AAAA
@@ -14282,7 +14282,7 @@
   <data name="pictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABewAAAYyCAYAAABNYK4zAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        vwAAMr8BereA9gAA/7JJREFUeF7s3QmcXGld7/929hmWYZak63lOdfcwBJGwz4DsAioCelFULgoiogLe
+        vgAAMr4BqPBiEgAA/7JJREFUeF7s3QmcXGld7/929hmWYZak63lOdfcwBJGwz4DsAioCelFULgoiogLe
         iwp4VRYVBxQE/YugoDggi6wSQFkDmaTP81R3ku7M9OyZLZmZzCSTfeuu5zlVvVb9f8+p05lOcYZKpdPT
         6erP+/X6vs5Sp+p0bkHfy7ef+ztdAAAAAAAAAIATc8eTrnzxnU++sk7Iqc8VV2X/MQMAAAAAAAAAtEJh
         TxYuFPYAAAAAAAAAcMIo7MnChcIeAAAAAAAAAE4YhT1ZuFDYAwAAAAAAAMAJo7AnCxcKewAAAAAAAAA4
@@ -29462,7 +29462,7 @@
   <data name="pictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABQAAAAbACAYAAAA45PveAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        vwAAMr8BereA9gAAz8lJREFUeF7s/U2opFl+53n6NkahgZweUkMyWigygw4R2ardLKRFxzIyYaAbWg1a
+        vgAAMr4BqPBiEgAAz8lJREFUeF7s/U2opFl+53n6NkahgZweUkMyWigygw4R2ardLKRFxzIyYaAbWg1a
         JHRqk7VqptQwdK+8Nx1dIAkxlDKFBFpFrnqG1FK586oRJUhtKvcCjwSBGjEjYnGpGAUdipjnXDdzt2v3
         b3bteTnnOS+fL3zorqpI9+seds3s/uI89jyTJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEma2d++/a0P
         kk/efuf5y1/+5ovAV4EH/0z63x6lX+vwS0uSJEmSJEkq2XHsOwx30bC3tdfjoGFQkiRJkiRJylDhwe8W
@@ -30355,7 +30355,7 @@
   <data name="GoQuiz0.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAADowAAAL8CAYAAABgC3bQAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        vwAAMr8BereA9gAAPCBJREFUeF7s20ENAgAQA0EE8cO/D9yAgb5I+7gwk6yMfQAAAAAAAAAAAAAAAAAA
+        vgAAMr4BqPBiEgAAPCBJREFUeF7s20ENAgAQA0EE8cO/D9yAgb5I+7gwk6yMfQAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -30618,7 +30618,7 @@
   <data name="Golesson1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAADowAAAL8CAYAAABgC3bQAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        vwAAMr8BereA9gAAPCBJREFUeF7s20ENAgAQA0EE8cO/D9yAgb5I+7gwk6yMfQAAAAAAAAAAAAAAAAAA
+        vgAAMr4BqPBiEgAAPCBJREFUeF7s20ENAgAQA0EE8cO/D9yAgb5I+7gwk6yMfQAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA

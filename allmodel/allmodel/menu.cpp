@@ -7,6 +7,8 @@
 #include"HQuiz0.h"
 #include"Quiz0.h"
 #include"vo1.h"
+#include"one.h"
+//#include"HQuiz1.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -27,6 +29,8 @@ void main(array<String^>^ args)
     allmodel::HQuiz0 formHQ0;
     allmodel::Quiz0 formQ0;
     allmodel::vo1 formvo01;
+    allmodel::one formcon1;
+  //  allmodel::HQuiz
 
     form.ShowDialog();//menu page
 
@@ -102,6 +106,14 @@ void main(array<String^>^ args)
         else if (form.switchToformvo01) {
                 formvo01.ShowDialog();
                 form.switchToformvo01 = false; // home to vocab1 page
+            }
+        else if (formvo01.switchToformcon1) {
+                formcon1.ShowDialog();
+                formvo01.switchToformcon1 = false; //  consonant1 page
+            }
+        else if (formcon1.switchToformvo01) {
+                formvo01.ShowDialog();
+                formcon1.switchToformvo01= false;//back  Before consonant1   page
             }
         else {
             break;

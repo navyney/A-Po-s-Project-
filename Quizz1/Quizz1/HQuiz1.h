@@ -82,6 +82,7 @@ namespace Quizz1 {
 			this->button1->Size = System::Drawing::Size(300, 130);
 			this->button1->TabIndex = 0;
 			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &HQuiz1::button1_Click);
 			// 
 			// pictureBox1
 			// 
@@ -136,6 +137,7 @@ namespace Quizz1 {
 			this->GoQuiz0->TabIndex = 4;
 			this->GoQuiz0->Text = L"Quiz 1";
 			this->GoQuiz0->UseVisualStyleBackColor = false;
+			this->GoQuiz0->Click += gcnew System::EventHandler(this, &HQuiz1::GoQuiz0_Click);
 			// 
 			// Golesson1
 			// 
@@ -160,6 +162,7 @@ namespace Quizz1 {
 			this->Golesson1->TabIndex = 5;
 			this->Golesson1->Text = L"Lesson 2 : Family";
 			this->Golesson1->UseVisualStyleBackColor = false;
+			this->Golesson1->Click += gcnew System::EventHandler(this, &HQuiz1::Golesson1_Click);
 			// 
 			// HQuiz1
 			// 
@@ -186,5 +189,11 @@ namespace Quizz1 {
 
 		}
 #pragma endregion
-	};
+	private: System::Void GoQuiz0_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+private: System::Void Golesson1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+};
 }
