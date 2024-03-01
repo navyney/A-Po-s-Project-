@@ -89,13 +89,13 @@ namespace converOne {
 			// 
 			this->label3->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Yu Mincho", 23));
+			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 23));
 			this->label3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label3->Location = System::Drawing::Point(430, 275);
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(563, 480);
+			this->label3->Size = System::Drawing::Size(573, 420);
 			this->label3->TabIndex = 0;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
@@ -179,6 +179,7 @@ namespace converOne {
 			this->Next->Size = System::Drawing::Size(282, 133);
 			this->Next->TabIndex = 86;
 			this->Next->TabStop = false;
+			this->Next->Click += gcnew System::EventHandler(this, &one::Next_Click);
 			// 
 			// Previous
 			// 
@@ -190,6 +191,7 @@ namespace converOne {
 			this->Previous->Size = System::Drawing::Size(300, 130);
 			this->Previous->TabIndex = 87;
 			this->Previous->TabStop = false;
+			this->Previous->Click += gcnew System::EventHandler(this, &one::Previous_Click);
 			// 
 			// one
 			// 
@@ -222,6 +224,10 @@ namespace converOne {
 #pragma endregion
 
 private: System::Void one_Load(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void Previous_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void Next_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }
