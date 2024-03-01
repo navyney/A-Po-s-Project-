@@ -4,6 +4,7 @@
 #include"tonenew.h"
 #include"msound.h"
 #include"ex0.h"
+#include"HQuiz0.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -21,6 +22,7 @@ void main(array<String^>^ args)
     allmodel::tonenew formtone;
     allmodel::msound formmix;
     allmodel::ex0 formex0;
+    allmodel::HQuiz0 formHQ0;
 
     form.ShowDialog();//menu page
 
@@ -64,6 +66,14 @@ void main(array<String^>^ args)
         else if (formex0.switchToformmix) {
                 formmix.ShowDialog();
                 formex0.switchToformmix = false;//back  mixsound page
+            }
+        else if (formex0.switchToformHQ0) {
+                formHQ0.ShowDialog();
+                formex0.switchToformHQ0 = false; // Before Quiz0 page
+            }
+        else if (formHQ0.switchToformex0) {
+                formex0.ShowDialog();
+                formHQ0.switchToformex0 = false;//back  Excaption0 page
             }
         else {
             break;

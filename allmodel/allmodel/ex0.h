@@ -973,11 +973,14 @@ namespace allmodel {
 #pragma endregion
 
 		public:bool switchToformmix = false;
+		public:bool switchToformHQ0 = false;
 		private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
 			this->Close();
 			switchToformmix = true;
 		}
 		private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+			this->Close();
+			switchToformHQ0 = true;
 		}
 		};
 	}

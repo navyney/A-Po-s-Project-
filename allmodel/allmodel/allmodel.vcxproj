@@ -122,6 +122,7 @@
   <ItemGroup>
     <ClCompile Include="conso.cpp" />
     <ClCompile Include="ex0.cpp" />
+    <ClCompile Include="HQuiz0.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="msound.cpp" />
     <ClCompile Include="tonenew.cpp" />
@@ -132,6 +133,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="ex0.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HQuiz0.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="menu.h">
@@ -153,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ex0.resx">
       <DependentUpon>ex0.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HQuiz0.resx">
+      <DependentUpon>HQuiz0.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.h</DependentUpon>

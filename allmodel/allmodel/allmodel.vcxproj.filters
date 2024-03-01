@@ -33,6 +33,9 @@
     <ClCompile Include="ex0.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="HQuiz0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menu.h">
@@ -51,6 +54,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ex0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HQuiz0.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
