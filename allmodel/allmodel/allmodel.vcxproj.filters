@@ -21,12 +21,48 @@
     <ClCompile Include="conso.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="vo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tonenew.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HQuiz0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="conso.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tonenew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ex0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HQuiz0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz0.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

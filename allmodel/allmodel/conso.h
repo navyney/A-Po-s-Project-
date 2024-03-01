@@ -202,6 +202,7 @@ namespace allmodel {
 				this->nextbutton->Size = System::Drawing::Size(282, 133);
 				this->nextbutton->TabIndex = 61;
 				this->nextbutton->TabStop = false;
+				this->nextbutton->Click += gcnew System::EventHandler(this, &conso::nextbutton_Click);
 				// 
 				// previousbutton
 				// 
@@ -942,9 +943,14 @@ namespace allmodel {
 			}
 #pragma endregion
 		public:bool switchToformhome = false;
+		public:bool switchToformvo = false;
 		private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
 			this->Close();
 			switchToformhome = true;
 		}
+		private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+			this->Close();
+			switchToformvo = true;
+}
 };
 	}

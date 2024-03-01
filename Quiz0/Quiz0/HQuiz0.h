@@ -84,6 +84,7 @@ namespace Quiz0 {
 			this->button1->Size = System::Drawing::Size(300, 130);
 			this->button1->TabIndex = 0;
 			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &HQuiz0::button1_Click);
 			// 
 			// pictureBox1
 			// 
@@ -138,6 +139,7 @@ namespace Quiz0 {
 			this->GoQuiz0->TabIndex = 4;
 			this->GoQuiz0->Text = L"Quiz 0";
 			this->GoQuiz0->UseVisualStyleBackColor = false;
+			this->GoQuiz0->Click += gcnew System::EventHandler(this, &HQuiz0::GoQuiz0_Click);
 			// 
 			// Golesson1
 			// 
@@ -162,6 +164,7 @@ namespace Quiz0 {
 			this->Golesson1->TabIndex = 5;
 			this->Golesson1->Text = L"Lesson 1 : Hello!";
 			this->Golesson1->UseVisualStyleBackColor = false;
+			this->Golesson1->Click += gcnew System::EventHandler(this, &HQuiz0::Golesson1_Click);
 			// 
 			// HQuiz0
 			// 
@@ -176,7 +179,7 @@ namespace Quiz0 {
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
 			this->MaximumSize = System::Drawing::Size(1920, 1080);
-			this->MinimumSize = System::Drawing::Size(1918, 1038);
+			this->MinimumSize = System::Drawing::Size(1918, 1030);
 			this->Name = L"HQuiz0";
 			this->Text = L"Quiz0";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
@@ -187,5 +190,11 @@ namespace Quiz0 {
 
 		}
 #pragma endregion
-	};
+	private: System::Void GoQuiz0_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+private: System::Void Golesson1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+};
 }

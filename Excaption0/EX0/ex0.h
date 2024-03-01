@@ -213,6 +213,7 @@ namespace EX0 {
 			this->nextbutton->Size = System::Drawing::Size(282, 133);
 			this->nextbutton->TabIndex = 114;
 			this->nextbutton->TabStop = false;
+			this->nextbutton->Click += gcnew System::EventHandler(this, &ex0::nextbutton_Click);
 			// 
 			// previousbutton
 			// 
@@ -223,6 +224,7 @@ namespace EX0 {
 			this->previousbutton->Size = System::Drawing::Size(300, 130);
 			this->previousbutton->TabIndex = 113;
 			this->previousbutton->TabStop = false;
+			this->previousbutton->Click += gcnew System::EventHandler(this, &ex0::previousbutton_Click);
 			// 
 			// pictureBox1
 			// 
@@ -971,5 +973,9 @@ namespace EX0 {
 #pragma endregion
 
 
+private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
