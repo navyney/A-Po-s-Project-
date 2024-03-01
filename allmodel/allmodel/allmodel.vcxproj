@@ -122,12 +122,24 @@
   <ItemGroup>
     <ClCompile Include="conso.cpp" />
     <ClCompile Include="menu.cpp" />
+    <ClCompile Include="msound.cpp" />
+    <ClCompile Include="tonenew.cpp" />
+    <ClCompile Include="vo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="conso.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="msound.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="tonenew.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="vo.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -137,6 +149,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="msound.resx">
+      <DependentUpon>msound.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tonenew.resx">
+      <DependentUpon>tonenew.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vo.resx">
+      <DependentUpon>vo.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
