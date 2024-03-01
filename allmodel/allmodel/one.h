@@ -223,6 +223,7 @@ namespace allmodel {
 			}
 #pragma endregion
 		public:bool switchToformvo01 = false;
+
 		private: System::Void one_Load(System::Object^ sender, System::EventArgs^ e) {
 		}
 		private: System::Void Previous_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -230,6 +231,8 @@ namespace allmodel {
 			switchToformvo01 = true;
 		}
 		private: System::Void Next_Click(System::Object^ sender, System::EventArgs^ e) {
+
+
 		}
 		};
 	}
