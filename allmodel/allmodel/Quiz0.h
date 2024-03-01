@@ -75,6 +75,7 @@ namespace allmodel {
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->nextbutton = (gcnew System::Windows::Forms::PictureBox());
 			this->previousbutton = (gcnew System::Windows::Forms::PictureBox());
@@ -82,13 +83,12 @@ namespace allmodel {
 			this->decorleft = (gcnew System::Windows::Forms::PictureBox());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->panel1->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// panel1
@@ -119,6 +119,7 @@ namespace allmodel {
 			this->label2->TabIndex = 5;
 			this->label2->Text = L"QUESTION";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->label2->Click += gcnew System::EventHandler(this, &Quiz0::label2_Click);
 			// 
 			// button4
 			// 
@@ -180,6 +181,18 @@ namespace allmodel {
 			this->button1->Text = L"Ans1";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Quiz0::checkAnswerEvent);
+			// 
+			// pictureBox2
+			// 
+			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
+			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pictureBox2->Location = System::Drawing::Point(0, 88);
+			this->pictureBox2->Name = L"pictureBox2";
+			this->pictureBox2->Size = System::Drawing::Size(1693, 600);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox2->TabIndex = 57;
+			this->pictureBox2->TabStop = false;
 			// 
 			// button7
 			// 
@@ -273,18 +286,6 @@ namespace allmodel {
 			this->label3->TabIndex = 62;
 			this->label3->Text = L"Pinyin";
 			// 
-			// pictureBox2
-			// 
-			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
-			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
-			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->pictureBox2->Location = System::Drawing::Point(0, 88);
-			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(1693, 600);
-			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
-			this->pictureBox2->TabIndex = 57;
-			this->pictureBox2->TabStop = false;
-			// 
 			// Quiz0
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -305,11 +306,11 @@ namespace allmodel {
 			this->Text = L"Quiz0";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->panel1->ResumeLayout(false);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -566,5 +567,7 @@ namespace allmodel {
 
 
 	}
-	};
+	private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }
