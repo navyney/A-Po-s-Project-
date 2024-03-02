@@ -23,9 +23,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="vocab2v.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="vocab2v1.h">
       <Filter>Header Files</Filter>
     </ClInclude>

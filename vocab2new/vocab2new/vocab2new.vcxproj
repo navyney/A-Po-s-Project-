@@ -124,17 +124,11 @@
     <ClCompile Include="vocab2v1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="vocab2v.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
     <ClInclude Include="vocab2v1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="vocab2v.resx">
-      <DependentUpon>vocab2v.h</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="vocab2v1.resx">
       <DependentUpon>vocab2v1.h</DependentUpon>
     </EmbeddedResource>
