@@ -1,4 +1,7 @@
 ﻿#pragma once
+#include <iostream>
+#include <windows.h>
+#include "mmSystem.h"
 
 namespace allmodel {
 
@@ -258,6 +261,7 @@ namespace allmodel {
 				this->unsound->Size = System::Drawing::Size(40, 40);
 				this->unsound->TabIndex = 168;
 				this->unsound->UseVisualStyleBackColor = true;
+				this->unsound->Click += gcnew System::EventHandler(this, &vo::unsound_Click);
 				// 
 				// uansound
 				// 
@@ -268,6 +272,7 @@ namespace allmodel {
 				this->uansound->Size = System::Drawing::Size(40, 40);
 				this->uansound->TabIndex = 167;
 				this->uansound->UseVisualStyleBackColor = true;
+				this->uansound->Click += gcnew System::EventHandler(this, &vo::uansound_Click);
 				// 
 				// uaisound
 				// 
@@ -278,6 +283,7 @@ namespace allmodel {
 				this->uaisound->Size = System::Drawing::Size(40, 40);
 				this->uaisound->TabIndex = 166;
 				this->uaisound->UseVisualStyleBackColor = true;
+				this->uaisound->Click += gcnew System::EventHandler(this, &vo::uaisound_Click);
 				// 
 				// uisound
 				// 
@@ -288,6 +294,7 @@ namespace allmodel {
 				this->uisound->Size = System::Drawing::Size(40, 40);
 				this->uisound->TabIndex = 165;
 				this->uisound->UseVisualStyleBackColor = true;
+				this->uisound->Click += gcnew System::EventHandler(this, &vo::uisound_Click);
 				// 
 				// uosound
 				// 
@@ -298,6 +305,7 @@ namespace allmodel {
 				this->uosound->Size = System::Drawing::Size(40, 40);
 				this->uosound->TabIndex = 164;
 				this->uosound->UseVisualStyleBackColor = true;
+				this->uosound->Click += gcnew System::EventHandler(this, &vo::uosound_Click);
 				// 
 				// uasound
 				// 
@@ -308,6 +316,7 @@ namespace allmodel {
 				this->uasound->Size = System::Drawing::Size(40, 40);
 				this->uasound->TabIndex = 163;
 				this->uasound->UseVisualStyleBackColor = true;
+				this->uasound->Click += gcnew System::EventHandler(this, &vo::uasound_Click);
 				// 
 				// usound
 				// 
@@ -318,6 +327,7 @@ namespace allmodel {
 				this->usound->Size = System::Drawing::Size(40, 40);
 				this->usound->TabIndex = 162;
 				this->usound->UseVisualStyleBackColor = true;
+				this->usound->Click += gcnew System::EventHandler(this, &vo::usound_Click);
 				// 
 				// iongsound
 				// 
@@ -328,6 +338,7 @@ namespace allmodel {
 				this->iongsound->Size = System::Drawing::Size(40, 40);
 				this->iongsound->TabIndex = 161;
 				this->iongsound->UseVisualStyleBackColor = true;
+				this->iongsound->Click += gcnew System::EventHandler(this, &vo::iongsound_Click);
 				// 
 				// ingsound
 				// 
@@ -338,6 +349,7 @@ namespace allmodel {
 				this->ingsound->Size = System::Drawing::Size(40, 40);
 				this->ingsound->TabIndex = 160;
 				this->ingsound->UseVisualStyleBackColor = true;
+				this->ingsound->Click += gcnew System::EventHandler(this, &vo::ingsound_Click);
 				// 
 				// insound
 				// 
@@ -348,6 +360,7 @@ namespace allmodel {
 				this->insound->Size = System::Drawing::Size(40, 40);
 				this->insound->TabIndex = 159;
 				this->insound->UseVisualStyleBackColor = true;
+				this->insound->Click += gcnew System::EventHandler(this, &vo::insound_Click);
 				// 
 				// iangsound
 				// 
@@ -358,6 +371,7 @@ namespace allmodel {
 				this->iangsound->Size = System::Drawing::Size(40, 40);
 				this->iangsound->TabIndex = 158;
 				this->iangsound->UseVisualStyleBackColor = true;
+				this->iangsound->Click += gcnew System::EventHandler(this, &vo::iangsound_Click);
 				// 
 				// iansound
 				// 
@@ -368,6 +382,7 @@ namespace allmodel {
 				this->iansound->Size = System::Drawing::Size(40, 40);
 				this->iansound->TabIndex = 157;
 				this->iansound->UseVisualStyleBackColor = true;
+				this->iansound->Click += gcnew System::EventHandler(this, &vo::iansound_Click);
 				// 
 				// iusound
 				// 
@@ -378,6 +393,7 @@ namespace allmodel {
 				this->iusound->Size = System::Drawing::Size(40, 40);
 				this->iusound->TabIndex = 156;
 				this->iusound->UseVisualStyleBackColor = true;
+				this->iusound->Click += gcnew System::EventHandler(this, &vo::iusound_Click);
 				// 
 				// iesound
 				// 
@@ -388,6 +404,7 @@ namespace allmodel {
 				this->iesound->Size = System::Drawing::Size(40, 40);
 				this->iesound->TabIndex = 155;
 				this->iesound->UseVisualStyleBackColor = true;
+				this->iesound->Click += gcnew System::EventHandler(this, &vo::iesound_Click);
 				// 
 				// iaosound
 				// 
@@ -398,6 +415,7 @@ namespace allmodel {
 				this->iaosound->Size = System::Drawing::Size(40, 40);
 				this->iaosound->TabIndex = 154;
 				this->iaosound->UseVisualStyleBackColor = true;
+				this->iaosound->Click += gcnew System::EventHandler(this, &vo::iaosound_Click);
 				// 
 				// iasound
 				// 
@@ -408,6 +426,7 @@ namespace allmodel {
 				this->iasound->Size = System::Drawing::Size(40, 40);
 				this->iasound->TabIndex = 153;
 				this->iasound->UseVisualStyleBackColor = true;
+				this->iasound->Click += gcnew System::EventHandler(this, &vo::iasound_Click);
 				// 
 				// isound
 				// 
@@ -418,6 +437,7 @@ namespace allmodel {
 				this->isound->Size = System::Drawing::Size(40, 40);
 				this->isound->TabIndex = 152;
 				this->isound->UseVisualStyleBackColor = true;
+				this->isound->Click += gcnew System::EventHandler(this, &vo::isound_Click);
 				// 
 				// ünsound
 				// 
@@ -428,6 +448,7 @@ namespace allmodel {
 				this->ünsound->Size = System::Drawing::Size(40, 40);
 				this->ünsound->TabIndex = 151;
 				this->ünsound->UseVisualStyleBackColor = true;
+				this->ünsound->Click += gcnew System::EventHandler(this, &vo::ünsound_Click);
 				// 
 				// üansound
 				// 
@@ -438,6 +459,7 @@ namespace allmodel {
 				this->üansound->Size = System::Drawing::Size(40, 40);
 				this->üansound->TabIndex = 150;
 				this->üansound->UseVisualStyleBackColor = true;
+				this->üansound->Click += gcnew System::EventHandler(this, &vo::üansound_Click);
 				// 
 				// üesound
 				// 
@@ -448,6 +470,7 @@ namespace allmodel {
 				this->üesound->Size = System::Drawing::Size(40, 40);
 				this->üesound->TabIndex = 149;
 				this->üesound->UseVisualStyleBackColor = true;
+				this->üesound->Click += gcnew System::EventHandler(this, &vo::üesound_Click);
 				// 
 				// üsound
 				// 
@@ -458,6 +481,7 @@ namespace allmodel {
 				this->üsound->Size = System::Drawing::Size(40, 40);
 				this->üsound->TabIndex = 148;
 				this->üsound->UseVisualStyleBackColor = true;
+				this->üsound->Click += gcnew System::EventHandler(this, &vo::üsound_Click);
 				// 
 				// ersound
 				// 
@@ -468,6 +492,7 @@ namespace allmodel {
 				this->ersound->Size = System::Drawing::Size(40, 40);
 				this->ersound->TabIndex = 147;
 				this->ersound->UseVisualStyleBackColor = true;
+				this->ersound->Click += gcnew System::EventHandler(this, &vo::ersound_Click);
 				// 
 				// engsound
 				// 
@@ -478,6 +503,7 @@ namespace allmodel {
 				this->engsound->Size = System::Drawing::Size(40, 40);
 				this->engsound->TabIndex = 146;
 				this->engsound->UseVisualStyleBackColor = true;
+				this->engsound->Click += gcnew System::EventHandler(this, &vo::engsound_Click);
 				// 
 				// ensound
 				// 
@@ -488,6 +514,7 @@ namespace allmodel {
 				this->ensound->Size = System::Drawing::Size(40, 40);
 				this->ensound->TabIndex = 145;
 				this->ensound->UseVisualStyleBackColor = true;
+				this->ensound->Click += gcnew System::EventHandler(this, &vo::ensound_Click);
 				// 
 				// eisound
 				// 
@@ -498,6 +525,7 @@ namespace allmodel {
 				this->eisound->Size = System::Drawing::Size(40, 40);
 				this->eisound->TabIndex = 144;
 				this->eisound->UseVisualStyleBackColor = true;
+				this->eisound->Click += gcnew System::EventHandler(this, &vo::eisound_Click);
 				// 
 				// esound
 				// 
@@ -508,6 +536,7 @@ namespace allmodel {
 				this->esound->Size = System::Drawing::Size(40, 40);
 				this->esound->TabIndex = 143;
 				this->esound->UseVisualStyleBackColor = true;
+				this->esound->Click += gcnew System::EventHandler(this, &vo::esound_Click);
 				// 
 				// ousound
 				// 
@@ -518,6 +547,7 @@ namespace allmodel {
 				this->ousound->Size = System::Drawing::Size(40, 40);
 				this->ousound->TabIndex = 142;
 				this->ousound->UseVisualStyleBackColor = true;
+				this->ousound->Click += gcnew System::EventHandler(this, &vo::ousound_Click);
 				// 
 				// ongsoung
 				// 
@@ -528,6 +558,7 @@ namespace allmodel {
 				this->ongsoung->Size = System::Drawing::Size(40, 40);
 				this->ongsoung->TabIndex = 141;
 				this->ongsoung->UseVisualStyleBackColor = true;
+				this->ongsoung->Click += gcnew System::EventHandler(this, &vo::ongsoung_Click);
 				// 
 				// osound
 				// 
@@ -538,6 +569,7 @@ namespace allmodel {
 				this->osound->Size = System::Drawing::Size(40, 40);
 				this->osound->TabIndex = 140;
 				this->osound->UseVisualStyleBackColor = true;
+				this->osound->Click += gcnew System::EventHandler(this, &vo::osound_Click);
 				// 
 				// angsound
 				// 
@@ -548,6 +580,7 @@ namespace allmodel {
 				this->angsound->Size = System::Drawing::Size(40, 40);
 				this->angsound->TabIndex = 139;
 				this->angsound->UseVisualStyleBackColor = true;
+				this->angsound->Click += gcnew System::EventHandler(this, &vo::angsound_Click);
 				// 
 				// ansound
 				// 
@@ -558,6 +591,7 @@ namespace allmodel {
 				this->ansound->Size = System::Drawing::Size(40, 40);
 				this->ansound->TabIndex = 138;
 				this->ansound->UseVisualStyleBackColor = true;
+				this->ansound->Click += gcnew System::EventHandler(this, &vo::ansound_Click);
 				// 
 				// aosound
 				// 
@@ -568,6 +602,7 @@ namespace allmodel {
 				this->aosound->Size = System::Drawing::Size(40, 40);
 				this->aosound->TabIndex = 137;
 				this->aosound->UseVisualStyleBackColor = true;
+				this->aosound->Click += gcnew System::EventHandler(this, &vo::aosound_Click);
 				// 
 				// aisound
 				// 
@@ -578,6 +613,7 @@ namespace allmodel {
 				this->aisound->Size = System::Drawing::Size(40, 40);
 				this->aisound->TabIndex = 136;
 				this->aisound->UseVisualStyleBackColor = true;
+				this->aisound->Click += gcnew System::EventHandler(this, &vo::aisound_Click);
 				// 
 				// asound
 				// 
@@ -588,6 +624,7 @@ namespace allmodel {
 				this->asound->Size = System::Drawing::Size(40, 40);
 				this->asound->TabIndex = 135;
 				this->asound->UseVisualStyleBackColor = true;
+				this->asound->Click += gcnew System::EventHandler(this, &vo::asound_Click);
 				// 
 				// nextbutton
 				// 
@@ -1295,9 +1332,111 @@ namespace allmodel {
 			this->Close();
 			switchToformcon = true;
 		}
-private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+		private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {
 			this->Close();
 			switchToformtone = true;
 		}
-	};
+		private: System::Void asound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("a.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void aisound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ai.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void aosound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ao.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void ansound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("an.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void angsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ang.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void usound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("u.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void uasound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ua.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void uosound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("uo.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void uisound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ui.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void uaisound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("uai.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void uansound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("uan.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void unsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("un.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void osound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("o.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void ongsoung_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ong.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void ousound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ou.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void esound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("e.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void eisound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ei.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void ensound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("en.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void engsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("eng.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void ersound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("er.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void üsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ü.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void üesound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("üe.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void üansound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("üan.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void ünsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ün.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void isound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("i.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void iasound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ia.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void iaosound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("iao.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void iesound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ie.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void iusound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("iu.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void iansound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ian.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void iangsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("iang.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void insound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("in.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void ingsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ing.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void iongsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("iong.wav"), NULL, SND_SYNC);
+		}
+};
 }

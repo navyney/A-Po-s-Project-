@@ -1,4 +1,7 @@
 #pragma once
+#include <iostream>
+#include <windows.h>
+#include "mmSystem.h"
 
 namespace allmodel {
 
@@ -279,6 +282,7 @@ namespace allmodel {
 				this->fsound->Size = System::Drawing::Size(40, 40);
 				this->fsound->TabIndex = 151;
 				this->fsound->UseVisualStyleBackColor = true;
+				this->fsound->Click += gcnew System::EventHandler(this, &conso::fsound_Click);
 				// 
 				// f
 				// 
@@ -302,6 +306,7 @@ namespace allmodel {
 				this->msound->Size = System::Drawing::Size(40, 40);
 				this->msound->TabIndex = 149;
 				this->msound->UseVisualStyleBackColor = true;
+				this->msound->Click += gcnew System::EventHandler(this, &conso::msound_Click);
 				// 
 				// m
 				// 
@@ -325,6 +330,7 @@ namespace allmodel {
 				this->psound->Size = System::Drawing::Size(40, 40);
 				this->psound->TabIndex = 147;
 				this->psound->UseVisualStyleBackColor = true;
+				this->psound->Click += gcnew System::EventHandler(this, &conso::psound_Click);
 				// 
 				// p
 				// 
@@ -348,6 +354,7 @@ namespace allmodel {
 				this->bsound->Size = System::Drawing::Size(40, 40);
 				this->bsound->TabIndex = 145;
 				this->bsound->UseVisualStyleBackColor = true;
+				this->bsound->Click += gcnew System::EventHandler(this, &conso::bsound_Click);
 				// 
 				// b
 				// 
@@ -381,6 +388,7 @@ namespace allmodel {
 				this->rsound->Size = System::Drawing::Size(40, 40);
 				this->rsound->TabIndex = 160;
 				this->rsound->UseVisualStyleBackColor = true;
+				this->rsound->Click += gcnew System::EventHandler(this, &conso::rsound_Click);
 				// 
 				// r
 				// 
@@ -404,6 +412,7 @@ namespace allmodel {
 				this->shsound->Size = System::Drawing::Size(40, 40);
 				this->shsound->TabIndex = 158;
 				this->shsound->UseVisualStyleBackColor = true;
+				this->shsound->Click += gcnew System::EventHandler(this, &conso::shsound_Click);
 				// 
 				// sh
 				// 
@@ -427,6 +436,7 @@ namespace allmodel {
 				this->chsound->Size = System::Drawing::Size(40, 40);
 				this->chsound->TabIndex = 156;
 				this->chsound->UseVisualStyleBackColor = true;
+				this->chsound->Click += gcnew System::EventHandler(this, &conso::chsound_Click);
 				// 
 				// ch
 				// 
@@ -450,6 +460,7 @@ namespace allmodel {
 				this->zhsound->Size = System::Drawing::Size(40, 40);
 				this->zhsound->TabIndex = 154;
 				this->zhsound->UseVisualStyleBackColor = true;
+				this->zhsound->Click += gcnew System::EventHandler(this, &conso::zhsound_Click);
 				// 
 				// zh
 				// 
@@ -483,6 +494,7 @@ namespace allmodel {
 				this->ysound->Size = System::Drawing::Size(40, 40);
 				this->ysound->TabIndex = 169;
 				this->ysound->UseVisualStyleBackColor = true;
+				this->ysound->Click += gcnew System::EventHandler(this, &conso::ysound_Click);
 				// 
 				// y
 				// 
@@ -506,6 +518,7 @@ namespace allmodel {
 				this->xsound->Size = System::Drawing::Size(40, 40);
 				this->xsound->TabIndex = 167;
 				this->xsound->UseVisualStyleBackColor = true;
+				this->xsound->Click += gcnew System::EventHandler(this, &conso::xsound_Click);
 				// 
 				// x
 				// 
@@ -529,6 +542,7 @@ namespace allmodel {
 				this->qsound->Size = System::Drawing::Size(40, 40);
 				this->qsound->TabIndex = 165;
 				this->qsound->UseVisualStyleBackColor = true;
+				this->qsound->Click += gcnew System::EventHandler(this, &conso::qsound_Click);
 				// 
 				// q
 				// 
@@ -552,6 +566,7 @@ namespace allmodel {
 				this->jsound->Size = System::Drawing::Size(40, 40);
 				this->jsound->TabIndex = 163;
 				this->jsound->UseVisualStyleBackColor = true;
+				this->jsound->Click += gcnew System::EventHandler(this, &conso::jsound_Click);
 				// 
 				// j
 				// 
@@ -595,6 +610,7 @@ namespace allmodel {
 				this->button5->Size = System::Drawing::Size(40, 40);
 				this->button5->TabIndex = 176;
 				this->button5->UseVisualStyleBackColor = true;
+				this->button5->Click += gcnew System::EventHandler(this, &conso::button5_Click);
 				// 
 				// g
 				// 
@@ -618,6 +634,7 @@ namespace allmodel {
 				this->button6->Size = System::Drawing::Size(40, 40);
 				this->button6->TabIndex = 174;
 				this->button6->UseVisualStyleBackColor = true;
+				this->button6->Click += gcnew System::EventHandler(this, &conso::button6_Click);
 				// 
 				// n
 				// 
@@ -641,6 +658,7 @@ namespace allmodel {
 				this->dsound->Size = System::Drawing::Size(40, 40);
 				this->dsound->TabIndex = 172;
 				this->dsound->UseVisualStyleBackColor = true;
+				this->dsound->Click += gcnew System::EventHandler(this, &conso::dsound_Click);
 				// 
 				// d
 				// 
@@ -664,6 +682,7 @@ namespace allmodel {
 				this->button8->Size = System::Drawing::Size(40, 40);
 				this->button8->TabIndex = 182;
 				this->button8->UseVisualStyleBackColor = true;
+				this->button8->Click += gcnew System::EventHandler(this, &conso::button8_Click);
 				// 
 				// k
 				// 
@@ -687,6 +706,7 @@ namespace allmodel {
 				this->button9->Size = System::Drawing::Size(40, 40);
 				this->button9->TabIndex = 180;
 				this->button9->UseVisualStyleBackColor = true;
+				this->button9->Click += gcnew System::EventHandler(this, &conso::button9_Click);
 				// 
 				// l
 				// 
@@ -710,6 +730,7 @@ namespace allmodel {
 				this->button10->Size = System::Drawing::Size(40, 40);
 				this->button10->TabIndex = 178;
 				this->button10->UseVisualStyleBackColor = true;
+				this->button10->Click += gcnew System::EventHandler(this, &conso::button10_Click);
 				// 
 				// t
 				// 
@@ -733,6 +754,7 @@ namespace allmodel {
 				this->button11->Size = System::Drawing::Size(40, 40);
 				this->button11->TabIndex = 184;
 				this->button11->UseVisualStyleBackColor = true;
+				this->button11->Click += gcnew System::EventHandler(this, &conso::button11_Click);
 				// 
 				// h
 				// 
@@ -766,6 +788,7 @@ namespace allmodel {
 				this->wsound->Size = System::Drawing::Size(40, 40);
 				this->wsound->TabIndex = 187;
 				this->wsound->UseVisualStyleBackColor = true;
+				this->wsound->Click += gcnew System::EventHandler(this, &conso::wsound_Click);
 				// 
 				// w
 				// 
@@ -799,6 +822,7 @@ namespace allmodel {
 				this->ssound->Size = System::Drawing::Size(40, 40);
 				this->ssound->TabIndex = 194;
 				this->ssound->UseVisualStyleBackColor = true;
+				this->ssound->Click += gcnew System::EventHandler(this, &conso::ssound_Click);
 				// 
 				// s
 				// 
@@ -822,6 +846,7 @@ namespace allmodel {
 				this->csound->Size = System::Drawing::Size(40, 40);
 				this->csound->TabIndex = 192;
 				this->csound->UseVisualStyleBackColor = true;
+				this->csound->Click += gcnew System::EventHandler(this, &conso::csound_Click);
 				// 
 				// c
 				// 
@@ -845,6 +870,7 @@ namespace allmodel {
 				this->zsound->Size = System::Drawing::Size(40, 40);
 				this->zsound->TabIndex = 190;
 				this->zsound->UseVisualStyleBackColor = true;
+				this->zsound->Click += gcnew System::EventHandler(this, &conso::zsound_Click);
 				// 
 				// z
 				// 
@@ -927,6 +953,7 @@ namespace allmodel {
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"conso";
 				this->Text = L"conso";
+				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
@@ -951,6 +978,75 @@ namespace allmodel {
 		private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {
 			this->Close();
 			switchToformvo = true;
+}
+private: System::Void bsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ปัว.wav"), NULL, SND_SYNC);
+}
+private: System::Void psound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("พัว.wav"), NULL, SND_SYNC);
+}
+private: System::Void msound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("มัว.wav"), NULL, SND_SYNC);
+}
+private: System::Void fsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ฟัว.wav"), NULL, SND_SYNC);
+}
+private: System::Void zhsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("จรือ.wav"), NULL, SND_SYNC);
+}
+private: System::Void chsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ชรือ.wav"), NULL, SND_SYNC);
+}
+private: System::Void shsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ซรือ.wav"), NULL, SND_SYNC);
+}
+private: System::Void rsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ยรือ.wav"), NULL, SND_SYNC);
+}
+private: System::Void dsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("เตอ.wav"), NULL, SND_SYNC);
+}
+private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("เนอ.wav"), NULL, SND_SYNC);
+}
+private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("เกอ.wav"), NULL, SND_SYNC);
+}
+private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("เทอ.wav"), NULL, SND_SYNC);
+}
+private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("เลอ.wav"), NULL, SND_SYNC);
+}
+private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("เคอ.wav"), NULL, SND_SYNC);
+}
+private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("เฮอ.wav"), NULL, SND_SYNC);
+}
+private: System::Void wsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("อู.wav"), NULL, SND_SYNC);
+}
+private: System::Void zsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("จือ.wav"), NULL, SND_SYNC);
+}
+private: System::Void csound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ชือ.wav"), NULL, SND_SYNC);
+}
+private: System::Void ssound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ซือ.wav"), NULL, SND_SYNC);
+}
+private: System::Void jsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("จี.wav"), NULL, SND_SYNC);
+}
+private: System::Void qsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ชี.wav"), NULL, SND_SYNC);
+}
+private: System::Void xsound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ซี.wav"), NULL, SND_SYNC);
+}
+private: System::Void ysound_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("อี.wav"), NULL, SND_SYNC);
 }
 };
 	}
