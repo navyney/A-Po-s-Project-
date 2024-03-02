@@ -135,6 +135,9 @@
     <EmbeddedResource Include="vocab2v.resx">
       <DependentUpon>vocab2v.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="vocab2v1.resx">
+      <DependentUpon>vocab2v1.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

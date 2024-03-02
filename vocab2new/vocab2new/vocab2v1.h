@@ -48,11 +48,17 @@ namespace vocab2new {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"vocab2v";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->SuspendLayout();
+			// 
+			// vocab2v
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(303, 275);
+			this->Name = L"vocab2v";
+			this->Text = L"vocab2v";
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
 	};
