@@ -979,7 +979,7 @@ namespace allmodel {
 
 
 		public:bool switchToformHQ2 = false;
-
+		public:bool switchToformcon3 = false;
 
 		private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
 			if (numpage2 > 1) {
@@ -1052,6 +1052,10 @@ namespace allmodel {
 				pic27->Hide();
 				pic28->Hide();
 				changepage(numpage2);
+			}
+			else {
+				this->Close();
+				switchToformcon3 = true;
 			}
 		}
 

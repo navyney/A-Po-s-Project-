@@ -83,6 +83,7 @@ namespace allmodel {
 				this->button1->Size = System::Drawing::Size(300, 130);
 				this->button1->TabIndex = 0;
 				this->button1->UseVisualStyleBackColor = false;
+				this->button1->Click += gcnew System::EventHandler(this, &MenuQuiz2::button1_Click);
 				// 
 				// pictureBox1
 				// 
@@ -196,6 +197,7 @@ namespace allmodel {
 #pragma endregion
 		public: bool switchToformQ2 = false;
 		public:bool switchToformvo3 = false;
+		public:bool switchToformcon2 = false;
 		private: System::Void MenuQuiz2_Load(System::Object^ sender, System::EventArgs^ e) {
 		}
 		private: System::Void GoQuiz2_Click_1(System::Object^ sender, System::EventArgs^ e) {
@@ -206,6 +208,10 @@ namespace allmodel {
 			this->Close();
 			switchToformvo3 = true;
 		}
-		};
+		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+			this->Close();
+			switchToformcon2 = true;
+		}
+};
 	}
 

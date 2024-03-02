@@ -129,9 +129,11 @@
     <ClCompile Include="msound.cpp" />
     <ClCompile Include="number.cpp" />
     <ClCompile Include="one.cpp" />
+    <ClCompile Include="praTwo.cpp" />
     <ClCompile Include="Quiz0.cpp" />
     <ClCompile Include="Quiz1.cpp" />
     <ClCompile Include="Quiz2.cpp" />
+    <ClCompile Include="sarm.cpp" />
     <ClCompile Include="tonenew.cpp" />
     <ClCompile Include="vo.cpp" />
     <ClCompile Include="vo1.cpp" />
@@ -165,6 +167,9 @@
     <ClInclude Include="one.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="praTwo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Quiz0.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -172,6 +177,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Quiz2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="sarm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="tonenew.h">
@@ -215,6 +223,9 @@
     <EmbeddedResource Include="one.resx">
       <DependentUpon>one.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="praTwo.resx">
+      <DependentUpon>praTwo.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Quiz0.resx">
       <DependentUpon>Quiz0.h</DependentUpon>
     </EmbeddedResource>
@@ -223,6 +234,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Quiz2.resx">
       <DependentUpon>Quiz2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sarm.resx">
+      <DependentUpon>sarm.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tonenew.resx">
       <DependentUpon>tonenew.h</DependentUpon>

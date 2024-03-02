@@ -221,6 +221,7 @@ namespace allmodel {
 			this->pictureBox9->Size = System::Drawing::Size(729, 139);
 			this->pictureBox9->TabIndex = 28;
 			this->pictureBox9->TabStop = false;
+			this->pictureBox9->Click += gcnew System::EventHandler(this, &menu::pictureBox9_Click);
 			// 
 			// pictureBox10
 			// 
@@ -274,6 +275,7 @@ namespace allmodel {
 		public:bool  switchToformHQ0 = false;
 		public:bool switchToformvo01 = false;
 		public:bool switchToformHQ1 = false;
+		public:bool switchToformHQ2 = false;
 		public:bool switchToformvo3 = false;
 	private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
@@ -299,6 +301,10 @@ private: System::Void pictureBox8_Click(System::Object^ sender, System::EventArg
 private: System::Void pictureBox6_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Close();
 	switchToformvo3 = true;
+}
+private: System::Void pictureBox9_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->Close();
+	switchToformHQ2 = true;
 }
 };
 }

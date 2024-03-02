@@ -69,6 +69,7 @@ namespace allmodel {
 
 			void InitializeComponent(void)
 			{
+				System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Quiz2::typeid));
 				this->label1 = (gcnew System::Windows::Forms::Label());
 				this->button5 = (gcnew System::Windows::Forms::Button());
 				this->button6 = (gcnew System::Windows::Forms::Button());
@@ -104,6 +105,7 @@ namespace allmodel {
 				// button5
 				// 
 				this->button5->BackColor = System::Drawing::Color::White;
+				this->button5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button5.BackgroundImage")));
 				this->button5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
 				this->button5->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button5->FlatAppearance->BorderColor = System::Drawing::Color::White;
@@ -111,7 +113,7 @@ namespace allmodel {
 				this->button5->FlatAppearance->MouseDownBackColor = System::Drawing::Color::White;
 				this->button5->FlatAppearance->MouseOverBackColor = System::Drawing::Color::White;
 				this->button5->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-				this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button5->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button5->Location = System::Drawing::Point(1584, 897);
 				this->button5->Name = L"button5";
@@ -122,6 +124,7 @@ namespace allmodel {
 				// 
 				// button6
 				// 
+				this->button6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button6.BackgroundImage")));
 				this->button6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
 				this->button6->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button6->FlatAppearance->BorderColor = System::Drawing::Color::White;
@@ -129,7 +132,7 @@ namespace allmodel {
 				this->button6->FlatAppearance->MouseDownBackColor = System::Drawing::Color::White;
 				this->button6->FlatAppearance->MouseOverBackColor = System::Drawing::Color::White;
 				this->button6->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-				this->button6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button6->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button6->Location = System::Drawing::Point(33, 897);
 				this->button6->Name = L"button6";
@@ -141,6 +144,7 @@ namespace allmodel {
 				// button7
 				// 
 				this->button7->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Left | System::Windows::Forms::AnchorStyles::Right));
+				this->button7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button7.BackgroundImage")));
 				this->button7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
 				this->button7->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button7->FlatAppearance->BorderColor = System::Drawing::Color::White;
@@ -161,16 +165,17 @@ namespace allmodel {
 				// 
 				// pictureBox1
 				// 
+				this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 				this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
 				this->pictureBox1->Location = System::Drawing::Point(12, 13);
 				this->pictureBox1->Name = L"pictureBox1";
 				this->pictureBox1->Size = System::Drawing::Size(450, 450);
 				this->pictureBox1->TabIndex = 6;
 				this->pictureBox1->TabStop = false;
-				this->pictureBox1->Click += gcnew System::EventHandler(this, &Quiz2::pictureBox1_Click);
 				// 
 				// pictureBox2
 				// 
+				this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
 				this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
 				this->pictureBox2->Location = System::Drawing::Point(1463, 13);
 				this->pictureBox2->Name = L"pictureBox2";
@@ -182,7 +187,7 @@ namespace allmodel {
 				// 
 				this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-				this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button1->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button1->ForeColor = System::Drawing::Color::Black;
 				this->button1->Location = System::Drawing::Point(348, 617);
@@ -198,7 +203,7 @@ namespace allmodel {
 				// 
 				this->button2->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-				this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button2->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button2->Location = System::Drawing::Point(1030, 617);
 				this->button2->Name = L"button2";
@@ -213,7 +218,7 @@ namespace allmodel {
 				// 
 				this->button3->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-				this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button3->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button3->Location = System::Drawing::Point(348, 719);
 				this->button3->Name = L"button3";
@@ -228,7 +233,7 @@ namespace allmodel {
 				// 
 				this->button4->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-				this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button4->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button4->Location = System::Drawing::Point(1030, 719);
 				this->button4->Name = L"button4";
@@ -282,6 +287,7 @@ namespace allmodel {
 				// 
 				// pictureBox3
 				// 
+				this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
 				this->pictureBox3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
 				this->pictureBox3->Location = System::Drawing::Point(173, 222);
 				this->pictureBox3->Name = L"pictureBox3";
@@ -310,7 +316,7 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox1);
 				this->Controls->Add(this->pictureBox2);
 				this->MaximumSize = System::Drawing::Size(1920, 1080);
-				this->MinimumSize = System::Drawing::Size(1918, 1030);
+				this->MinimumSize = System::Drawing::Size(1918, 1038);
 				this->Name = L"Quiz2";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				this->Load += gcnew System::EventHandler(this, &Quiz2::Quiz2_Load);
@@ -520,7 +526,8 @@ namespace allmodel {
 				break;
 			}
 		}
-			   //NEXT
+		public:bool switchToformHQ2 = false;
+			  //NEXT
 		private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
 			if (questionNumber <= totalQuestion) {
 				questionNumber++;
@@ -556,6 +563,20 @@ namespace allmodel {
 						}
 					}
 				}
+			}
+			else {
+				questionNumber = 1;
+				score = 0;
+				Array::Clear(userAnswers, 0, userAnswers->Length);
+				TextBlack();
+				askquestion(questionNumber);
+				button1->Show();
+				button2->Show();
+				button3->Show();
+				button4->Show();
+
+				this->Close();
+				switchToformHQ2 = true;
 			}
 		}
 			   //PREVIOUS
@@ -673,7 +694,5 @@ namespace allmodel {
 			}
 		}
 
-		private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
-		}
-};
+		};
 	}
