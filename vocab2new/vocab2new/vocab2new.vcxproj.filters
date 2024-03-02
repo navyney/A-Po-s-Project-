@@ -18,9 +18,15 @@
     <ClCompile Include="vocab2v.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="vocab2v1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vocab2v.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vocab2v1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

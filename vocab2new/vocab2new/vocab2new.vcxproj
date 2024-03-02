@@ -121,9 +121,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="vocab2v.cpp" />
+    <ClCompile Include="vocab2v1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vocab2v.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="vocab2v1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
