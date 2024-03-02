@@ -133,6 +133,7 @@
     <ClCompile Include="tonenew.cpp" />
     <ClCompile Include="vo.cpp" />
     <ClCompile Include="vo1.cpp" />
+    <ClCompile Include="vocab3new.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="conso.h">
@@ -172,6 +173,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="vo1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="vocab3new.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -214,6 +218,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="vo1.resx">
       <DependentUpon>vo1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vocab3new.resx">
+      <DependentUpon>vocab3new.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

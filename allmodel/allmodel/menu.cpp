@@ -12,6 +12,8 @@
 #include"HQuiz1.h"
 #include"Quiz1.h"
 
+#include"vocab3new.h"
+
 using namespace System;
 using namespace System::Windows::Forms;
 [STAThread]
@@ -35,6 +37,8 @@ void main(array<String^>^ args)
     allmodel::one formcon1;
     allmodel::HQuiz1 formHQ1;
     allmodel::Quiz1 formQ1;
+
+    allmodel::vocab3new formvo3;
 
     form.ShowDialog();//menu page
 
@@ -143,6 +147,13 @@ void main(array<String^>^ args)
             formHQ1.ShowDialog();
             formQ1.switchToformHQ1 = false;//back  Before  Quiz1 page
             }
+
+
+
+        else if (form.switchToformvo3) {
+                formvo3.ShowDialog();
+                form.switchToformvo3 = false; // home to vocab3 page
+                }
         else {
             break;
         }
