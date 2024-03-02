@@ -1,4 +1,7 @@
 ﻿#pragma once
+#include <iostream>
+#include <Windows.h>
+#include "mmSystem.h"
 
 namespace allmodel {
 
@@ -173,7 +176,7 @@ namespace allmodel {
 				this->baisedechinese->Name = L"baisedechinese";
 				this->baisedechinese->Size = System::Drawing::Size(96, 35);
 				this->baisedechinese->TabIndex = 86;
-				this->baisedechinese->Text = L"白色的";
+				this->baisedechinese->Text = L"白的";
 				// 
 				// baisede
 				// 
@@ -186,7 +189,7 @@ namespace allmodel {
 				this->baisede->Name = L"baisede";
 				this->baisede->Size = System::Drawing::Size(123, 35);
 				this->baisede->TabIndex = 85;
-				this->baisede->Text = L"Báisè de";
+				this->baisede->Text = L"Bái de";
 				// 
 				// mamachinese
 				// 
@@ -324,6 +327,7 @@ namespace allmodel {
 				this->notone->Size = System::Drawing::Size(40, 40);
 				this->notone->TabIndex = 131;
 				this->notone->UseVisualStyleBackColor = true;
+				this->notone->Click += gcnew System::EventHandler(this, &tonenew::notone_Click);
 				// 
 				// firsttone
 				// 
@@ -334,6 +338,7 @@ namespace allmodel {
 				this->firsttone->Size = System::Drawing::Size(40, 40);
 				this->firsttone->TabIndex = 132;
 				this->firsttone->UseVisualStyleBackColor = true;
+				this->firsttone->Click += gcnew System::EventHandler(this, &tonenew::firsttone_Click);
 				// 
 				// secondtone
 				// 
@@ -344,6 +349,7 @@ namespace allmodel {
 				this->secondtone->Size = System::Drawing::Size(40, 40);
 				this->secondtone->TabIndex = 133;
 				this->secondtone->UseVisualStyleBackColor = true;
+				this->secondtone->Click += gcnew System::EventHandler(this, &tonenew::secondtone_Click);
 				// 
 				// thirdtone
 				// 
@@ -354,6 +360,7 @@ namespace allmodel {
 				this->thirdtone->Size = System::Drawing::Size(40, 40);
 				this->thirdtone->TabIndex = 134;
 				this->thirdtone->UseVisualStyleBackColor = true;
+				this->thirdtone->Click += gcnew System::EventHandler(this, &tonenew::thirdtone_Click);
 				// 
 				// label1
 				// 
@@ -419,6 +426,18 @@ namespace allmodel {
 			this->Close();
 			switchToformmix = true;
 		}
-		};
+		private: System::Void notone_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("妈妈.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void firsttone_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("白的.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void secondtone_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("你们.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void thirdtone_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("爸爸.wav"), NULL, SND_SYNC);
+		}
+};
 	}
 

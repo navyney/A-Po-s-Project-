@@ -1,4 +1,7 @@
 ﻿#pragma once
+#include <iostream>
+#include <Windows.h>
+#include "mmSystem.h"
 
 namespace allmodel {
 
@@ -295,6 +298,7 @@ namespace allmodel {
 				this->button10->Size = System::Drawing::Size(57, 47);
 				this->button10->TabIndex = 80;
 				this->button10->UseVisualStyleBackColor = true;
+				this->button10->Click += gcnew System::EventHandler(this, &msound::button10_Click);
 				// 
 				// label1
 				// 
@@ -318,6 +322,7 @@ namespace allmodel {
 				this->wanr->Size = System::Drawing::Size(57, 47);
 				this->wanr->TabIndex = 98;
 				this->wanr->UseVisualStyleBackColor = true;
+				this->wanr->Click += gcnew System::EventHandler(this, &msound::wanr_Click);
 				// 
 				// nar
 				// 
@@ -327,6 +332,7 @@ namespace allmodel {
 				this->nar->Size = System::Drawing::Size(57, 47);
 				this->nar->TabIndex = 97;
 				this->nar->UseVisualStyleBackColor = true;
+				this->nar->Click += gcnew System::EventHandler(this, &msound::nar_Click);
 				// 
 				// zher
 				// 
@@ -336,6 +342,7 @@ namespace allmodel {
 				this->zher->Size = System::Drawing::Size(57, 47);
 				this->zher->TabIndex = 96;
 				this->zher->UseVisualStyleBackColor = true;
+				this->zher->Click += gcnew System::EventHandler(this, &msound::zher_Click);
 				// 
 				// huar
 				// 
@@ -345,6 +352,7 @@ namespace allmodel {
 				this->huar->Size = System::Drawing::Size(57, 47);
 				this->huar->TabIndex = 95;
 				this->huar->UseVisualStyleBackColor = true;
+				this->huar->Click += gcnew System::EventHandler(this, &msound::huar_Click);
 				// 
 				// er4
 				// 
@@ -354,6 +362,7 @@ namespace allmodel {
 				this->er4->Size = System::Drawing::Size(57, 47);
 				this->er4->TabIndex = 93;
 				this->er4->UseVisualStyleBackColor = true;
+				this->er4->Click += gcnew System::EventHandler(this, &msound::er4_Click);
 				// 
 				// er3
 				// 
@@ -363,6 +372,7 @@ namespace allmodel {
 				this->er3->Size = System::Drawing::Size(57, 47);
 				this->er3->TabIndex = 92;
 				this->er3->UseVisualStyleBackColor = true;
+				this->er3->Click += gcnew System::EventHandler(this, &msound::er3_Click);
 				// 
 				// er2
 				// 
@@ -372,6 +382,7 @@ namespace allmodel {
 				this->er2->Size = System::Drawing::Size(57, 47);
 				this->er2->TabIndex = 91;
 				this->er2->UseVisualStyleBackColor = true;
+				this->er2->Click += gcnew System::EventHandler(this, &msound::er2_Click);
 				// 
 				// er
 				// 
@@ -381,6 +392,7 @@ namespace allmodel {
 				this->er->Size = System::Drawing::Size(57, 47);
 				this->er->TabIndex = 90;
 				this->er->UseVisualStyleBackColor = true;
+				this->er->Click += gcnew System::EventHandler(this, &msound::er_Click);
 				// 
 				// wan
 				// 
@@ -390,6 +402,7 @@ namespace allmodel {
 				this->wan->Size = System::Drawing::Size(57, 47);
 				this->wan->TabIndex = 84;
 				this->wan->UseVisualStyleBackColor = true;
+				this->wan->Click += gcnew System::EventHandler(this, &msound::wan_Click);
 				// 
 				// shang
 				// 
@@ -399,6 +412,7 @@ namespace allmodel {
 				this->shang->Size = System::Drawing::Size(57, 47);
 				this->shang->TabIndex = 89;
 				this->shang->UseVisualStyleBackColor = true;
+				this->shang->Click += gcnew System::EventHandler(this, &msound::shang_Click);
 				// 
 				// na
 				// 
@@ -408,6 +422,7 @@ namespace allmodel {
 				this->na->Size = System::Drawing::Size(57, 47);
 				this->na->TabIndex = 86;
 				this->na->UseVisualStyleBackColor = true;
+				this->na->Click += gcnew System::EventHandler(this, &msound::na_Click);
 				// 
 				// xian
 				// 
@@ -417,6 +432,7 @@ namespace allmodel {
 				this->xian->Size = System::Drawing::Size(57, 47);
 				this->xian->TabIndex = 88;
 				this->xian->UseVisualStyleBackColor = true;
+				this->xian->Click += gcnew System::EventHandler(this, &msound::xian_Click);
 				// 
 				// zhe
 				// 
@@ -426,6 +442,7 @@ namespace allmodel {
 				this->zhe->Size = System::Drawing::Size(57, 47);
 				this->zhe->TabIndex = 87;
 				this->zhe->UseVisualStyleBackColor = true;
+				this->zhe->Click += gcnew System::EventHandler(this, &msound::zhe_Click);
 				// 
 				// ma
 				// 
@@ -435,6 +452,7 @@ namespace allmodel {
 				this->ma->Size = System::Drawing::Size(57, 47);
 				this->ma->TabIndex = 94;
 				this->ma->UseVisualStyleBackColor = true;
+				this->ma->Click += gcnew System::EventHandler(this, &msound::ma_Click);
 				// 
 				// hua
 				// 
@@ -444,6 +462,7 @@ namespace allmodel {
 				this->hua->Size = System::Drawing::Size(57, 47);
 				this->hua->TabIndex = 85;
 				this->hua->UseVisualStyleBackColor = true;
+				this->hua->Click += gcnew System::EventHandler(this, &msound::hua_Click);
 				// 
 				// ang
 				// 
@@ -453,6 +472,7 @@ namespace allmodel {
 				this->ang->Size = System::Drawing::Size(57, 47);
 				this->ang->TabIndex = 83;
 				this->ang->UseVisualStyleBackColor = true;
+				this->ang->Click += gcnew System::EventHandler(this, &msound::ang_Click);
 				// 
 				// sh
 				// 
@@ -462,6 +482,7 @@ namespace allmodel {
 				this->sh->Size = System::Drawing::Size(57, 47);
 				this->sh->TabIndex = 79;
 				this->sh->UseVisualStyleBackColor = true;
+				this->sh->Click += gcnew System::EventHandler(this, &msound::sh_Click);
 				// 
 				// ian
 				// 
@@ -471,6 +492,7 @@ namespace allmodel {
 				this->ian->Size = System::Drawing::Size(57, 47);
 				this->ian->TabIndex = 82;
 				this->ian->UseVisualStyleBackColor = true;
+				this->ian->Click += gcnew System::EventHandler(this, &msound::ian_Click);
 				// 
 				// x
 				// 
@@ -480,6 +502,7 @@ namespace allmodel {
 				this->x->Size = System::Drawing::Size(57, 47);
 				this->x->TabIndex = 78;
 				this->x->UseVisualStyleBackColor = true;
+				this->x->Click += gcnew System::EventHandler(this, &msound::x_Click);
 				// 
 				// a
 				// 
@@ -489,6 +512,7 @@ namespace allmodel {
 				this->a->Size = System::Drawing::Size(57, 47);
 				this->a->TabIndex = 81;
 				this->a->UseVisualStyleBackColor = true;
+				this->a->Click += gcnew System::EventHandler(this, &msound::a_Click);
 				// 
 				// m
 				// 
@@ -498,6 +522,7 @@ namespace allmodel {
 				this->m->Size = System::Drawing::Size(57, 47);
 				this->m->TabIndex = 77;
 				this->m->UseVisualStyleBackColor = true;
+				this->m->Click += gcnew System::EventHandler(this, &msound::m_Click);
 				// 
 				// textBox4
 				// 
@@ -705,6 +730,72 @@ namespace allmodel {
 			switchToformex0 = true;
 		}
 		private: System::Void label7_Click(System::Object^ sender, System::EventArgs^ e) {
+		}
+		private: System::Void m_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("มัว.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void a_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("a.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void ma_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ma.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void x_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ซี.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void ian_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ian.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void xian_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("xian.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void sh_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ซือ.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void ang_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ang.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void shang_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("shang.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("er.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void hua_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("花.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void er_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("er.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void huar_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("花儿.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void zhe_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("这.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void er2_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("er.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void zher_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("这儿.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void na_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("那.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void er3_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("er.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void wan_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("玩.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void er4_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("er.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void nar_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("那儿.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void wanr_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("玩儿.wav"), NULL, SND_SYNC);
 		}
 };
 	}
