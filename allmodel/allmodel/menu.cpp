@@ -12,6 +12,7 @@
 #include"HQuiz1.h"
 #include"Quiz1.h"
 
+#include"MenuQuiz2.h"
 #include"vocab3new.h"
 
 using namespace System;
@@ -38,6 +39,7 @@ void main(array<String^>^ args)
     allmodel::HQuiz1 formHQ1;
     allmodel::Quiz1 formQ1;
 
+    allmodel::MenuQuiz2 formHQ2;
     allmodel::vocab3new formvo3;
 
     form.ShowDialog();//menu page
@@ -150,6 +152,15 @@ void main(array<String^>^ args)
 
 
 
+
+        else if (formvo3.switchToformHQ2) {
+            formHQ2.ShowDialog();
+            formvo3.switchToformHQ2 = false;//back  Before  vocab3 page
+            }
+        else if (formHQ2.switchToformvo3) {
+                formvo3.ShowDialog();
+                formHQ2.switchToformvo3 = false;//  vocab3 page
+            }
         else if (form.switchToformvo3) {
                 formvo3.ShowDialog();
                 form.switchToformvo3 = false; // home to vocab3 page

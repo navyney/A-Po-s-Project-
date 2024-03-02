@@ -978,7 +978,7 @@ namespace allmodel {
 		}
 
 
-
+		public:bool switchToformHQ2 = false;
 
 
 		private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -1013,6 +1013,10 @@ namespace allmodel {
 				pic27->Hide();
 				pic28->Hide();
 				changepage(numpage2);
+			}
+			else {
+				this->Close();
+				switchToformHQ2 = true;
 			}
 		}
 		private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {

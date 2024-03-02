@@ -125,11 +125,13 @@
     <ClCompile Include="HQuiz0.cpp" />
     <ClCompile Include="HQuiz1.cpp" />
     <ClCompile Include="menu.cpp" />
+    <ClCompile Include="MenuQuiz2.cpp" />
     <ClCompile Include="msound.cpp" />
     <ClCompile Include="number.cpp" />
     <ClCompile Include="one.cpp" />
     <ClCompile Include="Quiz0.cpp" />
     <ClCompile Include="Quiz1.cpp" />
+    <ClCompile Include="Quiz2.cpp" />
     <ClCompile Include="tonenew.cpp" />
     <ClCompile Include="vo.cpp" />
     <ClCompile Include="vo1.cpp" />
@@ -151,6 +153,9 @@
     <ClInclude Include="menu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="MenuQuiz2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="msound.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -164,6 +169,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Quiz1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Quiz2.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="tonenew.h">
@@ -194,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuQuiz2.resx">
+      <DependentUpon>MenuQuiz2.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="msound.resx">
       <DependentUpon>msound.h</DependentUpon>
