@@ -1,4 +1,7 @@
 ﻿#pragma once
+#include <iostream>
+#include <windows.h>
+#include "mmSystem.h"
 
 namespace allmodel {
 
@@ -43,40 +46,40 @@ namespace allmodel {
 		private: System::Windows::Forms::Label^ label6;
 		private: System::Windows::Forms::Label^ lesson3;
 		private: System::Windows::Forms::Panel^ panel2;
-		private: System::Windows::Forms::RadioButton^ radioButton17;
-		private: System::Windows::Forms::RadioButton^ radioButton16;
-		private: System::Windows::Forms::RadioButton^ radioButton15;
-		private: System::Windows::Forms::RadioButton^ radioButton14;
-		private: System::Windows::Forms::RadioButton^ radioButton13;
+		private: System::Windows::Forms::Button^ Button17;
+		private: System::Windows::Forms::Button^ Button16;
+		private: System::Windows::Forms::Button^ Button15;
+		private: System::Windows::Forms::Button^Button14;
+		private: System::Windows::Forms::Button^ Button13;
 		private: System::Windows::Forms::Label^ label16;
 		private: System::Windows::Forms::Label^ label18;
 		private: System::Windows::Forms::Label^ label17;
 		private: System::Windows::Forms::Label^ label24;
 		private: System::Windows::Forms::Label^ label23;
-		private: System::Windows::Forms::RadioButton^ radioButton12;
-		private: System::Windows::Forms::RadioButton^ radioButton10;
-		private: System::Windows::Forms::RadioButton^ radioButton9;
-		private: System::Windows::Forms::RadioButton^ radioButton8;
+		private: System::Windows::Forms::Button^ Button12;
+		private: System::Windows::Forms::Button^ Button10;
+		private: System::Windows::Forms::Button^ Button9;
+		private: System::Windows::Forms::Button^ Button8;
 		private: System::Windows::Forms::Label^ label19;
 		private: System::Windows::Forms::Label^ label20;
 		private: System::Windows::Forms::Label^ label21;
 		private: System::Windows::Forms::Label^ label22;
 		private: System::Windows::Forms::Label^ label2;
 		private: System::Windows::Forms::Label^ label25;
-		private: System::Windows::Forms::RadioButton^ radioButton7;
-		private: System::Windows::Forms::RadioButton^ radioButton6;
-		private: System::Windows::Forms::RadioButton^ radioButton5;
-		private: System::Windows::Forms::RadioButton^ radioButton4;
+		private: System::Windows::Forms::Button^ Button7;
+		private: System::Windows::Forms::Button^ Button6;
+		private: System::Windows::Forms::Button^ Button5;
+		private: System::Windows::Forms::Button^ Button4;
 		private: System::Windows::Forms::Label^ label14;
 		private: System::Windows::Forms::Label^ label13;
 		private: System::Windows::Forms::Label^ label12;
 		private: System::Windows::Forms::Label^ label11;
 		private: System::Windows::Forms::Label^ label1;
 		private: System::Windows::Forms::Label^ label4;
-		private: System::Windows::Forms::RadioButton^ radioButton3;
-		private: System::Windows::Forms::RadioButton^ radioButton2;
-		private: System::Windows::Forms::RadioButton^ radioButton1;
-		private: System::Windows::Forms::RadioButton^ radioButton11;
+		private: System::Windows::Forms::Button^ Button3;
+		private: System::Windows::Forms::Button^ Button2;
+		private: System::Windows::Forms::Button^ Button1;
+		private: System::Windows::Forms::Button^ Button11;
 		private: System::Windows::Forms::Label^ label10;
 		private: System::Windows::Forms::Label^ label9;
 		private: System::Windows::Forms::Label^ label8;
@@ -86,52 +89,6 @@ namespace allmodel {
 		private: System::Windows::Forms::Panel^ panel1;
 
 		protected:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		private:
 			/// <summary>
@@ -155,40 +112,40 @@ namespace allmodel {
 				this->label6 = (gcnew System::Windows::Forms::Label());
 				this->lesson3 = (gcnew System::Windows::Forms::Label());
 				this->panel2 = (gcnew System::Windows::Forms::Panel());
-				this->radioButton17 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton16 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton15 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton14 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton13 = (gcnew System::Windows::Forms::RadioButton());
+				this->Button17 = (gcnew System::Windows::Forms::Button());
+				this->Button16 = (gcnew System::Windows::Forms::Button());
+				this->Button15 = (gcnew System::Windows::Forms::Button());
+				this->Button14 = (gcnew System::Windows::Forms::Button());
+				this->Button13 = (gcnew System::Windows::Forms::Button());
 				this->label16 = (gcnew System::Windows::Forms::Label());
 				this->label18 = (gcnew System::Windows::Forms::Label());
 				this->label17 = (gcnew System::Windows::Forms::Label());
 				this->label24 = (gcnew System::Windows::Forms::Label());
 				this->label23 = (gcnew System::Windows::Forms::Label());
-				this->radioButton12 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton10 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton9 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton8 = (gcnew System::Windows::Forms::RadioButton());
+				this->Button12 = (gcnew System::Windows::Forms::Button());
+				this->Button10 = (gcnew System::Windows::Forms::Button());
+				this->Button9 = (gcnew System::Windows::Forms::Button());
+				this->Button8 = (gcnew System::Windows::Forms::Button());
 				this->label19 = (gcnew System::Windows::Forms::Label());
 				this->label20 = (gcnew System::Windows::Forms::Label());
 				this->label21 = (gcnew System::Windows::Forms::Label());
 				this->label22 = (gcnew System::Windows::Forms::Label());
 				this->label2 = (gcnew System::Windows::Forms::Label());
 				this->label25 = (gcnew System::Windows::Forms::Label());
-				this->radioButton7 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton6 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton5 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton4 = (gcnew System::Windows::Forms::RadioButton());
+				this->Button7 = (gcnew System::Windows::Forms::Button());
+				this->Button6 = (gcnew System::Windows::Forms::Button());
+				this->Button5 = (gcnew System::Windows::Forms::Button());
+				this->Button4 = (gcnew System::Windows::Forms::Button());
 				this->label14 = (gcnew System::Windows::Forms::Label());
 				this->label13 = (gcnew System::Windows::Forms::Label());
 				this->label12 = (gcnew System::Windows::Forms::Label());
 				this->label11 = (gcnew System::Windows::Forms::Label());
 				this->label1 = (gcnew System::Windows::Forms::Label());
 				this->label4 = (gcnew System::Windows::Forms::Label());
-				this->radioButton3 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton2 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton1 = (gcnew System::Windows::Forms::RadioButton());
-				this->radioButton11 = (gcnew System::Windows::Forms::RadioButton());
+				this->Button3 = (gcnew System::Windows::Forms::Button());
+				this->Button2 = (gcnew System::Windows::Forms::Button());
+				this->Button1 = (gcnew System::Windows::Forms::Button());
+				this->Button11 = (gcnew System::Windows::Forms::Button());
 				this->label10 = (gcnew System::Windows::Forms::Label());
 				this->label9 = (gcnew System::Windows::Forms::Label());
 				this->label8 = (gcnew System::Windows::Forms::Label());
@@ -286,40 +243,40 @@ namespace allmodel {
 				this->panel2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->panel2->AutoScroll = true;
 				this->panel2->AutoScrollMargin = System::Drawing::Size(0, 75);
-				this->panel2->Controls->Add(this->radioButton17);
-				this->panel2->Controls->Add(this->radioButton16);
-				this->panel2->Controls->Add(this->radioButton15);
-				this->panel2->Controls->Add(this->radioButton14);
-				this->panel2->Controls->Add(this->radioButton13);
+				this->panel2->Controls->Add(this->Button17);
+				this->panel2->Controls->Add(this->Button16);
+				this->panel2->Controls->Add(this->Button15);
+				this->panel2->Controls->Add(this->Button14);
+				this->panel2->Controls->Add(this->Button13);
 				this->panel2->Controls->Add(this->label16);
 				this->panel2->Controls->Add(this->label18);
 				this->panel2->Controls->Add(this->label17);
 				this->panel2->Controls->Add(this->label24);
 				this->panel2->Controls->Add(this->label23);
-				this->panel2->Controls->Add(this->radioButton12);
-				this->panel2->Controls->Add(this->radioButton10);
-				this->panel2->Controls->Add(this->radioButton9);
-				this->panel2->Controls->Add(this->radioButton8);
+				this->panel2->Controls->Add(this->Button12);
+				this->panel2->Controls->Add(this->Button10);
+				this->panel2->Controls->Add(this->Button9);
+				this->panel2->Controls->Add(this->Button8);
 				this->panel2->Controls->Add(this->label19);
 				this->panel2->Controls->Add(this->label20);
 				this->panel2->Controls->Add(this->label21);
 				this->panel2->Controls->Add(this->label22);
 				this->panel2->Controls->Add(this->label2);
 				this->panel2->Controls->Add(this->label25);
-				this->panel2->Controls->Add(this->radioButton7);
-				this->panel2->Controls->Add(this->radioButton6);
-				this->panel2->Controls->Add(this->radioButton5);
-				this->panel2->Controls->Add(this->radioButton4);
+				this->panel2->Controls->Add(this->Button7);
+				this->panel2->Controls->Add(this->Button6);
+				this->panel2->Controls->Add(this->Button5);
+				this->panel2->Controls->Add(this->Button4);
 				this->panel2->Controls->Add(this->label14);
 				this->panel2->Controls->Add(this->label13);
 				this->panel2->Controls->Add(this->label12);
 				this->panel2->Controls->Add(this->label11);
 				this->panel2->Controls->Add(this->label1);
 				this->panel2->Controls->Add(this->label4);
-				this->panel2->Controls->Add(this->radioButton3);
-				this->panel2->Controls->Add(this->radioButton2);
-				this->panel2->Controls->Add(this->radioButton1);
-				this->panel2->Controls->Add(this->radioButton11);
+				this->panel2->Controls->Add(this->Button3);
+				this->panel2->Controls->Add(this->Button2);
+				this->panel2->Controls->Add(this->Button1);
+				this->panel2->Controls->Add(this->Button11);
 				this->panel2->Controls->Add(this->label10);
 				this->panel2->Controls->Add(this->label9);
 				this->panel2->Controls->Add(this->label8);
@@ -332,80 +289,75 @@ namespace allmodel {
 				this->panel2->Size = System::Drawing::Size(1406, 624);
 				this->panel2->TabIndex = 62;
 				// 
-				// radioButton17
+				// Button17
 				// 
-				this->radioButton17->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton17->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton17->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton17.BackgroundImage")));
-				this->radioButton17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton17->Location = System::Drawing::Point(333, 1048);
-				this->radioButton17->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton17->Name = L"radioButton17";
-				this->radioButton17->Size = System::Drawing::Size(40, 40);
-				this->radioButton17->TabIndex = 114;
-				this->radioButton17->TabStop = true;
-				this->radioButton17->Text = L"\r\n";
-				this->radioButton17->UseVisualStyleBackColor = true;
+				this->Button17->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button17->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button17.BackgroundImage")));
+				this->Button17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button17->Location = System::Drawing::Point(333, 1048);
+				this->Button17->Margin = System::Windows::Forms::Padding(2);
+				this->Button17->Name = L"Button17";
+				this->Button17->Size = System::Drawing::Size(40, 40);
+				this->Button17->TabIndex = 114;
+				this->Button17->Text = L"\r\n";
+				this->Button17->UseVisualStyleBackColor = true;
+				this->Button17->Click += gcnew System::EventHandler(this, &ex0::Button17_Click);
 				// 
-				// radioButton16
+				// Button16
 				// 
-				this->radioButton16->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton16->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton16->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton16.BackgroundImage")));
-				this->radioButton16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton16->Location = System::Drawing::Point(159, 1048);
-				this->radioButton16->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton16->Name = L"radioButton16";
-				this->radioButton16->Size = System::Drawing::Size(40, 40);
-				this->radioButton16->TabIndex = 113;
-				this->radioButton16->TabStop = true;
-				this->radioButton16->Text = L"\r\n";
-				this->radioButton16->UseVisualStyleBackColor = true;
+				this->Button16->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button16->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button16.BackgroundImage")));
+				this->Button16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button16->Location = System::Drawing::Point(159, 1048);
+				this->Button16->Margin = System::Windows::Forms::Padding(2);
+				this->Button16->Name = L"Button16";
+				this->Button16->Size = System::Drawing::Size(40, 40);
+				this->Button16->TabIndex = 113;
+				this->Button16->Text = L"\r\n";
+				this->Button16->UseVisualStyleBackColor = true;
+				this->Button16->Click += gcnew System::EventHandler(this, &ex0::Button16_Click);
 				// 
-				// radioButton15
+				// Button15
 				// 
-				this->radioButton15->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton15->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton15->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton15.BackgroundImage")));
-				this->radioButton15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton15->Location = System::Drawing::Point(603, 974);
-				this->radioButton15->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton15->Name = L"radioButton15";
-				this->radioButton15->Size = System::Drawing::Size(40, 40);
-				this->radioButton15->TabIndex = 112;
-				this->radioButton15->TabStop = true;
-				this->radioButton15->Text = L"\r\n";
-				this->radioButton15->UseVisualStyleBackColor = true;
+				this->Button15->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button15->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button15.BackgroundImage")));
+				this->Button15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button15->Location = System::Drawing::Point(603, 974);
+				this->Button15->Margin = System::Windows::Forms::Padding(2);
+				this->Button15->Name = L"Button15";
+				this->Button15->Size = System::Drawing::Size(40, 40);
+				this->Button15->TabIndex = 112;
+				this->Button15->Text = L"\r\n";
+				this->Button15->UseVisualStyleBackColor = true;
+				this->Button15->Click += gcnew System::EventHandler(this, &ex0::Button15_Click);
 				// 
-				// radioButton14
+				// Button14
 				// 
-				this->radioButton14->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton14->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton14->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton14.BackgroundImage")));
-				this->radioButton14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton14->Location = System::Drawing::Point(140, 880);
-				this->radioButton14->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton14->Name = L"radioButton14";
-				this->radioButton14->Size = System::Drawing::Size(40, 40);
-				this->radioButton14->TabIndex = 111;
-				this->radioButton14->TabStop = true;
-				this->radioButton14->Text = L"\r\n";
-				this->radioButton14->UseVisualStyleBackColor = true;
+				this->Button14->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button14->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button14.BackgroundImage")));
+				this->Button14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button14->Location = System::Drawing::Point(140, 880);
+				this->Button14->Margin = System::Windows::Forms::Padding(2);
+				this->Button14->Name = L"Button14";
+				this->Button14->Size = System::Drawing::Size(40, 40);
+				this->Button14->TabIndex = 111;
+				this->Button14->Text = L"\r\n";
+				this->Button14->UseVisualStyleBackColor = true;
+				this->Button14->Click += gcnew System::EventHandler(this, &ex0::Button14_Click);
 				// 
-				// radioButton13
+				// Button13
 				// 
-				this->radioButton13->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton13->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton13->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton13.BackgroundImage")));
-				this->radioButton13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton13->Location = System::Drawing::Point(492, 811);
-				this->radioButton13->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton13->Name = L"radioButton13";
-				this->radioButton13->Size = System::Drawing::Size(40, 40);
-				this->radioButton13->TabIndex = 110;
-				this->radioButton13->TabStop = true;
-				this->radioButton13->Text = L"\r\n";
-				this->radioButton13->UseVisualStyleBackColor = true;
+				this->Button13->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button13->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button13.BackgroundImage")));
+				this->Button13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button13->Location = System::Drawing::Point(492, 811);
+				this->Button13->Margin = System::Windows::Forms::Padding(2);
+				this->Button13->Name = L"Button13";
+				this->Button13->Size = System::Drawing::Size(40, 40);
+				this->Button13->TabIndex = 110;
+				this->Button13->Text = L"\r\n";
+				this->Button13->UseVisualStyleBackColor = true;
+				this->Button13->Click += gcnew System::EventHandler(this, &ex0::Button13_Click);
 				// 
 				// label16
 				// 
@@ -488,65 +440,61 @@ namespace allmodel {
 					L"อกเสียงได้ 2 แบบ คือ \r\n\r\nwǒxiángnǐ หรือ wóxiángnǐ ก็ได้ แต่ในการเขียนคำยังคงรูปว"
 					L"รรณยุกต์เดิมไว้ \r\n\r\n\r\n\r\n\r\n";
 				// 
-				// radioButton12
+				// Button12
 				// 
-				this->radioButton12->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton12->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton12->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton12.BackgroundImage")));
-				this->radioButton12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton12->Location = System::Drawing::Point(823, 650);
-				this->radioButton12->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton12->Name = L"radioButton12";
-				this->radioButton12->Size = System::Drawing::Size(40, 40);
-				this->radioButton12->TabIndex = 105;
-				this->radioButton12->TabStop = true;
-				this->radioButton12->Text = L"\r\n";
-				this->radioButton12->UseVisualStyleBackColor = true;
+				this->Button12->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button12->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button12.BackgroundImage")));
+				this->Button12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button12->Location = System::Drawing::Point(823, 650);
+				this->Button12->Margin = System::Windows::Forms::Padding(2);
+				this->Button12->Name = L"Button12";
+				this->Button12->Size = System::Drawing::Size(40, 40);
+				this->Button12->TabIndex = 105;
+				this->Button12->Text = L"\r\n";
+				this->Button12->UseVisualStyleBackColor = true;
+				this->Button12->Click += gcnew System::EventHandler(this, &ex0::Button12_Click);
 				// 
-				// radioButton10
+				// Button10
 				// 
-				this->radioButton10->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton10->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton10->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton10.BackgroundImage")));
-				this->radioButton10->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton10->Location = System::Drawing::Point(823, 570);
-				this->radioButton10->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton10->Name = L"radioButton10";
-				this->radioButton10->Size = System::Drawing::Size(40, 40);
-				this->radioButton10->TabIndex = 104;
-				this->radioButton10->TabStop = true;
-				this->radioButton10->Text = L"\r\n";
-				this->radioButton10->UseVisualStyleBackColor = true;
+				this->Button10->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button10->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button10.BackgroundImage")));
+				this->Button10->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button10->Location = System::Drawing::Point(823, 570);
+				this->Button10->Margin = System::Windows::Forms::Padding(2);
+				this->Button10->Name = L"Button10";
+				this->Button10->Size = System::Drawing::Size(40, 40);
+				this->Button10->TabIndex = 104;
+				this->Button10->Text = L"\r\n";
+				this->Button10->UseVisualStyleBackColor = true;
+				this->Button10->Click += gcnew System::EventHandler(this, &ex0::Button10_Click);
 				// 
-				// radioButton9
+				// Button9
 				// 
-				this->radioButton9->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton9->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton9->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton9.BackgroundImage")));
-				this->radioButton9->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton9->Location = System::Drawing::Point(410, 650);
-				this->radioButton9->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton9->Name = L"radioButton9";
-				this->radioButton9->Size = System::Drawing::Size(40, 40);
-				this->radioButton9->TabIndex = 103;
-				this->radioButton9->TabStop = true;
-				this->radioButton9->Text = L"\r\n";
-				this->radioButton9->UseVisualStyleBackColor = true;
+				this->Button9->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button9->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button9.BackgroundImage")));
+				this->Button9->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button9->Location = System::Drawing::Point(410, 650);
+				this->Button9->Margin = System::Windows::Forms::Padding(2);
+				this->Button9->Name = L"Button9";
+				this->Button9->Size = System::Drawing::Size(40, 40);
+				this->Button9->TabIndex = 103;
+				this->Button9->Text = L"\r\n";
+				this->Button9->UseVisualStyleBackColor = true;
+				this->Button9->Click += gcnew System::EventHandler(this, &ex0::Button9_Click);
 				// 
-				// radioButton8
+				// Button8
 				// 
-				this->radioButton8->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton8->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton8->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton8.BackgroundImage")));
-				this->radioButton8->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton8->Location = System::Drawing::Point(391, 570);
-				this->radioButton8->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton8->Name = L"radioButton8";
-				this->radioButton8->Size = System::Drawing::Size(40, 40);
-				this->radioButton8->TabIndex = 102;
-				this->radioButton8->TabStop = true;
-				this->radioButton8->Text = L"\r\n";
-				this->radioButton8->UseVisualStyleBackColor = true;
+				this->Button8->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button8->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button8.BackgroundImage")));
+				this->Button8->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button8->Location = System::Drawing::Point(391, 570);
+				this->Button8->Margin = System::Windows::Forms::Padding(2);
+				this->Button8->Name = L"Button8";
+				this->Button8->Size = System::Drawing::Size(40, 40);
+				this->Button8->TabIndex = 102;
+				this->Button8->Text = L"\r\n";
+				this->Button8->UseVisualStyleBackColor = true;
+				this->Button8->Click += gcnew System::EventHandler(this, &ex0::Button8_Click);
 				// 
 				// label19
 				// 
@@ -636,65 +584,61 @@ namespace allmodel {
 				this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 				this->label25->UseCompatibleTextRendering = true;
 				// 
-				// radioButton7
+				// Button7
 				// 
-				this->radioButton7->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton7->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton7.BackgroundImage")));
-				this->radioButton7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton7->Location = System::Drawing::Point(863, 408);
-				this->radioButton7->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton7->Name = L"radioButton7";
-				this->radioButton7->Size = System::Drawing::Size(40, 40);
-				this->radioButton7->TabIndex = 95;
-				this->radioButton7->TabStop = true;
-				this->radioButton7->Text = L"\r\n";
-				this->radioButton7->UseVisualStyleBackColor = true;
+				this->Button7->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button7.BackgroundImage")));
+				this->Button7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button7->Location = System::Drawing::Point(863, 408);
+				this->Button7->Margin = System::Windows::Forms::Padding(2);
+				this->Button7->Name = L"Button7";
+				this->Button7->Size = System::Drawing::Size(40, 40);
+				this->Button7->TabIndex = 95;
+				this->Button7->Text = L"\r\n";
+				this->Button7->UseVisualStyleBackColor = true;
+				this->Button7->Click += gcnew System::EventHandler(this, &ex0::Button7_Click);
 				// 
-				// radioButton6
+				// Button6
 				// 
-				this->radioButton6->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton6->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton6.BackgroundImage")));
-				this->radioButton6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton6->Location = System::Drawing::Point(864, 327);
-				this->radioButton6->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton6->Name = L"radioButton6";
-				this->radioButton6->Size = System::Drawing::Size(40, 40);
-				this->radioButton6->TabIndex = 94;
-				this->radioButton6->TabStop = true;
-				this->radioButton6->Text = L"\r\n";
-				this->radioButton6->UseVisualStyleBackColor = true;
+				this->Button6->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button6.BackgroundImage")));
+				this->Button6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button6->Location = System::Drawing::Point(864, 327);
+				this->Button6->Margin = System::Windows::Forms::Padding(2);
+				this->Button6->Name = L"Button6";
+				this->Button6->Size = System::Drawing::Size(40, 40);
+				this->Button6->TabIndex = 94;
+				this->Button6->Text = L"\r\n";
+				this->Button6->UseVisualStyleBackColor = true;
+				this->Button6->Click += gcnew System::EventHandler(this, &ex0::Button6_Click);
 				// 
-				// radioButton5
+				// Button5
 				// 
-				this->radioButton5->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton5->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton5.BackgroundImage")));
-				this->radioButton5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton5->Location = System::Drawing::Point(467, 408);
-				this->radioButton5->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton5->Name = L"radioButton5";
-				this->radioButton5->Size = System::Drawing::Size(40, 40);
-				this->radioButton5->TabIndex = 93;
-				this->radioButton5->TabStop = true;
-				this->radioButton5->Text = L"\r\n";
-				this->radioButton5->UseVisualStyleBackColor = true;
+				this->Button5->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button5.BackgroundImage")));
+				this->Button5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button5->Location = System::Drawing::Point(467, 408);
+				this->Button5->Margin = System::Windows::Forms::Padding(2);
+				this->Button5->Name = L"Button5";
+				this->Button5->Size = System::Drawing::Size(40, 40);
+				this->Button5->TabIndex = 93;
+				this->Button5->Text = L"\r\n";
+				this->Button5->UseVisualStyleBackColor = true;
+				this->Button5->Click += gcnew System::EventHandler(this, &ex0::Button5_Click);
 				// 
-				// radioButton4
+				// Button4
 				// 
-				this->radioButton4->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton4->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton4.BackgroundImage")));
-				this->radioButton4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton4->Location = System::Drawing::Point(435, 327);
-				this->radioButton4->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton4->Name = L"radioButton4";
-				this->radioButton4->Size = System::Drawing::Size(40, 40);
-				this->radioButton4->TabIndex = 92;
-				this->radioButton4->TabStop = true;
-				this->radioButton4->Text = L"\r\n";
-				this->radioButton4->UseVisualStyleBackColor = true;
+				this->Button4->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button4.BackgroundImage")));
+				this->Button4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button4->Location = System::Drawing::Point(435, 327);
+				this->Button4->Margin = System::Windows::Forms::Padding(2);
+				this->Button4->Name = L"Button4";
+				this->Button4->Size = System::Drawing::Size(40, 40);
+				this->Button4->TabIndex = 92;
+				this->Button4->Text = L"\r\n";
+				this->Button4->UseVisualStyleBackColor = true;
+				this->Button4->Click += gcnew System::EventHandler(this, &ex0::Button4_Click);
 				// 
 				// label14
 				// 
@@ -785,65 +729,61 @@ namespace allmodel {
 				this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 				this->label4->UseCompatibleTextRendering = true;
 				// 
-				// radioButton3
+				// Button3
 				// 
-				this->radioButton3->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton3->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton3.BackgroundImage")));
-				this->radioButton3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton3->Location = System::Drawing::Point(444, 165);
-				this->radioButton3->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton3->Name = L"radioButton3";
-				this->radioButton3->Size = System::Drawing::Size(40, 40);
-				this->radioButton3->TabIndex = 79;
-				this->radioButton3->TabStop = true;
-				this->radioButton3->Text = L"\r\n";
-				this->radioButton3->UseVisualStyleBackColor = true;
+				this->Button3->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button3.BackgroundImage")));
+				this->Button3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button3->Location = System::Drawing::Point(444, 165);
+				this->Button3->Margin = System::Windows::Forms::Padding(2);
+				this->Button3->Name = L"Button3";
+				this->Button3->Size = System::Drawing::Size(40, 40);
+				this->Button3->TabIndex = 79;
+				this->Button3->Text = L"\r\n";
+				this->Button3->UseVisualStyleBackColor = true;
+				this->Button3->Click += gcnew System::EventHandler(this, &ex0::Button3_Click);
 				// 
-				// radioButton2
+				// Button2
 				// 
-				this->radioButton2->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton2->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton2.BackgroundImage")));
-				this->radioButton2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton2->Location = System::Drawing::Point(429, 82);
-				this->radioButton2->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton2->Name = L"radioButton2";
-				this->radioButton2->Size = System::Drawing::Size(40, 40);
-				this->radioButton2->TabIndex = 78;
-				this->radioButton2->TabStop = true;
-				this->radioButton2->Text = L"\r\n";
-				this->radioButton2->UseVisualStyleBackColor = true;
+				this->Button2->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button2.BackgroundImage")));
+				this->Button2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button2->Location = System::Drawing::Point(429, 82);
+				this->Button2->Margin = System::Windows::Forms::Padding(2);
+				this->Button2->Name = L"Button2";
+				this->Button2->Size = System::Drawing::Size(40, 40);
+				this->Button2->TabIndex = 78;
+				this->Button2->Text = L"\r\n";
+				this->Button2->UseVisualStyleBackColor = true;
+				this->Button2->Click += gcnew System::EventHandler(this, &ex0::Button2_Click);
 				// 
-				// radioButton1
+				// Button1
 				// 
-				this->radioButton1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton1->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton1.BackgroundImage")));
-				this->radioButton1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton1->Location = System::Drawing::Point(853, 165);
-				this->radioButton1->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton1->Name = L"radioButton1";
-				this->radioButton1->Size = System::Drawing::Size(40, 40);
-				this->radioButton1->TabIndex = 77;
-				this->radioButton1->TabStop = true;
-				this->radioButton1->Text = L"\r\n";
-				this->radioButton1->UseVisualStyleBackColor = true;
+				this->Button1->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button1.BackgroundImage")));
+				this->Button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button1->Location = System::Drawing::Point(853, 165);
+				this->Button1->Margin = System::Windows::Forms::Padding(2);
+				this->Button1->Name = L"Button1";
+				this->Button1->Size = System::Drawing::Size(40, 40);
+				this->Button1->TabIndex = 77;
+				this->Button1->Text = L"\r\n";
+				this->Button1->UseVisualStyleBackColor = true;
+				this->Button1->Click += gcnew System::EventHandler(this, &ex0::Button1_Click);
 				// 
-				// radioButton11
+				// Button11
 				// 
-				this->radioButton11->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->radioButton11->Appearance = System::Windows::Forms::Appearance::Button;
-				this->radioButton11->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"radioButton11.BackgroundImage")));
-				this->radioButton11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->radioButton11->Location = System::Drawing::Point(853, 82);
-				this->radioButton11->Margin = System::Windows::Forms::Padding(2);
-				this->radioButton11->Name = L"radioButton11";
-				this->radioButton11->Size = System::Drawing::Size(40, 40);
-				this->radioButton11->TabIndex = 76;
-				this->radioButton11->TabStop = true;
-				this->radioButton11->Text = L"\r\n";
-				this->radioButton11->UseVisualStyleBackColor = true;
+				this->Button11->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button11->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button11.BackgroundImage")));
+				this->Button11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button11->Location = System::Drawing::Point(853, 82);
+				this->Button11->Margin = System::Windows::Forms::Padding(2);
+				this->Button11->Name = L"Button11";
+				this->Button11->Size = System::Drawing::Size(40, 40);
+				this->Button11->TabIndex = 76;
+				this->Button11->Text = L"\r\n";
+				this->Button11->UseVisualStyleBackColor = true;
+				this->Button11->Click += gcnew System::EventHandler(this, &ex0::Button11_Click);
 				// 
 				// label10
 				// 
@@ -957,6 +897,8 @@ namespace allmodel {
 				this->Controls->Add(this->decorleft);
 				this->Controls->Add(this->lesson3);
 				this->Margin = System::Windows::Forms::Padding(2);
+				this->MaximumSize = System::Drawing::Size(1920, 1080);
+				this->MinimumSize = System::Drawing::Size(1918, 1038);
 				this->Name = L"ex0";
 				this->Text = L"ex0";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
@@ -982,5 +924,56 @@ namespace allmodel {
 			this->Close();
 			switchToformHQ0 = true;
 		}
-		};
+		private: System::Void Button2_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("jü.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button11_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("xü.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button3_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("qü.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("yü.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button4_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("ya.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button5_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("yao.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button6_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("wa.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button7_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("wo.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button8_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("jü.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button10_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("qü.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button9_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("xü.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button12_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("yü.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button13_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("你 好.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button14_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("níhǎo.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button15_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("我 想 你.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button16_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("wóxiángnǐ.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void Button17_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("wǒxiángnǐ.wav"), NULL, SND_SYNC);
+		}
+};
 	}
