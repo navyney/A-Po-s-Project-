@@ -129,6 +129,7 @@
     <ClCompile Include="number.cpp" />
     <ClCompile Include="one.cpp" />
     <ClCompile Include="Quiz0.cpp" />
+    <ClCompile Include="Quiz1.cpp" />
     <ClCompile Include="tonenew.cpp" />
     <ClCompile Include="vo.cpp" />
     <ClCompile Include="vo1.cpp" />
@@ -159,6 +160,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Quiz0.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Quiz1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="tonenew.h">
@@ -198,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Quiz0.resx">
       <DependentUpon>Quiz0.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz1.resx">
+      <DependentUpon>Quiz1.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tonenew.resx">
       <DependentUpon>tonenew.h</DependentUpon>

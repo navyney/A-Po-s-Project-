@@ -10,6 +10,7 @@
 #include"number.h"
 #include"one.h"
 #include"HQuiz1.h"
+#include"Quiz1.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -33,6 +34,7 @@ void main(array<String^>^ args)
     allmodel::number formnum;
     allmodel::one formcon1;
     allmodel::HQuiz1 formHQ1;
+    allmodel::Quiz1 formQ1;
 
     form.ShowDialog();//menu page
 
@@ -133,7 +135,14 @@ void main(array<String^>^ args)
                 formcon1.ShowDialog();
                 formHQ1.switchToformcon1 = false;//back  consonant 1  page
             }
-
+        else if(formHQ1.switchToformQ1){
+                formQ1.ShowDialog();
+                formHQ1.switchToformQ1 = false;//  Quiz1 page
+            }
+        else if (formQ1.switchToformHQ1) {
+            formHQ1.ShowDialog();
+            formQ1.switchToformHQ1 = false;//back  Before  Quiz1 page
+            }
         else {
             break;
         }

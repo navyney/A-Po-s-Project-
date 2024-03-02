@@ -191,10 +191,11 @@ namespace allmodel {
 #pragma endregion
 		public:bool switchToformcon1 = false;
 		public:bool switchToformQ1 = false;
-		private: System::Void GoQuiz0_Click(System::Object^ sender, System::EventArgs^ e) {
-
+		private: System::Void GoQuiz0_Click(System::Object^ sender, System::EventArgs^ e) { // Quiz 1
+			this->Close();
+			switchToformQ1 = true;
 		}
-		private: System::Void Golesson1_Click(System::Object^ sender, System::EventArgs^ e) {
+		private: System::Void Golesson1_Click(System::Object^ sender, System::EventArgs^ e) {// lesson 2
 
 		}
 		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
