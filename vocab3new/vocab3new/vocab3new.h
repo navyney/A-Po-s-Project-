@@ -416,7 +416,7 @@ namespace vocab3new {
 			label3->Text = L"nǎr";
 			label4->Text = L"ที่ไหน";
 			label5->Text = L"你家在哪儿？";
-			label6->Text = L"Nǐ jiā zài nǎr";
+			label6->Text = L"Nǐ jiā zài nǎr?";
 			label7->Text = L"บ้านของคุณอยู่ที่ไหน";
 			break;
 		case 6:
@@ -424,7 +424,7 @@ namespace vocab3new {
 			label3->Text = L"nǎ";
 			label4->Text = L"ไหน";
 			label5->Text = L"哪个杯子是你的？";
-			label6->Text = L"Nǎ gè bēi zǐ shì nǐ de";
+			label6->Text = L"Nǎ gè bēi zǐ shì nǐ de?";
 			label7->Text = L"แก้วไหนเป็นของคุณ";
 			break;
 		case 7:
@@ -440,7 +440,7 @@ namespace vocab3new {
 			label3->Text = L"jī";
 			label4->Text = L"กี่";
 			label5->Text = L"你有几个孩子?";
-			label6->Text = L"Nǐ yǒu jī gè hái zǐ";
+			label6->Text = L"Nǐ yǒu jī gè hái zǐ?";
 			label7->Text = L"คุณมีลูกกี่คน";
 			break;
 		case 9:
@@ -472,7 +472,7 @@ namespace vocab3new {
 			label3->Text = L"ma";
 			label4->Text = L"ไหม ใช้ลงท้ายประโยคที่ต้องการถาม";
 			label5->Text = L"你是中国人吗？";
-			label6->Text = L"Nǐ shì zhōng guó rén má";
+			label6->Text = L"Nǐ shì zhōng guó rén má?";
 			label7->Text = L"คุณเป็นคนจีนไหม";
 			break;
 		case 13:

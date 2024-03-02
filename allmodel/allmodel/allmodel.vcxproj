@@ -123,11 +123,14 @@
     <ClCompile Include="conso.cpp" />
     <ClCompile Include="ex0.cpp" />
     <ClCompile Include="HQuiz0.cpp" />
+    <ClCompile Include="HQuiz1.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="msound.cpp" />
+    <ClCompile Include="one.cpp" />
     <ClCompile Include="Quiz0.cpp" />
     <ClCompile Include="tonenew.cpp" />
     <ClCompile Include="vo.cpp" />
+    <ClCompile Include="vo1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="conso.h">
@@ -139,10 +142,16 @@
     <ClInclude Include="HQuiz0.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="HQuiz1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="menu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="msound.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="one.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Quiz0.h">
@@ -152,6 +161,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="vo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="vo1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -165,11 +177,17 @@
     <EmbeddedResource Include="HQuiz0.resx">
       <DependentUpon>HQuiz0.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HQuiz1.resx">
+      <DependentUpon>HQuiz1.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="msound.resx">
       <DependentUpon>msound.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="one.resx">
+      <DependentUpon>one.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Quiz0.resx">
       <DependentUpon>Quiz0.h</DependentUpon>
@@ -179,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="vo.resx">
       <DependentUpon>vo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vo1.resx">
+      <DependentUpon>vo1.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

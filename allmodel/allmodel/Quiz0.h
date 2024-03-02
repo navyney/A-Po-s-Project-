@@ -29,7 +29,6 @@ namespace allmodel {
 	private: System::Windows::Forms::Label^ lesson3;
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::PictureBox^ pictureBox2;
-
 	private: array<int>^ userAnswers;
 
 	public:
@@ -120,6 +119,7 @@ namespace allmodel {
 			this->label2->TabIndex = 5;
 			this->label2->Text = L"QUESTION";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->label2->Click += gcnew System::EventHandler(this, &Quiz0::label2_Click);
 			// 
 			// button4
 			// 
@@ -384,11 +384,11 @@ namespace allmodel {
 	private: System::Void askQuestion(int qnum) {
 		switch (qnum) {
 		case 1:
-			label2->Text = "1.“b” พยัญชนะต่อไปนี้อ่านออกเสียงอย่างไร";
-			button1->Text = "บัว";
-			button2->Text = "ปัว";
-			button3->Text = "พัว";
-			button4->Text = "เบอะ";
+			label2->Text = L"1.“b” พยัญชนะต่อไปนี้อ่านออกเสียงอย่างไร";
+			button1->Text = L"บัว";
+			button2->Text = L"ปัว";
+			button3->Text = L"พัว";
+			button4->Text = L"เบอะ";
 			previousbutton->Show();
 			button7->Hide();
 
@@ -396,40 +396,41 @@ namespace allmodel {
 
 			break;
 		case 2:
-			label2->Text = "2.พยัญชนะกลุ่มใดสามารถผสมกับสระ ü\nได้ทั้งหมด";
-			button1->Text = "1.b p m f ";
-			button2->Text = "2.d t n l";
-			button3->Text = "3.g k h";
-			button4->Text = "4.j q x y ";
+			label2->Text = L"2.พยัญชนะกลุ่มใดสามารถผสมกับสระ ü\nได้ทั้งหมด";
+			button1->Text = L"1.b p m f ";
+			button2->Text = L"2.d t n l";
+			button3->Text = L"3.g k h";
+			button4->Text = L"4.j q x y ";
 
 			correctAnswer = 4;
 
 			break;
 		case 3:
-			label2->Text = "3. “hǎo” คำต่อไปนี้อ่านออกเสียงอย่างไร";
-			button1->Text = "1.ฮาว";
-			button2->Text = "2.ห้าว";
-			button3->Text = "3.ห่าว";
-			button4->Text = "4.หาว";
+			label2->Text = L"3. “hǎo” คำต่อไปนี้อ่านออกเสียงอย่างไร";
+			button1->Text = L"1.ฮาว";
+			button2->Text = L"2.ห้าว";
+			button3->Text = L"3.ห่าว";
+			button4->Text = L"4.หาว";
+
 			correctAnswer = 3;
 
 			break;
 		case 4:
-			label2->Text = "4.“xióng” คำต่อไปนี้อ่านออกเสียงอย่างไร";
-			button1->Text = "1.สง";
-			button2->Text = "2.ชง";
-			button3->Text = "3.ซง";
-			button4->Text = "4.เซียง";
+			label2->Text = L"4.“xióng” คำต่อไปนี้อ่านออกเสียงอย่างไร";
+			button1->Text = L"1.สง";
+			button2->Text = L"2.ชง";
+			button3->Text = L"3.ซง";
+			button4->Text = L"4.เซียง";
 
 			correctAnswer = 1;
 
 			break;
 		case 5:
-			label2->Text = "5. tian ข้อใดสะกดได้ถูกต้อง ";
-			button1->Text = "1.ตัว + อาน = ตาน";
-			button2->Text = "2.ทัว + อาน = ทาน";
-			button3->Text = "3.เตอ + เอียน = เตียน";
-			button4->Text = "4.เทอ + เอียน = เทียน";
+			label2->Text = L"5. tian ข้อใดสะกดได้ถูกต้อง ";
+			button1->Text = L"1.ตัว + อาน = ตาน";
+			button2->Text = L"2.ทัว + อาน = ทาน";
+			button3->Text = L"3.เตอ + เอียน = เตียน";
+			button4->Text = L"4.เทอ + เอียน = เทียน";
 			correctAnswer = 4;
 
 			break;
@@ -566,5 +567,7 @@ namespace allmodel {
 
 
 	}
-	};
+	private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }

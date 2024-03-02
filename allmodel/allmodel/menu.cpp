@@ -6,6 +6,9 @@
 #include"ex0.h"
 #include"HQuiz0.h"
 #include"Quiz0.h"
+#include"vo1.h"
+#include"one.h"
+//#include"HQuiz1.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -25,13 +28,16 @@ void main(array<String^>^ args)
     allmodel::ex0 formex0;
     allmodel::HQuiz0 formHQ0;
     allmodel::Quiz0 formQ0;
+    allmodel::vo1 formvo01;
+    allmodel::one formcon1;
+   // allmodel::HQuiz1 formHQ1;
 
     form.ShowDialog();//menu page
 
     while (true) {
-            if (form.switchTocon) {
+            if (form.switchToformcon) {
                 formcon.ShowDialog();
-                form.switchTocon = false;//consonant page
+                form.switchToformcon = false;//consonant page
          }
         else if (formcon.switchToformhome) {
                 form.ShowDialog();
@@ -87,7 +93,27 @@ void main(array<String^>^ args)
             }
         else if (form.switchToformHQ0) {
                 formHQ0.ShowDialog();
-                form.switchToformHQ0 = false; //  Quiz0 page
+                form.switchToformHQ0 = false; // home to Quiz0 page
+            }
+        else if (formHQ0.switchToformvo01) {
+                formvo01.ShowDialog();
+                formHQ0.switchToformvo01 = false; //  vocab1 page
+            }
+        else if (formvo01.switchToformHQ0) {
+                formHQ0.ShowDialog();
+                formvo01.switchToformHQ0 = false;//back  Before Quiz0  page
+            }
+        else if (form.switchToformvo01) {
+                formvo01.ShowDialog();
+                form.switchToformvo01 = false; // home to vocab1 page
+            }
+        else if (formvo01.switchToformcon1) {
+                formcon1.ShowDialog();
+                formvo01.switchToformcon1 = false; //  consonant1 page
+            }
+        else if (formcon1.switchToformvo01) {
+                formvo01.ShowDialog();
+                formcon1.switchToformvo01= false;//back  Before consonant1   page
             }
         else {
             break;
@@ -95,12 +121,3 @@ void main(array<String^>^ args)
     }
 
 }
-
-      /*this->Close();
-      switchToformHQ0 = true;
-      if (questionNumber = totalQuestion) {
-							askQuestion(questionNumber);
-							this->Close();
-							switchToformHQ0 = true;
-						}
-      */
