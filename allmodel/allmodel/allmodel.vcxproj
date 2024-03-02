@@ -221,6 +221,9 @@
     <EmbeddedResource Include="Quiz1.resx">
       <DependentUpon>Quiz1.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Quiz2.resx">
+      <DependentUpon>Quiz2.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tonenew.resx">
       <DependentUpon>tonenew.h</DependentUpon>
     </EmbeddedResource>
