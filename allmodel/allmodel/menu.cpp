@@ -7,8 +7,9 @@
 #include"HQuiz0.h"
 #include"Quiz0.h"
 #include"vo1.h"
+#include"number.h"
 #include"one.h"
-//#include"HQuiz1.h"
+#include"HQuiz1.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -29,8 +30,9 @@ void main(array<String^>^ args)
     allmodel::HQuiz0 formHQ0;
     allmodel::Quiz0 formQ0;
     allmodel::vo1 formvo01;
+    allmodel::number formnum;
     allmodel::one formcon1;
-   // allmodel::HQuiz1 formHQ1;
+    allmodel::HQuiz1 formHQ1;
 
     form.ShowDialog();//menu page
 
@@ -107,14 +109,31 @@ void main(array<String^>^ args)
                 formvo01.ShowDialog();
                 form.switchToformvo01 = false; // home to vocab1 page
             }
-        else if (formvo01.switchToformcon1) {
-                formcon1.ShowDialog();
-                formvo01.switchToformcon1 = false; //  consonant1 page
+        else if (formvo01.switchToformnum) {
+                formnum.ShowDialog();
+                formvo01.switchToformnum = false; //  number page
             }
-        else if (formcon1.switchToformvo01) {
+        else if (formnum.switchToformvo01) {
                 formvo01.ShowDialog();
-                formcon1.switchToformvo01= false;//back  Before consonant1   page
+                formnum.switchToformvo01= false;//back  Before vocab1   page
             }
+        else if (formnum.switchToformcon1) {
+                formcon1.ShowDialog();
+                formnum.switchToformcon1 = false; //  consonant 1 page
+            }
+        else if (formcon1.switchToformnum) {
+                formnum.ShowDialog();
+                formcon1.switchToformnum = false;//back  Before vocab1   page
+            }
+        else if (form.switchToformHQ1) {
+                formHQ1.ShowDialog();
+                form.switchToformHQ1 = false; // home to Quiz1 page
+            }
+        else if (formHQ1.switchToformcon1) {
+                formcon1.ShowDialog();
+                formHQ1.switchToformcon1 = false;//back  consonant 1  page
+            }
+
         else {
             break;
         }

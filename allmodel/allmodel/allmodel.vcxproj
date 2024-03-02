@@ -126,6 +126,7 @@
     <ClCompile Include="HQuiz1.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="msound.cpp" />
+    <ClCompile Include="number.cpp" />
     <ClCompile Include="one.cpp" />
     <ClCompile Include="Quiz0.cpp" />
     <ClCompile Include="tonenew.cpp" />
@@ -149,6 +150,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="msound.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="number.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="one.h">
@@ -185,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="msound.resx">
       <DependentUpon>msound.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="number.resx">
+      <DependentUpon>number.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="one.resx">
       <DependentUpon>one.h</DependentUpon>

@@ -925,7 +925,7 @@ namespace allmodel {
 
 		}
 		public:bool switchToformHQ0 = false;
-		public:bool switchToformcon1 = false;
+		public:bool switchToformnum = false;
 		private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
 			if (numpage > 1) {
 				numpage--;
@@ -993,7 +993,7 @@ namespace allmodel {
 			}
 			else {
 				this->Close();
-				switchToformcon1 = true;
+				switchToformnum = true;
 			}
 		}
 		private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
