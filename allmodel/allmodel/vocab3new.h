@@ -816,6 +816,7 @@ namespace allmodel {
 		private: System::Void changepage(int numpage2) {
 			switch (numpage2) {
 			case 1:
+				this->progressBar2->Value = 5.88 * 1;
 				label2->Text = L"今天";
 				label3->Text = L"jīn tiān";
 				label4->Text = L"วันนี้";
@@ -852,6 +853,7 @@ namespace allmodel {
 				pic28->Hide();
 				break;
 			case 2:
+				this->progressBar2->Value = 5.88 * 2;
 				label2->Text = L"昨天";
 				label3->Text = L"zuó tiān";
 				label4->Text = L"เมื่อวาน";
@@ -862,6 +864,7 @@ namespace allmodel {
 				pic4->Show();
 				break;
 			case 3:
+				this->progressBar2->Value = 5.88 * 3;
 				label2->Text = L"明天";
 				label3->Text = L"míng tiān";
 				label4->Text = L"พรุ่งนี้";
@@ -872,6 +875,7 @@ namespace allmodel {
 				pic6->Show();
 				break;
 			case 4:
+				this->progressBar2->Value = 5.88 * 4;
 				label2->Text = L"那儿";
 				label3->Text = L"nàr";
 				label4->Text = L"ที่นั้น";
@@ -882,6 +886,7 @@ namespace allmodel {
 				pic8->Show();
 				break;
 			case 5:
+				this->progressBar2->Value = 5.88 * 5;
 				label2->Text = L"哪儿";
 				label3->Text = L"nǎr";
 				label4->Text = L"ที่ไหน";
@@ -892,6 +897,7 @@ namespace allmodel {
 				pic10->Show();
 				break;
 			case 6:
+				this->progressBar2->Value = 5.88 * 6;
 				label2->Text = L"哪";
 				label3->Text = L"nǎ";
 				label4->Text = L"ไหน";
@@ -902,6 +908,7 @@ namespace allmodel {
 				pic12->Show();
 				break;
 			case 7:
+				this->progressBar2->Value = 5.88 * 7;
 				label2->Text = L"那";
 				label3->Text = L"nà";
 				label4->Text = L"นั้น";
@@ -912,6 +919,7 @@ namespace allmodel {
 				pic14->Show();
 				break;
 			case 8:
+				this->progressBar2->Value = 5.88 * 8;
 				label2->Text = L"几";
 				label3->Text = L"jī";
 				label4->Text = L"กี่";
@@ -922,6 +930,7 @@ namespace allmodel {
 				pic16->Show();
 				break;
 			case 9:
+				this->progressBar2->Value = 5.88 * 9;
 				label2->Text = L"星期";
 				label3->Text = L"xīng qī";
 				label4->Text = L"สัปดาห์";
@@ -932,6 +941,7 @@ namespace allmodel {
 				pic18->Show();
 				break;
 			case 10:
+				this->progressBar2->Value = 5.88 * 10;
 				label2->Text = L"点";
 				label3->Text = L"diǎn";
 				label4->Text = L"โมง";
@@ -942,6 +952,7 @@ namespace allmodel {
 				pic20->Show();
 				break;
 			case 11:
+				this->progressBar2->Value = 5.88 * 11;
 				label2->Text = L"分";
 				label3->Text = L"fēn";
 				label4->Text = L"นาที";
@@ -952,6 +963,7 @@ namespace allmodel {
 				pic22->Show();
 				break;
 			case 12:
+				this->progressBar2->Value = 5.88 * 12;
 				label2->Text = L"吗";
 				label3->Text = L"ma";
 				label4->Text = L"ไหม (ลงท้ายประโยคที่จะถาม)";
@@ -962,6 +974,7 @@ namespace allmodel {
 				pic24->Show();
 				break;
 			case 13:
+				this->progressBar2->Value = 5.88 * 13;
 				label2->Text = L"家";
 				label3->Text = L"jiā";
 				label4->Text = L"บ้าน";
@@ -972,6 +985,7 @@ namespace allmodel {
 				pic26->Show();
 				break;
 			case 14:
+				this->progressBar2->Value = 5.88 * 14;
 				label2->Text = L"学校";
 				label3->Text = L"xuéxiào";
 				label4->Text = L"โรงเรียน";

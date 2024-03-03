@@ -310,6 +310,7 @@ namespace allmodel {
 		private: System::Void changepage(int numpage) {
 			switch (numpage) {
 			case 1:
+				this->progressBar1->Value = 5.88 * 16;
 				label3->Show();
 				pictureBox1->Show();
 				label4->Hide();
@@ -317,6 +318,7 @@ namespace allmodel {
 				break;
 
 			case 2:
+				this->progressBar1->Value = 100;
 				label4->Show();
 				pictureBox2->Show();
 				label3->Hide();

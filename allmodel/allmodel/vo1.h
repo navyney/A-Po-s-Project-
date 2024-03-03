@@ -199,11 +199,12 @@ namespace allmodel {
 				this->button8->Anchor = System::Windows::Forms::AnchorStyles::None;
 				this->button8->AutoSize = true;
 				this->button8->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 20));
-				this->button8->Location = System::Drawing::Point(173, 1181);
-				this->button8->MaximumSize = System::Drawing::Size(400, 200);
-				this->button8->MinimumSize = System::Drawing::Size(136, 60);
+				this->button8->Location = System::Drawing::Point(346, 2271);
+				this->button8->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button8->MaximumSize = System::Drawing::Size(800, 385);
+				this->button8->MinimumSize = System::Drawing::Size(272, 115);
 				this->button8->Name = L"button8";
-				this->button8->Size = System::Drawing::Size(240, 107);
+				this->button8->Size = System::Drawing::Size(480, 206);
 				this->button8->TabIndex = 42;
 				this->button8->Text = L"Previous";
 				this->button8->UseVisualStyleBackColor = true;
@@ -213,11 +214,12 @@ namespace allmodel {
 				this->button9->Anchor = System::Windows::Forms::AnchorStyles::None;
 				this->button9->AutoSize = true;
 				this->button9->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 20));
-				this->button9->Location = System::Drawing::Point(1998, 1181);
-				this->button9->MaximumSize = System::Drawing::Size(400, 200);
-				this->button9->MinimumSize = System::Drawing::Size(136, 60);
+				this->button9->Location = System::Drawing::Point(3996, 2271);
+				this->button9->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button9->MaximumSize = System::Drawing::Size(800, 385);
+				this->button9->MinimumSize = System::Drawing::Size(272, 115);
 				this->button9->Name = L"button9";
-				this->button9->Size = System::Drawing::Size(240, 107);
+				this->button9->Size = System::Drawing::Size(480, 206);
 				this->button9->TabIndex = 43;
 				this->button9->Text = L"Next";
 				this->button9->UseVisualStyleBackColor = true;
@@ -229,9 +231,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label2->Location = System::Drawing::Point(541, 288);
+				this->label2->Location = System::Drawing::Point(1082, 554);
+				this->label2->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
 				this->label2->Name = L"label2";
-				this->label2->Size = System::Drawing::Size(150, 128);
+				this->label2->Size = System::Drawing::Size(299, 254);
 				this->label2->TabIndex = 49;
 				this->label2->Text = L"你";
 				// 
@@ -241,9 +244,10 @@ namespace allmodel {
 				this->label3->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 32));
 				this->label3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label3->Location = System::Drawing::Point(564, 407);
+				this->label3->Location = System::Drawing::Point(1128, 783);
+				this->label3->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
 				this->label3->Name = L"label3";
-				this->label3->Size = System::Drawing::Size(53, 46);
+				this->label3->Size = System::Drawing::Size(103, 91);
 				this->label3->TabIndex = 50;
 				this->label3->Text = L"nǐ";
 				// 
@@ -253,9 +257,10 @@ namespace allmodel {
 				this->label4->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 32));
 				this->label4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label4->Location = System::Drawing::Point(564, 453);
+				this->label4->Location = System::Drawing::Point(1128, 871);
+				this->label4->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
 				this->label4->Name = L"label4";
-				this->label4->Size = System::Drawing::Size(67, 46);
+				this->label4->Size = System::Drawing::Size(139, 91);
 				this->label4->TabIndex = 51;
 				this->label4->Text = L"คุณ";
 				// 
@@ -263,9 +268,10 @@ namespace allmodel {
 				// 
 				this->button6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button6.BackgroundImage")));
 				this->button6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button6->Location = System::Drawing::Point(577, 502);
+				this->button6->Location = System::Drawing::Point(1154, 965);
+				this->button6->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->button6->Name = L"button6";
-				this->button6->Size = System::Drawing::Size(40, 40);
+				this->button6->Size = System::Drawing::Size(80, 77);
 				this->button6->TabIndex = 52;
 				this->button6->UseVisualStyleBackColor = true;
 				this->button6->Click += gcnew System::EventHandler(this, &vo1::button6_Click);
@@ -277,9 +283,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label5->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label5->Location = System::Drawing::Point(524, 637);
+				this->label5->Location = System::Drawing::Point(1048, 1225);
+				this->label5->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
 				this->label5->Name = L"label5";
-				this->label5->Size = System::Drawing::Size(332, 47);
+				this->label5->Size = System::Drawing::Size(668, 95);
 				this->label5->TabIndex = 53;
 				this->label5->Text = L"你认识这个人吗？";
 				// 
@@ -290,9 +297,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label6->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label6->Location = System::Drawing::Point(523, 689);
+				this->label6->Location = System::Drawing::Point(1046, 1325);
+				this->label6->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
 				this->label6->Name = L"label6";
-				this->label6->Size = System::Drawing::Size(371, 47);
+				this->label6->Size = System::Drawing::Size(741, 95);
 				this->label6->TabIndex = 54;
 				this->label6->Text = L"Nǐrènshizhègerénma";
 				// 
@@ -303,9 +311,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label7->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label7->Location = System::Drawing::Point(525, 739);
+				this->label7->Location = System::Drawing::Point(1050, 1421);
+				this->label7->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
 				this->label7->Name = L"label7";
-				this->label7->Size = System::Drawing::Size(259, 47);
+				this->label7->Size = System::Drawing::Size(515, 95);
 				this->label7->TabIndex = 55;
 				this->label7->Text = L"คุณรู้จักคนคนนี้มั้ย";
 				// 
@@ -313,9 +322,10 @@ namespace allmodel {
 				// 
 				this->pic1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic1.BackgroundImage")));
 				this->pic1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic1->Location = System::Drawing::Point(844, 591);
+				this->pic1->Location = System::Drawing::Point(1688, 1137);
+				this->pic1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic1->Name = L"pic1";
-				this->pic1->Size = System::Drawing::Size(366, 244);
+				this->pic1->Size = System::Drawing::Size(732, 469);
 				this->pic1->TabIndex = 56;
 				this->pic1->TabStop = false;
 				// 
@@ -323,9 +333,10 @@ namespace allmodel {
 				// 
 				this->pic2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic2.BackgroundImage")));
 				this->pic2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic2->Location = System::Drawing::Point(786, 288);
+				this->pic2->Location = System::Drawing::Point(1572, 554);
+				this->pic2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic2->Name = L"pic2";
-				this->pic2->Size = System::Drawing::Size(276, 218);
+				this->pic2->Size = System::Drawing::Size(552, 419);
 				this->pic2->TabIndex = 57;
 				this->pic2->TabStop = false;
 				this->pic2->Click += gcnew System::EventHandler(this, &vo1::pictureBox2_Click);
@@ -334,9 +345,10 @@ namespace allmodel {
 				// 
 				this->pic3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic3.BackgroundImage")));
 				this->pic3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic3->Location = System::Drawing::Point(853, 288);
+				this->pic3->Location = System::Drawing::Point(1706, 554);
+				this->pic3->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic3->Name = L"pic3";
-				this->pic3->Size = System::Drawing::Size(290, 277);
+				this->pic3->Size = System::Drawing::Size(580, 533);
 				this->pic3->TabIndex = 58;
 				this->pic3->TabStop = false;
 				// 
@@ -344,9 +356,10 @@ namespace allmodel {
 				// 
 				this->pic4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic4.BackgroundImage")));
 				this->pic4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic4->Location = System::Drawing::Point(954, 591);
+				this->pic4->Location = System::Drawing::Point(1908, 1137);
+				this->pic4->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic4->Name = L"pic4";
-				this->pic4->Size = System::Drawing::Size(256, 244);
+				this->pic4->Size = System::Drawing::Size(512, 469);
 				this->pic4->TabIndex = 59;
 				this->pic4->TabStop = false;
 				// 
@@ -354,9 +367,10 @@ namespace allmodel {
 				// 
 				this->pic5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic5.BackgroundImage")));
 				this->pic5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic5->Location = System::Drawing::Point(853, 312);
+				this->pic5->Location = System::Drawing::Point(1706, 600);
+				this->pic5->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic5->Name = L"pic5";
-				this->pic5->Size = System::Drawing::Size(384, 253);
+				this->pic5->Size = System::Drawing::Size(768, 487);
 				this->pic5->TabIndex = 60;
 				this->pic5->TabStop = false;
 				// 
@@ -364,9 +378,10 @@ namespace allmodel {
 				// 
 				this->pic8->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic8.BackgroundImage")));
 				this->pic8->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic8->Location = System::Drawing::Point(911, 591);
+				this->pic8->Location = System::Drawing::Point(1822, 1137);
+				this->pic8->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic8->Name = L"pic8";
-				this->pic8->Size = System::Drawing::Size(303, 256);
+				this->pic8->Size = System::Drawing::Size(606, 492);
 				this->pic8->TabIndex = 61;
 				this->pic8->TabStop = false;
 				// 
@@ -374,9 +389,10 @@ namespace allmodel {
 				// 
 				this->pic7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic7.BackgroundImage")));
 				this->pic7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic7->Location = System::Drawing::Point(853, 288);
+				this->pic7->Location = System::Drawing::Point(1706, 554);
+				this->pic7->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic7->Name = L"pic7";
-				this->pic7->Size = System::Drawing::Size(299, 277);
+				this->pic7->Size = System::Drawing::Size(598, 533);
 				this->pic7->TabIndex = 62;
 				this->pic7->TabStop = false;
 				// 
@@ -384,9 +400,10 @@ namespace allmodel {
 				// 
 				this->pic6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic6.BackgroundImage")));
 				this->pic6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic6->Location = System::Drawing::Point(911, 591);
+				this->pic6->Location = System::Drawing::Point(1822, 1137);
+				this->pic6->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic6->Name = L"pic6";
-				this->pic6->Size = System::Drawing::Size(364, 256);
+				this->pic6->Size = System::Drawing::Size(728, 492);
 				this->pic6->TabIndex = 63;
 				this->pic6->TabStop = false;
 				// 
@@ -394,9 +411,10 @@ namespace allmodel {
 				// 
 				this->pic9->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic9.BackgroundImage")));
 				this->pic9->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic9->Location = System::Drawing::Point(853, 288);
+				this->pic9->Location = System::Drawing::Point(1706, 554);
+				this->pic9->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic9->Name = L"pic9";
-				this->pic9->Size = System::Drawing::Size(299, 277);
+				this->pic9->Size = System::Drawing::Size(598, 533);
 				this->pic9->TabIndex = 64;
 				this->pic9->TabStop = false;
 				// 
@@ -404,9 +422,10 @@ namespace allmodel {
 				// 
 				this->pic10->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic10.BackgroundImage")));
 				this->pic10->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic10->Location = System::Drawing::Point(974, 591);
+				this->pic10->Location = System::Drawing::Point(1948, 1137);
+				this->pic10->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic10->Name = L"pic10";
-				this->pic10->Size = System::Drawing::Size(364, 256);
+				this->pic10->Size = System::Drawing::Size(728, 492);
 				this->pic10->TabIndex = 65;
 				this->pic10->TabStop = false;
 				// 
@@ -414,9 +433,10 @@ namespace allmodel {
 				// 
 				this->pic11->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic11.BackgroundImage")));
 				this->pic11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic11->Location = System::Drawing::Point(853, 288);
+				this->pic11->Location = System::Drawing::Point(1706, 554);
+				this->pic11->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic11->Name = L"pic11";
-				this->pic11->Size = System::Drawing::Size(303, 277);
+				this->pic11->Size = System::Drawing::Size(606, 533);
 				this->pic11->TabIndex = 66;
 				this->pic11->TabStop = false;
 				// 
@@ -424,9 +444,10 @@ namespace allmodel {
 				// 
 				this->pic12->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic12.BackgroundImage")));
 				this->pic12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic12->Location = System::Drawing::Point(974, 591);
+				this->pic12->Location = System::Drawing::Point(1948, 1137);
+				this->pic12->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic12->Name = L"pic12";
-				this->pic12->Size = System::Drawing::Size(364, 256);
+				this->pic12->Size = System::Drawing::Size(728, 492);
 				this->pic12->TabIndex = 67;
 				this->pic12->TabStop = false;
 				// 
@@ -434,9 +455,10 @@ namespace allmodel {
 				// 
 				this->pic13->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic13.BackgroundImage")));
 				this->pic13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic13->Location = System::Drawing::Point(853, 288);
+				this->pic13->Location = System::Drawing::Point(1706, 554);
+				this->pic13->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic13->Name = L"pic13";
-				this->pic13->Size = System::Drawing::Size(303, 277);
+				this->pic13->Size = System::Drawing::Size(606, 533);
 				this->pic13->TabIndex = 68;
 				this->pic13->TabStop = false;
 				// 
@@ -444,9 +466,10 @@ namespace allmodel {
 				// 
 				this->pic14->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic14.BackgroundImage")));
 				this->pic14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic14->Location = System::Drawing::Point(1006, 591);
+				this->pic14->Location = System::Drawing::Point(2012, 1137);
+				this->pic14->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic14->Name = L"pic14";
-				this->pic14->Size = System::Drawing::Size(404, 256);
+				this->pic14->Size = System::Drawing::Size(808, 492);
 				this->pic14->TabIndex = 69;
 				this->pic14->TabStop = false;
 				// 
@@ -454,9 +477,10 @@ namespace allmodel {
 				// 
 				this->pic15->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic15.BackgroundImage")));
 				this->pic15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic15->Location = System::Drawing::Point(786, 288);
+				this->pic15->Location = System::Drawing::Point(1572, 554);
+				this->pic15->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic15->Name = L"pic15";
-				this->pic15->Size = System::Drawing::Size(303, 277);
+				this->pic15->Size = System::Drawing::Size(606, 533);
 				this->pic15->TabIndex = 70;
 				this->pic15->TabStop = false;
 				// 
@@ -464,9 +488,10 @@ namespace allmodel {
 				// 
 				this->pic16->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic16.BackgroundImage")));
 				this->pic16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic16->Location = System::Drawing::Point(974, 591);
+				this->pic16->Location = System::Drawing::Point(1948, 1137);
+				this->pic16->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic16->Name = L"pic16";
-				this->pic16->Size = System::Drawing::Size(404, 256);
+				this->pic16->Size = System::Drawing::Size(808, 492);
 				this->pic16->TabIndex = 71;
 				this->pic16->TabStop = false;
 				// 
@@ -474,9 +499,10 @@ namespace allmodel {
 				// 
 				this->pic17->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic17.BackgroundImage")));
 				this->pic17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic17->Location = System::Drawing::Point(786, 288);
+				this->pic17->Location = System::Drawing::Point(1572, 554);
+				this->pic17->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic17->Name = L"pic17";
-				this->pic17->Size = System::Drawing::Size(314, 277);
+				this->pic17->Size = System::Drawing::Size(628, 533);
 				this->pic17->TabIndex = 72;
 				this->pic17->TabStop = false;
 				// 
@@ -484,9 +510,10 @@ namespace allmodel {
 				// 
 				this->pic18->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic18.BackgroundImage")));
 				this->pic18->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic18->Location = System::Drawing::Point(911, 591);
+				this->pic18->Location = System::Drawing::Point(1822, 1137);
+				this->pic18->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic18->Name = L"pic18";
-				this->pic18->Size = System::Drawing::Size(321, 256);
+				this->pic18->Size = System::Drawing::Size(642, 492);
 				this->pic18->TabIndex = 73;
 				this->pic18->TabStop = false;
 				// 
@@ -494,9 +521,10 @@ namespace allmodel {
 				// 
 				this->pic19->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic19.BackgroundImage")));
 				this->pic19->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic19->Location = System::Drawing::Point(928, 288);
+				this->pic19->Location = System::Drawing::Point(1856, 554);
+				this->pic19->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic19->Name = L"pic19";
-				this->pic19->Size = System::Drawing::Size(274, 277);
+				this->pic19->Size = System::Drawing::Size(548, 533);
 				this->pic19->TabIndex = 74;
 				this->pic19->TabStop = false;
 				// 
@@ -504,9 +532,10 @@ namespace allmodel {
 				// 
 				this->pic20->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic20.BackgroundImage")));
 				this->pic20->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic20->Location = System::Drawing::Point(1079, 591);
+				this->pic20->Location = System::Drawing::Point(2158, 1137);
+				this->pic20->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic20->Name = L"pic20";
-				this->pic20->Size = System::Drawing::Size(321, 256);
+				this->pic20->Size = System::Drawing::Size(642, 492);
 				this->pic20->TabIndex = 75;
 				this->pic20->TabStop = false;
 				// 
@@ -514,9 +543,10 @@ namespace allmodel {
 				// 
 				this->pic21->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic21.BackgroundImage")));
 				this->pic21->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic21->Location = System::Drawing::Point(963, 288);
+				this->pic21->Location = System::Drawing::Point(1926, 554);
+				this->pic21->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic21->Name = L"pic21";
-				this->pic21->Size = System::Drawing::Size(239, 277);
+				this->pic21->Size = System::Drawing::Size(478, 533);
 				this->pic21->TabIndex = 76;
 				this->pic21->TabStop = false;
 				// 
@@ -524,9 +554,10 @@ namespace allmodel {
 				// 
 				this->pic22->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic22.BackgroundImage")));
 				this->pic22->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic22->Location = System::Drawing::Point(1104, 591);
+				this->pic22->Location = System::Drawing::Point(2208, 1137);
+				this->pic22->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic22->Name = L"pic22";
-				this->pic22->Size = System::Drawing::Size(296, 256);
+				this->pic22->Size = System::Drawing::Size(592, 492);
 				this->pic22->TabIndex = 77;
 				this->pic22->TabStop = false;
 				// 
@@ -534,9 +565,10 @@ namespace allmodel {
 				// 
 				this->pic23->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic23.BackgroundImage")));
 				this->pic23->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic23->Location = System::Drawing::Point(963, 288);
+				this->pic23->Location = System::Drawing::Point(1926, 554);
+				this->pic23->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic23->Name = L"pic23";
-				this->pic23->Size = System::Drawing::Size(290, 277);
+				this->pic23->Size = System::Drawing::Size(580, 533);
 				this->pic23->TabIndex = 78;
 				this->pic23->TabStop = false;
 				// 
@@ -544,9 +576,10 @@ namespace allmodel {
 				// 
 				this->pic24->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pic24.BackgroundImage")));
 				this->pic24->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pic24->Location = System::Drawing::Point(974, 591);
+				this->pic24->Location = System::Drawing::Point(1948, 1137);
+				this->pic24->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pic24->Name = L"pic24";
-				this->pic24->Size = System::Drawing::Size(254, 253);
+				this->pic24->Size = System::Drawing::Size(508, 487);
 				this->pic24->TabIndex = 79;
 				this->pic24->TabStop = false;
 				// 
@@ -554,9 +587,10 @@ namespace allmodel {
 				// 
 				this->nextbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nextbutton.BackgroundImage")));
 				this->nextbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->nextbutton->Location = System::Drawing::Point(1584, 897);
+				this->nextbutton->Location = System::Drawing::Point(3168, 1725);
+				this->nextbutton->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->nextbutton->Name = L"nextbutton";
-				this->nextbutton->Size = System::Drawing::Size(282, 133);
+				this->nextbutton->Size = System::Drawing::Size(564, 256);
 				this->nextbutton->TabIndex = 86;
 				this->nextbutton->TabStop = false;
 				this->nextbutton->Click += gcnew System::EventHandler(this, &vo1::nextbutton_Click);
@@ -565,9 +599,10 @@ namespace allmodel {
 				// 
 				this->previousbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"previousbutton.BackgroundImage")));
 				this->previousbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->previousbutton->Location = System::Drawing::Point(33, 897);
+				this->previousbutton->Location = System::Drawing::Point(66, 1725);
+				this->previousbutton->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->previousbutton->Name = L"previousbutton";
-				this->previousbutton->Size = System::Drawing::Size(300, 130);
+				this->previousbutton->Size = System::Drawing::Size(600, 250);
 				this->previousbutton->TabIndex = 85;
 				this->previousbutton->TabStop = false;
 				this->previousbutton->Click += gcnew System::EventHandler(this, &vo1::previousbutton_Click);
@@ -576,9 +611,10 @@ namespace allmodel {
 				// 
 				this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 				this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox1->Location = System::Drawing::Point(1442, 13);
+				this->pictureBox1->Location = System::Drawing::Point(2884, 25);
+				this->pictureBox1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pictureBox1->Name = L"pictureBox1";
-				this->pictureBox1->Size = System::Drawing::Size(450, 450);
+				this->pictureBox1->Size = System::Drawing::Size(900, 865);
 				this->pictureBox1->TabIndex = 84;
 				this->pictureBox1->TabStop = false;
 				// 
@@ -586,18 +622,21 @@ namespace allmodel {
 				// 
 				this->decorleft->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"decorleft.BackgroundImage")));
 				this->decorleft->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->decorleft->Location = System::Drawing::Point(12, 13);
+				this->decorleft->Location = System::Drawing::Point(24, 25);
+				this->decorleft->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->decorleft->Name = L"decorleft";
-				this->decorleft->Size = System::Drawing::Size(450, 450);
+				this->decorleft->Size = System::Drawing::Size(900, 865);
 				this->decorleft->TabIndex = 83;
 				this->decorleft->TabStop = false;
 				// 
 				// progressBar2
 				// 
-				this->progressBar2->Location = System::Drawing::Point(443, 946);
+				this->progressBar2->Location = System::Drawing::Point(886, 1819);
+				this->progressBar2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->progressBar2->Name = L"progressBar2";
-				this->progressBar2->Size = System::Drawing::Size(1000, 35);
+				this->progressBar2->Size = System::Drawing::Size(2000, 67);
 				this->progressBar2->TabIndex = 82;
+				this->progressBar2->Click += gcnew System::EventHandler(this, &vo1::progressBar2_Click);
 				// 
 				// label8
 				// 
@@ -606,10 +645,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label8->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label8->Location = System::Drawing::Point(765, 160);
-				this->label8->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
+				this->label8->Location = System::Drawing::Point(1530, 308);
+				this->label8->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
 				this->label8->Name = L"label8";
-				this->label8->Size = System::Drawing::Size(361, 82);
+				this->label8->Size = System::Drawing::Size(719, 165);
 				this->label8->TabIndex = 81;
 				this->label8->Text = L"Vocabulary";
 				// 
@@ -620,10 +659,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->lesson3->Location = System::Drawing::Point(470, 10);
-				this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
+				this->lesson3->Location = System::Drawing::Point(940, 19);
+				this->lesson3->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
 				this->lesson3->Name = L"lesson3";
-				this->lesson3->Size = System::Drawing::Size(968, 150);
+				this->lesson3->Size = System::Drawing::Size(1937, 301);
 				this->lesson3->TabIndex = 80;
 				this->lesson3->Text = L"Lesson 1 : Hello!";
 				// 
@@ -631,9 +670,10 @@ namespace allmodel {
 				// 
 				this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 				this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button1->Location = System::Drawing::Point(577, 795);
+				this->button1->Location = System::Drawing::Point(1154, 1529);
+				this->button1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->button1->Name = L"button1";
-				this->button1->Size = System::Drawing::Size(40, 40);
+				this->button1->Size = System::Drawing::Size(80, 77);
 				this->button1->TabIndex = 87;
 				this->button1->UseVisualStyleBackColor = true;
 				this->button1->Click += gcnew System::EventHandler(this, &vo1::button1_Click);
@@ -642,26 +682,28 @@ namespace allmodel {
 				// 
 				this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
 				this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox2->Location = System::Drawing::Point(468, 245);
+				this->pictureBox2->Location = System::Drawing::Point(936, 471);
+				this->pictureBox2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pictureBox2->Name = L"pictureBox2";
-				this->pictureBox2->Size = System::Drawing::Size(1000, 632);
+				this->pictureBox2->Size = System::Drawing::Size(2000, 1215);
 				this->pictureBox2->TabIndex = 88;
 				this->pictureBox2->TabStop = false;
 				// 
 				// pictureBox3
 				// 
 				this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
-				this->pictureBox3->Location = System::Drawing::Point(487, 577);
+				this->pictureBox3->Location = System::Drawing::Point(974, 1110);
+				this->pictureBox3->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
 				this->pictureBox3->Name = L"pictureBox3";
-				this->pictureBox3->Size = System::Drawing::Size(960, 5);
+				this->pictureBox3->Size = System::Drawing::Size(1920, 10);
 				this->pictureBox3->TabIndex = 89;
 				this->pictureBox3->TabStop = false;
 				// 
 				// vo1
 				// 
-				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+				this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-				this->ClientSize = System::Drawing::Size(1904, 1041);
+				this->ClientSize = System::Drawing::Size(3076, 1879);
 				this->Controls->Add(this->pictureBox3);
 				this->Controls->Add(this->button1);
 				this->Controls->Add(this->nextbutton);
@@ -705,8 +747,9 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox2);
 				this->Controls->Add(this->pictureBox1);
 				this->Controls->Add(this->decorleft);
-				this->MaximumSize = System::Drawing::Size(1920, 1080);
-				this->MinimumSize = System::Drawing::Size(1918, 1030);
+				this->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->MaximumSize = System::Drawing::Size(3814, 2011);
+				this->MinimumSize = System::Drawing::Size(3070, 1822);
 				this->Name = L"vo1";
 				this->Text = L"vo1";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
@@ -751,6 +794,7 @@ namespace allmodel {
 		private: System::Void changepage(int numpage) {
 			switch (numpage) {
 			case 1:
+				this->progressBar2->Value = 7.14 * 1;
 				label2->Text = L"你";
 				label3->Text = L"nǐ";
 				label4->Text = L"คุณ";
@@ -784,6 +828,7 @@ namespace allmodel {
 				break;
 
 			case 2:
+				this->progressBar2->Value = 7.14 * 2;
 				label2->Text = L"我";
 				label3->Text = L"wǒ";
 				label4->Text = L"ฉัน";
@@ -794,6 +839,7 @@ namespace allmodel {
 				pic18->Show();
 				break;
 			case 3:
+				this->progressBar2->Value = 7.14 * 3;
 				label2->Text = L"叫";
 				label3->Text = L"jiào";
 				label4->Text = L"เรียกว่า(ใช้กับชื่อ)";
@@ -804,6 +850,7 @@ namespace allmodel {
 				pic20->Show();;
 				break;
 			case 4:
+				this->progressBar2->Value = 7.14 * 4;
 				label2->Text = L"再见";
 				label3->Text = L"zàijiàn";
 				label4->Text = L"ลาก่อน";
@@ -819,6 +866,7 @@ namespace allmodel {
 				break;
 
 			case 5:
+				this->progressBar2->Value = 7.14 * 5;
 				label2->Text = L"好";
 				label3->Text = L"hǎo";
 				label4->Text = L"ดี";
@@ -833,6 +881,7 @@ namespace allmodel {
 				//pic6->Hide();
 				break;
 			case 6:
+				this->progressBar2->Value = 7.14 * 6;
 				label2->Text = L"是";
 				label3->Text = L"shì";
 				label4->Text = L"คือ เป็น	";
@@ -843,6 +892,7 @@ namespace allmodel {
 				pic2->Show();
 				break;
 			case 7:
+				this->progressBar2->Value = 7.14 * 7;
 				label2->Text = L"大";
 				label3->Text = L"dà";
 				label4->Text = L"ใหญ่";
@@ -857,6 +907,7 @@ namespace allmodel {
 				//pic6->Hide();
 				break;
 			case 8:
+				this->progressBar2->Value = 7.14 * 8;
 				label2->Text = L"什么";
 				label3->Text = L"shénme";
 				label4->Text = L"อะไร";
@@ -871,6 +922,7 @@ namespace allmodel {
 				//pic8->Hide();
 				break;
 			case 9:
+				this->progressBar2->Value = 7.14 * 9;
 				label2->Text = L"不";
 				label3->Text = L"bù";
 				label4->Text = L"ไม่";
@@ -885,6 +937,7 @@ namespace allmodel {
 				//pic10->Hide();
 				break;
 			case 10:
+				this->progressBar2->Value = 7.14 * 10;
 				label2->Text = L"做";
 				label3->Text = L"zuò";
 				label4->Text = L"ทำ";
@@ -899,6 +952,7 @@ namespace allmodel {
 				//pic12->Hide();
 				break;
 			case 11:
+				this->progressBar2->Value = 7.14 * 11;
 				label2->Text = L"你好";
 				label3->Text = L"nǐhǎo";
 				label4->Text = L"สวัสดี";
@@ -913,6 +967,7 @@ namespace allmodel {
 				//pic14->Hide();
 				break;
 			case 12:
+				this->progressBar2->Value = 7.14 * 12;
 				label2->Text = L"谢谢";
 				label3->Text = L"xiè xiè";
 				label4->Text = L"ขอบคุณ";
@@ -931,6 +986,7 @@ namespace allmodel {
 		public:bool switchToformHQ0 = false;
 		public:bool switchToformnum = false;
 		private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+			
 			if (numpage > 1) {
 				numpage--;
 				pic1->Hide();
@@ -966,6 +1022,7 @@ namespace allmodel {
 			}
 		}
 		private: System::Void nextbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+			
 			if (numpage < 12) {
 				numpage++;
 				pic1->Hide();
@@ -1082,6 +1139,8 @@ namespace allmodel {
 				break;
 			}
 		}
-
+			   private: System::Void progressBar2_Click(System::Object^ sender, System::EventArgs^ e) {
+				   }
+			
 };
 	}
