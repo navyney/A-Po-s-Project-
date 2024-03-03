@@ -821,7 +821,7 @@ namespace allmodel {
 				label4->Text = L"วันนี้";
 				label5->Text = L"我今天去清迈。";
 				label6->Text = L"Wǒ jīn tiān qù qīngmài";
-				label7->Text = L"วันนี้ฉันไปเชี่ยงใหม่";
+				label7->Text = L"วันนี้ฉันไปเชียงใหม่";
 				pic1->Show();
 				pic2->Show();
 				pic3->Hide();
@@ -866,7 +866,7 @@ namespace allmodel {
 				label3->Text = L"míng tiān";
 				label4->Text = L"พรุ่งนี้";
 				label5->Text = L"今天星期天，明天是星期一。";
-				label6->Text = L"Jīn tiān xīng qī tiān , míng tiān shì xīng qī yī";
+				label6->Text = L"Jīn tiān xīng qī tiān, míng tiān shì xīng qī yī";
 				label7->Text = L"วันนี้วันอาทิตย์ พรุ่งนี้วันจันทร์";
 				pic5->Show();
 				pic6->Show();
@@ -877,7 +877,7 @@ namespace allmodel {
 				label4->Text = L"ที่นั้น";
 				label5->Text = L"我们的车在那儿。";
 				label6->Text = L"Wǒ mén de chē zài nàr";
-				label7->Text = L"รถของพวกเราอยู่ที่นั้น";
+				label7->Text = L"รถของพวกเราอยู่ที่นั่น";
 				pic7->Show();
 				pic8->Show();
 				break;
@@ -1159,4 +1159,4 @@ namespace allmodel {
 			}
 		}
 };
-	}
+

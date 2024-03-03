@@ -720,6 +720,7 @@ namespace allmodel {
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"My7days";
 				this->Text = L"My7days";
+				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				this->Load += gcnew System::EventHandler(this, &My7days::My7days_Load);
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();

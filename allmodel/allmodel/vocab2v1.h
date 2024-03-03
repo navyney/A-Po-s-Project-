@@ -934,7 +934,7 @@ namespace allmodel {
 				label3->Text = L"tā";
 				label4->Text = L"เขาผู้หญิง";
 				label5->Text = L"我认识她的妈妈。";
-				label6->Text = L"wǒ rènshí tā de māmā";
+				label6->Text = L"Wǒ rènshí tā de māmā";
 				label7->Text = L"ฉันรู้จักแม่ของเขา";
 				pic17->Show();
 				pic18->Show();
@@ -944,7 +944,7 @@ namespace allmodel {
 				label3->Text = L"lǎoshī";
 				label4->Text = L"คุณครู";
 				label5->Text = L"他就是我们的科学老师。";
-				label6->Text = L"tā jiù shì wǒmén de kēxué lǎoshī";
+				label6->Text = L"Tā jiù shì wǒmén de kēxué lǎoshī";
 				label7->Text = L"เขาก็คือคุณครูวิทยาศาสตร์ของพวกเรา";
 				pic19->Show();
 				pic20->Show();
@@ -954,7 +954,7 @@ namespace allmodel {
 				label3->Text = L"xǐhuān";
 				label4->Text = L"ชอบ";
 				label5->Text = L"我喜欢吃面条。";
-				label6->Text = L"wǒ xǐhuān chī miàntiáo";
+				label6->Text = L"Wǒ xǐhuān chī miàntiáo";
 				label7->Text = L"ฉันชอบกินก๋วยเตี๋ยว";
 				pic21->Show();
 				pic22->Show();
@@ -964,7 +964,7 @@ namespace allmodel {
 				label3->Text = L"yīshēng";
 				label4->Text = L"หมอ";
 				label5->Text = L"李医生在医院吗。";
-				label6->Text = L"lǐ yīshēng zài yīyuàn má";
+				label6->Text = L"Lǐ yīshēng zài yīyuàn má";
 				label7->Text = L"หมอลี่อยู่โรงพยาบาลมั้ย";
 				pic23->Show();
 				pic24->Show();
@@ -974,7 +974,7 @@ namespace allmodel {
 				label3->Text = L"xuéshēng";
 				label4->Text = L"นักเรียน";
 				label5->Text = L"我们学校里的学生很多。";
-				label6->Text = L"wǒmén xuéxiào lǐ de xuéshēng hěn duō";
+				label6->Text = L"Wǒmén xuéxiào lǐ de xuéshēng hěn duō";
 				label7->Text = L"ข้างในโรงเรียนของฉันมีนักเรียนเยอะ";
 				pic25->Show();
 				pic26->Show();
@@ -984,7 +984,7 @@ namespace allmodel {
 				label3->Text = L"xué";
 				label4->Text = L"เรียน";
 				label5->Text = L"他学韩语。";
-				label6->Text = L"tā xué hányǔ";
+				label6->Text = L"Tā xué hányǔ";
 				label7->Text = L"เขาเรียนภาษาเกาหลี";
 				pic27->Show();
 				pic28->Show();

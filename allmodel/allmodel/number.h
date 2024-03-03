@@ -266,6 +266,7 @@ namespace allmodel {
 				this->button12->Size = System::Drawing::Size(65, 65);
 				this->button12->TabIndex = 39;
 				this->button12->UseVisualStyleBackColor = true;
+				this->button12->Click += gcnew System::EventHandler(this, &number::button12_Click);
 				// 
 				// button11
 				// 
@@ -276,6 +277,7 @@ namespace allmodel {
 				this->button11->Size = System::Drawing::Size(65, 65);
 				this->button11->TabIndex = 38;
 				this->button11->UseVisualStyleBackColor = true;
+				this->button11->Click += gcnew System::EventHandler(this, &number::button11_Click);
 				// 
 				// button10
 				// 
@@ -286,6 +288,7 @@ namespace allmodel {
 				this->button10->Size = System::Drawing::Size(65, 65);
 				this->button10->TabIndex = 37;
 				this->button10->UseVisualStyleBackColor = true;
+				this->button10->Click += gcnew System::EventHandler(this, &number::button10_Click);
 				// 
 				// button7
 				// 
@@ -307,6 +310,7 @@ namespace allmodel {
 				this->button6->Size = System::Drawing::Size(65, 65);
 				this->button6->TabIndex = 35;
 				this->button6->UseVisualStyleBackColor = true;
+				this->button6->Click += gcnew System::EventHandler(this, &number::button6_Click);
 				// 
 				// button5
 				// 
@@ -317,6 +321,7 @@ namespace allmodel {
 				this->button5->Size = System::Drawing::Size(65, 65);
 				this->button5->TabIndex = 34;
 				this->button5->UseVisualStyleBackColor = true;
+				this->button5->Click += gcnew System::EventHandler(this, &number::button5_Click);
 				// 
 				// button3
 				// 
@@ -327,6 +332,7 @@ namespace allmodel {
 				this->button3->Size = System::Drawing::Size(65, 65);
 				this->button3->TabIndex = 32;
 				this->button3->UseVisualStyleBackColor = true;
+				this->button3->Click += gcnew System::EventHandler(this, &number::button3_Click);
 				// 
 				// button1
 				// 
@@ -337,6 +343,7 @@ namespace allmodel {
 				this->button1->Size = System::Drawing::Size(65, 65);
 				this->button1->TabIndex = 31;
 				this->button1->UseVisualStyleBackColor = true;
+				this->button1->Click += gcnew System::EventHandler(this, &number::button1_Click);
 				// 
 				// button2
 				// 
@@ -347,6 +354,7 @@ namespace allmodel {
 				this->button2->Size = System::Drawing::Size(65, 65);
 				this->button2->TabIndex = 30;
 				this->button2->UseVisualStyleBackColor = true;
+				this->button2->Click += gcnew System::EventHandler(this, &number::button2_Click);
 				// 
 				// label11
 				// 
@@ -811,6 +819,7 @@ namespace allmodel {
 				this->button4->Size = System::Drawing::Size(65, 65);
 				this->button4->TabIndex = 33;
 				this->button4->UseVisualStyleBackColor = true;
+				this->button4->Click += gcnew System::EventHandler(this, &number::button4_Click);
 				// 
 				// button8
 				// 
@@ -974,8 +983,36 @@ namespace allmodel {
 			this->Close();
 			switchToformcon1 = true;
 		}
+		
 		private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
-				PlaySound(TEXT("你.wav"), NULL, SND_SYNC);
+			PlaySound(TEXT("一.wav"), NULL, SND_SYNC);
 		}
-};
-	}
+		private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("二.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("三.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("四.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("五.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("六.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("七.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("八.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("九.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("十.wav"), NULL, SND_SYNC);
+		}
+	};
+}
