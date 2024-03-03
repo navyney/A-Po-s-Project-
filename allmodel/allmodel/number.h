@@ -913,7 +913,7 @@ namespace allmodel {
 				this->lesson3->TabIndex = 55;
 				this->lesson3->Text = L"Lesson 1 : Hello!";
 				// 
-				// MyForm
+				// number
 				// 
 				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
@@ -933,6 +933,7 @@ namespace allmodel {
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"number";
 				this->Text = L"number";
+				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				this->tableLayoutPanel1->ResumeLayout(false);
 				this->tableLayoutPanel1->PerformLayout();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();

@@ -166,6 +166,7 @@ namespace allmodel {
 			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"MenuQTh";
 			this->Text = L"MenuQTh";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &MenuQTh::MenuQTh_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();

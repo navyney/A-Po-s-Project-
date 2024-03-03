@@ -1,4 +1,7 @@
 #pragma once
+#include <iostream>
+#include <windows.h>
+#include "mmSystem.h"
 
 namespace allmodel {
 
@@ -52,6 +55,7 @@ namespace allmodel {
 	private: System::Windows::Forms::PictureBox^ pictureBox3;
 	private: System::Windows::Forms::PictureBox^ Next;
 	private: System::Windows::Forms::PictureBox^ Previous;
+	private: System::Windows::Forms::Button^ Button11;
 
 	protected:
 
@@ -78,6 +82,7 @@ namespace allmodel {
 			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 			this->Next = (gcnew System::Windows::Forms::PictureBox());
 			this->Previous = (gcnew System::Windows::Forms::PictureBox());
+			this->Button11 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
@@ -96,7 +101,7 @@ namespace allmodel {
 			this->label3->Location = System::Drawing::Point(430, 275);
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(563, 560);
+			this->label3->Size = System::Drawing::Size(563, 480);
 			this->label3->TabIndex = 0;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
@@ -194,11 +199,26 @@ namespace allmodel {
 			this->Previous->TabStop = false;
 			this->Previous->Click += gcnew System::EventHandler(this, &one::Previous_Click);
 			// 
+			// Button11
+			// 
+			this->Button11->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->Button11->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button11.BackgroundImage")));
+			this->Button11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->Button11->Location = System::Drawing::Point(325, 331);
+			this->Button11->Margin = System::Windows::Forms::Padding(2);
+			this->Button11->Name = L"Button11";
+			this->Button11->Size = System::Drawing::Size(87, 75);
+			this->Button11->TabIndex = 92;
+			this->Button11->Text = L"\r\n";
+			this->Button11->UseVisualStyleBackColor = true;
+			this->Button11->Click += gcnew System::EventHandler(this, &one::Button11_Click);
+			// 
 			// one
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->Button11);
 			this->Controls->Add(this->Previous);
 			this->Controls->Add(this->Next);
 			this->Controls->Add(this->progressBar2);
@@ -236,5 +256,8 @@ namespace allmodel {
 			switchToformHQ1 = true;
 
 		}
-		};
+		private: System::Void Button11_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("Umit1.wav"), NULL, SND_SYNC);
+		}
+};
 	}

@@ -1,4 +1,7 @@
 #pragma once
+#include <iostream>
+#include <windows.h>
+#include "mmSystem.h"
 
 namespace allmodel {
 
@@ -58,6 +61,7 @@ namespace allmodel {
 		private: System::Windows::Forms::PictureBox^ Next;
 		private: System::Windows::Forms::PictureBox^ pictureBox4;
 		private: System::Windows::Forms::PictureBox^ pictureBox5;
+		private: System::Windows::Forms::Button^ Button11;
 
 
 
@@ -89,6 +93,7 @@ namespace allmodel {
 				this->Next = (gcnew System::Windows::Forms::PictureBox());
 				this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
 				this->pictureBox5 = (gcnew System::Windows::Forms::PictureBox());
+				this->Button11 = (gcnew System::Windows::Forms::Button());
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
@@ -245,12 +250,27 @@ namespace allmodel {
 				this->pictureBox5->TabIndex = 92;
 				this->pictureBox5->TabStop = false;
 				// 
+				// Button11
+				// 
+				this->Button11->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->Button11->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button11.BackgroundImage")));
+				this->Button11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->Button11->Location = System::Drawing::Point(325, 331);
+				this->Button11->Margin = System::Windows::Forms::Padding(2);
+				this->Button11->Name = L"Button11";
+				this->Button11->Size = System::Drawing::Size(87, 75);
+				this->Button11->TabIndex = 93;
+				this->Button11->Text = L"\r\n";
+				this->Button11->UseVisualStyleBackColor = true;
+				this->Button11->Click += gcnew System::EventHandler(this, &praTwo::Button11_Click);
+				// 
 				// praTwo
 				// 
 				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 				this->BackColor = System::Drawing::Color::White;
 				this->ClientSize = System::Drawing::Size(1904, 1041);
+				this->Controls->Add(this->Button11);
 				this->Controls->Add(this->Next);
 				this->Controls->Add(this->Previous);
 				this->Controls->Add(this->progressBar1);
@@ -328,6 +348,16 @@ namespace allmodel {
 				switchToformHQ2 = true;
 			}
 		}
-		};
+		private: System::Void Button11_Click(System::Object^ sender, System::EventArgs^ e) {
+			switch (numpage) {
+			case 1:
+				PlaySound(TEXT("Unit2 con1.wav"), NULL, SND_SYNC);
+				break;
+			case 2:
+				PlaySound(TEXT("Unit2 con2.wav"), NULL, SND_SYNC);
+				break;
+			}
+		}
+};
 	}
 

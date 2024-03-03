@@ -174,7 +174,7 @@ namespace allmodel {
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
 				this->baisedechinese->Location = System::Drawing::Point(764, 696);
 				this->baisedechinese->Name = L"baisedechinese";
-				this->baisedechinese->Size = System::Drawing::Size(96, 35);
+				this->baisedechinese->Size = System::Drawing::Size(69, 35);
 				this->baisedechinese->TabIndex = 86;
 				this->baisedechinese->Text = L"白的";
 				// 
@@ -187,7 +187,7 @@ namespace allmodel {
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
 				this->baisede->Location = System::Drawing::Point(750, 661);
 				this->baisede->Name = L"baisede";
-				this->baisede->Size = System::Drawing::Size(123, 35);
+				this->baisede->Size = System::Drawing::Size(94, 35);
 				this->baisede->TabIndex = 85;
 				this->baisede->Text = L"Bái de";
 				// 
@@ -404,6 +404,7 @@ namespace allmodel {
 				this->Controls->Add(this->label4);
 				this->Name = L"tonenew";
 				this->Text = L"tonenew";
+				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();

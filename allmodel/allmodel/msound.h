@@ -708,6 +708,7 @@ namespace allmodel {
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"msound";
 				this->Text = L"msound";
+				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
@@ -797,5 +798,6 @@ namespace allmodel {
 		private: System::Void wanr_Click(System::Object^ sender, System::EventArgs^ e) {
 			PlaySound(TEXT("玩儿.wav"), NULL, SND_SYNC);
 		}
+
 };
 	}

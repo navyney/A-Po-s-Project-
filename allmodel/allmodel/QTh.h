@@ -335,6 +335,7 @@ namespace allmodel {
 				this->Margin = System::Windows::Forms::Padding(2);
 				this->Name = L"QTh";
 				this->Text = L"QTh";
+				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				this->Load += gcnew System::EventHandler(this, &QTh::QTh_Load);
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();

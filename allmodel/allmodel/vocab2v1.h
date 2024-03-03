@@ -774,6 +774,7 @@ namespace allmodel {
 				this->Controls->Add(this->lesson3);
 				this->Name = L"vocab2v1";
 				this->Text = L"vocab2v1";
+				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();

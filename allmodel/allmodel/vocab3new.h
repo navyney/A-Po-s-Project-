@@ -767,6 +767,7 @@ namespace allmodel {
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"vocab3new";
 				this->Text = L"vocab3new";
+				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
