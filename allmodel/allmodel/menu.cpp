@@ -11,7 +11,7 @@
 #include"one.h"
 #include"HQuiz1.h"
 #include"Quiz1.h"
-
+#include"vocab2v1.h"
 #include"praTwo.h"
 #include"sarm.h"
 #include"Quiz2.h"
@@ -44,7 +44,7 @@ void main(array<String^>^ args)
     allmodel::one formcon1;
     allmodel::HQuiz1 formHQ1;
     allmodel::Quiz1 formQ1;
-
+    allmodel::vocab2v1 formvo2;
     allmodel::praTwo formcon2;
     allmodel::Quiz2 formQ2;
     allmodel::MenuQuiz2 formHQ2;
@@ -165,8 +165,26 @@ void main(array<String^>^ args)
                 formHQ1.ShowDialog();
                 formcon1.switchToformHQ1 = false;// Before  Quiz1  page
                 }
-
-
+        else if (form.switchToformHQ2) {
+                    formHQ2.ShowDialog();
+                    form.switchToformHQ2 = false; // home to Quiz3 page
+                    }
+        else if (formHQ1.switchToformvo2) {
+                    formvo2.ShowDialog();
+                    formHQ1.switchToformvo2 = false; // vocab2 page
+                    }
+        else if  (formvo2.switchToformHQ1) {
+                  formHQ1.ShowDialog();
+                  formvo2.switchToformHQ1 = false; // vocab2 page
+                   }
+        else if (formvo2.switchToformcon2) {
+                    formcon2.ShowDialog();
+                    formvo2.switchToformcon2 = false; //  consonant 2 page
+                      }
+        else if (formcon2.switchToformvo2) {
+                    formvo2.ShowDialog();
+                     formcon2.switchToformvo2 = false;//back  vocab2  page
+                       }
         else if (formHQ2.switchToformcon2) {
                 formcon2.ShowDialog();
                 formHQ2.switchToformcon2 = false;//back  consonant 1  page
@@ -175,9 +193,9 @@ void main(array<String^>^ args)
                 formHQ2.ShowDialog();
                 formcon2.switchToformHQ2 = false; //    Before  Quiz2 page
                 }
-        else if (form.switchToformHQ2) {
-                formHQ2.ShowDialog();
-                form.switchToformHQ2 = false; // home to Quiz1 page
+        else if (form.switchToformvo2) {
+                formvo2.ShowDialog();
+                form.switchToformvo2 = false; // home to vocab2 page
                 }
         else if (formQ2.switchToformHQ2) {
                 formHQ2.ShowDialog();
@@ -208,27 +226,25 @@ void main(array<String^>^ args)
                     formcon3.switchToformvo3 = false;//back  Before vocab3   page
                         }
         else if (form.switchToformHQ3) {
-                            formHQ3.ShowDialog();
-                            form.switchToformHQ3 = false; // home to Quiz3 page
-                            }
-
+                  formHQ3.ShowDialog();
+                  form.switchToformHQ3 = false; // home to Quiz3 page
+                 }
         else if (formHQ3.switchToformcon3) {
                    formcon3.ShowDialog();
                    formHQ3.switchToformcon3 = false;//back  consonant 3  page
                    }
         else if (formcon3.switchToformHQ3) {
-                       formHQ3.ShowDialog();
-                       formcon3.switchToformHQ3 = false;//  Before Quiz3   page
-                       }
+                   formHQ3.ShowDialog();
+                   formcon3.switchToformHQ3 = false;//  Before Quiz3   page
+                   }
         else if (formHQ3.switchToformQ3) {
-                           formQ3.ShowDialog();
-                           formHQ3.switchToformQ3 = false;// Quiz3 page
-                           }
+                 formQ3.ShowDialog();
+                  formHQ3.switchToformQ3 = false;// Quiz3 page
+                 }
         else if (formQ3.switchToform) {
-                               form.ShowDialog();
-                               formQ3.switchToform = false;//  Quiz3 to home  page
-                               }
-        else {
+              form.ShowDialog();
+               formQ3.switchToform = false;//  Quiz3 to home  page
+       }else {
             break;
         }
     }

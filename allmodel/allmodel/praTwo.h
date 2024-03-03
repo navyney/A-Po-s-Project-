@@ -302,10 +302,17 @@ namespace allmodel {
 		private: System::Void praTwo_Load(System::Object^ sender, System::EventArgs^ e) {
 		}
 		public:bool switchToformHQ2 = false;
+		public:bool switchToformvo2 = false;
 		private: System::Void Previous_Click(System::Object^ sender, System::EventArgs^ e) {
 			if (numpage > 1) {
 				numpage--;
 				changepage(numpage);
+			}
+			else {
+				numpage + 1;
+				changepage(numpage);
+				this->Close();
+				switchToformvo2 = true;
 			}
 
 		}

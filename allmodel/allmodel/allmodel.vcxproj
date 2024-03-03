@@ -139,6 +139,7 @@
     <ClCompile Include="tonenew.cpp" />
     <ClCompile Include="vo.cpp" />
     <ClCompile Include="vo1.cpp" />
+    <ClCompile Include="vocab2v1.cpp" />
     <ClCompile Include="vocab3new.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -197,6 +198,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="vo1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="vocab2v1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="vocab3new.h">
@@ -260,6 +264,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="vo1.resx">
       <DependentUpon>vo1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vocab2v1.resx">
+      <DependentUpon>vocab2v1.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="vocab3new.resx">
       <DependentUpon>vocab3new.h</DependentUpon>
