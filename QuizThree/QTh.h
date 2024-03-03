@@ -130,6 +130,8 @@ namespace QuizThree {
 			// textBox1
 			// 
 			this->textBox1->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->textBox1->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox1->Location = System::Drawing::Point(800, 650);
 			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
@@ -152,6 +154,7 @@ namespace QuizThree {
 			this->button4->Tag = L"4";
 			this->button4->Text = L"Ans4";
 			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &QTh::checkAnswerEvent);
 			// 
 			// button3
 			// 
@@ -168,6 +171,7 @@ namespace QuizThree {
 			this->button3->Tag = L"3";
 			this->button3->Text = L"Ans3";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &QTh::checkAnswerEvent);
 			// 
 			// button2
 			// 
@@ -184,6 +188,7 @@ namespace QuizThree {
 			this->button2->Tag = L"2";
 			this->button2->Text = L"Ans2";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &QTh::checkAnswerEvent);
 			// 
 			// button1
 			// 
@@ -200,6 +205,7 @@ namespace QuizThree {
 			this->button1->Tag = L"1";
 			this->button1->Text = L"Ans1";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &QTh::checkAnswerEvent);
 			// 
 			// label2
 			// 

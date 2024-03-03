@@ -72,12 +72,16 @@ namespace QuizThree {
 			// Quiz3
 			// 
 			this->Quiz3->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->Quiz3->AutoSize = true;
+			this->Quiz3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Quiz3.BackgroundImage")));
+			this->Quiz3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->Quiz3->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->Quiz3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->Quiz3->Location = System::Drawing::Point(730, 300);
+			this->Quiz3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->Quiz3->Location = System::Drawing::Point(680, 300);
 			this->Quiz3->Name = L"Quiz3";
-			this->Quiz3->Size = System::Drawing::Size(435, 138);
+			this->Quiz3->Size = System::Drawing::Size(550, 150);
 			this->Quiz3->TabIndex = 0;
 			this->Quiz3->Text = L"Quiz 3";
 			this->Quiz3->UseVisualStyleBackColor = true;
@@ -157,7 +161,6 @@ namespace QuizThree {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 			this->ResumeLayout(false);
-			this->PerformLayout();
 
 		}
 #pragma endregion
