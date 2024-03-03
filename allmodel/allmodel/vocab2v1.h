@@ -1163,5 +1163,5 @@ namespace allmodel {
 				break;
 			}
 		}
-};
-	}
+	};
+}

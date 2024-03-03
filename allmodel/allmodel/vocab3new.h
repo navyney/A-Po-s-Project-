@@ -1157,6 +1157,7 @@ namespace allmodel {
 				PlaySound(TEXT("我们学校很大.wav"), NULL, SND_SYNC);
 				break;
 			}
-		}
-};
+		}	
+	};
+}
 
