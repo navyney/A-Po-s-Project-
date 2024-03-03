@@ -954,7 +954,7 @@ namespace allmodel {
 			case 12:
 				label2->Text = L"吗";
 				label3->Text = L"ma";
-				label4->Text = L"ไหม ใช้ลงท้ายประโยคที่ต้องการถาม";
+				label4->Text = L"ไหม (ลงท้ายประโยคที่จะถาม)";
 				label5->Text = L"你是中国人吗？";
 				label6->Text = L"Nǐ shì zhōng guó rén má?";
 				label7->Text = L"คุณเป็นคนจีนไหม";
@@ -1069,80 +1069,92 @@ namespace allmodel {
 		private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
 			switch (numpage2) {
 			case 1:
-				PlaySound(TEXT("你.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("今天.wav"), NULL, SND_SYNC);
 				break;
 			case 2:
-				PlaySound(TEXT("我.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("昨天.wav"), NULL, SND_SYNC);
 				break;
 			case 3:
-				PlaySound(TEXT("叫.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("明天.wav"), NULL, SND_SYNC);
 				break;
 			case 4:
-				PlaySound(TEXT("再见.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("那儿.wav"), NULL, SND_SYNC);
 				break;
 			case 5:
-				PlaySound(TEXT("好.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("哪儿.wav"), NULL, SND_SYNC);
 				break;
 			case 6:
-				PlaySound(TEXT("是.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("哪.wav"), NULL, SND_SYNC);
 				break;
 			case 7:
-				PlaySound(TEXT("大.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("那.wav"), NULL, SND_SYNC);
 				break;
 			case 8:
-				PlaySound(TEXT("什么.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("几.wav"), NULL, SND_SYNC);
 				break;
 			case 9:
-				PlaySound(TEXT("不.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("星期.wav"), NULL, SND_SYNC);
 				break;
 			case 10:
-				PlaySound(TEXT("做.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("点.wav"), NULL, SND_SYNC);
 				break;
 			case 11:
-				PlaySound(TEXT("你好.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("分.wav"), NULL, SND_SYNC);
 				break;
 			case 12:
-				PlaySound(TEXT("谢谢.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("吗.wav"), NULL, SND_SYNC);
+				break;
+			case 13:
+				PlaySound(TEXT("家.wav"), NULL, SND_SYNC);
+				break;
+			case 14:
+				PlaySound(TEXT("学校.wav"), NULL, SND_SYNC);
 				break;
 			}
 		}
 		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 			switch (numpage2) {
 			case 1:
-				PlaySound(TEXT("你.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我今天去清迈.wav"), NULL, SND_SYNC);
 				break;
 			case 2:
-				PlaySound(TEXT("我.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("他昨天没去学校.wav"), NULL, SND_SYNC);
 				break;
 			case 3:
-				PlaySound(TEXT("叫.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("今天星期天，明天是星期一.wav"), NULL, SND_SYNC);
 				break;
 			case 4:
-				PlaySound(TEXT("再见.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我们的车在那儿.wav"), NULL, SND_SYNC);
 				break;
 			case 5:
-				PlaySound(TEXT("好.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("你家在哪儿.wav"), NULL, SND_SYNC);
 				break;
 			case 6:
-				PlaySound(TEXT("是.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("哪个杯子是你的.wav"), NULL, SND_SYNC);
 				break;
 			case 7:
-				PlaySound(TEXT("大.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我不认识那个人.wav"), NULL, SND_SYNC);
 				break;
 			case 8:
-				PlaySound(TEXT("什么.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("你有几个孩子.wav"), NULL, SND_SYNC);
 				break;
 			case 9:
-				PlaySound(TEXT("不.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("一个星期有七天.wav"), NULL, SND_SYNC);
 				break;
 			case 10:
-				PlaySound(TEXT("做.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("现在是下午三点.wav"), NULL, SND_SYNC);
 				break;
 			case 11:
-				PlaySound(TEXT("你好.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("现在八点三十分.wav"), NULL, SND_SYNC);
 				break;
 			case 12:
-				PlaySound(TEXT("谢谢.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("你是中国人吗.wav"), NULL, SND_SYNC);
+				break;
+			case 13:
+				PlaySound(TEXT("我家在北京.wav"), NULL, SND_SYNC);
+				break;
+			case 14:
+				PlaySound(TEXT("我们学校很大.wav"), NULL, SND_SYNC);
 				break;
 			}
 		}

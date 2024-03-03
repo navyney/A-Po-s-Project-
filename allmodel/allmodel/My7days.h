@@ -1,4 +1,7 @@
 ﻿#pragma once
+#include <iostream>
+#include <windows.h>
+#include "mmSystem.h"
 
 namespace allmodel {
 
@@ -170,18 +173,19 @@ namespace allmodel {
 				// 
 				// lesson3
 				// 
-				this->lesson3->Anchor = System::Windows::Forms::AnchorStyles::Top;
+				this->lesson3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+					| System::Windows::Forms::AnchorStyles::Right));
 				this->lesson3->AutoSize = true;
 				this->lesson3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 87.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->lesson3->Location = System::Drawing::Point(534, 12);
+				this->lesson3->Location = System::Drawing::Point(464, 10);
 				this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->lesson3->Name = L"lesson3";
-				this->lesson3->Size = System::Drawing::Size(859, 150);
+				this->lesson3->Size = System::Drawing::Size(999, 150);
 				this->lesson3->TabIndex = 35;
-				this->lesson3->Text = L"Lesson 3 : Day";
+				this->lesson3->Text = L"Lesson 3 : Where";
 				this->lesson3->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 				// 
 				// decorleft
@@ -597,6 +601,7 @@ namespace allmodel {
 				this->button6->Size = System::Drawing::Size(40, 40);
 				this->button6->TabIndex = 85;
 				this->button6->UseVisualStyleBackColor = true;
+				this->button6->Click += gcnew System::EventHandler(this, &My7days::button6_Click);
 				// 
 				// button1
 				// 
@@ -607,6 +612,7 @@ namespace allmodel {
 				this->button1->Size = System::Drawing::Size(40, 40);
 				this->button1->TabIndex = 86;
 				this->button1->UseVisualStyleBackColor = true;
+				this->button1->Click += gcnew System::EventHandler(this, &My7days::button1_Click);
 				// 
 				// button2
 				// 
@@ -617,6 +623,7 @@ namespace allmodel {
 				this->button2->Size = System::Drawing::Size(40, 40);
 				this->button2->TabIndex = 87;
 				this->button2->UseVisualStyleBackColor = true;
+				this->button2->Click += gcnew System::EventHandler(this, &My7days::button2_Click);
 				// 
 				// button3
 				// 
@@ -627,6 +634,7 @@ namespace allmodel {
 				this->button3->Size = System::Drawing::Size(40, 40);
 				this->button3->TabIndex = 88;
 				this->button3->UseVisualStyleBackColor = true;
+				this->button3->Click += gcnew System::EventHandler(this, &My7days::button3_Click);
 				// 
 				// button4
 				// 
@@ -637,6 +645,7 @@ namespace allmodel {
 				this->button4->Size = System::Drawing::Size(40, 40);
 				this->button4->TabIndex = 89;
 				this->button4->UseVisualStyleBackColor = true;
+				this->button4->Click += gcnew System::EventHandler(this, &My7days::button4_Click);
 				// 
 				// button5
 				// 
@@ -647,6 +656,7 @@ namespace allmodel {
 				this->button5->Size = System::Drawing::Size(40, 40);
 				this->button5->TabIndex = 90;
 				this->button5->UseVisualStyleBackColor = true;
+				this->button5->Click += gcnew System::EventHandler(this, &My7days::button5_Click);
 				// 
 				// button7
 				// 
@@ -657,6 +667,7 @@ namespace allmodel {
 				this->button7->Size = System::Drawing::Size(40, 40);
 				this->button7->TabIndex = 91;
 				this->button7->UseVisualStyleBackColor = true;
+				this->button7->Click += gcnew System::EventHandler(this, &My7days::button7_Click);
 				// 
 				// My7days
 				// 
@@ -736,9 +747,30 @@ namespace allmodel {
 			this->Close();
 			switchToformcon3 = true;
 		}
-private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
-	this->Close();
-	switchToformvo3 = true;
+		private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
+			this->Close();
+			switchToformvo3 = true;
+		}
+		private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("星期天.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("星期一.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("星期二.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("星期三.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("星期四.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("星期五.wav"), NULL, SND_SYNC);
+		}
+		private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
+			PlaySound(TEXT("星期六.wav"), NULL, SND_SYNC);
+		}
+	};
 }
-};
-	}

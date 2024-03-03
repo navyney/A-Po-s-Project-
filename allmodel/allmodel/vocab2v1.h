@@ -1132,10 +1132,10 @@ namespace allmodel {
 				PlaySound(TEXT("我哥哥比我大三岁.wav"), NULL, SND_SYNC);
 				break;
 			case 5:
-				PlaySound(TEXT("我有两个弟弟.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我有两个弟弟 (online-audio-converter.com).wav"), NULL, SND_SYNC);
 				break;
 			case 6:
-				PlaySound(TEXT("我妹妹喜欢白色.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我妹妹喜欢白色 (online-audio-converter.com).wav"), NULL, SND_SYNC);
 				break;
 			case 7:
 				PlaySound(TEXT("我有两个姐姐.wav"), NULL, SND_SYNC);
