@@ -657,7 +657,7 @@ namespace allmodel {
 				this->pictureBox3->TabIndex = 89;
 				this->pictureBox3->TabStop = false;
 				// 
-				// MyForm
+				// vo1
 				// 
 				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
@@ -709,6 +709,7 @@ namespace allmodel {
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"vo1";
 				this->Text = L"vo1";
+				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic1))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic2))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic3))->EndInit();
@@ -1082,5 +1083,5 @@ namespace allmodel {
 			}
 		}
 
-		};
+};
 	}

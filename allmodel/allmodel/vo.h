@@ -1306,6 +1306,7 @@ namespace allmodel {
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"vo";
 				this->Text = L"vo";
+				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				this->Load += gcnew System::EventHandler(this, &vo::vo_Load);
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
