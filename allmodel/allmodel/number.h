@@ -1,4 +1,7 @@
 ﻿#pragma once
+#include <iostream>
+#include <windows.h>
+#include "mmSystem.h"
 
 namespace allmodel {
 
@@ -293,6 +296,7 @@ namespace allmodel {
 				this->button7->Size = System::Drawing::Size(65, 65);
 				this->button7->TabIndex = 36;
 				this->button7->UseVisualStyleBackColor = true;
+				this->button7->Click += gcnew System::EventHandler(this, &number::button7_Click);
 				// 
 				// button6
 				// 
@@ -970,5 +974,8 @@ namespace allmodel {
 			this->Close();
 			switchToformcon1 = true;
 		}
-		};
+		private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
+				PlaySound(TEXT("你.wav"), NULL, SND_SYNC);
+		}
+};
 	}

@@ -257,7 +257,7 @@ namespace allmodel {
 
 		}
 		private: System::Void Button11_Click(System::Object^ sender, System::EventArgs^ e) {
-			PlaySound(TEXT("Umit1.wav"), NULL, SND_SYNC);
+			PlaySound(TEXT("Unit1.wav"), NULL, SND_SYNC);
 		}
 };
 	}

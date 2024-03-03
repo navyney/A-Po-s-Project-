@@ -1,4 +1,8 @@
 ﻿#pragma once
+#include <iostream>
+#include <windows.h>
+#include "mmSystem.h"
+
 
 namespace allmodel {
 
@@ -229,6 +233,7 @@ namespace allmodel {
 				this->button1->Size = System::Drawing::Size(40, 40);
 				this->button1->TabIndex = 149;
 				this->button1->UseVisualStyleBackColor = true;
+				this->button1->Click += gcnew System::EventHandler(this, &vocab3new::button1_Click);
 				// 
 				// nextbutton
 				// 
@@ -307,6 +312,7 @@ namespace allmodel {
 				this->button6->Size = System::Drawing::Size(40, 40);
 				this->button6->TabIndex = 138;
 				this->button6->UseVisualStyleBackColor = true;
+				this->button6->Click += gcnew System::EventHandler(this, &vocab3new::button6_Click);
 				// 
 				// label4
 				// 
@@ -1060,5 +1066,85 @@ namespace allmodel {
 			}
 		}
 
-		};
+		private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
+			switch (numpage2) {
+			case 1:
+				PlaySound(TEXT("你.wav"), NULL, SND_SYNC);
+				break;
+			case 2:
+				PlaySound(TEXT("我.wav"), NULL, SND_SYNC);
+				break;
+			case 3:
+				PlaySound(TEXT("叫.wav"), NULL, SND_SYNC);
+				break;
+			case 4:
+				PlaySound(TEXT("再见.wav"), NULL, SND_SYNC);
+				break;
+			case 5:
+				PlaySound(TEXT("好.wav"), NULL, SND_SYNC);
+				break;
+			case 6:
+				PlaySound(TEXT("是.wav"), NULL, SND_SYNC);
+				break;
+			case 7:
+				PlaySound(TEXT("大.wav"), NULL, SND_SYNC);
+				break;
+			case 8:
+				PlaySound(TEXT("什么.wav"), NULL, SND_SYNC);
+				break;
+			case 9:
+				PlaySound(TEXT("不.wav"), NULL, SND_SYNC);
+				break;
+			case 10:
+				PlaySound(TEXT("做.wav"), NULL, SND_SYNC);
+				break;
+			case 11:
+				PlaySound(TEXT("你好.wav"), NULL, SND_SYNC);
+				break;
+			case 12:
+				PlaySound(TEXT("谢谢.wav"), NULL, SND_SYNC);
+				break;
+			}
+		}
+		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+			switch (numpage2) {
+			case 1:
+				PlaySound(TEXT("你.wav"), NULL, SND_SYNC);
+				break;
+			case 2:
+				PlaySound(TEXT("我.wav"), NULL, SND_SYNC);
+				break;
+			case 3:
+				PlaySound(TEXT("叫.wav"), NULL, SND_SYNC);
+				break;
+			case 4:
+				PlaySound(TEXT("再见.wav"), NULL, SND_SYNC);
+				break;
+			case 5:
+				PlaySound(TEXT("好.wav"), NULL, SND_SYNC);
+				break;
+			case 6:
+				PlaySound(TEXT("是.wav"), NULL, SND_SYNC);
+				break;
+			case 7:
+				PlaySound(TEXT("大.wav"), NULL, SND_SYNC);
+				break;
+			case 8:
+				PlaySound(TEXT("什么.wav"), NULL, SND_SYNC);
+				break;
+			case 9:
+				PlaySound(TEXT("不.wav"), NULL, SND_SYNC);
+				break;
+			case 10:
+				PlaySound(TEXT("做.wav"), NULL, SND_SYNC);
+				break;
+			case 11:
+				PlaySound(TEXT("你好.wav"), NULL, SND_SYNC);
+				break;
+			case 12:
+				PlaySound(TEXT("谢谢.wav"), NULL, SND_SYNC);
+				break;
+			}
+		}
+};
 	}
