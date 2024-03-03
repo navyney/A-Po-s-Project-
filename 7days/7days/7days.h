@@ -43,6 +43,8 @@ namespace My7days {
 	private: System::Windows::Forms::Button^ button8;
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::Label^ lesson3;
+	private: System::Windows::Forms::PictureBox^ decorleft;
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
 
 	private:
 		/// <summary>
@@ -57,11 +59,16 @@ namespace My7days {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(My7days::typeid));
 			this->progressBar1 = (gcnew System::Windows::Forms::ProgressBar());
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->lesson3 = (gcnew System::Windows::Forms::Label());
+			this->decorleft = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// progressBar1
@@ -104,25 +111,52 @@ namespace My7days {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 48));
-			this->label2->Location = System::Drawing::Point(194, 123);
+			this->label2->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->label2->Location = System::Drawing::Point(745, 160);
 			this->label2->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(411, 68);
+			this->label2->Size = System::Drawing::Size(473, 82);
 			this->label2->TabIndex = 36;
 			this->label2->Text = L"days in a week";
 			this->label2->Click += gcnew System::EventHandler(this, &My7days::label2_Click);
 			// 
 			// lesson3
 			// 
+			this->lesson3->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->lesson3->AutoSize = true;
-			this->lesson3->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 56));
-			this->lesson3->Location = System::Drawing::Point(25, 11);
+			this->lesson3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 87.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
+				static_cast<System::Int32>(static_cast<System::Byte>(51)));
+			this->lesson3->Location = System::Drawing::Point(450, 10);
 			this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 			this->lesson3->Name = L"lesson3";
-			this->lesson3->Size = System::Drawing::Size(691, 80);
+			this->lesson3->Size = System::Drawing::Size(649, 150);
 			this->lesson3->TabIndex = 35;
-			this->lesson3->Text = L"Lesson 3 : vocabulary";
+			this->lesson3->Text = L"Lesson 3 : ";
+			// 
+			// decorleft
+			// 
+			this->decorleft->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"decorleft.BackgroundImage")));
+			this->decorleft->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->decorleft->Location = System::Drawing::Point(13, 10);
+			this->decorleft->Name = L"decorleft";
+			this->decorleft->Size = System::Drawing::Size(450, 450);
+			this->decorleft->TabIndex = 52;
+			this->decorleft->TabStop = false;
+			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
+			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pictureBox1->Location = System::Drawing::Point(1442, 12);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(450, 450);
+			this->pictureBox1->TabIndex = 53;
+			this->pictureBox1->TabStop = false;
 			// 
 			// My7days
 			// 
@@ -133,11 +167,16 @@ namespace My7days {
 			this->Controls->Add(this->button9);
 			this->Controls->Add(this->button8);
 			this->Controls->Add(this->label2);
+			this->Controls->Add(this->decorleft);
+			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->lesson3);
 			this->MaximumSize = System::Drawing::Size(1920, 1080);
 			this->MinimumSize = System::Drawing::Size(1918, 1030);
 			this->Name = L"My7days";
 			this->Text = L"My7days";
+			this->Load += gcnew System::EventHandler(this, &My7days::My7days_Load);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -145,5 +184,7 @@ namespace My7days {
 #pragma endregion
 	private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
+private: System::Void My7days_Load(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }

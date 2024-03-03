@@ -34,10 +34,16 @@ namespace QuizThree {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Panel^ panel1;
-	private: System::Windows::Forms::Button^ button3;
-	private: System::Windows::Forms::Button^ button2;
+	private: System::Windows::Forms::Button^ Quiz3;
+	protected:
+
+
+
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
+	private: System::Windows::Forms::PictureBox^ pictureBox2;
 	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::PictureBox^ pictureBox3;
+
 
 	private:
 		/// <summary>
@@ -52,82 +58,110 @@ namespace QuizThree {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->button3 = (gcnew System::Windows::Forms::Button());
-			this->button2 = (gcnew System::Windows::Forms::Button());
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MenuQTh::typeid));
+			this->Quiz3 = (gcnew System::Windows::Forms::Button());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->panel1->SuspendLayout();
+			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			this->SuspendLayout();
 			// 
-			// panel1
+			// Quiz3
 			// 
-			this->panel1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->panel1->BackColor = System::Drawing::Color::White;
-			this->panel1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
-			this->panel1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->panel1->Controls->Add(this->button3);
-			this->panel1->Controls->Add(this->button2);
-			this->panel1->Location = System::Drawing::Point(11, 12);
-			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(1881, 930);
-			this->panel1->TabIndex = 1;
-			this->panel1->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MenuQTh::panel1_Paint);
-			// 
-			// button3
-			// 
-			this->button3->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->button3->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Quiz3->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->Quiz3->AutoSize = true;
+			this->Quiz3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(720, 300);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(435, 97);
-			this->button3->TabIndex = 1;
-			this->button3->Text = L"Lesson 4";
-			this->button3->UseVisualStyleBackColor = true;
+			this->Quiz3->Location = System::Drawing::Point(730, 300);
+			this->Quiz3->Name = L"Quiz3";
+			this->Quiz3->Size = System::Drawing::Size(435, 138);
+			this->Quiz3->TabIndex = 0;
+			this->Quiz3->Text = L"Quiz 3";
+			this->Quiz3->UseVisualStyleBackColor = true;
+			this->Quiz3->Click += gcnew System::EventHandler(this, &MenuQTh::button2_Click);
 			// 
-			// button2
+			// pictureBox1
 			// 
-			this->button2->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->button2->AutoSize = true;
-			this->button2->Font = (gcnew System::Drawing::Font(L"Yu Gothic UI", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(720, 77);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(435, 138);
-			this->button2->TabIndex = 0;
-			this->button2->Text = L"Quiz 3";
-			this->button2->UseVisualStyleBackColor = true;
-			this->button2->Click += gcnew System::EventHandler(this, &MenuQTh::button2_Click);
+			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
+			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pictureBox1->Location = System::Drawing::Point(11, 11);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(2);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(450, 450);
+			this->pictureBox1->TabIndex = 3;
+			this->pictureBox1->TabStop = false;
+			// 
+			// pictureBox2
+			// 
+			this->pictureBox2->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
+			this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->pictureBox2->Location = System::Drawing::Point(1443, 11);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(2);
+			this->pictureBox2->Name = L"pictureBox2";
+			this->pictureBox2->Size = System::Drawing::Size(450, 450);
+			this->pictureBox2->TabIndex = 4;
+			this->pictureBox2->TabStop = false;
 			// 
 			// button1
 			// 
 			this->button1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->button1->Location = System::Drawing::Point(11, 949);
+			this->button1->BackColor = System::Drawing::Color::White;
+			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
+			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
+			this->button1->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->button1->FlatAppearance->BorderSize = 0;
+			this->button1->FlatAppearance->MouseDownBackColor = System::Drawing::Color::White;
+			this->button1->FlatAppearance->MouseOverBackColor = System::Drawing::Color::White;
+			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button1->Location = System::Drawing::Point(11, 900);
 			this->button1->Margin = System::Windows::Forms::Padding(2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(375, 80);
-			this->button1->TabIndex = 2;
-			this->button1->Text = L"p";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Size = System::Drawing::Size(300, 130);
+			this->button1->TabIndex = 5;
+			this->button1->UseVisualStyleBackColor = false;
+			// 
+			// pictureBox3
+			// 
+			this->pictureBox3->Anchor = System::Windows::Forms::AnchorStyles::Top;
+			this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
+			this->pictureBox3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->pictureBox3->Location = System::Drawing::Point(1519, 579);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(2);
+			this->pictureBox3->Name = L"pictureBox3";
+			this->pictureBox3->Size = System::Drawing::Size(511, 487);
+			this->pictureBox3->TabIndex = 6;
+			this->pictureBox3->TabStop = false;
 			// 
 			// MenuQTh
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::Color::White;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->pictureBox3);
 			this->Controls->Add(this->button1);
-			this->Controls->Add(this->panel1);
+			this->Controls->Add(this->pictureBox2);
+			this->Controls->Add(this->pictureBox1);
+			this->Controls->Add(this->Quiz3);
 			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"MenuQTh";
 			this->Text = L"MenuQTh";
 			this->Load += gcnew System::EventHandler(this, &MenuQTh::MenuQTh_Load);
-			this->panel1->ResumeLayout(false);
-			this->panel1->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion
-		public: bool switchToQ3 = false;
+		public: bool switchToQ3 = false; //button2=Quiz3
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();
 		switchToQ3 = true;
