@@ -1074,80 +1074,92 @@ namespace allmodel {
 		private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
 			switch (numpages) {
 			case 1:
-				PlaySound(TEXT("你.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("汉语.wav"), NULL, SND_SYNC);
 				break;
 			case 2:
-				PlaySound(TEXT("我.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("爸爸.wav"), NULL, SND_SYNC);
 				break;
 			case 3:
-				PlaySound(TEXT("叫.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("妈妈.wav"), NULL, SND_SYNC);
 				break;
 			case 4:
-				PlaySound(TEXT("再见.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("哥哥.wav"), NULL, SND_SYNC);
 				break;
 			case 5:
-				PlaySound(TEXT("好.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("弟弟.wav"), NULL, SND_SYNC);
 				break;
 			case 6:
-				PlaySound(TEXT("是.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("妹妹.wav"), NULL, SND_SYNC);
 				break;
 			case 7:
-				PlaySound(TEXT("大.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("姐姐.wav"), NULL, SND_SYNC);
 				break;
 			case 8:
-				PlaySound(TEXT("什么.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("他.wav"), NULL, SND_SYNC);
 				break;
 			case 9:
-				PlaySound(TEXT("不.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("她.wav"), NULL, SND_SYNC);
 				break;
 			case 10:
-				PlaySound(TEXT("做.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("老师.wav"), NULL, SND_SYNC);
 				break;
 			case 11:
-				PlaySound(TEXT("你好.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("喜欢.wav"), NULL, SND_SYNC);
 				break;
 			case 12:
-				PlaySound(TEXT("谢谢.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("医生.wav"), NULL, SND_SYNC);
+				break;
+			case 13:
+				PlaySound(TEXT("学生.wav"), NULL, SND_SYNC);
+				break;
+			case 14:
+				PlaySound(TEXT("学.wav"), NULL, SND_SYNC);
 				break;
 			}
 		}
 		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 			switch (numpages) {
 			case 1:
-				PlaySound(TEXT("你.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("他学习汉语.wav"), NULL, SND_SYNC);
 				break;
 			case 2:
-				PlaySound(TEXT("我.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我爸爸是医生.wav"), NULL, SND_SYNC);
 				break;
 			case 3:
-				PlaySound(TEXT("叫.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我妈妈不在家.wav"), NULL, SND_SYNC);
 				break;
 			case 4:
-				PlaySound(TEXT("再见.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我哥哥比我大三岁.wav"), NULL, SND_SYNC);
 				break;
 			case 5:
-				PlaySound(TEXT("好.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我有两个弟弟.wav"), NULL, SND_SYNC);
 				break;
 			case 6:
-				PlaySound(TEXT("是.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我妹妹喜欢白色.wav"), NULL, SND_SYNC);
 				break;
 			case 7:
-				PlaySound(TEXT("大.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我有两个姐姐.wav"), NULL, SND_SYNC);
 				break;
 			case 8:
-				PlaySound(TEXT("什么.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("他是我们的老师.wav"), NULL, SND_SYNC);
 				break;
 			case 9:
-				PlaySound(TEXT("不.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我认识她的妈妈.wav"), NULL, SND_SYNC);
 				break;
 			case 10:
-				PlaySound(TEXT("做.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("他就是我们的科学老师.wav"), NULL, SND_SYNC);
 				break;
 			case 11:
-				PlaySound(TEXT("你好.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("我喜欢吃面条.wav"), NULL, SND_SYNC);
 				break;
 			case 12:
-				PlaySound(TEXT("谢谢.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("李医生在医院吗.wav"), NULL, SND_SYNC);
+				break;
+			case 13:
+				PlaySound(TEXT("我们学校里的学生很多.wav"), NULL, SND_SYNC);
+				break;
+			case 14:
+				PlaySound(TEXT("他学韩语.wav"), NULL, SND_SYNC);
 				break;
 			}
 		}
