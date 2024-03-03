@@ -1,6 +1,6 @@
 #pragma once
 
-namespace QuizThree {
+namespace allmodel {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -50,7 +50,7 @@ namespace QuizThree {
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -70,27 +70,6 @@ namespace QuizThree {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			this->SuspendLayout();
 			// 
-<<<<<<< HEAD
-=======
-			// Quiz3
-			// 
-			this->Quiz3->Anchor = System::Windows::Forms::AnchorStyles::Top;
-			this->Quiz3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Quiz3.BackgroundImage")));
-			this->Quiz3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->Quiz3->Cursor = System::Windows::Forms::Cursors::Hand;
-			this->Quiz3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 72, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->Quiz3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
-				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->Quiz3->Location = System::Drawing::Point(680, 300);
-			this->Quiz3->Name = L"Quiz3";
-			this->Quiz3->Size = System::Drawing::Size(550, 150);
-			this->Quiz3->TabIndex = 0;
-			this->Quiz3->Text = L"Quiz 3";
-			this->Quiz3->UseVisualStyleBackColor = true;
-			this->Quiz3->Click += gcnew System::EventHandler(this, &MenuQTh::button2_Click);
-			// 
->>>>>>> 206dae01f3acaf45676bcfdee5a10ebec9f9eebb
 			// pictureBox1
 			// 
 			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::Top;
@@ -133,6 +112,7 @@ namespace QuizThree {
 			this->button1->Size = System::Drawing::Size(300, 130);
 			this->button1->TabIndex = 5;
 			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &MenuQTh::button1_Click);
 			// 
 			// pictureBox3
 			// 
@@ -194,16 +174,20 @@ namespace QuizThree {
 
 		}
 #pragma endregion
-		public: bool switchToQ3 = false; //button2=Quiz3
-
+	public: bool switchToformQ3 = false; //button2=Quiz3
+    public:bool switchToformcon3 = false;
 
 	private: System::Void MenuQTh_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
-private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
-}
-private: System::Void GoQuiz3_Click(System::Object^ sender, System::EventArgs^ e) {
-	this->Close();
-	switchToQ3 = true;
-}
+	private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
+	}
+	private: System::Void GoQuiz3_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
+		switchToformQ3 = true;
+	}
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
+		switchToformcon3 = true;
+	}
 };
 }

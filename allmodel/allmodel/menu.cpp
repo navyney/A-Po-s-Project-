@@ -17,6 +17,9 @@
 #include"Quiz2.h"
 #include"MenuQuiz2.h"
 #include"vocab3new.h"
+#include"MenuQTh.h"
+#include"QTh.h"
+
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -47,6 +50,9 @@ void main(array<String^>^ args)
     allmodel::MenuQuiz2 formHQ2;
     allmodel::vocab3new formvo3;
     allmodel::sarm formcon3;
+    allmodel::MenuQTh formHQ3;
+    allmodel::QTh formQ3;
+
 
     form.ShowDialog();//menu page
 
@@ -157,6 +163,7 @@ void main(array<String^>^ args)
             }
 
 
+
         else if (formHQ2.switchToformcon2) {
                 formcon2.ShowDialog();
                 formHQ2.switchToformcon2 = false;//back  consonant 1  page
@@ -194,9 +201,30 @@ void main(array<String^>^ args)
                     formvo3.switchToformcon3 = false; //  consonant 3 page
                     }
         else if (formcon3.switchToformvo3) {
-                        formvo3.ShowDialog();
-                        formcon3.switchToformvo3 = false;//back  Before vocab3   page
+                    formvo3.ShowDialog();
+                    formcon3.switchToformvo3 = false;//back  Before vocab3   page
                         }
+        else if (form.switchToformHQ3) {
+                            formHQ3.ShowDialog();
+                            form.switchToformHQ3 = false; // home to Quiz3 page
+                            }
+
+        else if (formHQ3.switchToformcon3) {
+                   formcon3.ShowDialog();
+                   formHQ3.switchToformcon3 = false;//back  consonant 3  page
+                   }
+        else if (formcon3.switchToformHQ3) {
+                       formHQ3.ShowDialog();
+                       formcon3.switchToformHQ3 = false;//  Before Quiz3   page
+                       }
+        else if (formHQ3.switchToformQ3) {
+                           formQ3.ShowDialog();
+                           formHQ3.switchToformQ3 = false;// Quiz3 page
+                           }
+        else if (formQ3.switchToform) {
+                               form.ShowDialog();
+                               formQ3.switchToform = false;//  Quiz3 to home  page
+                               }
         else {
             break;
         }
