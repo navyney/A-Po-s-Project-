@@ -1,4 +1,7 @@
 ﻿#pragma once
+#include <iostream>
+#include <windows.h>
+#include "mmSystem.h"
 
 namespace allmodel {
 
@@ -784,7 +787,7 @@ namespace allmodel {
 				label3->Text = L"wǒ";
 				label4->Text = L"ฉัน";
 				label5->Text = L"我不知道。";
-				label6->Text = L"wǒ bù zhīdào";
+				label6->Text = L"Wǒ bù zhīdào";
 				label7->Text = L"ฉันไม่รู้";
 				pic17->Show();
 				pic18->Show();
@@ -794,7 +797,7 @@ namespace allmodel {
 				label3->Text = L"jiào";
 				label4->Text = L"เรียกว่า(ใช้กับชื่อ)";
 				label5->Text = L"我的名字叫贾斯汀比伯 ";
-				label6->Text = L"wǒ de míngzì jiào Jiǎsītīngbǐbó";
+				label6->Text = L"Wǒ de míngzì jiào Jiǎsītīngbǐbó";
 				label7->Text = L"ชื่อของฉันคือ Justin Bieber";
 				pic19->Show();
 				pic20->Show();;
@@ -803,8 +806,8 @@ namespace allmodel {
 				label2->Text = L"再见";
 				label3->Text = L"zàijiàn";
 				label4->Text = L"ลาก่อน";
-				label5->Text = L"妈妈，我去学校了，再见。";
-				label6->Text = L"wǒ qù xuéxiào le , zàijiàn";
+				label5->Text = L"我去学校了，再见。";
+				label6->Text = L"Wǒ qù xuéxiào le , zàijiàn";
 				label7->Text = L"ฉันไปจะไปโรงเรียนแล้ว ลาก่อน";
 				//pic1->Hide();
 				//pic2->Hide();
@@ -833,7 +836,7 @@ namespace allmodel {
 				label3->Text = L"shì";
 				label4->Text = L"คือ เป็น	";
 				label5->Text = L"他是老师。	";
-				label6->Text = L"tā shì lǎoshī";
+				label6->Text = L"Tā shì lǎoshī";
 				label7->Text = L"เขาคือคุณครู";
 				pic1->Show();
 				pic2->Show();
@@ -899,7 +902,7 @@ namespace allmodel {
 				label3->Text = L"nǐhǎo";
 				label4->Text = L"สวัสดี";
 				label5->Text = L"A: 你好     B:你好";
-				label6->Text = L"A: nǐhǎo   B:nǐhǎo";
+				label6->Text = L"A: Nǐhǎo   B:Nǐhǎo";
 				label7->Text = L"A:สวัสดี      B:สวัสดี";
 				//pic9->Hide();
 				//pic10->Hide();
@@ -913,7 +916,7 @@ namespace allmodel {
 				label3->Text = L"xiè xiè";
 				label4->Text = L"ขอบคุณ";
 				label5->Text = L"A: 谢谢你!     B:不客气";
-				label6->Text = L"A: xièxiè nǐ     B: bùkèqì";
+				label6->Text = L"A: Xièxiè nǐ     B: Bùkèqì";
 				label7->Text = L"A:ขอบคุณ        B:ไม่เป็นไร";
 				//pic11->Hide();
 				//pic12->Hide();
@@ -997,8 +1000,86 @@ namespace allmodel {
 			}
 		}
 		private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
+			switch (numpage) {
+			case 1:
+				PlaySound(TEXT("你.wav"), NULL, SND_SYNC);
+				break;
+			case 2:
+				PlaySound(TEXT("我.wav"), NULL, SND_SYNC);
+				break;
+			case 3:
+				PlaySound(TEXT("叫.wav"), NULL, SND_SYNC);
+				break;
+			case 4:
+				PlaySound(TEXT("再见.wav"), NULL, SND_SYNC);
+				break;
+			case 5:
+				PlaySound(TEXT("好.wav"), NULL, SND_SYNC);
+				break;
+			case 6:
+				PlaySound(TEXT("是.wav"), NULL, SND_SYNC);
+				break;
+			case 7:
+				PlaySound(TEXT("大.wav"), NULL, SND_SYNC);
+				break;
+			case 8:
+				PlaySound(TEXT("什么.wav"), NULL, SND_SYNC);
+				break;
+			case 9:
+				PlaySound(TEXT("不.wav"), NULL, SND_SYNC);
+				break;
+			case 10:
+				PlaySound(TEXT("做.wav"), NULL, SND_SYNC);
+				break;
+			case 11:
+				PlaySound(TEXT("你好.wav"), NULL, SND_SYNC);
+				break;
+			case 12:
+				PlaySound(TEXT("谢谢.wav"), NULL, SND_SYNC);
+				break;
+			}
 		}
 		private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+			switch (numpage) {
+			case 1:
+				PlaySound(TEXT("你认识这个人吗.wav"), NULL, SND_SYNC);
+				break;
+			case 2:
+				PlaySound(TEXT("我不知道.wav"), NULL, SND_SYNC);
+				break;
+			case 3:
+				PlaySound(TEXT("我的名字叫贾斯汀比伯.wav"), NULL, SND_SYNC);
+				break;
+			case 4:
+				PlaySound(TEXT("我去学校了，再见.wav"), NULL, SND_SYNC);
+				break;
+			case 5:
+				PlaySound(TEXT("今天天气很好.wav"), NULL, SND_SYNC);
+				break;
+			case 6:
+				PlaySound(TEXT("他是老师.wav"), NULL, SND_SYNC);
+				break;
+			case 7:
+				PlaySound(TEXT("这个苹果很大.wav"), NULL, SND_SYNC);
+				break;
+			case 8:
+				PlaySound(TEXT("你做什么.wav"), NULL, SND_SYNC);
+				break;
+			case 9:
+				PlaySound(TEXT("我不是大夫.wav"), NULL, SND_SYNC);
+				break;
+			case 10:
+				PlaySound(TEXT("我每天做作业.wav"), NULL, SND_SYNC);
+				break;
+			case 11:
+				PlaySound(TEXT("你好.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("你好girl.wav"), NULL, SND_SYNC);
+				break;
+			case 12:
+				PlaySound(TEXT("谢谢你.wav"), NULL, SND_SYNC);
+				PlaySound(TEXT("不客气girl.wav"), NULL, SND_SYNC);
+				break;
+			}
 		}
 
 		};
