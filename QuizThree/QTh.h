@@ -107,7 +107,7 @@ namespace QuizThree {
 				static_cast<System::Byte>(0)));
 			this->label3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
-			this->label3->Location = System::Drawing::Point(850, 140);
+			this->label3->Location = System::Drawing::Point(850, 145);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(227, 82);
 			this->label3->TabIndex = 6;
