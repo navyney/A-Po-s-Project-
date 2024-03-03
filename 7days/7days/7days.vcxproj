@@ -133,6 +133,9 @@
     <EmbeddedResource Include="7days.resx">
       <DependentUpon>7days.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="My7days.resx">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

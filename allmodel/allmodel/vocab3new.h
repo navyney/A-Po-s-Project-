@@ -986,7 +986,7 @@ namespace allmodel {
 
 
 		public:bool switchToformHQ2 = false;
-		public:bool switchToformcon3 = false;
+		public:bool switchToform7day = false;
 
 		private: System::Void previousbutton_Click(System::Object^ sender, System::EventArgs^ e) {
 			if (numpage2 > 1) {
@@ -1062,7 +1062,7 @@ namespace allmodel {
 			}
 			else {
 				this->Close();
-				switchToformcon3 = true;
+				switchToform7day = true;
 			}
 		}
 
