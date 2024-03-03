@@ -115,7 +115,7 @@ namespace converTwo {
 			this->pictureBox1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 			this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->pictureBox1->Location = System::Drawing::Point(1250, 360);
+			this->pictureBox1->Location = System::Drawing::Point(1255, 360);
 			this->pictureBox1->Margin = System::Windows::Forms::Padding(2);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(400, 395);
@@ -126,13 +126,13 @@ namespace converTwo {
 			// 
 			this->label3->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Yu Mincho", 23));
+			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 23));
 			this->label3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label3->Location = System::Drawing::Point(430, 275);
 			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(806, 600);
+			this->label3->Size = System::Drawing::Size(832, 525);
 			this->label3->TabIndex = 6;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
@@ -140,13 +140,13 @@ namespace converTwo {
 			// 
 			this->label4->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->label4->AutoSize = true;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Yu Mincho", 23));
+			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 23));
 			this->label4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));
 			this->label4->Location = System::Drawing::Point(430, 275);
 			this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(438, 600);
+			this->label4->Size = System::Drawing::Size(456, 525);
 			this->label4->TabIndex = 8;
 			this->label4->Text = resources->GetString(L"label4.Text");
 			// 
@@ -259,10 +259,10 @@ namespace converTwo {
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label4);
-			this->Controls->Add(this->label3);
-			this->Controls->Add(this->pictureBox4);
 			this->Controls->Add(this->pictureBox5);
 			this->Controls->Add(this->label1);
+			this->Controls->Add(this->label3);
+			this->Controls->Add(this->pictureBox4);
 			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"praTwo";
 			this->Text = L"praTwo";
