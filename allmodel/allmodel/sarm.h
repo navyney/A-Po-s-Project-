@@ -305,7 +305,7 @@ namespace allmodel {
 
 			}
 #pragma endregion
-			public:bool switchToformvo3 = false;
+			public:bool switchToform7day = false;
 			public:bool switchToformHQ3 = false;
 		private: System::Void changepage(int numpage) {
 			switch (numpage) {
@@ -343,7 +343,7 @@ namespace allmodel {
 			}
 			else {
 				this->Close();
-				switchToformvo3 = true;
+				switchToform7day = true;
 			}
 		}
 		private: System::Void Button11_Click(System::Object^ sender, System::EventArgs^ e) {
