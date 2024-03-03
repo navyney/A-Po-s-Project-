@@ -78,6 +78,9 @@
     <ClCompile Include="vocab2v1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="My7days.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menu.h">
@@ -141,6 +144,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="vocab2v1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="My7days.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

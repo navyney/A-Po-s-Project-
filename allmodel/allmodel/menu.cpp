@@ -17,6 +17,7 @@
 #include"Quiz2.h"
 #include"MenuQuiz2.h"
 #include"vocab3new.h"
+#include"My7days.h"
 #include"MenuQTh.h"
 #include"QTh.h"
 
@@ -49,6 +50,7 @@ void main(array<String^>^ args)
     allmodel::Quiz2 formQ2;
     allmodel::MenuQuiz2 formHQ2;
     allmodel::vocab3new formvo3;
+    allmodel::My7days form7day;
     allmodel::sarm formcon3;
     allmodel::MenuQTh formHQ3;
     allmodel::QTh formQ3;
@@ -217,14 +219,27 @@ void main(array<String^>^ args)
                 formvo3.ShowDialog();
                 form.switchToformvo3 = false; // home to vocab3 page
                 }
-        else if (formvo3.switchToformcon3) {
-                    formcon3.ShowDialog();
-                    formvo3.switchToformcon3 = false; //  consonant 3 page
-                    }
-        else if (formcon3.switchToformvo3) {
+
+        else if (formvo3.switchToform7day) {
+            form7day.ShowDialog();
+            formvo3.switchToform7day = false;//  vocab3 page
+            }
+        else if (form7day.switchToformvo3) {
                     formvo3.ShowDialog();
-                    formcon3.switchToformvo3 = false;//back  Before vocab3   page
+                    form7day.switchToformvo3 = false; //  back vocab3 page
+                    }
+        else if (form7day.switchToformvo3) {
+                    formvo3.ShowDialog();
+                    form7day.switchToformvo3 = false;//back  Before vocab3   page
                         }
+        else if (form7day.switchToformcon3) {
+            formcon3.ShowDialog();
+            form7day.switchToformcon3 = false;//back  Before vocab3   page
+            }
+        else if (formcon3.switchToform7day) {
+            form7day.ShowDialog();
+            formcon3.switchToform7day = false;//back  Before vocab3   page
+            }
         else if (form.switchToformHQ3) {
                   formHQ3.ShowDialog();
                   form.switchToformHQ3 = false; // home to Quiz3 page
