@@ -176,12 +176,13 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->lesson3->Location = System::Drawing::Point(450, 10);
+				this->lesson3->Location = System::Drawing::Point(534, 12);
 				this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->lesson3->Name = L"lesson3";
-				this->lesson3->Size = System::Drawing::Size(649, 150);
+				this->lesson3->Size = System::Drawing::Size(859, 150);
 				this->lesson3->TabIndex = 35;
-				this->lesson3->Text = L"Lesson 3 : ";
+				this->lesson3->Text = L"Lesson 3 : Day";
+				this->lesson3->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 				// 
 				// decorleft
 				// 
@@ -701,9 +702,9 @@ namespace allmodel {
 				this->Controls->Add(this->previousbutton);
 				this->Controls->Add(this->label2);
 				this->Controls->Add(this->pictureBox1);
-				this->Controls->Add(this->lesson3);
 				this->Controls->Add(this->pictureBox2);
 				this->Controls->Add(this->decorleft);
+				this->Controls->Add(this->lesson3);
 				this->MaximumSize = System::Drawing::Size(1920, 1080);
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"My7days";
