@@ -30,4 +30,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="GoQuiz2.BackgroundImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

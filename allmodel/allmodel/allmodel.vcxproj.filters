@@ -69,6 +69,12 @@
     <ClCompile Include="sarm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MenuQTh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QTh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menu.h">
@@ -125,5 +131,16 @@
     <ClInclude Include="praTwo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MenuQTh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QTh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\QuizThree\GoQuiz2.BackgroundImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

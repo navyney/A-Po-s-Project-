@@ -125,11 +125,13 @@
     <ClCompile Include="HQuiz0.cpp" />
     <ClCompile Include="HQuiz1.cpp" />
     <ClCompile Include="menu.cpp" />
+    <ClCompile Include="MenuQTh.cpp" />
     <ClCompile Include="MenuQuiz2.cpp" />
     <ClCompile Include="msound.cpp" />
     <ClCompile Include="number.cpp" />
     <ClCompile Include="one.cpp" />
     <ClCompile Include="praTwo.cpp" />
+    <ClCompile Include="QTh.cpp" />
     <ClCompile Include="Quiz0.cpp" />
     <ClCompile Include="Quiz1.cpp" />
     <ClCompile Include="Quiz2.cpp" />
@@ -155,6 +157,9 @@
     <ClInclude Include="menu.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="MenuQTh.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="MenuQuiz2.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -168,6 +173,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="praTwo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="QTh.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Quiz0.h">
@@ -211,6 +219,9 @@
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuQTh.resx">
+      <DependentUpon>MenuQTh.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuQuiz2.resx">
       <DependentUpon>MenuQuiz2.h</DependentUpon>
     </EmbeddedResource>
@@ -225,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="praTwo.resx">
       <DependentUpon>praTwo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QTh.resx">
+      <DependentUpon>QTh.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Quiz0.resx">
       <DependentUpon>Quiz0.h</DependentUpon>
@@ -250,6 +264,9 @@
     <EmbeddedResource Include="vocab3new.resx">
       <DependentUpon>vocab3new.h</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\QuizThree\GoQuiz2.BackgroundImage.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
