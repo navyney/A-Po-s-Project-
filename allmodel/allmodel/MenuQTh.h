@@ -138,7 +138,7 @@ namespace allmodel {
 			this->GoQuiz3->FlatAppearance->MouseDownBackColor = System::Drawing::Color::White;
 			this->GoQuiz3->FlatAppearance->MouseOverBackColor = System::Drawing::Color::White;
 			this->GoQuiz3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->GoQuiz3->Font = (gcnew System::Drawing::Font(L"Yu Gothic Medium", 48, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->GoQuiz3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 48, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->GoQuiz3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 				static_cast<System::Int32>(static_cast<System::Byte>(51)));

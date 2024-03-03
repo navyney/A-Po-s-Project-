@@ -161,7 +161,10 @@ void main(array<String^>^ args)
             formHQ1.ShowDialog();
             formQ1.switchToformHQ1 = false;//back  Before  Quiz1 page
             }
-
+        else if (formcon1.switchToformHQ1) {
+                formHQ1.ShowDialog();
+                formcon1.switchToformHQ1 = false;// Before  Quiz1  page
+                }
 
 
         else if (formHQ2.switchToformcon2) {
