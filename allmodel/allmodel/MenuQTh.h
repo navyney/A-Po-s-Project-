@@ -44,6 +44,7 @@ namespace allmodel {
 	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::PictureBox^ pictureBox3;
 	private: System::Windows::Forms::Button^ GoQuiz3;
+	private: System::Windows::Forms::Button^ home;
 
 
 	private:
@@ -65,6 +66,7 @@ namespace allmodel {
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 			this->GoQuiz3 = (gcnew System::Windows::Forms::Button());
+			this->home = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
@@ -152,12 +154,24 @@ namespace allmodel {
 			this->GoQuiz3->UseVisualStyleBackColor = false;
 			this->GoQuiz3->Click += gcnew System::EventHandler(this, &MenuQTh::GoQuiz3_Click);
 			// 
+			// home
+			// 
+			this->home->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"home.BackgroundImage")));
+			this->home->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->home->Location = System::Drawing::Point(1554, 955);
+			this->home->Name = L"home";
+			this->home->Size = System::Drawing::Size(68, 64);
+			this->home->TabIndex = 39;
+			this->home->UseVisualStyleBackColor = true;
+			this->home->Click += gcnew System::EventHandler(this, &MenuQTh::home_Click);
+			// 
 			// MenuQTh
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::White;
 			this->ClientSize = System::Drawing::Size(1904, 1041);
+			this->Controls->Add(this->home);
 			this->Controls->Add(this->GoQuiz3);
 			this->Controls->Add(this->pictureBox3);
 			this->Controls->Add(this->button1);
@@ -177,7 +191,7 @@ namespace allmodel {
 #pragma endregion
 	public: bool switchToformQ3 = false; //button2=Quiz3
     public:bool switchToformcon3 = false;
-
+	public:bool  switchToform = false;
 	private: System::Void MenuQTh_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
@@ -190,5 +204,9 @@ namespace allmodel {
 		this->Close();
 		switchToformcon3 = true;
 	}
+private: System::Void home_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->Close();
+	switchToform = true;
+}
 };
 }

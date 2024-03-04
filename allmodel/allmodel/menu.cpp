@@ -255,6 +255,10 @@ void main(array<String^>^ args)
                  formQ3.ShowDialog();
                   formHQ3.switchToformQ3 = false;// Quiz3 page
                  }
+        else if (formQ3.switchToformHQ3) {
+                   formHQ3.ShowDialog();
+                   formQ3.switchToformHQ3 = false;// back Before Quiz3   page
+                   }
         else if (formHQ0.switchToform) {
                      form.ShowDialog();
                      formHQ0.switchToform = false;//  Quiz0 to home  page
@@ -267,9 +271,9 @@ void main(array<String^>^ args)
                              form.ShowDialog();
                              formHQ2.switchToform = false;//  Quiz2 to home  page
                              }
-        else if (formQ3.switchToform) {
+        else if (formHQ3.switchToform) {
               form.ShowDialog();
-               formQ3.switchToform = false;//  Quiz3 to home  page
+               formHQ3.switchToform = false;//  Quiz3 to home  page
        }
 
         else {

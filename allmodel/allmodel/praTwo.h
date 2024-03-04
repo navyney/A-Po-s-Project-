@@ -114,6 +114,7 @@ namespace allmodel {
 				this->pictureBox2->Size = System::Drawing::Size(300, 240);
 				this->pictureBox2->TabIndex = 7;
 				this->pictureBox2->TabStop = false;
+				this->pictureBox2->Click += gcnew System::EventHandler(this, &praTwo::pictureBox2_Click);
 				// 
 				// pictureBox1
 				// 
@@ -126,6 +127,7 @@ namespace allmodel {
 				this->pictureBox1->Size = System::Drawing::Size(400, 395);
 				this->pictureBox1->TabIndex = 1;
 				this->pictureBox1->TabStop = false;
+				this->pictureBox1->Click += gcnew System::EventHandler(this, &praTwo::pictureBox1_Click);
 				// 
 				// label3
 				// 
@@ -134,12 +136,13 @@ namespace allmodel {
 				this->label3->Font = (gcnew System::Drawing::Font(L"Yu Mincho", 23));
 				this->label3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label3->Location = System::Drawing::Point(430, 275);
+				this->label3->Location = System::Drawing::Point(402, 278);
 				this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label3->Name = L"label3";
 				this->label3->Size = System::Drawing::Size(888, 600);
 				this->label3->TabIndex = 6;
 				this->label3->Text = resources->GetString(L"label3.Text");
+				this->label3->Click += gcnew System::EventHandler(this, &praTwo::label3_Click);
 				// 
 				// label4
 				// 
@@ -148,12 +151,13 @@ namespace allmodel {
 				this->label4->Font = (gcnew System::Drawing::Font(L"Yu Mincho", 23));
 				this->label4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label4->Location = System::Drawing::Point(430, 275);
+				this->label4->Location = System::Drawing::Point(416, 278);
 				this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label4->Name = L"label4";
 				this->label4->Size = System::Drawing::Size(438, 600);
 				this->label4->TabIndex = 8;
 				this->label4->Text = resources->GetString(L"label4.Text");
+				this->label4->Click += gcnew System::EventHandler(this, &praTwo::label4_Click);
 				// 
 				// label2
 				// 
@@ -169,6 +173,7 @@ namespace allmodel {
 				this->label2->Size = System::Drawing::Size(413, 82);
 				this->label2->TabIndex = 1;
 				this->label2->Text = L"conversation";
+				this->label2->Click += gcnew System::EventHandler(this, &praTwo::label2_Click);
 				// 
 				// label1
 				// 
@@ -185,6 +190,7 @@ namespace allmodel {
 				this->label1->TabIndex = 0;
 				this->label1->Text = L"Lesson 2 : Family";
 				this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+				this->label1->Click += gcnew System::EventHandler(this, &praTwo::label1_Click);
 				// 
 				// pictureBox3
 				// 
@@ -197,6 +203,7 @@ namespace allmodel {
 				this->pictureBox3->Size = System::Drawing::Size(300, 240);
 				this->pictureBox3->TabIndex = 17;
 				this->pictureBox3->TabStop = false;
+				this->pictureBox3->Click += gcnew System::EventHandler(this, &praTwo::pictureBox3_Click);
 				// 
 				// Previous
 				// 
@@ -217,6 +224,7 @@ namespace allmodel {
 				this->progressBar1->Name = L"progressBar1";
 				this->progressBar1->Size = System::Drawing::Size(1000, 35);
 				this->progressBar1->TabIndex = 88;
+				this->progressBar1->Click += gcnew System::EventHandler(this, &praTwo::progressBar1_Click);
 				// 
 				// Next
 				// 
@@ -239,6 +247,7 @@ namespace allmodel {
 				this->pictureBox4->Size = System::Drawing::Size(450, 450);
 				this->pictureBox4->TabIndex = 91;
 				this->pictureBox4->TabStop = false;
+				this->pictureBox4->Click += gcnew System::EventHandler(this, &praTwo::pictureBox4_Click);
 				// 
 				// pictureBox5
 				// 
@@ -249,6 +258,7 @@ namespace allmodel {
 				this->pictureBox5->Size = System::Drawing::Size(450, 450);
 				this->pictureBox5->TabIndex = 92;
 				this->pictureBox5->TabStop = false;
+				this->pictureBox5->Click += gcnew System::EventHandler(this, &praTwo::pictureBox5_Click);
 				// 
 				// Button11
 				// 
@@ -276,13 +286,13 @@ namespace allmodel {
 				this->Controls->Add(this->progressBar1);
 				this->Controls->Add(this->pictureBox3);
 				this->Controls->Add(this->pictureBox2);
-				this->Controls->Add(this->pictureBox1);
 				this->Controls->Add(this->label2);
 				this->Controls->Add(this->label4);
 				this->Controls->Add(this->label3);
 				this->Controls->Add(this->pictureBox4);
-				this->Controls->Add(this->pictureBox5);
 				this->Controls->Add(this->label1);
+				this->Controls->Add(this->pictureBox1);
+				this->Controls->Add(this->pictureBox5);
 				this->Margin = System::Windows::Forms::Padding(2);
 				this->MaximumSize = System::Drawing::Size(1920, 1080);
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
@@ -362,6 +372,26 @@ namespace allmodel {
 				break;
 			}
 		}
+private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void pictureBox2_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void pictureBox3_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void progressBar1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void pictureBox4_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void pictureBox5_Click(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 	}
 
