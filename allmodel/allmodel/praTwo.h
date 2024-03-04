@@ -137,7 +137,7 @@ namespace allmodel {
 				this->label3->Location = System::Drawing::Point(430, 275);
 				this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label3->Name = L"label3";
-				this->label3->Size = System::Drawing::Size(806, 600);
+				this->label3->Size = System::Drawing::Size(888, 600);
 				this->label3->TabIndex = 6;
 				this->label3->Text = resources->GetString(L"label3.Text");
 				// 
@@ -258,7 +258,7 @@ namespace allmodel {
 				this->Button11->Location = System::Drawing::Point(325, 331);
 				this->Button11->Margin = System::Windows::Forms::Padding(2);
 				this->Button11->Name = L"Button11";
-				this->Button11->Size = System::Drawing::Size(87, 75);
+				this->Button11->Size = System::Drawing::Size(73, 75);
 				this->Button11->TabIndex = 93;
 				this->Button11->Text = L"\r\n";
 				this->Button11->UseVisualStyleBackColor = true;

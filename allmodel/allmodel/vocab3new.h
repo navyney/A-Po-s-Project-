@@ -275,7 +275,7 @@ namespace allmodel {
 				this->label7->Name = L"label7";
 				this->label7->Size = System::Drawing::Size(251, 47);
 				this->label7->TabIndex = 141;
-				this->label7->Text = L"วันนี้ฉันไปเชี่ยงใหม่";
+				this->label7->Text = L"วันนี้ฉันไปเชียงใหม่";
 				// 
 				// label6
 				// 
@@ -430,12 +430,12 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->lesson3->Location = System::Drawing::Point(457, 11);
+				this->lesson3->Location = System::Drawing::Point(503, 12);
 				this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->lesson3->Name = L"lesson3";
-				this->lesson3->Size = System::Drawing::Size(985, 148);
+				this->lesson3->Size = System::Drawing::Size(906, 148);
 				this->lesson3->TabIndex = 142;
-				this->lesson3->Text = L"Lesson 3 : Where";
+				this->lesson3->Text = L"Lesson 3 : Time";
 				// 
 				// pic1
 				// 

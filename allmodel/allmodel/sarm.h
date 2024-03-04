@@ -162,12 +162,12 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label1->Location = System::Drawing::Point(644, 10);
+				this->label1->Location = System::Drawing::Point(503, 12);
 				this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label1->Name = L"label1";
-				this->label1->Size = System::Drawing::Size(649, 150);
+				this->label1->Size = System::Drawing::Size(920, 150);
 				this->label1->TabIndex = 0;
-				this->label1->Text = L"Lesson 3 : ";
+				this->label1->Text = L"Lesson 3 : Time";
 				this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
 				// pictureBox1
@@ -265,7 +265,7 @@ namespace allmodel {
 				this->Button11->Location = System::Drawing::Point(325, 331);
 				this->Button11->Margin = System::Windows::Forms::Padding(2);
 				this->Button11->Name = L"Button11";
-				this->Button11->Size = System::Drawing::Size(87, 75);
+				this->Button11->Size = System::Drawing::Size(73, 75);
 				this->Button11->TabIndex = 91;
 				this->Button11->Text = L"\r\n";
 				this->Button11->UseVisualStyleBackColor = true;

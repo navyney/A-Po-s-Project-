@@ -122,17 +122,21 @@
   </metadata>
   <data name="label3.Text" xml:space="preserve">
     <value>A: 你好! 
-        Nǐhǎo สวัสดี!
+         Nǐhǎo สวัสดี
 B: 你好! 
-        Nǐhǎo สวัสดี!
+         Nǐhǎo สวัสดี
 A: 你叫什么名字 ?
-        Nǐ jiào shénme míngzì ?  คุณชื่ออะไร?
+         Nǐ jiào shénme míngzì ? คุณชื่ออะไร
 B: 我叫阿波。 
-        Wǒ jiào A Po  ฉันชื่ออาโป
+         Wǒ jiào A Po  ฉันชื่อ A Po
+A: 认识你很高兴。
+         Rènshí nǐ hěn gāoxīng ยินดีที่ได้รู้จัก
+B: 认识你很高兴。
+         Rènshí nǐ hěn gāoxīng ยินดีที่ได้รู้จัก
 A: 再见。
-        Zàijiàn ลาก่อน
+         Zàijiàn ลาก่อน
 B: 再见。
-        Zàijiàn บายยย</value>
+         Zàijiàn บายย</value>
   </data>
   <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

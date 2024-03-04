@@ -294,7 +294,7 @@ namespace allmodel {
 				this->label6->Name = L"label6";
 				this->label6->Size = System::Drawing::Size(371, 47);
 				this->label6->TabIndex = 54;
-				this->label6->Text = L"Nǐrènshizhègerénma";
+				this->label6->Text = L"Nǐ rènshi zhè ge rén ma";
 				// 
 				// label7
 				// 

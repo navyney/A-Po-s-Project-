@@ -1600,16 +1600,13 @@
         EAREQD//2Q==
 </value>
   </data>
-  <metadata name="label3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label3.Text" xml:space="preserve">
     <value>A: 你喜欢玩游戏吗？
        Nǐ xǐhuān wán yóuxì má？
         คุณชอบเล่นเกมไหม？
 
-B: 我很喜欢玩, 我的哥哥就喜欢玩游戏。
-       Wǒ hěn xǐhuān wán, wǒ de gēgē jiù xǐhuān wán yóuxì 
+B: 我很喜欢玩游戏, 我的哥哥就喜欢玩游戏。
+       Wǒ hěn xǐhuān wán yóuxì, wǒ de gēgē jiù xǐhuān wán yóuxì 
         ฉันชอบเล่นเกม พี่ชายของฉันก็ชอบเล่นเกม
 
 A: 你喜欢玩什么游戏？
@@ -1620,9 +1617,6 @@ B: 我喜欢玩 VALORANT。
        Wǒ xǐhuān wán VALORANT 
         ฉันชอบเล่นเกม VALORANT</value>
   </data>
-  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label4.Text" xml:space="preserve">
     <value>A: 你的爸爸做什么？
        Nǐ de bàba zuò shénme？
@@ -2502,7 +2496,7 @@ B: 我的妈妈是老师。
   <data name="pictureBox4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABe0AAAXpCAYAAADrszN8AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        twAAMrcBXj2IkwAAU5tJREFUeF7s3LGubHl61mEHXIADX4ADZFmcbqvVu5EcTkjoSyAgQgQOEBGSQ0Jf
+        tgAAMrYBjHpqdwAAU5tJREFUeF7s3LGubHl61mEHXIADX4ADZFmcbqvVu5EcTkjoSyAgQgQOEBGSQ0Jf
         giMiLoAIDRkZjtw9TWIJLoAEicBIZpc5wd7rfOf/rrdYVavq7OeRXo01QU1/+q/pdv/Umt/79bsf/+J3
         3738vdnR++W7n37zewAAAAAA7Cfa260m2gMAAAAAlER7u9VEewAAAACAkmhvt5poDwAAAABQEu3tVhPt
         AQAAAABKor3daqI9AAAAAEBJtLdbTbQHAAAAACiJ9narifYAAAAAACXR3m410R4AAAAAoCTa260m2gMA
@@ -2868,7 +2862,7 @@ B: 我的妈妈是老师。
   <data name="pictureBox5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABewAAAXpCAYAAAAEcVhCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        twAAMrcBXj2IkwAAU8ZJREFUeF7s3bHOXWmaluEOOQQCgglb2DVCthEEBB0SEnAAk5AQDRIBWR8Ch9CH
+        tgAAMrYBjHpqdwAAU8ZJREFUeF7s3bHOXWmaluEOOQQCgglb2DVCthEEBB0SEnAAk5AQDRIBWR8Ch9CH
         0IfQhzARXWUhVGEHCHWAxIgIlps/sBeP9zNv/d7L3/72dUmPqlQl7fKrtbwt362u+hUAAAAAAP8wP779
         8Juf3r7/P2bfeh/fvvvty2sGAAAAAEAj2Nu9JtgDAAAAAAwI9navCfYAAAAAAAOCvd1rgj0AAAAAwIBg
         b/eaYA8AAAAAMCDY270m2AMAAAAADAj2dq8J9gAAAAAAA4K93WuCPQAAAADAgGBv95pgDwAAAAAwINjb
