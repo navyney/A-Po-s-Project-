@@ -888,7 +888,7 @@ namespace allmodel {
 				label3->Text = L"dìdi";
 				label4->Text = L"น้องชาย";
 				label5->Text = L"我有两个弟弟。";
-				label6->Text = L"Wǒ hái yǒu liǎng gè dìdì";
+				label6->Text = L"Wǒ yǒu liǎng gè dìdì";
 				label7->Text = L"ฉันมีน้องชายสองคน";
 				pic9->Show();
 				pic10->Show();
