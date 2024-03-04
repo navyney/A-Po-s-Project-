@@ -711,7 +711,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->ün->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->ün->Location = System::Drawing::Point(1315, 423);
+				this->ün->Location = System::Drawing::Point(1334, 423);
 				this->ün->Name = L"ün";
 				this->ün->Size = System::Drawing::Size(161, 55);
 				this->ün->TabIndex = 176;
