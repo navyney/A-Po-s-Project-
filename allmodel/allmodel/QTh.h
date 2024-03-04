@@ -548,7 +548,7 @@ namespace allmodel {
 				break;
 			}
 		}
-		public:bool switchToform = false;
+		public:bool switchToformHQ3 = false;
 		private: System::Void QTh_Load(System::Object^ sender, System::EventArgs^ e) {
 		}
 		private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -599,7 +599,7 @@ namespace allmodel {
 				button4->Show();
 
 				this->Close();
-				switchToform = true;
+				switchToformHQ3 = true;
 			}
 
 

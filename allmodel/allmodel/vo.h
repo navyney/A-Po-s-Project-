@@ -711,7 +711,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->ün->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->ün->Location = System::Drawing::Point(1315, 423);
+				this->ün->Location = System::Drawing::Point(1328, 423);
 				this->ün->Name = L"ün";
 				this->ün->Size = System::Drawing::Size(161, 55);
 				this->ün->TabIndex = 176;
@@ -737,7 +737,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->üe->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->üe->Location = System::Drawing::Point(1313, 263);
+				this->üe->Location = System::Drawing::Point(1330, 267);
 				this->üe->Name = L"üe";
 				this->üe->Size = System::Drawing::Size(155, 55);
 				this->üe->TabIndex = 172;
@@ -750,7 +750,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->ü->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->ü->Location = System::Drawing::Point(1340, 187);
+				this->ü->Location = System::Drawing::Point(1368, 186);
 				this->ü->Name = L"ü";
 				this->ü->Size = System::Drawing::Size(84, 55);
 				this->ü->TabIndex = 170;
@@ -796,7 +796,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->ei->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->ei->Location = System::Drawing::Point(862, 587);
+				this->ei->Location = System::Drawing::Point(864, 587);
 				this->ei->Name = L"ei";
 				this->ei->Size = System::Drawing::Size(131, 55);
 				this->ei->TabIndex = 179;
@@ -809,7 +809,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->en->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->en->Location = System::Drawing::Point(849, 663);
+				this->en->Location = System::Drawing::Point(852, 663);
 				this->en->Name = L"en";
 				this->en->Size = System::Drawing::Size(150, 55);
 				this->en->TabIndex = 180;
@@ -822,7 +822,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->eng->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->eng->Location = System::Drawing::Point(824, 744);
+				this->eng->Location = System::Drawing::Point(845, 744);
 				this->eng->Name = L"eng";
 				this->eng->Size = System::Drawing::Size(166, 55);
 				this->eng->TabIndex = 181;
@@ -835,7 +835,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->er->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->er->Location = System::Drawing::Point(859, 823);
+				this->er->Location = System::Drawing::Point(852, 823);
 				this->er->Name = L"er";
 				this->er->Size = System::Drawing::Size(156, 55);
 				this->er->TabIndex = 182;
@@ -848,7 +848,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->ang->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->ang->Location = System::Drawing::Point(367, 501);
+				this->ang->Location = System::Drawing::Point(386, 500);
 				this->ang->Name = L"ang";
 				this->ang->Size = System::Drawing::Size(154, 55);
 				this->ang->TabIndex = 193;
@@ -861,7 +861,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->an->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->an->Location = System::Drawing::Point(389, 422);
+				this->an->Location = System::Drawing::Point(401, 425);
 				this->an->Name = L"an";
 				this->an->Size = System::Drawing::Size(138, 55);
 				this->an->TabIndex = 192;
@@ -874,7 +874,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->ao->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->ao->Location = System::Drawing::Point(391, 341);
+				this->ao->Location = System::Drawing::Point(393, 345);
 				this->ao->Name = L"ao";
 				this->ao->Size = System::Drawing::Size(142, 55);
 				this->ao->TabIndex = 191;
@@ -887,7 +887,7 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->ai->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->ai->Location = System::Drawing::Point(401, 265);
+				this->ai->Location = System::Drawing::Point(393, 267);
 				this->ai->Name = L"ai";
 				this->ai->Size = System::Drawing::Size(140, 55);
 				this->ai->TabIndex = 190;
@@ -1327,6 +1327,7 @@ namespace allmodel {
 #pragma endregion
 			public:bool switchToformcon = false;
 			public:bool switchToformtone = false;
+
 		private: System::Void vo_Load(System::Object^ sender, System::EventArgs^ e) {
 		}
 
