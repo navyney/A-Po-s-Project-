@@ -200,10 +200,9 @@ namespace allmodel {
 				// 
 				this->nextbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nextbutton.BackgroundImage")));
 				this->nextbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->nextbutton->Location = System::Drawing::Point(3168, 1725);
-				this->nextbutton->Margin = System::Windows::Forms::Padding(6);
+				this->nextbutton->Location = System::Drawing::Point(1584, 897);
 				this->nextbutton->Name = L"nextbutton";
-				this->nextbutton->Size = System::Drawing::Size(564, 256);
+				this->nextbutton->Size = System::Drawing::Size(282, 133);
 				this->nextbutton->TabIndex = 61;
 				this->nextbutton->TabStop = false;
 				this->nextbutton->Click += gcnew System::EventHandler(this, &conso::nextbutton_Click);
@@ -212,10 +211,9 @@ namespace allmodel {
 				// 
 				this->previousbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"previousbutton.BackgroundImage")));
 				this->previousbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->previousbutton->Location = System::Drawing::Point(66, 1725);
-				this->previousbutton->Margin = System::Windows::Forms::Padding(6);
+				this->previousbutton->Location = System::Drawing::Point(33, 897);
 				this->previousbutton->Name = L"previousbutton";
-				this->previousbutton->Size = System::Drawing::Size(600, 250);
+				this->previousbutton->Size = System::Drawing::Size(300, 130);
 				this->previousbutton->TabIndex = 60;
 				this->previousbutton->TabStop = false;
 				this->previousbutton->Click += gcnew System::EventHandler(this, &conso::previousbutton_Click);
@@ -224,10 +222,9 @@ namespace allmodel {
 				// 
 				this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 				this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox1->Location = System::Drawing::Point(2884, 25);
-				this->pictureBox1->Margin = System::Windows::Forms::Padding(6);
+				this->pictureBox1->Location = System::Drawing::Point(1442, 13);
 				this->pictureBox1->Name = L"pictureBox1";
-				this->pictureBox1->Size = System::Drawing::Size(900, 865);
+				this->pictureBox1->Size = System::Drawing::Size(450, 450);
 				this->pictureBox1->TabIndex = 59;
 				this->pictureBox1->TabStop = false;
 				// 
@@ -235,19 +232,17 @@ namespace allmodel {
 				// 
 				this->decorleft->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"decorleft.BackgroundImage")));
 				this->decorleft->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->decorleft->Location = System::Drawing::Point(24, 25);
-				this->decorleft->Margin = System::Windows::Forms::Padding(6);
+				this->decorleft->Location = System::Drawing::Point(12, 13);
 				this->decorleft->Name = L"decorleft";
-				this->decorleft->Size = System::Drawing::Size(900, 865);
+				this->decorleft->Size = System::Drawing::Size(450, 450);
 				this->decorleft->TabIndex = 58;
 				this->decorleft->TabStop = false;
 				// 
 				// progressBar1
 				// 
-				this->progressBar1->Location = System::Drawing::Point(886, 1819);
-				this->progressBar1->Margin = System::Windows::Forms::Padding(6);
+				this->progressBar1->Location = System::Drawing::Point(443, 946);
 				this->progressBar1->Name = L"progressBar1";
-				this->progressBar1->Size = System::Drawing::Size(2000, 67);
+				this->progressBar1->Size = System::Drawing::Size(1000, 35);
 				this->progressBar1->TabIndex = 57;
 				this->progressBar1->Value = 20;
 				this->progressBar1->Click += gcnew System::EventHandler(this, &conso::progressBar1_Click);
@@ -259,10 +254,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label2->Location = System::Drawing::Point(1676, 308);
-				this->label2->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
+				this->label2->Location = System::Drawing::Point(838, 160);
+				this->label2->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->label2->Name = L"label2";
-				this->label2->Size = System::Drawing::Size(635, 165);
+				this->label2->Size = System::Drawing::Size(244, 82);
 				this->label2->TabIndex = 56;
 				this->label2->Text = L"พยัญชนะ";
 				// 
@@ -273,10 +268,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->lesson3->Location = System::Drawing::Point(940, 19);
-				this->lesson3->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
+				this->lesson3->Location = System::Drawing::Point(470, 10);
+				this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->lesson3->Name = L"lesson3";
-				this->lesson3->Size = System::Drawing::Size(1946, 301);
+				this->lesson3->Size = System::Drawing::Size(973, 150);
 				this->lesson3->TabIndex = 55;
 				this->lesson3->Text = L"Lesson 0 : pinyin";
 				// 
@@ -284,10 +279,9 @@ namespace allmodel {
 				// 
 				this->fsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"fsound.BackgroundImage")));
 				this->fsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->fsound->Location = System::Drawing::Point(1032, 971);
-				this->fsound->Margin = System::Windows::Forms::Padding(6);
+				this->fsound->Location = System::Drawing::Point(516, 505);
 				this->fsound->Name = L"fsound";
-				this->fsound->Size = System::Drawing::Size(80, 77);
+				this->fsound->Size = System::Drawing::Size(40, 40);
 				this->fsound->TabIndex = 151;
 				this->fsound->UseVisualStyleBackColor = true;
 				this->fsound->Click += gcnew System::EventHandler(this, &conso::fsound_Click);
@@ -299,10 +293,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->f->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->f->Location = System::Drawing::Point(800, 956);
-				this->f->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->f->Location = System::Drawing::Point(400, 497);
 				this->f->Name = L"f";
-				this->f->Size = System::Drawing::Size(282, 111);
+				this->f->Size = System::Drawing::Size(103, 55);
 				this->f->TabIndex = 150;
 				this->f->Text = L"f ฟัว";
 				// 
@@ -310,10 +303,9 @@ namespace allmodel {
 				// 
 				this->msound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"msound.BackgroundImage")));
 				this->msound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->msound->Location = System::Drawing::Point(1032, 823);
-				this->msound->Margin = System::Windows::Forms::Padding(6);
+				this->msound->Location = System::Drawing::Point(516, 428);
 				this->msound->Name = L"msound";
-				this->msound->Size = System::Drawing::Size(80, 77);
+				this->msound->Size = System::Drawing::Size(40, 40);
 				this->msound->TabIndex = 149;
 				this->msound->UseVisualStyleBackColor = true;
 				this->msound->Click += gcnew System::EventHandler(this, &conso::msound_Click);
@@ -325,10 +317,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->m->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->m->Location = System::Drawing::Point(760, 804);
-				this->m->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->m->Location = System::Drawing::Point(380, 418);
 				this->m->Name = L"m";
-				this->m->Size = System::Drawing::Size(338, 111);
+				this->m->Size = System::Drawing::Size(122, 55);
 				this->m->TabIndex = 148;
 				this->m->Text = L"m มัว";
 				// 
@@ -336,10 +327,9 @@ namespace allmodel {
 				// 
 				this->psound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"psound.BackgroundImage")));
 				this->psound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->psound->Location = System::Drawing::Point(1032, 669);
-				this->psound->Margin = System::Windows::Forms::Padding(6);
+				this->psound->Location = System::Drawing::Point(516, 348);
 				this->psound->Name = L"psound";
-				this->psound->Size = System::Drawing::Size(80, 77);
+				this->psound->Size = System::Drawing::Size(40, 40);
 				this->psound->TabIndex = 147;
 				this->psound->UseVisualStyleBackColor = true;
 				this->psound->Click += gcnew System::EventHandler(this, &conso::psound_Click);
@@ -351,10 +341,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->p->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->p->Location = System::Drawing::Point(780, 652);
-				this->p->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->p->Location = System::Drawing::Point(390, 339);
 				this->p->Name = L"p";
-				this->p->Size = System::Drawing::Size(324, 111);
+				this->p->Size = System::Drawing::Size(113, 55);
 				this->p->TabIndex = 146;
 				this->p->Text = L"p พัว";
 				// 
@@ -362,10 +351,9 @@ namespace allmodel {
 				// 
 				this->bsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"bsound.BackgroundImage")));
 				this->bsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->bsound->Location = System::Drawing::Point(1032, 519);
-				this->bsound->Margin = System::Windows::Forms::Padding(6);
+				this->bsound->Location = System::Drawing::Point(516, 270);
 				this->bsound->Name = L"bsound";
-				this->bsound->Size = System::Drawing::Size(80, 77);
+				this->bsound->Size = System::Drawing::Size(40, 40);
 				this->bsound->TabIndex = 145;
 				this->bsound->UseVisualStyleBackColor = true;
 				this->bsound->Click += gcnew System::EventHandler(this, &conso::bsound_Click);
@@ -377,10 +365,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->b->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->b->Location = System::Drawing::Point(780, 502);
-				this->b->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->b->Location = System::Drawing::Point(390, 261);
 				this->b->Name = L"b";
-				this->b->Size = System::Drawing::Size(290, 111);
+				this->b->Size = System::Drawing::Size(107, 55);
 				this->b->TabIndex = 144;
 				this->b->Text = L"b บัว";
 				// 
@@ -388,10 +375,9 @@ namespace allmodel {
 				// 
 				this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
 				this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox2->Location = System::Drawing::Point(684, 477);
-				this->pictureBox2->Margin = System::Windows::Forms::Padding(6);
+				this->pictureBox2->Location = System::Drawing::Point(342, 248);
 				this->pictureBox2->Name = L"pictureBox2";
-				this->pictureBox2->Size = System::Drawing::Size(480, 612);
+				this->pictureBox2->Size = System::Drawing::Size(240, 318);
 				this->pictureBox2->TabIndex = 143;
 				this->pictureBox2->TabStop = false;
 				// 
@@ -399,10 +385,9 @@ namespace allmodel {
 				// 
 				this->rsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"rsound.BackgroundImage")));
 				this->rsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->rsound->Location = System::Drawing::Point(1032, 1596);
-				this->rsound->Margin = System::Windows::Forms::Padding(6);
+				this->rsound->Location = System::Drawing::Point(516, 830);
 				this->rsound->Name = L"rsound";
-				this->rsound->Size = System::Drawing::Size(80, 77);
+				this->rsound->Size = System::Drawing::Size(40, 40);
 				this->rsound->TabIndex = 160;
 				this->rsound->UseVisualStyleBackColor = true;
 				this->rsound->Click += gcnew System::EventHandler(this, &conso::rsound_Click);
@@ -414,10 +399,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->r->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->r->Location = System::Drawing::Point(802, 1581);
-				this->r->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->r->Location = System::Drawing::Point(401, 822);
 				this->r->Name = L"r";
-				this->r->Size = System::Drawing::Size(338, 111);
+				this->r->Size = System::Drawing::Size(119, 55);
 				this->r->TabIndex = 159;
 				this->r->Text = L"r ยรือ";
 				// 
@@ -425,10 +409,9 @@ namespace allmodel {
 				// 
 				this->shsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"shsound.BackgroundImage")));
 				this->shsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->shsound->Location = System::Drawing::Point(1032, 1448);
-				this->shsound->Margin = System::Windows::Forms::Padding(6);
+				this->shsound->Location = System::Drawing::Point(516, 753);
 				this->shsound->Name = L"shsound";
-				this->shsound->Size = System::Drawing::Size(80, 77);
+				this->shsound->Size = System::Drawing::Size(40, 40);
 				this->shsound->TabIndex = 158;
 				this->shsound->UseVisualStyleBackColor = true;
 				this->shsound->Click += gcnew System::EventHandler(this, &conso::shsound_Click);
@@ -440,10 +423,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->sh->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->sh->Location = System::Drawing::Point(732, 1429);
-				this->sh->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->sh->Location = System::Drawing::Point(366, 743);
 				this->sh->Name = L"sh";
-				this->sh->Size = System::Drawing::Size(387, 111);
+				this->sh->Size = System::Drawing::Size(157, 55);
 				this->sh->TabIndex = 157;
 				this->sh->Text = L"sh ซรือ";
 				// 
@@ -451,10 +433,9 @@ namespace allmodel {
 				// 
 				this->chsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"chsound.BackgroundImage")));
 				this->chsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->chsound->Location = System::Drawing::Point(1032, 1294);
-				this->chsound->Margin = System::Windows::Forms::Padding(6);
+				this->chsound->Location = System::Drawing::Point(516, 673);
 				this->chsound->Name = L"chsound";
-				this->chsound->Size = System::Drawing::Size(80, 77);
+				this->chsound->Size = System::Drawing::Size(40, 40);
 				this->chsound->TabIndex = 156;
 				this->chsound->UseVisualStyleBackColor = true;
 				this->chsound->Click += gcnew System::EventHandler(this, &conso::chsound_Click);
@@ -466,10 +447,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->ch->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->ch->Location = System::Drawing::Point(732, 1277);
-				this->ch->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->ch->Location = System::Drawing::Point(366, 664);
 				this->ch->Name = L"ch";
-				this->ch->Size = System::Drawing::Size(381, 111);
+				this->ch->Size = System::Drawing::Size(159, 55);
 				this->ch->TabIndex = 155;
 				this->ch->Text = L"ch ชรือ";
 				// 
@@ -477,10 +457,9 @@ namespace allmodel {
 				// 
 				this->zhsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"zhsound.BackgroundImage")));
 				this->zhsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->zhsound->Location = System::Drawing::Point(1032, 1144);
-				this->zhsound->Margin = System::Windows::Forms::Padding(6);
+				this->zhsound->Location = System::Drawing::Point(516, 595);
 				this->zhsound->Name = L"zhsound";
-				this->zhsound->Size = System::Drawing::Size(80, 77);
+				this->zhsound->Size = System::Drawing::Size(40, 40);
 				this->zhsound->TabIndex = 154;
 				this->zhsound->UseVisualStyleBackColor = true;
 				this->zhsound->Click += gcnew System::EventHandler(this, &conso::zhsound_Click);
@@ -492,10 +471,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->zh->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->zh->Location = System::Drawing::Point(744, 1127);
-				this->zh->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->zh->Location = System::Drawing::Point(372, 586);
 				this->zh->Name = L"zh";
-				this->zh->Size = System::Drawing::Size(426, 111);
+				this->zh->Size = System::Drawing::Size(150, 55);
 				this->zh->TabIndex = 153;
 				this->zh->Text = L"zh จรือ";
 				// 
@@ -503,10 +481,9 @@ namespace allmodel {
 				// 
 				this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
 				this->pictureBox3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox3->Location = System::Drawing::Point(684, 1102);
-				this->pictureBox3->Margin = System::Windows::Forms::Padding(6);
+				this->pictureBox3->Location = System::Drawing::Point(342, 573);
 				this->pictureBox3->Name = L"pictureBox3";
-				this->pictureBox3->Size = System::Drawing::Size(480, 612);
+				this->pictureBox3->Size = System::Drawing::Size(240, 318);
 				this->pictureBox3->TabIndex = 152;
 				this->pictureBox3->TabStop = false;
 				// 
@@ -514,10 +491,9 @@ namespace allmodel {
 				// 
 				this->ysound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"ysound.BackgroundImage")));
 				this->ysound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->ysound->Location = System::Drawing::Point(3002, 971);
-				this->ysound->Margin = System::Windows::Forms::Padding(6);
+				this->ysound->Location = System::Drawing::Point(1501, 505);
 				this->ysound->Name = L"ysound";
-				this->ysound->Size = System::Drawing::Size(80, 77);
+				this->ysound->Size = System::Drawing::Size(40, 40);
 				this->ysound->TabIndex = 169;
 				this->ysound->UseVisualStyleBackColor = true;
 				this->ysound->Click += gcnew System::EventHandler(this, &conso::ysound_Click);
@@ -529,10 +505,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->y->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->y->Location = System::Drawing::Point(2780, 956);
-				this->y->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->y->Location = System::Drawing::Point(1390, 497);
 				this->y->Name = L"y";
-				this->y->Size = System::Drawing::Size(212, 111);
+				this->y->Size = System::Drawing::Size(82, 55);
 				this->y->TabIndex = 168;
 				this->y->Text = L"y อี";
 				// 
@@ -540,10 +515,9 @@ namespace allmodel {
 				// 
 				this->xsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"xsound.BackgroundImage")));
 				this->xsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->xsound->Location = System::Drawing::Point(3002, 823);
-				this->xsound->Margin = System::Windows::Forms::Padding(6);
+				this->xsound->Location = System::Drawing::Point(1501, 428);
 				this->xsound->Name = L"xsound";
-				this->xsound->Size = System::Drawing::Size(80, 77);
+				this->xsound->Size = System::Drawing::Size(40, 40);
 				this->xsound->TabIndex = 167;
 				this->xsound->UseVisualStyleBackColor = true;
 				this->xsound->Click += gcnew System::EventHandler(this, &conso::xsound_Click);
@@ -555,10 +529,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->x->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->x->Location = System::Drawing::Point(2770, 804);
-				this->x->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->x->Location = System::Drawing::Point(1385, 418);
 				this->x->Name = L"x";
-				this->x->Size = System::Drawing::Size(227, 111);
+				this->x->Size = System::Drawing::Size(87, 55);
 				this->x->TabIndex = 166;
 				this->x->Text = L"x ซี";
 				// 
@@ -566,10 +539,9 @@ namespace allmodel {
 				// 
 				this->qsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"qsound.BackgroundImage")));
 				this->qsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->qsound->Location = System::Drawing::Point(3002, 669);
-				this->qsound->Margin = System::Windows::Forms::Padding(6);
+				this->qsound->Location = System::Drawing::Point(1501, 348);
 				this->qsound->Name = L"qsound";
-				this->qsound->Size = System::Drawing::Size(80, 77);
+				this->qsound->Size = System::Drawing::Size(40, 40);
 				this->qsound->TabIndex = 165;
 				this->qsound->UseVisualStyleBackColor = true;
 				this->qsound->Click += gcnew System::EventHandler(this, &conso::qsound_Click);
@@ -581,10 +553,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->q->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->q->Location = System::Drawing::Point(2760, 652);
-				this->q->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->q->Location = System::Drawing::Point(1380, 339);
 				this->q->Name = L"q";
-				this->q->Size = System::Drawing::Size(227, 111);
+				this->q->Size = System::Drawing::Size(91, 55);
 				this->q->TabIndex = 164;
 				this->q->Text = L"q ชี";
 				// 
@@ -592,10 +563,9 @@ namespace allmodel {
 				// 
 				this->jsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"jsound.BackgroundImage")));
 				this->jsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->jsound->Location = System::Drawing::Point(3002, 519);
-				this->jsound->Margin = System::Windows::Forms::Padding(6);
+				this->jsound->Location = System::Drawing::Point(1501, 270);
 				this->jsound->Name = L"jsound";
-				this->jsound->Size = System::Drawing::Size(80, 77);
+				this->jsound->Size = System::Drawing::Size(40, 40);
 				this->jsound->TabIndex = 163;
 				this->jsound->UseVisualStyleBackColor = true;
 				this->jsound->Click += gcnew System::EventHandler(this, &conso::jsound_Click);
@@ -607,10 +577,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->j->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->j->Location = System::Drawing::Point(2786, 502);
-				this->j->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->j->Location = System::Drawing::Point(1393, 261);
 				this->j->Name = L"j";
-				this->j->Size = System::Drawing::Size(251, 111);
+				this->j->Size = System::Drawing::Size(72, 55);
 				this->j->TabIndex = 162;
 				this->j->Text = L"j จี";
 				// 
@@ -618,10 +587,9 @@ namespace allmodel {
 				// 
 				this->pictureBox4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.BackgroundImage")));
 				this->pictureBox4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox4->Location = System::Drawing::Point(2654, 477);
-				this->pictureBox4->Margin = System::Windows::Forms::Padding(6);
+				this->pictureBox4->Location = System::Drawing::Point(1327, 248);
 				this->pictureBox4->Name = L"pictureBox4";
-				this->pictureBox4->Size = System::Drawing::Size(480, 612);
+				this->pictureBox4->Size = System::Drawing::Size(240, 318);
 				this->pictureBox4->TabIndex = 161;
 				this->pictureBox4->TabStop = false;
 				// 
@@ -629,10 +597,9 @@ namespace allmodel {
 				// 
 				this->pictureBox5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.BackgroundImage")));
 				this->pictureBox5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox5->Location = System::Drawing::Point(1444, 477);
-				this->pictureBox5->Margin = System::Windows::Forms::Padding(6);
+				this->pictureBox5->Location = System::Drawing::Point(722, 248);
 				this->pictureBox5->Name = L"pictureBox5";
-				this->pictureBox5->Size = System::Drawing::Size(960, 612);
+				this->pictureBox5->Size = System::Drawing::Size(480, 318);
 				this->pictureBox5->TabIndex = 170;
 				this->pictureBox5->TabStop = false;
 				// 
@@ -640,10 +607,9 @@ namespace allmodel {
 				// 
 				this->button5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button5.BackgroundImage")));
 				this->button5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button5->Location = System::Drawing::Point(1794, 823);
-				this->button5->Margin = System::Windows::Forms::Padding(6);
+				this->button5->Location = System::Drawing::Point(897, 428);
 				this->button5->Name = L"button5";
-				this->button5->Size = System::Drawing::Size(80, 77);
+				this->button5->Size = System::Drawing::Size(40, 40);
 				this->button5->TabIndex = 176;
 				this->button5->UseVisualStyleBackColor = true;
 				this->button5->Click += gcnew System::EventHandler(this, &conso::button5_Click);
@@ -655,10 +621,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->g->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->g->Location = System::Drawing::Point(1506, 804);
-				this->g->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->g->Location = System::Drawing::Point(753, 418);
 				this->g->Name = L"g";
-				this->g->Size = System::Drawing::Size(231, 111);
+				this->g->Size = System::Drawing::Size(120, 55);
 				this->g->TabIndex = 175;
 				this->g->Text = L"g เกอ";
 				// 
@@ -666,10 +631,9 @@ namespace allmodel {
 				// 
 				this->button6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button6.BackgroundImage")));
 				this->button6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button6->Location = System::Drawing::Point(1794, 669);
-				this->button6->Margin = System::Windows::Forms::Padding(6);
+				this->button6->Location = System::Drawing::Point(897, 348);
 				this->button6->Name = L"button6";
-				this->button6->Size = System::Drawing::Size(80, 77);
+				this->button6->Size = System::Drawing::Size(40, 40);
 				this->button6->TabIndex = 174;
 				this->button6->UseVisualStyleBackColor = true;
 				this->button6->Click += gcnew System::EventHandler(this, &conso::button6_Click);
@@ -681,10 +645,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->n->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->n->Location = System::Drawing::Point(1506, 652);
-				this->n->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->n->Location = System::Drawing::Point(753, 339);
 				this->n->Name = L"n";
-				this->n->Size = System::Drawing::Size(235, 111);
+				this->n->Size = System::Drawing::Size(125, 55);
 				this->n->TabIndex = 173;
 				this->n->Text = L"n เนอ";
 				// 
@@ -692,10 +655,9 @@ namespace allmodel {
 				// 
 				this->dsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"dsound.BackgroundImage")));
 				this->dsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->dsound->Location = System::Drawing::Point(1794, 519);
-				this->dsound->Margin = System::Windows::Forms::Padding(6);
+				this->dsound->Location = System::Drawing::Point(897, 270);
 				this->dsound->Name = L"dsound";
-				this->dsound->Size = System::Drawing::Size(80, 77);
+				this->dsound->Size = System::Drawing::Size(40, 40);
 				this->dsound->TabIndex = 172;
 				this->dsound->UseVisualStyleBackColor = true;
 				this->dsound->Click += gcnew System::EventHandler(this, &conso::dsound_Click);
@@ -707,10 +669,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->d->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->d->Location = System::Drawing::Point(1506, 502);
-				this->d->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->d->Location = System::Drawing::Point(753, 261);
 				this->d->Name = L"d";
-				this->d->Size = System::Drawing::Size(256, 111);
+				this->d->Size = System::Drawing::Size(122, 55);
 				this->d->TabIndex = 171;
 				this->d->Text = L"d เตอ";
 				// 
@@ -718,10 +679,9 @@ namespace allmodel {
 				// 
 				this->button8->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button8.BackgroundImage")));
 				this->button8->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button8->Location = System::Drawing::Point(2272, 823);
-				this->button8->Margin = System::Windows::Forms::Padding(6);
+				this->button8->Location = System::Drawing::Point(1136, 428);
 				this->button8->Name = L"button8";
-				this->button8->Size = System::Drawing::Size(80, 77);
+				this->button8->Size = System::Drawing::Size(40, 40);
 				this->button8->TabIndex = 182;
 				this->button8->UseVisualStyleBackColor = true;
 				this->button8->Click += gcnew System::EventHandler(this, &conso::button8_Click);
@@ -733,10 +693,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->k->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->k->Location = System::Drawing::Point(1964, 804);
-				this->k->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->k->Location = System::Drawing::Point(982, 418);
 				this->k->Name = L"k";
-				this->k->Size = System::Drawing::Size(247, 111);
+				this->k->Size = System::Drawing::Size(121, 55);
 				this->k->TabIndex = 181;
 				this->k->Text = L"k เคอ";
 				// 
@@ -744,10 +703,9 @@ namespace allmodel {
 				// 
 				this->button9->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button9.BackgroundImage")));
 				this->button9->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button9->Location = System::Drawing::Point(2272, 669);
-				this->button9->Margin = System::Windows::Forms::Padding(6);
+				this->button9->Location = System::Drawing::Point(1136, 348);
 				this->button9->Name = L"button9";
-				this->button9->Size = System::Drawing::Size(80, 77);
+				this->button9->Size = System::Drawing::Size(40, 40);
 				this->button9->TabIndex = 180;
 				this->button9->UseVisualStyleBackColor = true;
 				this->button9->Click += gcnew System::EventHandler(this, &conso::button9_Click);
@@ -759,10 +717,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->l->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->l->Location = System::Drawing::Point(1984, 652);
-				this->l->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->l->Location = System::Drawing::Point(992, 339);
 				this->l->Name = L"l";
-				this->l->Size = System::Drawing::Size(234, 111);
+				this->l->Size = System::Drawing::Size(107, 55);
 				this->l->TabIndex = 179;
 				this->l->Text = L"l เลอ";
 				// 
@@ -770,10 +727,9 @@ namespace allmodel {
 				// 
 				this->button10->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button10.BackgroundImage")));
 				this->button10->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button10->Location = System::Drawing::Point(2272, 519);
-				this->button10->Margin = System::Windows::Forms::Padding(6);
+				this->button10->Location = System::Drawing::Point(1136, 270);
 				this->button10->Name = L"button10";
-				this->button10->Size = System::Drawing::Size(80, 77);
+				this->button10->Size = System::Drawing::Size(40, 40);
 				this->button10->TabIndex = 178;
 				this->button10->UseVisualStyleBackColor = true;
 				this->button10->Click += gcnew System::EventHandler(this, &conso::button10_Click);
@@ -785,10 +741,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->t->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->t->Location = System::Drawing::Point(1972, 502);
-				this->t->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->t->Location = System::Drawing::Point(986, 261);
 				this->t->Name = L"t";
-				this->t->Size = System::Drawing::Size(207, 111);
+				this->t->Size = System::Drawing::Size(114, 55);
 				this->t->TabIndex = 177;
 				this->t->Text = L"t เทอ";
 				// 
@@ -796,10 +751,9 @@ namespace allmodel {
 				// 
 				this->button11->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button11.BackgroundImage")));
 				this->button11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button11->Location = System::Drawing::Point(2014, 967);
-				this->button11->Margin = System::Windows::Forms::Padding(6);
+				this->button11->Location = System::Drawing::Point(1007, 503);
 				this->button11->Name = L"button11";
-				this->button11->Size = System::Drawing::Size(80, 77);
+				this->button11->Size = System::Drawing::Size(40, 40);
 				this->button11->TabIndex = 184;
 				this->button11->UseVisualStyleBackColor = true;
 				this->button11->Click += gcnew System::EventHandler(this, &conso::button11_Click);
@@ -811,10 +765,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->h->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->h->Location = System::Drawing::Point(1760, 956);
-				this->h->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->h->Location = System::Drawing::Point(880, 497);
 				this->h->Name = L"h";
-				this->h->Size = System::Drawing::Size(231, 111);
+				this->h->Size = System::Drawing::Size(121, 55);
 				this->h->TabIndex = 183;
 				this->h->Text = L"h เฮอ";
 				// 
@@ -822,10 +775,9 @@ namespace allmodel {
 				// 
 				this->pictureBox6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.BackgroundImage")));
 				this->pictureBox6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox6->Location = System::Drawing::Point(1992, 1167);
-				this->pictureBox6->Margin = System::Windows::Forms::Padding(6);
+				this->pictureBox6->Location = System::Drawing::Point(996, 607);
 				this->pictureBox6->Name = L"pictureBox6";
-				this->pictureBox6->Size = System::Drawing::Size(480, 154);
+				this->pictureBox6->Size = System::Drawing::Size(240, 80);
 				this->pictureBox6->TabIndex = 185;
 				this->pictureBox6->TabStop = false;
 				// 
@@ -833,10 +785,9 @@ namespace allmodel {
 				// 
 				this->wsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"wsound.BackgroundImage")));
 				this->wsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->wsound->Location = System::Drawing::Point(2316, 1202);
-				this->wsound->Margin = System::Windows::Forms::Padding(6);
+				this->wsound->Location = System::Drawing::Point(1158, 625);
 				this->wsound->Name = L"wsound";
-				this->wsound->Size = System::Drawing::Size(80, 77);
+				this->wsound->Size = System::Drawing::Size(40, 40);
 				this->wsound->TabIndex = 187;
 				this->wsound->UseVisualStyleBackColor = true;
 				this->wsound->Click += gcnew System::EventHandler(this, &conso::wsound_Click);
@@ -848,10 +799,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->w->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->w->Location = System::Drawing::Point(2070, 1190);
-				this->w->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->w->Location = System::Drawing::Point(1035, 619);
 				this->w->Name = L"w";
-				this->w->Size = System::Drawing::Size(238, 111);
+				this->w->Size = System::Drawing::Size(95, 55);
 				this->w->TabIndex = 186;
 				this->w->Text = L"w อู";
 				// 
@@ -859,10 +809,9 @@ namespace allmodel {
 				// 
 				this->pictureBox7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox7.BackgroundImage")));
 				this->pictureBox7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox7->Location = System::Drawing::Point(1394, 1167);
-				this->pictureBox7->Margin = System::Windows::Forms::Padding(6);
+				this->pictureBox7->Location = System::Drawing::Point(697, 607);
 				this->pictureBox7->Name = L"pictureBox7";
-				this->pictureBox7->Size = System::Drawing::Size(480, 456);
+				this->pictureBox7->Size = System::Drawing::Size(240, 237);
 				this->pictureBox7->TabIndex = 188;
 				this->pictureBox7->TabStop = false;
 				// 
@@ -870,10 +819,9 @@ namespace allmodel {
 				// 
 				this->ssound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"ssound.BackgroundImage")));
 				this->ssound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->ssound->Location = System::Drawing::Point(1740, 1512);
-				this->ssound->Margin = System::Windows::Forms::Padding(6);
+				this->ssound->Location = System::Drawing::Point(870, 786);
 				this->ssound->Name = L"ssound";
-				this->ssound->Size = System::Drawing::Size(80, 77);
+				this->ssound->Size = System::Drawing::Size(40, 40);
 				this->ssound->TabIndex = 194;
 				this->ssound->UseVisualStyleBackColor = true;
 				this->ssound->Click += gcnew System::EventHandler(this, &conso::ssound_Click);
@@ -885,10 +833,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->s->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->s->Location = System::Drawing::Point(1470, 1492);
-				this->s->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->s->Location = System::Drawing::Point(735, 776);
 				this->s->Name = L"s";
-				this->s->Size = System::Drawing::Size(275, 111);
+				this->s->Size = System::Drawing::Size(110, 55);
 				this->s->TabIndex = 193;
 				this->s->Text = L"s ซือ";
 				// 
@@ -896,10 +843,9 @@ namespace allmodel {
 				// 
 				this->csound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"csound.BackgroundImage")));
 				this->csound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->csound->Location = System::Drawing::Point(1740, 1358);
-				this->csound->Margin = System::Windows::Forms::Padding(6);
+				this->csound->Location = System::Drawing::Point(870, 706);
 				this->csound->Name = L"csound";
-				this->csound->Size = System::Drawing::Size(80, 77);
+				this->csound->Size = System::Drawing::Size(40, 40);
 				this->csound->TabIndex = 192;
 				this->csound->UseVisualStyleBackColor = true;
 				this->csound->Click += gcnew System::EventHandler(this, &conso::csound_Click);
@@ -911,10 +857,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->c->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->c->Location = System::Drawing::Point(1470, 1340);
-				this->c->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->c->Location = System::Drawing::Point(735, 697);
 				this->c->Name = L"c";
-				this->c->Size = System::Drawing::Size(269, 111);
+				this->c->Size = System::Drawing::Size(112, 55);
 				this->c->TabIndex = 191;
 				this->c->Text = L"c ชือ";
 				// 
@@ -922,10 +867,9 @@ namespace allmodel {
 				// 
 				this->zsound->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"zsound.BackgroundImage")));
 				this->zsound->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->zsound->Location = System::Drawing::Point(1740, 1208);
-				this->zsound->Margin = System::Windows::Forms::Padding(6);
+				this->zsound->Location = System::Drawing::Point(870, 628);
 				this->zsound->Name = L"zsound";
-				this->zsound->Size = System::Drawing::Size(80, 77);
+				this->zsound->Size = System::Drawing::Size(40, 40);
 				this->zsound->TabIndex = 190;
 				this->zsound->UseVisualStyleBackColor = true;
 				this->zsound->Click += gcnew System::EventHandler(this, &conso::zsound_Click);
@@ -937,18 +881,17 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->z->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->z->Location = System::Drawing::Point(1470, 1190);
-				this->z->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->z->Location = System::Drawing::Point(735, 619);
 				this->z->Name = L"z";
-				this->z->Size = System::Drawing::Size(314, 111);
+				this->z->Size = System::Drawing::Size(103, 55);
 				this->z->TabIndex = 189;
 				this->z->Text = L"z จือ";
 				// 
 				// conso
 				// 
-				this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-				this->ClientSize = System::Drawing::Size(3076, 1879);
+				this->ClientSize = System::Drawing::Size(1904, 1041);
 				this->Controls->Add(this->ssound);
 				this->Controls->Add(this->s);
 				this->Controls->Add(this->csound);
@@ -1008,9 +951,8 @@ namespace allmodel {
 				this->Controls->Add(this->progressBar1);
 				this->Controls->Add(this->label2);
 				this->Controls->Add(this->lesson3);
-				this->Margin = System::Windows::Forms::Padding(6);
-				this->MaximumSize = System::Drawing::Size(3814, 2011);
-				this->MinimumSize = System::Drawing::Size(3070, 1822);
+				this->MaximumSize = System::Drawing::Size(1920, 1080);
+				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"conso";
 				this->Text = L"conso";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

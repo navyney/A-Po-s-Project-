@@ -205,5 +205,5 @@ namespace allmodel {
 			this->Close();
 			switchToformcon1 = true;
 		}
-		};
+};
 	}

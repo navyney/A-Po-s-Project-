@@ -135,7 +135,7 @@ namespace allmodel {
 				this->GoQuiz2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
 				this->GoQuiz2->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-				this->GoQuiz2->Location = System::Drawing::Point(637, 294);
+				this->GoQuiz2->Location = System::Drawing::Point(637, 295);
 				this->GoQuiz2->Margin = System::Windows::Forms::Padding(2);
 				this->GoQuiz2->Name = L"GoQuiz2";
 				this->GoQuiz2->Size = System::Drawing::Size(629, 168);
@@ -161,7 +161,7 @@ namespace allmodel {
 				this->Golesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
 				this->Golesson3->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-				this->Golesson3->Location = System::Drawing::Point(637, 568);
+				this->Golesson3->Location = System::Drawing::Point(637, 569);
 				this->Golesson3->Margin = System::Windows::Forms::Padding(2);
 				this->Golesson3->Name = L"Golesson3";
 				this->Golesson3->Size = System::Drawing::Size(629, 168);
@@ -175,7 +175,7 @@ namespace allmodel {
 				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 				this->BackColor = System::Drawing::Color::White;
-				this->ClientSize = System::Drawing::Size(1904, 1039);
+				this->ClientSize = System::Drawing::Size(1904, 1041);
 				this->Controls->Add(this->Golesson3);
 				this->Controls->Add(this->GoQuiz2);
 				this->Controls->Add(this->pictureBox3);
@@ -183,7 +183,7 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox1);
 				this->Controls->Add(this->button1);
 				this->Location = System::Drawing::Point(1920, 1080);
-				this->MaximumSize = System::Drawing::Size(1920, 1078);
+				this->MaximumSize = System::Drawing::Size(1920, 1080);
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"MenuQuiz2";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

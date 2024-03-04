@@ -245,15 +245,15 @@ namespace allmodel {
 				this->tableLayoutPanel1->Controls->Add(this->label26, 8, 2);
 				this->tableLayoutPanel1->Controls->Add(this->label25, 9, 2);
 				this->tableLayoutPanel1->Controls->Add(this->button4, 9, 3);
-				this->tableLayoutPanel1->Location = System::Drawing::Point(570, 521);
-				this->tableLayoutPanel1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+				this->tableLayoutPanel1->Location = System::Drawing::Point(285, 271);
+				this->tableLayoutPanel1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 				this->tableLayoutPanel1->Name = L"tableLayoutPanel1";
 				this->tableLayoutPanel1->RowCount = 4;
 				this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 25)));
 				this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 25)));
 				this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 25)));
 				this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 25)));
-				this->tableLayoutPanel1->Size = System::Drawing::Size(2686, 1044);
+				this->tableLayoutPanel1->Size = System::Drawing::Size(1343, 543);
 				this->tableLayoutPanel1->TabIndex = 0;
 				this->tableLayoutPanel1->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &number::tableLayoutPanel1_Paint);
 				// 
@@ -261,10 +261,9 @@ namespace allmodel {
 				// 
 				this->button12->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button12.BackgroundImage")));
 				this->button12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button12->Location = System::Drawing::Point(1617, 789);
-				this->button12->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button12->Location = System::Drawing::Point(810, 411);
 				this->button12->Name = L"button12";
-				this->button12->Size = System::Drawing::Size(130, 125);
+				this->button12->Size = System::Drawing::Size(65, 65);
 				this->button12->TabIndex = 39;
 				this->button12->UseVisualStyleBackColor = true;
 				this->button12->Click += gcnew System::EventHandler(this, &number::button12_Click);
@@ -273,10 +272,9 @@ namespace allmodel {
 				// 
 				this->button11->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button11.BackgroundImage")));
 				this->button11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button11->Location = System::Drawing::Point(545, 789);
-				this->button11->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button11->Location = System::Drawing::Point(274, 411);
 				this->button11->Name = L"button11";
-				this->button11->Size = System::Drawing::Size(130, 125);
+				this->button11->Size = System::Drawing::Size(65, 65);
 				this->button11->TabIndex = 38;
 				this->button11->UseVisualStyleBackColor = true;
 				this->button11->Click += gcnew System::EventHandler(this, &number::button11_Click);
@@ -285,10 +283,9 @@ namespace allmodel {
 				// 
 				this->button10->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button10.BackgroundImage")));
 				this->button10->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button10->Location = System::Drawing::Point(813, 789);
-				this->button10->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button10->Location = System::Drawing::Point(408, 411);
 				this->button10->Name = L"button10";
-				this->button10->Size = System::Drawing::Size(130, 125);
+				this->button10->Size = System::Drawing::Size(65, 65);
 				this->button10->TabIndex = 37;
 				this->button10->UseVisualStyleBackColor = true;
 				this->button10->Click += gcnew System::EventHandler(this, &number::button10_Click);
@@ -297,10 +294,9 @@ namespace allmodel {
 				// 
 				this->button7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button7.BackgroundImage")));
 				this->button7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button7->Location = System::Drawing::Point(9, 789);
-				this->button7->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button7->Location = System::Drawing::Point(6, 411);
 				this->button7->Name = L"button7";
-				this->button7->Size = System::Drawing::Size(130, 125);
+				this->button7->Size = System::Drawing::Size(65, 65);
 				this->button7->TabIndex = 36;
 				this->button7->UseVisualStyleBackColor = true;
 				this->button7->Click += gcnew System::EventHandler(this, &number::button7_Click);
@@ -309,10 +305,9 @@ namespace allmodel {
 				// 
 				this->button6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button6.BackgroundImage")));
 				this->button6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button6->Location = System::Drawing::Point(277, 789);
-				this->button6->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button6->Location = System::Drawing::Point(140, 411);
 				this->button6->Name = L"button6";
-				this->button6->Size = System::Drawing::Size(130, 125);
+				this->button6->Size = System::Drawing::Size(65, 65);
 				this->button6->TabIndex = 35;
 				this->button6->UseVisualStyleBackColor = true;
 				this->button6->Click += gcnew System::EventHandler(this, &number::button6_Click);
@@ -321,10 +316,9 @@ namespace allmodel {
 				// 
 				this->button5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button5.BackgroundImage")));
 				this->button5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button5->Location = System::Drawing::Point(1081, 789);
-				this->button5->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button5->Location = System::Drawing::Point(542, 411);
 				this->button5->Name = L"button5";
-				this->button5->Size = System::Drawing::Size(130, 125);
+				this->button5->Size = System::Drawing::Size(65, 65);
 				this->button5->TabIndex = 34;
 				this->button5->UseVisualStyleBackColor = true;
 				this->button5->Click += gcnew System::EventHandler(this, &number::button5_Click);
@@ -333,10 +327,9 @@ namespace allmodel {
 				// 
 				this->button3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button3.BackgroundImage")));
 				this->button3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button3->Location = System::Drawing::Point(1885, 789);
-				this->button3->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button3->Location = System::Drawing::Point(944, 411);
 				this->button3->Name = L"button3";
-				this->button3->Size = System::Drawing::Size(130, 125);
+				this->button3->Size = System::Drawing::Size(65, 65);
 				this->button3->TabIndex = 32;
 				this->button3->UseVisualStyleBackColor = true;
 				this->button3->Click += gcnew System::EventHandler(this, &number::button3_Click);
@@ -345,10 +338,9 @@ namespace allmodel {
 				// 
 				this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 				this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button1->Location = System::Drawing::Point(2153, 789);
-				this->button1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button1->Location = System::Drawing::Point(1078, 411);
 				this->button1->Name = L"button1";
-				this->button1->Size = System::Drawing::Size(130, 125);
+				this->button1->Size = System::Drawing::Size(65, 65);
 				this->button1->TabIndex = 31;
 				this->button1->UseVisualStyleBackColor = true;
 				this->button1->Click += gcnew System::EventHandler(this, &number::button1_Click);
@@ -357,10 +349,9 @@ namespace allmodel {
 				// 
 				this->button2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button2.BackgroundImage")));
 				this->button2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button2->Location = System::Drawing::Point(1349, 789);
-				this->button2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button2->Location = System::Drawing::Point(676, 411);
 				this->button2->Name = L"button2";
-				this->button2->Size = System::Drawing::Size(130, 125);
+				this->button2->Size = System::Drawing::Size(65, 65);
 				this->button2->TabIndex = 30;
 				this->button2->UseVisualStyleBackColor = true;
 				this->button2->Click += gcnew System::EventHandler(this, &number::button2_Click);
@@ -372,10 +363,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label11->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label11->Location = System::Drawing::Point(2151, 3);
-				this->label11->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label11->Location = System::Drawing::Point(1077, 3);
+				this->label11->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label11->Name = L"label11";
-				this->label11->Size = System::Drawing::Size(130, 152);
+				this->label11->Size = System::Drawing::Size(65, 76);
 				this->label11->TabIndex = 8;
 				this->label11->Text = L"9";
 				this->label11->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -387,10 +378,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label10->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label10->Location = System::Drawing::Point(1883, 3);
-				this->label10->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label10->Location = System::Drawing::Point(943, 3);
+				this->label10->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label10->Name = L"label10";
-				this->label10->Size = System::Drawing::Size(130, 152);
+				this->label10->Size = System::Drawing::Size(65, 76);
 				this->label10->TabIndex = 7;
 				this->label10->Text = L"8";
 				this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -402,10 +393,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label9->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label9->Location = System::Drawing::Point(1615, 3);
-				this->label9->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label9->Location = System::Drawing::Point(809, 3);
+				this->label9->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label9->Name = L"label9";
-				this->label9->Size = System::Drawing::Size(130, 152);
+				this->label9->Size = System::Drawing::Size(65, 76);
 				this->label9->TabIndex = 6;
 				this->label9->Text = L"7";
 				this->label9->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -417,10 +408,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label8->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label8->Location = System::Drawing::Point(1347, 3);
-				this->label8->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label8->Location = System::Drawing::Point(675, 3);
+				this->label8->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label8->Name = L"label8";
-				this->label8->Size = System::Drawing::Size(130, 152);
+				this->label8->Size = System::Drawing::Size(65, 76);
 				this->label8->TabIndex = 5;
 				this->label8->Text = L"6";
 				this->label8->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -432,10 +423,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label7->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label7->Location = System::Drawing::Point(1079, 3);
-				this->label7->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label7->Location = System::Drawing::Point(541, 3);
+				this->label7->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label7->Name = L"label7";
-				this->label7->Size = System::Drawing::Size(130, 152);
+				this->label7->Size = System::Drawing::Size(65, 76);
 				this->label7->TabIndex = 4;
 				this->label7->Text = L"5";
 				this->label7->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -447,10 +438,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label6->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label6->Location = System::Drawing::Point(811, 3);
-				this->label6->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label6->Location = System::Drawing::Point(407, 3);
+				this->label6->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label6->Name = L"label6";
-				this->label6->Size = System::Drawing::Size(130, 152);
+				this->label6->Size = System::Drawing::Size(65, 76);
 				this->label6->TabIndex = 3;
 				this->label6->Text = L"4";
 				this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -463,10 +454,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label12->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label12->Location = System::Drawing::Point(2419, 3);
-				this->label12->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label12->Location = System::Drawing::Point(1211, 3);
+				this->label12->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label12->Name = L"label12";
-				this->label12->Size = System::Drawing::Size(196, 152);
+				this->label12->Size = System::Drawing::Size(98, 76);
 				this->label12->TabIndex = 9;
 				this->label12->Text = L"10";
 				this->label12->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -479,10 +470,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label5->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label5->Location = System::Drawing::Point(543, 3);
-				this->label5->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label5->Location = System::Drawing::Point(273, 3);
+				this->label5->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label5->Name = L"label5";
-				this->label5->Size = System::Drawing::Size(130, 152);
+				this->label5->Size = System::Drawing::Size(65, 76);
 				this->label5->TabIndex = 2;
 				this->label5->Text = L"3";
 				this->label5->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -494,10 +485,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label4->Location = System::Drawing::Point(275, 3);
-				this->label4->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label4->Location = System::Drawing::Point(139, 3);
+				this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label4->Name = L"label4";
-				this->label4->Size = System::Drawing::Size(130, 152);
+				this->label4->Size = System::Drawing::Size(65, 76);
 				this->label4->TabIndex = 1;
 				this->label4->Text = L"2";
 				this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -509,10 +500,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label3->Location = System::Drawing::Point(7, 3);
-				this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label3->Location = System::Drawing::Point(5, 3);
+				this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label3->Name = L"label3";
-				this->label3->Size = System::Drawing::Size(130, 152);
+				this->label3->Size = System::Drawing::Size(65, 76);
 				this->label3->TabIndex = 0;
 				this->label3->Text = L"1";
 				this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -525,10 +516,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label13->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label13->Location = System::Drawing::Point(7, 263);
-				this->label13->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label13->Location = System::Drawing::Point(5, 138);
+				this->label13->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label13->Name = L"label13";
-				this->label13->Size = System::Drawing::Size(182, 152);
+				this->label13->Size = System::Drawing::Size(91, 76);
 				this->label13->TabIndex = 10;
 				this->label13->Text = L"一";
 				this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -540,10 +531,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label14->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label14->Location = System::Drawing::Point(275, 263);
-				this->label14->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label14->Location = System::Drawing::Point(139, 138);
+				this->label14->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label14->Name = L"label14";
-				this->label14->Size = System::Drawing::Size(182, 152);
+				this->label14->Size = System::Drawing::Size(91, 76);
 				this->label14->TabIndex = 11;
 				this->label14->Text = L"二";
 				this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -555,10 +546,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label21->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label21->Location = System::Drawing::Point(543, 263);
-				this->label21->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label21->Location = System::Drawing::Point(273, 138);
+				this->label21->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label21->Name = L"label21";
-				this->label21->Size = System::Drawing::Size(182, 152);
+				this->label21->Size = System::Drawing::Size(91, 76);
 				this->label21->TabIndex = 18;
 				this->label21->Text = L"三";
 				this->label21->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -570,10 +561,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label20->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label20->Location = System::Drawing::Point(811, 263);
-				this->label20->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label20->Location = System::Drawing::Point(407, 138);
+				this->label20->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label20->Name = L"label20";
-				this->label20->Size = System::Drawing::Size(182, 152);
+				this->label20->Size = System::Drawing::Size(91, 76);
 				this->label20->TabIndex = 17;
 				this->label20->Text = L"四";
 				this->label20->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -585,10 +576,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label19->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label19->Location = System::Drawing::Point(1079, 263);
-				this->label19->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label19->Location = System::Drawing::Point(541, 138);
+				this->label19->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label19->Name = L"label19";
-				this->label19->Size = System::Drawing::Size(182, 152);
+				this->label19->Size = System::Drawing::Size(91, 76);
 				this->label19->TabIndex = 16;
 				this->label19->Text = L"五";
 				this->label19->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -600,10 +591,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label24->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label24->Location = System::Drawing::Point(1347, 263);
-				this->label24->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label24->Location = System::Drawing::Point(675, 138);
+				this->label24->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label24->Name = L"label24";
-				this->label24->Size = System::Drawing::Size(182, 152);
+				this->label24->Size = System::Drawing::Size(91, 76);
 				this->label24->TabIndex = 21;
 				this->label24->Text = L"六";
 				this->label24->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -615,10 +606,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label15->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label15->Location = System::Drawing::Point(1615, 263);
-				this->label15->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label15->Location = System::Drawing::Point(809, 138);
+				this->label15->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label15->Name = L"label15";
-				this->label15->Size = System::Drawing::Size(182, 152);
+				this->label15->Size = System::Drawing::Size(91, 76);
 				this->label15->TabIndex = 12;
 				this->label15->Text = L"七";
 				this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -630,10 +621,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label17->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label17->Location = System::Drawing::Point(1883, 263);
-				this->label17->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label17->Location = System::Drawing::Point(943, 138);
+				this->label17->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label17->Name = L"label17";
-				this->label17->Size = System::Drawing::Size(182, 152);
+				this->label17->Size = System::Drawing::Size(91, 76);
 				this->label17->TabIndex = 14;
 				this->label17->Text = L"八";
 				this->label17->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -645,10 +636,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label18->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label18->Location = System::Drawing::Point(2151, 263);
-				this->label18->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label18->Location = System::Drawing::Point(1077, 138);
+				this->label18->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label18->Name = L"label18";
-				this->label18->Size = System::Drawing::Size(182, 152);
+				this->label18->Size = System::Drawing::Size(91, 76);
 				this->label18->TabIndex = 15;
 				this->label18->Text = L"九";
 				this->label18->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -660,10 +651,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label16->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label16->Location = System::Drawing::Point(2419, 263);
-				this->label16->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label16->Location = System::Drawing::Point(1211, 138);
+				this->label16->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label16->Name = L"label16";
-				this->label16->Size = System::Drawing::Size(182, 152);
+				this->label16->Size = System::Drawing::Size(91, 76);
 				this->label16->TabIndex = 13;
 				this->label16->Text = L"十";
 				this->label16->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -675,10 +666,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label23->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label23->Location = System::Drawing::Point(7, 523);
-				this->label23->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label23->Location = System::Drawing::Point(5, 273);
+				this->label23->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label23->Name = L"label23";
-				this->label23->Size = System::Drawing::Size(154, 136);
+				this->label23->Size = System::Drawing::Size(77, 68);
 				this->label23->TabIndex = 20;
 				this->label23->Text = L"Yī";
 				this->label23->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -690,10 +681,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label22->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label22->Location = System::Drawing::Point(275, 523);
-				this->label22->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label22->Location = System::Drawing::Point(139, 273);
+				this->label22->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label22->Name = L"label22";
-				this->label22->Size = System::Drawing::Size(162, 136);
+				this->label22->Size = System::Drawing::Size(81, 68);
 				this->label22->TabIndex = 19;
 				this->label22->Text = L"Èr";
 				this->label22->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -706,10 +697,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label30->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label30->Location = System::Drawing::Point(543, 523);
-				this->label30->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label30->Location = System::Drawing::Point(273, 273);
+				this->label30->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label30->Name = L"label30";
-				this->label30->Size = System::Drawing::Size(244, 136);
+				this->label30->Size = System::Drawing::Size(123, 68);
 				this->label30->TabIndex = 27;
 				this->label30->Text = L"Sān";
 				this->label30->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -721,10 +712,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label31->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label31->Location = System::Drawing::Point(811, 523);
-				this->label31->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label31->Location = System::Drawing::Point(407, 273);
+				this->label31->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label31->Name = L"label31";
-				this->label31->Size = System::Drawing::Size(152, 136);
+				this->label31->Size = System::Drawing::Size(76, 68);
 				this->label31->TabIndex = 28;
 				this->label31->Text = L"Sì";
 				this->label31->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -736,10 +727,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label28->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label28->Location = System::Drawing::Point(1079, 523);
-				this->label28->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label28->Location = System::Drawing::Point(541, 273);
+				this->label28->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label28->Name = L"label28";
-				this->label28->Size = System::Drawing::Size(215, 136);
+				this->label28->Size = System::Drawing::Size(107, 68);
 				this->label28->TabIndex = 25;
 				this->label28->Text = L"Wǔ";
 				this->label28->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -751,10 +742,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label29->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label29->Location = System::Drawing::Point(1347, 523);
-				this->label29->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label29->Location = System::Drawing::Point(675, 273);
+				this->label29->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label29->Name = L"label29";
-				this->label29->Size = System::Drawing::Size(210, 136);
+				this->label29->Size = System::Drawing::Size(106, 68);
 				this->label29->TabIndex = 26;
 				this->label29->Text = L"Liù";
 				this->label29->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -766,10 +757,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label32->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label32->Location = System::Drawing::Point(1615, 523);
-				this->label32->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label32->Location = System::Drawing::Point(809, 273);
+				this->label32->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label32->Name = L"label32";
-				this->label32->Size = System::Drawing::Size(163, 136);
+				this->label32->Size = System::Drawing::Size(82, 68);
 				this->label32->TabIndex = 29;
 				this->label32->Text = L"Qī";
 				this->label32->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -781,10 +772,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label27->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label27->Location = System::Drawing::Point(1883, 523);
-				this->label27->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label27->Location = System::Drawing::Point(943, 273);
+				this->label27->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label27->Name = L"label27";
-				this->label27->Size = System::Drawing::Size(188, 136);
+				this->label27->Size = System::Drawing::Size(95, 68);
 				this->label27->TabIndex = 24;
 				this->label27->Text = L"Bā";
 				this->label27->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -796,10 +787,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label26->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label26->Location = System::Drawing::Point(2151, 523);
-				this->label26->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label26->Location = System::Drawing::Point(1077, 273);
+				this->label26->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label26->Name = L"label26";
-				this->label26->Size = System::Drawing::Size(189, 136);
+				this->label26->Size = System::Drawing::Size(95, 68);
 				this->label26->TabIndex = 23;
 				this->label26->Text = L"Jiǔ";
 				this->label26->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -811,10 +802,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label25->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label25->Location = System::Drawing::Point(2419, 523);
-				this->label25->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				this->label25->Location = System::Drawing::Point(1211, 273);
+				this->label25->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->label25->Name = L"label25";
-				this->label25->Size = System::Drawing::Size(213, 136);
+				this->label25->Size = System::Drawing::Size(107, 68);
 				this->label25->TabIndex = 22;
 				this->label25->Text = L"Shí";
 				this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -823,10 +814,9 @@ namespace allmodel {
 				// 
 				this->button4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button4.BackgroundImage")));
 				this->button4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button4->Location = System::Drawing::Point(2421, 789);
-				this->button4->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button4->Location = System::Drawing::Point(1212, 411);
 				this->button4->Name = L"button4";
-				this->button4->Size = System::Drawing::Size(130, 125);
+				this->button4->Size = System::Drawing::Size(65, 65);
 				this->button4->TabIndex = 33;
 				this->button4->UseVisualStyleBackColor = true;
 				this->button4->Click += gcnew System::EventHandler(this, &number::button4_Click);
@@ -836,12 +826,11 @@ namespace allmodel {
 				this->button8->Anchor = System::Windows::Forms::AnchorStyles::None;
 				this->button8->AutoSize = true;
 				this->button8->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 20));
-				this->button8->Location = System::Drawing::Point(346, 2271);
-				this->button8->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
-				this->button8->MaximumSize = System::Drawing::Size(800, 385);
-				this->button8->MinimumSize = System::Drawing::Size(272, 115);
+				this->button8->Location = System::Drawing::Point(644, 1425);
+				this->button8->MaximumSize = System::Drawing::Size(400, 200);
+				this->button8->MinimumSize = System::Drawing::Size(136, 60);
 				this->button8->Name = L"button8";
-				this->button8->Size = System::Drawing::Size(480, 206);
+				this->button8->Size = System::Drawing::Size(240, 107);
 				this->button8->TabIndex = 28;
 				this->button8->Text = L"Previous";
 				this->button8->UseVisualStyleBackColor = true;
@@ -851,12 +840,11 @@ namespace allmodel {
 				this->button9->Anchor = System::Windows::Forms::AnchorStyles::None;
 				this->button9->AutoSize = true;
 				this->button9->Font = (gcnew System::Drawing::Font(L"Footlight MT Light", 20));
-				this->button9->Location = System::Drawing::Point(3996, 2271);
-				this->button9->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
-				this->button9->MaximumSize = System::Drawing::Size(800, 385);
-				this->button9->MinimumSize = System::Drawing::Size(272, 115);
+				this->button9->Location = System::Drawing::Point(2469, 1425);
+				this->button9->MaximumSize = System::Drawing::Size(400, 200);
+				this->button9->MinimumSize = System::Drawing::Size(136, 60);
 				this->button9->Name = L"button9";
-				this->button9->Size = System::Drawing::Size(480, 206);
+				this->button9->Size = System::Drawing::Size(240, 107);
 				this->button9->TabIndex = 29;
 				this->button9->Text = L"Next";
 				this->button9->UseVisualStyleBackColor = true;
@@ -865,10 +853,9 @@ namespace allmodel {
 				// 
 				this->nextbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nextbutton.BackgroundImage")));
 				this->nextbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->nextbutton->Location = System::Drawing::Point(3168, 1725);
-				this->nextbutton->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->nextbutton->Location = System::Drawing::Point(1584, 897);
 				this->nextbutton->Name = L"nextbutton";
-				this->nextbutton->Size = System::Drawing::Size(564, 256);
+				this->nextbutton->Size = System::Drawing::Size(282, 133);
 				this->nextbutton->TabIndex = 61;
 				this->nextbutton->TabStop = false;
 				this->nextbutton->Click += gcnew System::EventHandler(this, &number::nextbutton_Click);
@@ -877,10 +864,9 @@ namespace allmodel {
 				// 
 				this->previousbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"previousbutton.BackgroundImage")));
 				this->previousbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->previousbutton->Location = System::Drawing::Point(66, 1725);
-				this->previousbutton->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->previousbutton->Location = System::Drawing::Point(33, 897);
 				this->previousbutton->Name = L"previousbutton";
-				this->previousbutton->Size = System::Drawing::Size(600, 250);
+				this->previousbutton->Size = System::Drawing::Size(300, 130);
 				this->previousbutton->TabIndex = 60;
 				this->previousbutton->TabStop = false;
 				this->previousbutton->Click += gcnew System::EventHandler(this, &number::previousbutton_Click);
@@ -889,10 +875,9 @@ namespace allmodel {
 				// 
 				this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 				this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox1->Location = System::Drawing::Point(2884, 25);
-				this->pictureBox1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox1->Location = System::Drawing::Point(1442, 13);
 				this->pictureBox1->Name = L"pictureBox1";
-				this->pictureBox1->Size = System::Drawing::Size(900, 865);
+				this->pictureBox1->Size = System::Drawing::Size(450, 450);
 				this->pictureBox1->TabIndex = 59;
 				this->pictureBox1->TabStop = false;
 				// 
@@ -900,19 +885,17 @@ namespace allmodel {
 				// 
 				this->decorleft->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"decorleft.BackgroundImage")));
 				this->decorleft->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->decorleft->Location = System::Drawing::Point(24, 25);
-				this->decorleft->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->decorleft->Location = System::Drawing::Point(12, 13);
 				this->decorleft->Name = L"decorleft";
-				this->decorleft->Size = System::Drawing::Size(900, 865);
+				this->decorleft->Size = System::Drawing::Size(450, 450);
 				this->decorleft->TabIndex = 58;
 				this->decorleft->TabStop = false;
 				// 
 				// progressBar2
 				// 
-				this->progressBar2->Location = System::Drawing::Point(886, 1819);
-				this->progressBar2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->progressBar2->Location = System::Drawing::Point(443, 946);
 				this->progressBar2->Name = L"progressBar2";
-				this->progressBar2->Size = System::Drawing::Size(2000, 67);
+				this->progressBar2->Size = System::Drawing::Size(1000, 35);
 				this->progressBar2->TabIndex = 57;
 				this->progressBar2->Value = 93;
 				// 
@@ -923,10 +906,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label33->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label33->Location = System::Drawing::Point(1530, 308);
-				this->label33->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
+				this->label33->Location = System::Drawing::Point(765, 160);
+				this->label33->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->label33->Name = L"label33";
-				this->label33->Size = System::Drawing::Size(705, 165);
+				this->label33->Size = System::Drawing::Size(353, 82);
 				this->label33->TabIndex = 56;
 				this->label33->Text = L"vocabulary";
 				// 
@@ -937,18 +920,18 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->lesson3->Location = System::Drawing::Point(940, 19);
-				this->lesson3->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
+				this->lesson3->Location = System::Drawing::Point(470, 10);
+				this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->lesson3->Name = L"lesson3";
-				this->lesson3->Size = System::Drawing::Size(1937, 301);
+				this->lesson3->Size = System::Drawing::Size(968, 150);
 				this->lesson3->TabIndex = 55;
 				this->lesson3->Text = L"Lesson 1 : Hello!";
 				// 
 				// number
 				// 
-				this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-				this->ClientSize = System::Drawing::Size(3788, 1940);
+				this->ClientSize = System::Drawing::Size(1904, 1041);
 				this->Controls->Add(this->nextbutton);
 				this->Controls->Add(this->previousbutton);
 				this->Controls->Add(this->progressBar2);
@@ -959,9 +942,9 @@ namespace allmodel {
 				this->Controls->Add(this->tableLayoutPanel1);
 				this->Controls->Add(this->pictureBox1);
 				this->Controls->Add(this->decorleft);
-				this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
-				this->MaximumSize = System::Drawing::Size(3814, 2011);
-				this->MinimumSize = System::Drawing::Size(3810, 1915);
+				this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->MaximumSize = System::Drawing::Size(1920, 1080);
+				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"number";
 				this->Text = L"number";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

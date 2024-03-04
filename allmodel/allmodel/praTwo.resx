@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="pictureBox2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1495,6 +1498,9 @@
         QSKdtNFFADwpK5ppYCiigBvnqh5BooooMj//2Q==
 </value>
   </data>
+  <metadata name="pictureBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxMTEhUTEhMVFhUXFRgXGBcXGBgaGBoVGhUXGBUZGhod
@@ -1594,6 +1600,9 @@
         EAREQD//2Q==
 </value>
   </data>
+  <metadata name="label3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="label3.Text" xml:space="preserve">
     <value>A: 你喜欢玩游戏吗？
        Nǐ xǐhuān wán yóuxì má？
@@ -1611,6 +1620,9 @@ B: 我喜欢玩 VALORANT。
        Wǒ xǐhuān wán VALORANT 
         ฉันชอบเล่นเกม VALORANT</value>
   </data>
+  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="label4.Text" xml:space="preserve">
     <value>A: 你的爸爸做什么？
        Nǐ de bàba zuò shénme？
@@ -1628,6 +1640,15 @@ B: 我的妈妈是老师。
        Wǒ de māmā shì lǎoshī 
         แม่ของฉันเป็นคุณครู</value>
   </data>
+  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="pictureBox3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYa
@@ -1967,10 +1988,13 @@ B: 我的妈妈是老师。
         L+gWTkti2KcbN/jwnamuYiNliNHdFp5oIuKlfayD8lXQoNR2Q36PYH7uU7A3jqDSxJP41ku1SE+3/9k=
 </value>
   </data>
+  <metadata name="Previous.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="Previous.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA0AAAAGFCAYAAADU2ZNsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        twAAMrcBXj2IkwAARR9JREFUeF7t3XmYJHWd4H9mdmbH+e3sjvM8+8eu4zGPyyxQEdVNRVQjKtKogILI
+        tgAAMrYBjHpqdwAARR9JREFUeF7t3XmYJHWd4H9mdmbH+e3sjvM8+8eu4zGPyyxQEdVNRVQjKtKogILI
         DXIreCAqcgh4cMopKAgi2KCIoIjQgidHI3RzyCWXQFdGZh1dXX1VH9Vn9VHdXdXxi0/2t9em+lPVmZXx
         /WZG5Pv9PK+Hmd3pjMiozKrvJ4+IXYiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
         iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
@@ -2268,10 +2292,16 @@ B: 我的妈妈是老师。
         RERETdouu/z/XbvXCxMJKLYAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="progressBar1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Next.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="Next.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAw8AAAGFCAYAAAC7aM9BAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        twAAMrcBXj2IkwAALQZJREFUeF7t3Qm8XVV96PG01tfWN0g/z/f6BtvaliqcvU9u7to3iHVAcahYq4ig
+        tgAAMrYBjHpqdwAALQZJREFUeF7t3Qm8XVV96PG01tfWN0g/z/f6BtvaliqcvU9u7to3iHVAcahYq4ig
         YlVsHbAOdcKBV6lVbB1alYqIE+JQpeBUrbMVKAoOoBRMzj7nJpAgM4QwJAFChvv2TlYIJCsk994z3+/v
         8/l+AuScfdbe95xk/UPuOYskSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
         SZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
@@ -2466,10 +2496,13 @@ B: 我的妈妈是老师。
         JEmSJEmSJEmSJEmSJEkaqRYt+v+lEV4LPUN8QwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="pictureBox4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABe0AAAXpCAYAAADrszN8AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        uAAAMrgBKPMmiQAAU5tJREFUeF7s3LGubHl61mEHXIADX4ADZFmcbqvVu5EcTkjoSyAgQgQOEBGSQ0Jf
+        twAAMrcBXj2IkwAAU5tJREFUeF7s3LGubHl61mEHXIADX4ADZFmcbqvVu5EcTkjoSyAgQgQOEBGSQ0Jf
         giMiLoAIDRkZjtw9TWIJLoAEicBIZpc5wd7rfOf/rrdYVavq7OeRXo01QU1/+q/pdv/Umt/79bsf/+J3
         3738vdnR++W7n37zewAAAAAA7Cfa260m2gMAAAAAlER7u9VEewAAAACAkmhvt5poDwAAAABQEu3tVhPt
         AQAAAABKor3daqI9AAAAAEBJtLdbTbQHAAAAACiJ9narifYAAAAAACXR3m410R4AAAAAoCTa260m2gMA
@@ -2829,10 +2862,13 @@ B: 我的妈妈是老师。
         0OAHDB0AAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="pictureBox5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABewAAAXpCAYAAAAEcVhCAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAy
-        uAAAMrgBKPMmiQAAU8ZJREFUeF7s3bHOXWmaluEOOQQCgglb2DVCthEEBB0SEnAAk5AQDRIBWR8Ch9CH
+        twAAMrcBXj2IkwAAU8ZJREFUeF7s3bHOXWmaluEOOQQCgglb2DVCthEEBB0SEnAAk5AQDRIBWR8Ch9CH
         0IfQhzARXWUhVGEHCHWAxIgIlps/sBeP9zNv/d7L3/72dUmPqlQl7fKrtbwt362u+hUAAAAAAP8wP779
         8Juf3r7/P2bfeh/fvvvty2sGAAAAAEAj2Nu9JtgDAAAAAAwI9navCfYAAAAAAAOCvd1rgj0AAAAAwIBg
         b/eaYA8AAAAAMCDY270m2AMAAAAADAj2dq8J9gAAAAAAA4K93WuCPQAAAADAgGBv95pgDwAAAAAwINjb
@@ -3192,6 +3228,9 @@ B: 我的妈妈是老师。
         AAAABAj2AAAAAAAQINgDAAAAAEDAn++P3x/R/ot7/vj59nnJh5eXv2ajr5fEozrUAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="Button11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="Button11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAEAAAABAACAYAAADyoyQXAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL

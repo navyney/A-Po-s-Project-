@@ -113,7 +113,7 @@ namespace allmodel {
 				this->button5->FlatAppearance->MouseDownBackColor = System::Drawing::Color::White;
 				this->button5->FlatAppearance->MouseOverBackColor = System::Drawing::Color::White;
 				this->button5->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-				this->button5->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button5->Location = System::Drawing::Point(1584, 897);
 				this->button5->Name = L"button5";
@@ -132,7 +132,7 @@ namespace allmodel {
 				this->button6->FlatAppearance->MouseDownBackColor = System::Drawing::Color::White;
 				this->button6->FlatAppearance->MouseOverBackColor = System::Drawing::Color::White;
 				this->button6->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-				this->button6->Font = (gcnew System::Drawing::Font(L"Minecraft", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 47.99999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button6->Location = System::Drawing::Point(33, 897);
 				this->button6->Name = L"button6";
@@ -152,7 +152,7 @@ namespace allmodel {
 				this->button7->FlatAppearance->MouseDownBackColor = System::Drawing::Color::White;
 				this->button7->FlatAppearance->MouseOverBackColor = System::Drawing::Color::White;
 				this->button7->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-				this->button7->Font = (gcnew System::Drawing::Font(L"Archivo Black", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button7->ForeColor = System::Drawing::SystemColors::Control;
 				this->button7->Location = System::Drawing::Point(833, 897);
@@ -187,7 +187,7 @@ namespace allmodel {
 				// 
 				this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-				this->button1->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button1->ForeColor = System::Drawing::Color::Black;
 				this->button1->Location = System::Drawing::Point(348, 617);
@@ -203,7 +203,7 @@ namespace allmodel {
 				// 
 				this->button2->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-				this->button2->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button2->Location = System::Drawing::Point(1030, 617);
 				this->button2->Name = L"button2";
@@ -218,7 +218,7 @@ namespace allmodel {
 				// 
 				this->button3->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-				this->button3->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button3->Location = System::Drawing::Point(348, 719);
 				this->button3->Name = L"button3";
@@ -233,7 +233,7 @@ namespace allmodel {
 				// 
 				this->button4->Cursor = System::Windows::Forms::Cursors::Hand;
 				this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-				this->button4->Font = (gcnew System::Drawing::Font(L"Minecraft", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->button4->Location = System::Drawing::Point(1030, 719);
 				this->button4->Name = L"button4";
@@ -316,7 +316,7 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox1);
 				this->Controls->Add(this->pictureBox2);
 				this->MaximumSize = System::Drawing::Size(1920, 1080);
-				this->MinimumSize = System::Drawing::Size(1918, 1038);
+				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"Quiz2";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				this->Load += gcnew System::EventHandler(this, &Quiz2::Quiz2_Load);

@@ -120,10 +120,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->babachinese->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->babachinese->Location = System::Drawing::Point(2734, 1338);
-				this->babachinese->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->babachinese->Location = System::Drawing::Point(1367, 696);
 				this->babachinese->Name = L"babachinese";
-				this->babachinese->Size = System::Drawing::Size(138, 69);
+				this->babachinese->Size = System::Drawing::Size(69, 35);
 				this->babachinese->TabIndex = 90;
 				this->babachinese->Text = L"爸爸";
 				// 
@@ -134,10 +133,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->baba->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->baba->Location = System::Drawing::Point(2728, 1271);
-				this->baba->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->baba->Location = System::Drawing::Point(1364, 661);
 				this->baba->Name = L"baba";
-				this->baba->Size = System::Drawing::Size(158, 69);
+				this->baba->Size = System::Drawing::Size(79, 35);
 				this->baba->TabIndex = 89;
 				this->baba->Text = L"Bàba";
 				// 
@@ -148,10 +146,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->nimenchinese->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->nimenchinese->Location = System::Drawing::Point(2100, 1338);
-				this->nimenchinese->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->nimenchinese->Location = System::Drawing::Point(1050, 696);
 				this->nimenchinese->Name = L"nimenchinese";
-				this->nimenchinese->Size = System::Drawing::Size(144, 69);
+				this->nimenchinese->Size = System::Drawing::Size(73, 35);
 				this->nimenchinese->TabIndex = 88;
 				this->nimenchinese->Text = L"你们";
 				// 
@@ -162,10 +159,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->nimen->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->nimen->Location = System::Drawing::Point(2078, 1271);
-				this->nimen->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->nimen->Location = System::Drawing::Point(1039, 661);
 				this->nimen->Name = L"nimen";
-				this->nimen->Size = System::Drawing::Size(191, 69);
+				this->nimen->Size = System::Drawing::Size(96, 35);
 				this->nimen->TabIndex = 87;
 				this->nimen->Text = L"Nǐmen";
 				// 
@@ -176,10 +172,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->baisedechinese->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->baisedechinese->Location = System::Drawing::Point(1528, 1338);
-				this->baisedechinese->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->baisedechinese->Location = System::Drawing::Point(764, 696);
 				this->baisedechinese->Name = L"baisedechinese";
-				this->baisedechinese->Size = System::Drawing::Size(138, 69);
+				this->baisedechinese->Size = System::Drawing::Size(69, 35);
 				this->baisedechinese->TabIndex = 86;
 				this->baisedechinese->Text = L"白的";
 				// 
@@ -190,10 +185,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->baisede->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->baisede->Location = System::Drawing::Point(1500, 1271);
-				this->baisede->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->baisede->Location = System::Drawing::Point(750, 661);
 				this->baisede->Name = L"baisede";
-				this->baisede->Size = System::Drawing::Size(187, 69);
+				this->baisede->Size = System::Drawing::Size(94, 35);
 				this->baisede->TabIndex = 85;
 				this->baisede->Text = L"Bái de";
 				// 
@@ -204,10 +198,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->mamachinese->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->mamachinese->Location = System::Drawing::Point(864, 1338);
-				this->mamachinese->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->mamachinese->Location = System::Drawing::Point(432, 696);
 				this->mamachinese->Name = L"mamachinese";
-				this->mamachinese->Size = System::Drawing::Size(150, 69);
+				this->mamachinese->Size = System::Drawing::Size(77, 35);
 				this->mamachinese->TabIndex = 84;
 				this->mamachinese->Text = L"妈妈";
 				// 
@@ -218,10 +211,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->mama->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->mama->Location = System::Drawing::Point(848, 1271);
-				this->mama->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->mama->Location = System::Drawing::Point(424, 661);
 				this->mama->Name = L"mama";
-				this->mama->Size = System::Drawing::Size(186, 69);
+				this->mama->Size = System::Drawing::Size(93, 35);
 				this->mama->TabIndex = 83;
 				this->mama->Text = L"Māma";
 				// 
@@ -231,10 +223,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label3->Location = System::Drawing::Point(1666, 1463);
-				this->label3->Margin = System::Windows::Forms::Padding(24, 0, 24, 0);
+				this->label3->Location = System::Drawing::Point(833, 761);
+				this->label3->Margin = System::Windows::Forms::Padding(12, 0, 12, 0);
 				this->label3->Name = L"label3";
-				this->label3->Size = System::Drawing::Size(878, 106);
+				this->label3->Size = System::Drawing::Size(439, 55);
 				this->label3->TabIndex = 74;
 				this->label3->Text = L"ถ้าไม่มีวรรณยุกต์ออกเสียงสั้น";
 				// 
@@ -242,10 +234,9 @@ namespace allmodel {
 				// 
 				this->nextbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nextbutton.BackgroundImage")));
 				this->nextbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->nextbutton->Location = System::Drawing::Point(3168, 1725);
-				this->nextbutton->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->nextbutton->Location = System::Drawing::Point(1584, 897);
 				this->nextbutton->Name = L"nextbutton";
-				this->nextbutton->Size = System::Drawing::Size(564, 256);
+				this->nextbutton->Size = System::Drawing::Size(282, 133);
 				this->nextbutton->TabIndex = 81;
 				this->nextbutton->TabStop = false;
 				this->nextbutton->Click += gcnew System::EventHandler(this, &tonenew::nextbutton_Click);
@@ -254,20 +245,18 @@ namespace allmodel {
 				// 
 				this->previousbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"previousbutton.BackgroundImage")));
 				this->previousbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->previousbutton->Location = System::Drawing::Point(66, 1725);
-				this->previousbutton->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->previousbutton->Location = System::Drawing::Point(33, 897);
 				this->previousbutton->Name = L"previousbutton";
-				this->previousbutton->Size = System::Drawing::Size(600, 250);
+				this->previousbutton->Size = System::Drawing::Size(300, 130);
 				this->previousbutton->TabIndex = 80;
 				this->previousbutton->TabStop = false;
 				this->previousbutton->Click += gcnew System::EventHandler(this, &tonenew::previousbutton_Click);
 				// 
 				// progressBar2
 				// 
-				this->progressBar2->Location = System::Drawing::Point(886, 1819);
-				this->progressBar2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->progressBar2->Location = System::Drawing::Point(443, 946);
 				this->progressBar2->Name = L"progressBar2";
-				this->progressBar2->Size = System::Drawing::Size(2000, 67);
+				this->progressBar2->Size = System::Drawing::Size(1000, 35);
 				this->progressBar2->TabIndex = 77;
 				this->progressBar2->Value = 60;
 				// 
@@ -278,10 +267,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->lesson3->Location = System::Drawing::Point(940, 19);
-				this->lesson3->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
+				this->lesson3->Location = System::Drawing::Point(470, 10);
+				this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->lesson3->Name = L"lesson3";
-				this->lesson3->Size = System::Drawing::Size(1946, 301);
+				this->lesson3->Size = System::Drawing::Size(973, 150);
 				this->lesson3->TabIndex = 75;
 				this->lesson3->Text = L"Lesson 0 : pinyin";
 				// 
@@ -289,10 +278,9 @@ namespace allmodel {
 				// 
 				this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 				this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox1->Location = System::Drawing::Point(720, 567);
-				this->pictureBox1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox1->Location = System::Drawing::Point(360, 295);
 				this->pictureBox1->Name = L"pictureBox1";
-				this->pictureBox1->Size = System::Drawing::Size(2380, 1037);
+				this->pictureBox1->Size = System::Drawing::Size(1190, 539);
 				this->pictureBox1->TabIndex = 82;
 				this->pictureBox1->TabStop = false;
 				// 
@@ -300,10 +288,9 @@ namespace allmodel {
 				// 
 				this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
 				this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox2->Location = System::Drawing::Point(2884, 25);
-				this->pictureBox2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox2->Location = System::Drawing::Point(1442, 13);
 				this->pictureBox2->Name = L"pictureBox2";
-				this->pictureBox2->Size = System::Drawing::Size(900, 865);
+				this->pictureBox2->Size = System::Drawing::Size(450, 450);
 				this->pictureBox2->TabIndex = 79;
 				this->pictureBox2->TabStop = false;
 				// 
@@ -311,10 +298,9 @@ namespace allmodel {
 				// 
 				this->decorleft->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"decorleft.BackgroundImage")));
 				this->decorleft->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->decorleft->Location = System::Drawing::Point(24, 25);
-				this->decorleft->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->decorleft->Location = System::Drawing::Point(12, 13);
 				this->decorleft->Name = L"decorleft";
-				this->decorleft->Size = System::Drawing::Size(900, 865);
+				this->decorleft->Size = System::Drawing::Size(450, 450);
 				this->decorleft->TabIndex = 78;
 				this->decorleft->TabStop = false;
 				this->decorleft->Click += gcnew System::EventHandler(this, &tonenew::decorleft_Click);
@@ -326,10 +312,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label4->Location = System::Drawing::Point(1656, 308);
-				this->label4->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
+				this->label4->Location = System::Drawing::Point(828, 160);
+				this->label4->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->label4->Name = L"label4";
-				this->label4->Size = System::Drawing::Size(529, 165);
+				this->label4->Size = System::Drawing::Size(264, 82);
 				this->label4->TabIndex = 76;
 				this->label4->Text = L"วรรณยุกต์";
 				// 
@@ -337,10 +323,9 @@ namespace allmodel {
 				// 
 				this->notone->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"notone.BackgroundImage")));
 				this->notone->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->notone->Location = System::Drawing::Point(1046, 1300);
-				this->notone->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->notone->Location = System::Drawing::Point(523, 676);
 				this->notone->Name = L"notone";
-				this->notone->Size = System::Drawing::Size(80, 77);
+				this->notone->Size = System::Drawing::Size(40, 40);
 				this->notone->TabIndex = 131;
 				this->notone->UseVisualStyleBackColor = true;
 				this->notone->Click += gcnew System::EventHandler(this, &tonenew::notone_Click);
@@ -349,10 +334,9 @@ namespace allmodel {
 				// 
 				this->firsttone->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"firsttone.BackgroundImage")));
 				this->firsttone->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->firsttone->Location = System::Drawing::Point(1758, 1300);
-				this->firsttone->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->firsttone->Location = System::Drawing::Point(879, 676);
 				this->firsttone->Name = L"firsttone";
-				this->firsttone->Size = System::Drawing::Size(80, 77);
+				this->firsttone->Size = System::Drawing::Size(40, 40);
 				this->firsttone->TabIndex = 132;
 				this->firsttone->UseVisualStyleBackColor = true;
 				this->firsttone->Click += gcnew System::EventHandler(this, &tonenew::firsttone_Click);
@@ -361,10 +345,9 @@ namespace allmodel {
 				// 
 				this->secondtone->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"secondtone.BackgroundImage")));
 				this->secondtone->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->secondtone->Location = System::Drawing::Point(2282, 1300);
-				this->secondtone->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->secondtone->Location = System::Drawing::Point(1141, 676);
 				this->secondtone->Name = L"secondtone";
-				this->secondtone->Size = System::Drawing::Size(80, 77);
+				this->secondtone->Size = System::Drawing::Size(40, 40);
 				this->secondtone->TabIndex = 133;
 				this->secondtone->UseVisualStyleBackColor = true;
 				this->secondtone->Click += gcnew System::EventHandler(this, &tonenew::secondtone_Click);
@@ -373,10 +356,9 @@ namespace allmodel {
 				// 
 				this->thirdtone->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"thirdtone.BackgroundImage")));
 				this->thirdtone->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->thirdtone->Location = System::Drawing::Point(2898, 1300);
-				this->thirdtone->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->thirdtone->Location = System::Drawing::Point(1449, 676);
 				this->thirdtone->Name = L"thirdtone";
-				this->thirdtone->Size = System::Drawing::Size(80, 77);
+				this->thirdtone->Size = System::Drawing::Size(40, 40);
 				this->thirdtone->TabIndex = 134;
 				this->thirdtone->UseVisualStyleBackColor = true;
 				this->thirdtone->Click += gcnew System::EventHandler(this, &tonenew::thirdtone_Click);
@@ -387,18 +369,18 @@ namespace allmodel {
 					System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
 				this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label1->Location = System::Drawing::Point(1362, 1463);
-				this->label1->Margin = System::Windows::Forms::Padding(24, 0, 24, 0);
+				this->label1->Location = System::Drawing::Point(681, 761);
+				this->label1->Margin = System::Windows::Forms::Padding(12, 0, 12, 0);
 				this->label1->Name = L"label1";
-				this->label1->Size = System::Drawing::Size(324, 106);
+				this->label1->Size = System::Drawing::Size(162, 55);
 				this->label1->TabIndex = 135;
 				this->label1->Text = L"หมายเหตุ";
 				// 
 				// tonenew
 				// 
-				this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-				this->ClientSize = System::Drawing::Size(3808, 2002);
+				this->ClientSize = System::Drawing::Size(1904, 1041);
 				this->Controls->Add(this->label1);
 				this->Controls->Add(this->thirdtone);
 				this->Controls->Add(this->secondtone);
@@ -421,7 +403,8 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox2);
 				this->Controls->Add(this->decorleft);
 				this->Controls->Add(this->label4);
-				this->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->MaximumSize = System::Drawing::Size(1920, 1080);
+				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"tonenew";
 				this->Text = L"tonenew";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

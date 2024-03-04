@@ -157,10 +157,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label12->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label12->Location = System::Drawing::Point(590, 1642);
-				this->label12->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label12->Location = System::Drawing::Point(295, 854);
 				this->label12->Name = L"label12";
-				this->label12->Size = System::Drawing::Size(344, 80);
+				this->label12->Size = System::Drawing::Size(171, 40);
 				this->label12->TabIndex = 116;
 				this->label12->Text = L"= shang ชัง";
 				// 
@@ -172,10 +171,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label11->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label11->Location = System::Drawing::Point(590, 1179);
-				this->label11->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label11->Location = System::Drawing::Point(295, 613);
 				this->label11->Name = L"label11";
-				this->label11->Size = System::Drawing::Size(343, 80);
+				this->label11->Size = System::Drawing::Size(173, 40);
 				this->label11->TabIndex = 115;
 				this->label11->Text = L"= xian เซียน";
 				// 
@@ -187,10 +185,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label10->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label10->Location = System::Drawing::Point(550, 1413);
-				this->label10->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label10->Location = System::Drawing::Point(275, 735);
 				this->label10->Name = L"label10";
-				this->label10->Size = System::Drawing::Size(606, 80);
+				this->label10->Size = System::Drawing::Size(308, 40);
 				this->label10->TabIndex = 114;
 				this->label10->Text = L"3.   sh ซือ   +    ang อัง";
 				// 
@@ -202,10 +199,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label9->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label9->Location = System::Drawing::Point(550, 950);
-				this->label9->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label9->Location = System::Drawing::Point(275, 494);
 				this->label9->Name = L"label9";
-				this->label9->Size = System::Drawing::Size(623, 80);
+				this->label9->Size = System::Drawing::Size(319, 40);
 				this->label9->TabIndex = 113;
 				this->label9->Text = L"2.   x ซี    +     ian  เอียน";
 				// 
@@ -217,10 +213,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label8->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label8->Location = System::Drawing::Point(590, 812);
-				this->label8->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label8->Location = System::Drawing::Point(295, 422);
 				this->label8->Name = L"label8";
-				this->label8->Size = System::Drawing::Size(259, 80);
+				this->label8->Size = System::Drawing::Size(130, 40);
 				this->label8->TabIndex = 112;
 				this->label8->Text = L"= ma มา";
 				// 
@@ -232,10 +227,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label7->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label7->Location = System::Drawing::Point(550, 554);
-				this->label7->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label7->Location = System::Drawing::Point(275, 288);
 				this->label7->Name = L"label7";
-				this->label7->Size = System::Drawing::Size(546, 80);
+				this->label7->Size = System::Drawing::Size(280, 40);
 				this->label7->TabIndex = 111;
 				this->label7->Text = L"1.   m มัว    +     a อา";
 				this->label7->Click += gcnew System::EventHandler(this, &msound::label7_Click);
@@ -248,10 +242,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label6->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label6->Location = System::Drawing::Point(2042, 1537);
-				this->label6->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label6->Location = System::Drawing::Point(1021, 799);
 				this->label6->Name = L"label6";
-				this->label6->Size = System::Drawing::Size(925, 82);
+				this->label6->Size = System::Drawing::Size(465, 42);
 				this->label6->TabIndex = 110;
 				this->label6->Text = L"  玩儿    wán   +   er   =    wánr";
 				// 
@@ -263,10 +256,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label5->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label5->Location = System::Drawing::Point(2074, 1292);
-				this->label5->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label5->Location = System::Drawing::Point(1037, 672);
 				this->label5->Name = L"label5";
-				this->label5->Size = System::Drawing::Size(807, 82);
+				this->label5->Size = System::Drawing::Size(406, 42);
 				this->label5->TabIndex = 109;
 				this->label5->Text = L" 那儿    nà   +   er   =    nàr";
 				// 
@@ -278,10 +270,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label4->Location = System::Drawing::Point(2014, 1042);
-				this->label4->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label4->Location = System::Drawing::Point(1007, 542);
 				this->label4->Name = L"label4";
-				this->label4->Size = System::Drawing::Size(891, 82);
+				this->label4->Size = System::Drawing::Size(450, 42);
 				this->label4->TabIndex = 108;
 				this->label4->Text = L"  这儿    zhè   +   er   =    zhèr";
 				// 
@@ -293,20 +284,18 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label3->Location = System::Drawing::Point(2014, 810);
-				this->label3->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label3->Location = System::Drawing::Point(1007, 421);
 				this->label3->Name = L"label3";
-				this->label3->Size = System::Drawing::Size(917, 82);
+				this->label3->Size = System::Drawing::Size(462, 42);
 				this->label3->TabIndex = 107;
 				this->label3->Text = L"  花儿    huā   +   er    =   huār ";
 				// 
 				// button10
 				// 
 				this->button10->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button10.Image")));
-				this->button10->Location = System::Drawing::Point(2858, 577);
-				this->button10->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button10->Location = System::Drawing::Point(1429, 300);
 				this->button10->Name = L"button10";
-				this->button10->Size = System::Drawing::Size(114, 90);
+				this->button10->Size = System::Drawing::Size(57, 47);
 				this->button10->TabIndex = 80;
 				this->button10->UseVisualStyleBackColor = true;
 				this->button10->Click += gcnew System::EventHandler(this, &msound::button10_Click);
@@ -319,20 +308,18 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label1->Location = System::Drawing::Point(2006, 577);
-				this->label1->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label1->Location = System::Drawing::Point(1003, 300);
 				this->label1->Name = L"label1";
-				this->label1->Size = System::Drawing::Size(911, 82);
+				this->label1->Size = System::Drawing::Size(449, 42);
 				this->label1->TabIndex = 106;
 				this->label1->Text = L"อันนี้เป็นตัวอย่างการผสมเสียง 儿  er   ";
 				// 
 				// wanr
 				// 
 				this->wanr->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"wanr.Image")));
-				this->wanr->Location = System::Drawing::Point(2824, 1623);
-				this->wanr->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->wanr->Location = System::Drawing::Point(1412, 844);
 				this->wanr->Name = L"wanr";
-				this->wanr->Size = System::Drawing::Size(114, 90);
+				this->wanr->Size = System::Drawing::Size(57, 47);
 				this->wanr->TabIndex = 98;
 				this->wanr->UseVisualStyleBackColor = true;
 				this->wanr->Click += gcnew System::EventHandler(this, &msound::wanr_Click);
@@ -340,10 +327,9 @@ namespace allmodel {
 				// nar
 				// 
 				this->nar->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nar.Image")));
-				this->nar->Location = System::Drawing::Point(2748, 1379);
-				this->nar->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->nar->Location = System::Drawing::Point(1374, 717);
 				this->nar->Name = L"nar";
-				this->nar->Size = System::Drawing::Size(114, 90);
+				this->nar->Size = System::Drawing::Size(57, 47);
 				this->nar->TabIndex = 97;
 				this->nar->UseVisualStyleBackColor = true;
 				this->nar->Click += gcnew System::EventHandler(this, &msound::nar_Click);
@@ -351,10 +337,9 @@ namespace allmodel {
 				// zher
 				// 
 				this->zher->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"zher.Image")));
-				this->zher->Location = System::Drawing::Point(2790, 1154);
-				this->zher->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->zher->Location = System::Drawing::Point(1395, 600);
 				this->zher->Name = L"zher";
-				this->zher->Size = System::Drawing::Size(114, 90);
+				this->zher->Size = System::Drawing::Size(57, 47);
 				this->zher->TabIndex = 96;
 				this->zher->UseVisualStyleBackColor = true;
 				this->zher->Click += gcnew System::EventHandler(this, &msound::zher_Click);
@@ -362,10 +347,9 @@ namespace allmodel {
 				// huar
 				// 
 				this->huar->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"huar.Image")));
-				this->huar->Location = System::Drawing::Point(2772, 900);
-				this->huar->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->huar->Location = System::Drawing::Point(1386, 468);
 				this->huar->Name = L"huar";
-				this->huar->Size = System::Drawing::Size(114, 90);
+				this->huar->Size = System::Drawing::Size(57, 47);
 				this->huar->TabIndex = 95;
 				this->huar->UseVisualStyleBackColor = true;
 				this->huar->Click += gcnew System::EventHandler(this, &msound::huar_Click);
@@ -373,10 +357,9 @@ namespace allmodel {
 				// er4
 				// 
 				this->er4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"er4.Image")));
-				this->er4->Location = System::Drawing::Point(2548, 1623);
-				this->er4->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->er4->Location = System::Drawing::Point(1274, 844);
 				this->er4->Name = L"er4";
-				this->er4->Size = System::Drawing::Size(114, 90);
+				this->er4->Size = System::Drawing::Size(57, 47);
 				this->er4->TabIndex = 93;
 				this->er4->UseVisualStyleBackColor = true;
 				this->er4->Click += gcnew System::EventHandler(this, &msound::er4_Click);
@@ -384,10 +367,9 @@ namespace allmodel {
 				// er3
 				// 
 				this->er3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"er3.Image")));
-				this->er3->Location = System::Drawing::Point(2498, 1379);
-				this->er3->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->er3->Location = System::Drawing::Point(1249, 717);
 				this->er3->Name = L"er3";
-				this->er3->Size = System::Drawing::Size(114, 90);
+				this->er3->Size = System::Drawing::Size(57, 47);
 				this->er3->TabIndex = 92;
 				this->er3->UseVisualStyleBackColor = true;
 				this->er3->Click += gcnew System::EventHandler(this, &msound::er3_Click);
@@ -395,10 +377,9 @@ namespace allmodel {
 				// er2
 				// 
 				this->er2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"er2.Image")));
-				this->er2->Location = System::Drawing::Point(2530, 1154);
-				this->er2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->er2->Location = System::Drawing::Point(1265, 600);
 				this->er2->Name = L"er2";
-				this->er2->Size = System::Drawing::Size(114, 90);
+				this->er2->Size = System::Drawing::Size(57, 47);
 				this->er2->TabIndex = 91;
 				this->er2->UseVisualStyleBackColor = true;
 				this->er2->Click += gcnew System::EventHandler(this, &msound::er2_Click);
@@ -406,10 +387,9 @@ namespace allmodel {
 				// er
 				// 
 				this->er->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"er.Image")));
-				this->er->Location = System::Drawing::Point(2498, 900);
-				this->er->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->er->Location = System::Drawing::Point(1249, 468);
 				this->er->Name = L"er";
-				this->er->Size = System::Drawing::Size(114, 90);
+				this->er->Size = System::Drawing::Size(57, 47);
 				this->er->TabIndex = 90;
 				this->er->UseVisualStyleBackColor = true;
 				this->er->Click += gcnew System::EventHandler(this, &msound::er_Click);
@@ -417,10 +397,9 @@ namespace allmodel {
 				// wan
 				// 
 				this->wan->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"wan.Image")));
-				this->wan->Location = System::Drawing::Point(2302, 1623);
-				this->wan->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->wan->Location = System::Drawing::Point(1151, 844);
 				this->wan->Name = L"wan";
-				this->wan->Size = System::Drawing::Size(114, 90);
+				this->wan->Size = System::Drawing::Size(57, 47);
 				this->wan->TabIndex = 84;
 				this->wan->UseVisualStyleBackColor = true;
 				this->wan->Click += gcnew System::EventHandler(this, &msound::wan_Click);
@@ -428,10 +407,9 @@ namespace allmodel {
 				// shang
 				// 
 				this->shang->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"shang.Image")));
-				this->shang->Location = System::Drawing::Point(960, 1635);
-				this->shang->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->shang->Location = System::Drawing::Point(480, 850);
 				this->shang->Name = L"shang";
-				this->shang->Size = System::Drawing::Size(114, 90);
+				this->shang->Size = System::Drawing::Size(57, 47);
 				this->shang->TabIndex = 89;
 				this->shang->UseVisualStyleBackColor = true;
 				this->shang->Click += gcnew System::EventHandler(this, &msound::shang_Click);
@@ -439,10 +417,9 @@ namespace allmodel {
 				// na
 				// 
 				this->na->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"na.Image")));
-				this->na->Location = System::Drawing::Point(2280, 1379);
-				this->na->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->na->Location = System::Drawing::Point(1140, 717);
 				this->na->Name = L"na";
-				this->na->Size = System::Drawing::Size(114, 90);
+				this->na->Size = System::Drawing::Size(57, 47);
 				this->na->TabIndex = 86;
 				this->na->UseVisualStyleBackColor = true;
 				this->na->Click += gcnew System::EventHandler(this, &msound::na_Click);
@@ -450,10 +427,9 @@ namespace allmodel {
 				// xian
 				// 
 				this->xian->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"xian.Image")));
-				this->xian->Location = System::Drawing::Point(960, 1179);
-				this->xian->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->xian->Location = System::Drawing::Point(480, 613);
 				this->xian->Name = L"xian";
-				this->xian->Size = System::Drawing::Size(114, 90);
+				this->xian->Size = System::Drawing::Size(57, 47);
 				this->xian->TabIndex = 88;
 				this->xian->UseVisualStyleBackColor = true;
 				this->xian->Click += gcnew System::EventHandler(this, &msound::xian_Click);
@@ -461,10 +437,9 @@ namespace allmodel {
 				// zhe
 				// 
 				this->zhe->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"zhe.Image")));
-				this->zhe->Location = System::Drawing::Point(2280, 1154);
-				this->zhe->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->zhe->Location = System::Drawing::Point(1140, 600);
 				this->zhe->Name = L"zhe";
-				this->zhe->Size = System::Drawing::Size(114, 90);
+				this->zhe->Size = System::Drawing::Size(57, 47);
 				this->zhe->TabIndex = 87;
 				this->zhe->UseVisualStyleBackColor = true;
 				this->zhe->Click += gcnew System::EventHandler(this, &msound::zhe_Click);
@@ -472,10 +447,9 @@ namespace allmodel {
 				// ma
 				// 
 				this->ma->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"ma.Image")));
-				this->ma->Location = System::Drawing::Point(862, 800);
-				this->ma->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->ma->Location = System::Drawing::Point(431, 416);
 				this->ma->Name = L"ma";
-				this->ma->Size = System::Drawing::Size(114, 90);
+				this->ma->Size = System::Drawing::Size(57, 47);
 				this->ma->TabIndex = 94;
 				this->ma->UseVisualStyleBackColor = true;
 				this->ma->Click += gcnew System::EventHandler(this, &msound::ma_Click);
@@ -483,10 +457,9 @@ namespace allmodel {
 				// hua
 				// 
 				this->hua->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"hua.Image")));
-				this->hua->Location = System::Drawing::Point(2258, 900);
-				this->hua->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->hua->Location = System::Drawing::Point(1129, 468);
 				this->hua->Name = L"hua";
-				this->hua->Size = System::Drawing::Size(114, 90);
+				this->hua->Size = System::Drawing::Size(57, 47);
 				this->hua->TabIndex = 85;
 				this->hua->UseVisualStyleBackColor = true;
 				this->hua->Click += gcnew System::EventHandler(this, &msound::hua_Click);
@@ -494,10 +467,9 @@ namespace allmodel {
 				// ang
 				// 
 				this->ang->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"ang.Image")));
-				this->ang->Location = System::Drawing::Point(990, 1496);
-				this->ang->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->ang->Location = System::Drawing::Point(495, 778);
 				this->ang->Name = L"ang";
-				this->ang->Size = System::Drawing::Size(114, 90);
+				this->ang->Size = System::Drawing::Size(57, 47);
 				this->ang->TabIndex = 83;
 				this->ang->UseVisualStyleBackColor = true;
 				this->ang->Click += gcnew System::EventHandler(this, &msound::ang_Click);
@@ -505,10 +477,9 @@ namespace allmodel {
 				// sh
 				// 
 				this->sh->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"sh.Image")));
-				this->sh->Location = System::Drawing::Point(670, 1496);
-				this->sh->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->sh->Location = System::Drawing::Point(335, 778);
 				this->sh->Name = L"sh";
-				this->sh->Size = System::Drawing::Size(114, 90);
+				this->sh->Size = System::Drawing::Size(57, 47);
 				this->sh->TabIndex = 79;
 				this->sh->UseVisualStyleBackColor = true;
 				this->sh->Click += gcnew System::EventHandler(this, &msound::sh_Click);
@@ -516,10 +487,9 @@ namespace allmodel {
 				// ian
 				// 
 				this->ian->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"ian.Image")));
-				this->ian->Location = System::Drawing::Point(960, 1033);
-				this->ian->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->ian->Location = System::Drawing::Point(480, 537);
 				this->ian->Name = L"ian";
-				this->ian->Size = System::Drawing::Size(114, 90);
+				this->ian->Size = System::Drawing::Size(57, 47);
 				this->ian->TabIndex = 82;
 				this->ian->UseVisualStyleBackColor = true;
 				this->ian->Click += gcnew System::EventHandler(this, &msound::ian_Click);
@@ -527,10 +497,9 @@ namespace allmodel {
 				// x
 				// 
 				this->x->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"x.Image")));
-				this->x->Location = System::Drawing::Point(646, 1033);
-				this->x->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->x->Location = System::Drawing::Point(323, 537);
 				this->x->Name = L"x";
-				this->x->Size = System::Drawing::Size(114, 90);
+				this->x->Size = System::Drawing::Size(57, 47);
 				this->x->TabIndex = 78;
 				this->x->UseVisualStyleBackColor = true;
 				this->x->Click += gcnew System::EventHandler(this, &msound::x_Click);
@@ -538,10 +507,9 @@ namespace allmodel {
 				// a
 				// 
 				this->a->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"a.Image")));
-				this->a->Location = System::Drawing::Point(960, 637);
-				this->a->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->a->Location = System::Drawing::Point(480, 331);
 				this->a->Name = L"a";
-				this->a->Size = System::Drawing::Size(114, 90);
+				this->a->Size = System::Drawing::Size(57, 47);
 				this->a->TabIndex = 81;
 				this->a->UseVisualStyleBackColor = true;
 				this->a->Click += gcnew System::EventHandler(this, &msound::a_Click);
@@ -549,10 +517,9 @@ namespace allmodel {
 				// m
 				// 
 				this->m->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"m.Image")));
-				this->m->Location = System::Drawing::Point(670, 640);
-				this->m->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->m->Location = System::Drawing::Point(335, 333);
 				this->m->Name = L"m";
-				this->m->Size = System::Drawing::Size(114, 90);
+				this->m->Size = System::Drawing::Size(57, 47);
 				this->m->TabIndex = 77;
 				this->m->UseVisualStyleBackColor = true;
 				this->m->Click += gcnew System::EventHandler(this, &msound::m_Click);
@@ -565,12 +532,11 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->textBox4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->textBox4->Location = System::Drawing::Point(2004, 485);
-				this->textBox4->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->textBox4->Location = System::Drawing::Point(1002, 252);
 				this->textBox4->Multiline = true;
 				this->textBox4->Name = L"textBox4";
 				this->textBox4->ReadOnly = true;
-				this->textBox4->Size = System::Drawing::Size(1190, 1246);
+				this->textBox4->Size = System::Drawing::Size(597, 650);
 				this->textBox4->TabIndex = 76;
 				this->textBox4->Text = resources->GetString(L"textBox4.Text");
 				// 
@@ -583,22 +549,20 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->textBox3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->textBox3->Location = System::Drawing::Point(534, 485);
-				this->textBox3->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->textBox3->Location = System::Drawing::Point(267, 252);
 				this->textBox3->Multiline = true;
 				this->textBox3->Name = L"textBox3";
 				this->textBox3->ReadOnly = true;
-				this->textBox3->Size = System::Drawing::Size(1148, 1252);
+				this->textBox3->Size = System::Drawing::Size(576, 653);
 				this->textBox3->TabIndex = 75;
 				this->textBox3->Text = L"\r\n1.   m มัว    +     a อา\r\n\r\n\r\n   = ma มา  \r\n\r\n2.   x ซี    +     ian  เอียน\r\n\r\n"
 					L"\r\n   = xian เซียน\r\n\r\n\r\n3.   sh ซือ   +    ang อัง\r\n\r\n\r\n   = shang ชัง";
 				// 
 				// progressBar1
 				// 
-				this->progressBar1->Location = System::Drawing::Point(886, 1819);
-				this->progressBar1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->progressBar1->Location = System::Drawing::Point(443, 946);
 				this->progressBar1->Name = L"progressBar1";
-				this->progressBar1->Size = System::Drawing::Size(2000, 67);
+				this->progressBar1->Size = System::Drawing::Size(1000, 35);
 				this->progressBar1->TabIndex = 101;
 				this->progressBar1->Value = 80;
 				// 
@@ -609,10 +573,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label2->Location = System::Drawing::Point(1496, 308);
-				this->label2->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
+				this->label2->Location = System::Drawing::Point(748, 160);
+				this->label2->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->label2->Name = L"label2";
-				this->label2->Size = System::Drawing::Size(849, 165);
+				this->label2->Size = System::Drawing::Size(424, 82);
 				this->label2->TabIndex = 100;
 				this->label2->Text = L"หลักการผสมเสียง";
 				// 
@@ -623,10 +587,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->lesson3->Location = System::Drawing::Point(940, 19);
-				this->lesson3->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
+				this->lesson3->Location = System::Drawing::Point(470, 10);
+				this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->lesson3->Name = L"lesson3";
-				this->lesson3->Size = System::Drawing::Size(1946, 301);
+				this->lesson3->Size = System::Drawing::Size(973, 150);
 				this->lesson3->TabIndex = 99;
 				this->lesson3->Text = L"Lesson 0 : pinyin";
 				// 
@@ -634,10 +598,9 @@ namespace allmodel {
 				// 
 				this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
 				this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox2->Location = System::Drawing::Point(1998, 435);
-				this->pictureBox2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox2->Location = System::Drawing::Point(999, 226);
 				this->pictureBox2->Name = L"pictureBox2";
-				this->pictureBox2->Size = System::Drawing::Size(1208, 1306);
+				this->pictureBox2->Size = System::Drawing::Size(604, 679);
 				this->pictureBox2->TabIndex = 117;
 				this->pictureBox2->TabStop = false;
 				// 
@@ -645,10 +608,9 @@ namespace allmodel {
 				// 
 				this->nextbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nextbutton.BackgroundImage")));
 				this->nextbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->nextbutton->Location = System::Drawing::Point(3168, 1725);
-				this->nextbutton->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->nextbutton->Location = System::Drawing::Point(1584, 897);
 				this->nextbutton->Name = L"nextbutton";
-				this->nextbutton->Size = System::Drawing::Size(564, 256);
+				this->nextbutton->Size = System::Drawing::Size(282, 133);
 				this->nextbutton->TabIndex = 105;
 				this->nextbutton->TabStop = false;
 				this->nextbutton->Click += gcnew System::EventHandler(this, &msound::nextbutton_Click);
@@ -657,10 +619,9 @@ namespace allmodel {
 				// 
 				this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 				this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox1->Location = System::Drawing::Point(2884, 25);
-				this->pictureBox1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox1->Location = System::Drawing::Point(1442, 13);
 				this->pictureBox1->Name = L"pictureBox1";
-				this->pictureBox1->Size = System::Drawing::Size(900, 865);
+				this->pictureBox1->Size = System::Drawing::Size(450, 450);
 				this->pictureBox1->TabIndex = 103;
 				this->pictureBox1->TabStop = false;
 				// 
@@ -668,10 +629,9 @@ namespace allmodel {
 				// 
 				this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
 				this->pictureBox3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox3->Location = System::Drawing::Point(524, 435);
-				this->pictureBox3->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox3->Location = System::Drawing::Point(262, 226);
 				this->pictureBox3->Name = L"pictureBox3";
-				this->pictureBox3->Size = System::Drawing::Size(1168, 1313);
+				this->pictureBox3->Size = System::Drawing::Size(584, 683);
 				this->pictureBox3->TabIndex = 118;
 				this->pictureBox3->TabStop = false;
 				// 
@@ -679,10 +639,9 @@ namespace allmodel {
 				// 
 				this->decorleft->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"decorleft.BackgroundImage")));
 				this->decorleft->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->decorleft->Location = System::Drawing::Point(24, 25);
-				this->decorleft->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->decorleft->Location = System::Drawing::Point(12, 13);
 				this->decorleft->Name = L"decorleft";
-				this->decorleft->Size = System::Drawing::Size(900, 865);
+				this->decorleft->Size = System::Drawing::Size(450, 450);
 				this->decorleft->TabIndex = 102;
 				this->decorleft->TabStop = false;
 				// 
@@ -690,19 +649,18 @@ namespace allmodel {
 				// 
 				this->previousbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"previousbutton.BackgroundImage")));
 				this->previousbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->previousbutton->Location = System::Drawing::Point(66, 1725);
-				this->previousbutton->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->previousbutton->Location = System::Drawing::Point(33, 897);
 				this->previousbutton->Name = L"previousbutton";
-				this->previousbutton->Size = System::Drawing::Size(600, 250);
+				this->previousbutton->Size = System::Drawing::Size(300, 130);
 				this->previousbutton->TabIndex = 104;
 				this->previousbutton->TabStop = false;
 				this->previousbutton->Click += gcnew System::EventHandler(this, &msound::previousbutton_Click);
 				// 
 				// msound
 				// 
-				this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-				this->ClientSize = System::Drawing::Size(3788, 1940);
+				this->ClientSize = System::Drawing::Size(1904, 1041);
 				this->Controls->Add(this->label12);
 				this->Controls->Add(this->label11);
 				this->Controls->Add(this->label10);
@@ -747,9 +705,8 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox3);
 				this->Controls->Add(this->decorleft);
 				this->Controls->Add(this->previousbutton);
-				this->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
-				this->MaximumSize = System::Drawing::Size(3814, 2011);
-				this->MinimumSize = System::Drawing::Size(3810, 1915);
+				this->MaximumSize = System::Drawing::Size(1920, 1080);
+				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"msound";
 				this->Text = L"msound";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

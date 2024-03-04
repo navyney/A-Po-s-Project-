@@ -163,10 +163,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label2->Location = System::Drawing::Point(1490, 308);
-				this->label2->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
+				this->label2->Location = System::Drawing::Point(745, 160);
+				this->label2->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->label2->Name = L"label2";
-				this->label2->Size = System::Drawing::Size(942, 165);
+				this->label2->Size = System::Drawing::Size(473, 82);
 				this->label2->TabIndex = 36;
 				this->label2->Text = L"days in a week";
 				this->label2->Click += gcnew System::EventHandler(this, &My7days::label2_Click);
@@ -180,10 +180,10 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->lesson3->Location = System::Drawing::Point(928, 19);
-				this->lesson3->Margin = System::Windows::Forms::Padding(32, 0, 32, 0);
+				this->lesson3->Location = System::Drawing::Point(464, 10);
+				this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->lesson3->Name = L"lesson3";
-				this->lesson3->Size = System::Drawing::Size(2002, 301);
+				this->lesson3->Size = System::Drawing::Size(999, 150);
 				this->lesson3->TabIndex = 35;
 				this->lesson3->Text = L"Lesson 3 : Where";
 				this->lesson3->TextAlign = System::Drawing::ContentAlignment::TopCenter;
@@ -192,10 +192,9 @@ namespace allmodel {
 				// 
 				this->decorleft->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"decorleft.BackgroundImage")));
 				this->decorleft->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->decorleft->Location = System::Drawing::Point(26, 19);
-				this->decorleft->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->decorleft->Location = System::Drawing::Point(13, 10);
 				this->decorleft->Name = L"decorleft";
-				this->decorleft->Size = System::Drawing::Size(900, 865);
+				this->decorleft->Size = System::Drawing::Size(450, 450);
 				this->decorleft->TabIndex = 52;
 				this->decorleft->TabStop = false;
 				// 
@@ -203,10 +202,9 @@ namespace allmodel {
 				// 
 				this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 				this->pictureBox1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox1->Location = System::Drawing::Point(2884, 23);
-				this->pictureBox1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox1->Location = System::Drawing::Point(1442, 12);
 				this->pictureBox1->Name = L"pictureBox1";
-				this->pictureBox1->Size = System::Drawing::Size(900, 865);
+				this->pictureBox1->Size = System::Drawing::Size(450, 450);
 				this->pictureBox1->TabIndex = 53;
 				this->pictureBox1->TabStop = false;
 				// 
@@ -215,10 +213,9 @@ namespace allmodel {
 				this->previousbutton->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->previousbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"previousbutton.BackgroundImage")));
 				this->previousbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->previousbutton->Location = System::Drawing::Point(66, 1723);
-				this->previousbutton->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->previousbutton->Location = System::Drawing::Point(12, 899);
 				this->previousbutton->Name = L"previousbutton";
-				this->previousbutton->Size = System::Drawing::Size(600, 250);
+				this->previousbutton->Size = System::Drawing::Size(300, 130);
 				this->previousbutton->TabIndex = 54;
 				this->previousbutton->TabStop = false;
 				this->previousbutton->Click += gcnew System::EventHandler(this, &My7days::previousbutton_Click);
@@ -226,10 +223,9 @@ namespace allmodel {
 				// progressBar1
 				// 
 				this->progressBar1->Anchor = System::Windows::Forms::AnchorStyles::Top;
-				this->progressBar1->Location = System::Drawing::Point(886, 1817);
-				this->progressBar1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->progressBar1->Location = System::Drawing::Point(443, 945);
 				this->progressBar1->Name = L"progressBar1";
-				this->progressBar1->Size = System::Drawing::Size(2000, 67);
+				this->progressBar1->Size = System::Drawing::Size(1000, 35);
 				this->progressBar1->TabIndex = 55;
 				this->progressBar1->Value = 88;
 				// 
@@ -238,10 +234,9 @@ namespace allmodel {
 				this->nextbutton->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->nextbutton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"nextbutton.BackgroundImage")));
 				this->nextbutton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->nextbutton->Location = System::Drawing::Point(3168, 1723);
-				this->nextbutton->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->nextbutton->Location = System::Drawing::Point(1584, 896);
 				this->nextbutton->Name = L"nextbutton";
-				this->nextbutton->Size = System::Drawing::Size(564, 256);
+				this->nextbutton->Size = System::Drawing::Size(282, 133);
 				this->nextbutton->TabIndex = 56;
 				this->nextbutton->TabStop = false;
 				this->nextbutton->Click += gcnew System::EventHandler(this, &My7days::nextbutton_Click);
@@ -253,10 +248,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->label1->Location = System::Drawing::Point(456, 588);
-				this->label1->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label1->Location = System::Drawing::Point(230, 306);
 				this->label1->Name = L"label1";
-				this->label1->Size = System::Drawing::Size(542, 135);
+				this->label1->Size = System::Drawing::Size(271, 70);
 				this->label1->TabIndex = 57;
 				this->label1->Text = L"星期天";
 				this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -266,10 +260,9 @@ namespace allmodel {
 				this->pictureBox2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
 				this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox2->Location = System::Drawing::Point(440, 577);
-				this->pictureBox2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox2->Location = System::Drawing::Point(222, 300);
 				this->pictureBox2->Name = L"pictureBox2";
-				this->pictureBox2->Size = System::Drawing::Size(580, 462);
+				this->pictureBox2->Size = System::Drawing::Size(290, 240);
 				this->pictureBox2->TabIndex = 58;
 				this->pictureBox2->TabStop = false;
 				// 
@@ -279,10 +272,9 @@ namespace allmodel {
 				this->label3->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label3->ForeColor = System::Drawing::Color::Black;
-				this->label3->Location = System::Drawing::Point(456, 738);
-				this->label3->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label3->Location = System::Drawing::Point(230, 384);
 				this->label3->Name = L"label3";
-				this->label3->Size = System::Drawing::Size(542, 135);
+				this->label3->Size = System::Drawing::Size(271, 70);
 				this->label3->TabIndex = 59;
 				this->label3->Text = L"xīng qī tiān";
 				this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -293,10 +285,9 @@ namespace allmodel {
 				this->label4->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label4->ForeColor = System::Drawing::Color::Black;
-				this->label4->Location = System::Drawing::Point(456, 890);
-				this->label4->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label4->Location = System::Drawing::Point(230, 463);
 				this->label4->Name = L"label4";
-				this->label4->Size = System::Drawing::Size(542, 135);
+				this->label4->Size = System::Drawing::Size(271, 70);
 				this->label4->TabIndex = 60;
 				this->label4->Text = L"วันอาทิตย์";
 				this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -307,10 +298,9 @@ namespace allmodel {
 				this->label5->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label5->ForeColor = System::Drawing::Color::Black;
-				this->label5->Location = System::Drawing::Point(1236, 890);
-				this->label5->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label5->Location = System::Drawing::Point(620, 463);
 				this->label5->Name = L"label5";
-				this->label5->Size = System::Drawing::Size(542, 135);
+				this->label5->Size = System::Drawing::Size(271, 70);
 				this->label5->TabIndex = 64;
 				this->label5->Text = L"วันจันทร์";
 				this->label5->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -321,10 +311,9 @@ namespace allmodel {
 				this->label6->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label6->ForeColor = System::Drawing::Color::Black;
-				this->label6->Location = System::Drawing::Point(1236, 740);
-				this->label6->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label6->Location = System::Drawing::Point(620, 385);
 				this->label6->Name = L"label6";
-				this->label6->Size = System::Drawing::Size(542, 135);
+				this->label6->Size = System::Drawing::Size(271, 70);
 				this->label6->TabIndex = 63;
 				this->label6->Text = L"xīng qī yī";
 				this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -335,10 +324,9 @@ namespace allmodel {
 				this->label7->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label7->ForeColor = System::Drawing::Color::Gold;
-				this->label7->Location = System::Drawing::Point(1236, 588);
-				this->label7->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label7->Location = System::Drawing::Point(620, 306);
 				this->label7->Name = L"label7";
-				this->label7->Size = System::Drawing::Size(542, 135);
+				this->label7->Size = System::Drawing::Size(271, 70);
 				this->label7->TabIndex = 61;
 				this->label7->Text = L"星期一 ";
 				this->label7->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -348,10 +336,9 @@ namespace allmodel {
 				this->pictureBox3->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
 				this->pictureBox3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox3->Location = System::Drawing::Point(1220, 577);
-				this->pictureBox3->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox3->Location = System::Drawing::Point(612, 300);
 				this->pictureBox3->Name = L"pictureBox3";
-				this->pictureBox3->Size = System::Drawing::Size(580, 462);
+				this->pictureBox3->Size = System::Drawing::Size(290, 240);
 				this->pictureBox3->TabIndex = 62;
 				this->pictureBox3->TabStop = false;
 				// 
@@ -361,10 +348,9 @@ namespace allmodel {
 				this->label8->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label8->ForeColor = System::Drawing::Color::Black;
-				this->label8->Location = System::Drawing::Point(2016, 890);
-				this->label8->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label8->Location = System::Drawing::Point(1011, 462);
 				this->label8->Name = L"label8";
-				this->label8->Size = System::Drawing::Size(542, 135);
+				this->label8->Size = System::Drawing::Size(271, 70);
 				this->label8->TabIndex = 68;
 				this->label8->Text = L"วันอังคาร";
 				this->label8->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -375,10 +361,9 @@ namespace allmodel {
 				this->label9->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label9->ForeColor = System::Drawing::Color::Black;
-				this->label9->Location = System::Drawing::Point(2016, 740);
-				this->label9->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label9->Location = System::Drawing::Point(1011, 384);
 				this->label9->Name = L"label9";
-				this->label9->Size = System::Drawing::Size(542, 135);
+				this->label9->Size = System::Drawing::Size(271, 70);
 				this->label9->TabIndex = 67;
 				this->label9->Text = L"xīng qī èr ";
 				this->label9->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -389,10 +374,9 @@ namespace allmodel {
 				this->label10->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label10->ForeColor = System::Drawing::Color::Magenta;
-				this->label10->Location = System::Drawing::Point(2016, 588);
-				this->label10->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label10->Location = System::Drawing::Point(1011, 305);
 				this->label10->Name = L"label10";
-				this->label10->Size = System::Drawing::Size(542, 135);
+				this->label10->Size = System::Drawing::Size(271, 70);
 				this->label10->TabIndex = 65;
 				this->label10->Text = L"星期二";
 				this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -402,10 +386,9 @@ namespace allmodel {
 				this->pictureBox4->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->pictureBox4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.BackgroundImage")));
 				this->pictureBox4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox4->Location = System::Drawing::Point(2000, 577);
-				this->pictureBox4->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox4->Location = System::Drawing::Point(1003, 299);
 				this->pictureBox4->Name = L"pictureBox4";
-				this->pictureBox4->Size = System::Drawing::Size(580, 462);
+				this->pictureBox4->Size = System::Drawing::Size(290, 240);
 				this->pictureBox4->TabIndex = 66;
 				this->pictureBox4->TabStop = false;
 				// 
@@ -415,10 +398,9 @@ namespace allmodel {
 				this->label11->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label11->ForeColor = System::Drawing::Color::Black;
-				this->label11->Location = System::Drawing::Point(2796, 890);
-				this->label11->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label11->Location = System::Drawing::Point(1401, 462);
 				this->label11->Name = L"label11";
-				this->label11->Size = System::Drawing::Size(542, 135);
+				this->label11->Size = System::Drawing::Size(271, 70);
 				this->label11->TabIndex = 72;
 				this->label11->Text = L"วันพุธ";
 				this->label11->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -429,10 +411,9 @@ namespace allmodel {
 				this->label12->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label12->ForeColor = System::Drawing::Color::Black;
-				this->label12->Location = System::Drawing::Point(2796, 740);
-				this->label12->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label12->Location = System::Drawing::Point(1401, 384);
 				this->label12->Name = L"label12";
-				this->label12->Size = System::Drawing::Size(542, 135);
+				this->label12->Size = System::Drawing::Size(271, 70);
 				this->label12->TabIndex = 71;
 				this->label12->Text = L"xīng qī sān";
 				this->label12->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -443,10 +424,9 @@ namespace allmodel {
 				this->label13->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label13->ForeColor = System::Drawing::Color::Green;
-				this->label13->Location = System::Drawing::Point(2796, 588);
-				this->label13->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label13->Location = System::Drawing::Point(1401, 305);
 				this->label13->Name = L"label13";
-				this->label13->Size = System::Drawing::Size(542, 135);
+				this->label13->Size = System::Drawing::Size(271, 70);
 				this->label13->TabIndex = 69;
 				this->label13->Text = L"星期三 ";
 				this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -456,10 +436,9 @@ namespace allmodel {
 				this->pictureBox5->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->pictureBox5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.BackgroundImage")));
 				this->pictureBox5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox5->Location = System::Drawing::Point(2780, 577);
-				this->pictureBox5->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox5->Location = System::Drawing::Point(1393, 299);
 				this->pictureBox5->Name = L"pictureBox5";
-				this->pictureBox5->Size = System::Drawing::Size(580, 462);
+				this->pictureBox5->Size = System::Drawing::Size(290, 240);
 				this->pictureBox5->TabIndex = 70;
 				this->pictureBox5->TabStop = false;
 				// 
@@ -469,10 +448,9 @@ namespace allmodel {
 				this->label14->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label14->ForeColor = System::Drawing::Color::Black;
-				this->label14->Location = System::Drawing::Point(846, 1467);
-				this->label14->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label14->Location = System::Drawing::Point(432, 763);
 				this->label14->Name = L"label14";
-				this->label14->Size = System::Drawing::Size(542, 135);
+				this->label14->Size = System::Drawing::Size(271, 70);
 				this->label14->TabIndex = 76;
 				this->label14->Text = L"วันพฤหัสบดี";
 				this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -483,10 +461,9 @@ namespace allmodel {
 				this->label15->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label15->ForeColor = System::Drawing::Color::Black;
-				this->label15->Location = System::Drawing::Point(846, 1315);
-				this->label15->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label15->Location = System::Drawing::Point(432, 684);
 				this->label15->Name = L"label15";
-				this->label15->Size = System::Drawing::Size(542, 135);
+				this->label15->Size = System::Drawing::Size(271, 70);
 				this->label15->TabIndex = 75;
 				this->label15->Text = L"xīng qī sì";
 				this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -498,10 +475,9 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->label16->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
 					static_cast<System::Int32>(static_cast<System::Byte>(0)));
-				this->label16->Location = System::Drawing::Point(846, 1165);
-				this->label16->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label16->Location = System::Drawing::Point(432, 606);
 				this->label16->Name = L"label16";
-				this->label16->Size = System::Drawing::Size(542, 135);
+				this->label16->Size = System::Drawing::Size(271, 70);
 				this->label16->TabIndex = 73;
 				this->label16->Text = L"星期四";
 				this->label16->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -511,10 +487,9 @@ namespace allmodel {
 				this->pictureBox6->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->pictureBox6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.BackgroundImage")));
 				this->pictureBox6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox6->Location = System::Drawing::Point(830, 1154);
-				this->pictureBox6->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox6->Location = System::Drawing::Point(424, 600);
 				this->pictureBox6->Name = L"pictureBox6";
-				this->pictureBox6->Size = System::Drawing::Size(580, 462);
+				this->pictureBox6->Size = System::Drawing::Size(290, 240);
 				this->pictureBox6->TabIndex = 74;
 				this->pictureBox6->TabStop = false;
 				// 
@@ -524,10 +499,9 @@ namespace allmodel {
 				this->label17->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label17->ForeColor = System::Drawing::Color::Black;
-				this->label17->Location = System::Drawing::Point(1626, 1467);
-				this->label17->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label17->Location = System::Drawing::Point(822, 763);
 				this->label17->Name = L"label17";
-				this->label17->Size = System::Drawing::Size(542, 135);
+				this->label17->Size = System::Drawing::Size(271, 70);
 				this->label17->TabIndex = 80;
 				this->label17->Text = L"วันศุกร์";
 				this->label17->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -538,10 +512,9 @@ namespace allmodel {
 				this->label18->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label18->ForeColor = System::Drawing::Color::Black;
-				this->label18->Location = System::Drawing::Point(1626, 1317);
-				this->label18->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label18->Location = System::Drawing::Point(822, 685);
 				this->label18->Name = L"label18";
-				this->label18->Size = System::Drawing::Size(542, 135);
+				this->label18->Size = System::Drawing::Size(271, 70);
 				this->label18->TabIndex = 79;
 				this->label18->Text = L"xīng qī wǔ";
 				this->label18->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -552,10 +525,9 @@ namespace allmodel {
 				this->label19->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label19->ForeColor = System::Drawing::Color::DarkTurquoise;
-				this->label19->Location = System::Drawing::Point(1626, 1165);
-				this->label19->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label19->Location = System::Drawing::Point(822, 606);
 				this->label19->Name = L"label19";
-				this->label19->Size = System::Drawing::Size(542, 135);
+				this->label19->Size = System::Drawing::Size(271, 70);
 				this->label19->TabIndex = 77;
 				this->label19->Text = L"星期五";
 				this->label19->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -565,10 +537,9 @@ namespace allmodel {
 				this->pictureBox7->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->pictureBox7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox7.BackgroundImage")));
 				this->pictureBox7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox7->Location = System::Drawing::Point(1610, 1154);
-				this->pictureBox7->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox7->Location = System::Drawing::Point(814, 600);
 				this->pictureBox7->Name = L"pictureBox7";
-				this->pictureBox7->Size = System::Drawing::Size(580, 462);
+				this->pictureBox7->Size = System::Drawing::Size(290, 240);
 				this->pictureBox7->TabIndex = 78;
 				this->pictureBox7->TabStop = false;
 				// 
@@ -578,10 +549,9 @@ namespace allmodel {
 				this->label20->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label20->ForeColor = System::Drawing::Color::Black;
-				this->label20->Location = System::Drawing::Point(2406, 1467);
-				this->label20->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label20->Location = System::Drawing::Point(1213, 763);
 				this->label20->Name = L"label20";
-				this->label20->Size = System::Drawing::Size(542, 135);
+				this->label20->Size = System::Drawing::Size(271, 70);
 				this->label20->TabIndex = 84;
 				this->label20->Text = L"วันเสาร์";
 				this->label20->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -592,10 +562,9 @@ namespace allmodel {
 				this->label21->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 27.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label21->ForeColor = System::Drawing::Color::Black;
-				this->label21->Location = System::Drawing::Point(2406, 1317);
-				this->label21->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label21->Location = System::Drawing::Point(1213, 685);
 				this->label21->Name = L"label21";
-				this->label21->Size = System::Drawing::Size(542, 135);
+				this->label21->Size = System::Drawing::Size(271, 70);
 				this->label21->TabIndex = 83;
 				this->label21->Text = L"xīng qī liù";
 				this->label21->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -606,10 +575,9 @@ namespace allmodel {
 				this->label22->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 36, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 					static_cast<System::Byte>(0)));
 				this->label22->ForeColor = System::Drawing::Color::DarkViolet;
-				this->label22->Location = System::Drawing::Point(2406, 1165);
-				this->label22->Margin = System::Windows::Forms::Padding(6, 0, 6, 0);
+				this->label22->Location = System::Drawing::Point(1213, 606);
 				this->label22->Name = L"label22";
-				this->label22->Size = System::Drawing::Size(542, 135);
+				this->label22->Size = System::Drawing::Size(271, 70);
 				this->label22->TabIndex = 81;
 				this->label22->Text = L"星期六";
 				this->label22->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -619,10 +587,9 @@ namespace allmodel {
 				this->pictureBox8->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->pictureBox8->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox8.BackgroundImage")));
 				this->pictureBox8->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox8->Location = System::Drawing::Point(2390, 1154);
-				this->pictureBox8->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->pictureBox8->Location = System::Drawing::Point(1205, 600);
 				this->pictureBox8->Name = L"pictureBox8";
-				this->pictureBox8->Size = System::Drawing::Size(580, 462);
+				this->pictureBox8->Size = System::Drawing::Size(290, 240);
 				this->pictureBox8->TabIndex = 82;
 				this->pictureBox8->TabStop = false;
 				// 
@@ -630,10 +597,9 @@ namespace allmodel {
 				// 
 				this->button6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button6.BackgroundImage")));
 				this->button6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button6->Location = System::Drawing::Point(886, 613);
-				this->button6->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button6->Location = System::Drawing::Point(443, 319);
 				this->button6->Name = L"button6";
-				this->button6->Size = System::Drawing::Size(80, 77);
+				this->button6->Size = System::Drawing::Size(40, 40);
 				this->button6->TabIndex = 85;
 				this->button6->UseVisualStyleBackColor = true;
 				this->button6->Click += gcnew System::EventHandler(this, &My7days::button6_Click);
@@ -642,10 +608,9 @@ namespace allmodel {
 				// 
 				this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 				this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button1->Location = System::Drawing::Point(1648, 613);
-				this->button1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button1->Location = System::Drawing::Point(824, 319);
 				this->button1->Name = L"button1";
-				this->button1->Size = System::Drawing::Size(80, 77);
+				this->button1->Size = System::Drawing::Size(40, 40);
 				this->button1->TabIndex = 86;
 				this->button1->UseVisualStyleBackColor = true;
 				this->button1->Click += gcnew System::EventHandler(this, &My7days::button1_Click);
@@ -654,10 +619,9 @@ namespace allmodel {
 				// 
 				this->button2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button2.BackgroundImage")));
 				this->button2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button2->Location = System::Drawing::Point(2448, 613);
-				this->button2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button2->Location = System::Drawing::Point(1224, 319);
 				this->button2->Name = L"button2";
-				this->button2->Size = System::Drawing::Size(80, 77);
+				this->button2->Size = System::Drawing::Size(40, 40);
 				this->button2->TabIndex = 87;
 				this->button2->UseVisualStyleBackColor = true;
 				this->button2->Click += gcnew System::EventHandler(this, &My7days::button2_Click);
@@ -666,10 +630,9 @@ namespace allmodel {
 				// 
 				this->button3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button3.BackgroundImage")));
 				this->button3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button3->Location = System::Drawing::Point(3220, 613);
-				this->button3->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button3->Location = System::Drawing::Point(1610, 319);
 				this->button3->Name = L"button3";
-				this->button3->Size = System::Drawing::Size(80, 77);
+				this->button3->Size = System::Drawing::Size(40, 40);
 				this->button3->TabIndex = 88;
 				this->button3->UseVisualStyleBackColor = true;
 				this->button3->Click += gcnew System::EventHandler(this, &My7days::button3_Click);
@@ -678,10 +641,9 @@ namespace allmodel {
 				// 
 				this->button4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button4.BackgroundImage")));
 				this->button4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button4->Location = System::Drawing::Point(1288, 1192);
-				this->button4->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button4->Location = System::Drawing::Point(644, 620);
 				this->button4->Name = L"button4";
-				this->button4->Size = System::Drawing::Size(80, 77);
+				this->button4->Size = System::Drawing::Size(40, 40);
 				this->button4->TabIndex = 89;
 				this->button4->UseVisualStyleBackColor = true;
 				this->button4->Click += gcnew System::EventHandler(this, &My7days::button4_Click);
@@ -690,10 +652,9 @@ namespace allmodel {
 				// 
 				this->button5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button5.BackgroundImage")));
 				this->button5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button5->Location = System::Drawing::Point(2064, 1192);
-				this->button5->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button5->Location = System::Drawing::Point(1032, 620);
 				this->button5->Name = L"button5";
-				this->button5->Size = System::Drawing::Size(80, 77);
+				this->button5->Size = System::Drawing::Size(40, 40);
 				this->button5->TabIndex = 90;
 				this->button5->UseVisualStyleBackColor = true;
 				this->button5->Click += gcnew System::EventHandler(this, &My7days::button5_Click);
@@ -702,19 +663,18 @@ namespace allmodel {
 				// 
 				this->button7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button7.BackgroundImage")));
 				this->button7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->button7->Location = System::Drawing::Point(2846, 1192);
-				this->button7->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+				this->button7->Location = System::Drawing::Point(1423, 620);
 				this->button7->Name = L"button7";
-				this->button7->Size = System::Drawing::Size(80, 77);
+				this->button7->Size = System::Drawing::Size(40, 40);
 				this->button7->TabIndex = 91;
 				this->button7->UseVisualStyleBackColor = true;
 				this->button7->Click += gcnew System::EventHandler(this, &My7days::button7_Click);
 				// 
 				// My7days
 				// 
-				this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-				this->ClientSize = System::Drawing::Size(3788, 1940);
+				this->ClientSize = System::Drawing::Size(1904, 1041);
 				this->Controls->Add(this->button7);
 				this->Controls->Add(this->button5);
 				this->Controls->Add(this->button4);
@@ -757,9 +717,8 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox2);
 				this->Controls->Add(this->decorleft);
 				this->Controls->Add(this->lesson3);
-				this->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
-				this->MaximumSize = System::Drawing::Size(3814, 2011);
-				this->MinimumSize = System::Drawing::Size(3810, 1915);
+				this->MaximumSize = System::Drawing::Size(1920, 1080);
+				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"My7days";
 				this->Text = L"My7days";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

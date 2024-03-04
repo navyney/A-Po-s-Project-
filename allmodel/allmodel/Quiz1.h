@@ -70,19 +70,19 @@ namespace allmodel {
 				this->button2 = (gcnew System::Windows::Forms::Button());
 				this->button1 = (gcnew System::Windows::Forms::Button());
 				this->label2 = (gcnew System::Windows::Forms::Label());
+				this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 				this->button7 = (gcnew System::Windows::Forms::Button());
 				this->nextbutton = (gcnew System::Windows::Forms::PictureBox());
 				this->previousbutton = (gcnew System::Windows::Forms::PictureBox());
 				this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 				this->decorleft = (gcnew System::Windows::Forms::PictureBox());
 				this->lesson3 = (gcnew System::Windows::Forms::Label());
-				this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 				this->panel1->SuspendLayout();
+				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
-				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 				this->SuspendLayout();
 				// 
 				// panel1
@@ -190,6 +190,18 @@ namespace allmodel {
 				this->label2->Text = L"我 \r\nwǒ\r\n";
 				this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
+				// pictureBox2
+				// 
+				this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
+				this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
+				this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->pictureBox2->Location = System::Drawing::Point(20, 81);
+				this->pictureBox2->Name = L"pictureBox2";
+				this->pictureBox2->Size = System::Drawing::Size(1673, 643);
+				this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+				this->pictureBox2->TabIndex = 58;
+				this->pictureBox2->TabStop = false;
+				// 
 				// button7
 				// 
 				this->button7->BackColor = System::Drawing::SystemColors::Control;
@@ -269,18 +281,6 @@ namespace allmodel {
 				this->lesson3->TabIndex = 55;
 				this->lesson3->Text = L"Quiz Lesson 1";
 				// 
-				// pictureBox2
-				// 
-				this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
-				this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
-				this->pictureBox2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-				this->pictureBox2->Location = System::Drawing::Point(20, 81);
-				this->pictureBox2->Name = L"pictureBox2";
-				this->pictureBox2->Size = System::Drawing::Size(1673, 643);
-				this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
-				this->pictureBox2->TabIndex = 58;
-				this->pictureBox2->TabStop = false;
-				// 
 				// Quiz1
 				// 
 				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -301,11 +301,11 @@ namespace allmodel {
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 				this->panel1->ResumeLayout(false);
 				this->panel1->PerformLayout();
+				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nextbutton))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->previousbutton))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
-				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 				this->ResumeLayout(false);
 				this->PerformLayout();
 

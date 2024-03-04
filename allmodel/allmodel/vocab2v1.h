@@ -777,6 +777,8 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox1);
 				this->Controls->Add(this->decorleft);
 				this->Controls->Add(this->lesson3);
+				this->MaximumSize = System::Drawing::Size(1920, 1080);
+				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"vocab2v1";
 				this->Text = L"vocab2v1";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

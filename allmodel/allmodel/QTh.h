@@ -339,6 +339,8 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox2);
 				this->Controls->Add(this->label3);
 				this->Margin = System::Windows::Forms::Padding(2);
+				this->MaximumSize = System::Drawing::Size(1920, 1080);
+				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"QTh";
 				this->Text = L"QTh";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;

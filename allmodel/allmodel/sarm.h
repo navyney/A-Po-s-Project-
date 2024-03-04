@@ -290,6 +290,8 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox3);
 				this->Controls->Add(this->pictureBox4);
 				this->Margin = System::Windows::Forms::Padding(2);
+				this->MaximumSize = System::Drawing::Size(1920, 1080);
+				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"sarm";
 				this->Text = L"sarm";
 				this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
