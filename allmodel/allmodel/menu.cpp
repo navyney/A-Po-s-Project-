@@ -219,7 +219,6 @@ void main(array<String^>^ args)
                 formvo3.ShowDialog();
                 form.switchToformvo3 = false; // home to vocab3 page
                 }
-
         else if (formvo3.switchToform7day) {
             form7day.ShowDialog();
             formvo3.switchToform7day = false;//  vocab3 page
@@ -256,10 +255,24 @@ void main(array<String^>^ args)
                  formQ3.ShowDialog();
                   formHQ3.switchToformQ3 = false;// Quiz3 page
                  }
+        else if (formHQ0.switchToform) {
+                     form.ShowDialog();
+                     formHQ0.switchToform = false;//  Quiz0 to home  page
+                     }
+        else if (formHQ1.switchToform) {
+                         form.ShowDialog();
+                         formHQ1.switchToform = false;//  Quiz1 to home  page
+                         }
+        else if (formHQ2.switchToform) {
+                             form.ShowDialog();
+                             formHQ2.switchToform = false;//  Quiz2 to home  page
+                             }
         else if (formQ3.switchToform) {
               form.ShowDialog();
                formQ3.switchToform = false;//  Quiz3 to home  page
-       }else {
+       }
+
+        else {
             break;
         }
     }

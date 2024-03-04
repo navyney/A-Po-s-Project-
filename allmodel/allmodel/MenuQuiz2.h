@@ -40,6 +40,7 @@ namespace allmodel {
 		private: System::Windows::Forms::PictureBox^ pictureBox3;
 		private: System::Windows::Forms::Button^ GoQuiz2;
 		private: System::Windows::Forms::Button^ Golesson3;
+		private: System::Windows::Forms::Button^ home;
 
 		private:
 			/// <summary>
@@ -61,6 +62,7 @@ namespace allmodel {
 				this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 				this->GoQuiz2 = (gcnew System::Windows::Forms::Button());
 				this->Golesson3 = (gcnew System::Windows::Forms::Button());
+				this->home = (gcnew System::Windows::Forms::Button());
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
@@ -170,12 +172,24 @@ namespace allmodel {
 				this->Golesson3->UseVisualStyleBackColor = false;
 				this->Golesson3->Click += gcnew System::EventHandler(this, &MenuQuiz2::Golesson3_Click);
 				// 
+				// home
+				// 
+				this->home->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"home.BackgroundImage")));
+				this->home->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+				this->home->Location = System::Drawing::Point(1554, 955);
+				this->home->Name = L"home";
+				this->home->Size = System::Drawing::Size(68, 64);
+				this->home->TabIndex = 38;
+				this->home->UseVisualStyleBackColor = true;
+				this->home->Click += gcnew System::EventHandler(this, &MenuQuiz2::home_Click);
+				// 
 				// MenuQuiz2
 				// 
 				this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 				this->BackColor = System::Drawing::Color::White;
 				this->ClientSize = System::Drawing::Size(1904, 1041);
+				this->Controls->Add(this->home);
 				this->Controls->Add(this->Golesson3);
 				this->Controls->Add(this->GoQuiz2);
 				this->Controls->Add(this->pictureBox3);
@@ -198,6 +212,7 @@ namespace allmodel {
 		public: bool switchToformQ2 = false;
 		public:bool switchToformvo3 = false;
 		public:bool switchToformcon2 = false;
+		public:bool  switchToform = false;
 		private: System::Void MenuQuiz2_Load(System::Object^ sender, System::EventArgs^ e) {
 		}
 		private: System::Void GoQuiz2_Click_1(System::Object^ sender, System::EventArgs^ e) {
@@ -212,6 +227,10 @@ namespace allmodel {
 			this->Close();
 			switchToformcon2 = true;
 		}
+private: System::Void home_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->Close();
+	switchToform = true;
+}
 };
 	}
 

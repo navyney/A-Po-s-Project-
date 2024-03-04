@@ -285,7 +285,7 @@ namespace allmodel {
 				this->panel2->Controls->Add(this->label5);
 				this->panel2->Controls->Add(this->label3);
 				this->panel2->Location = System::Drawing::Point(0, 2);
-				this->panel2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->panel2->Margin = System::Windows::Forms::Padding(2);
 				this->panel2->Name = L"panel2";
 				this->panel2->Size = System::Drawing::Size(1406, 624);
 				this->panel2->TabIndex = 62;
@@ -296,7 +296,7 @@ namespace allmodel {
 				this->Button17->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button17.BackgroundImage")));
 				this->Button17->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button17->Location = System::Drawing::Point(333, 1048);
-				this->Button17->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button17->Margin = System::Windows::Forms::Padding(2);
 				this->Button17->Name = L"Button17";
 				this->Button17->Size = System::Drawing::Size(40, 40);
 				this->Button17->TabIndex = 114;
@@ -310,7 +310,7 @@ namespace allmodel {
 				this->Button16->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button16.BackgroundImage")));
 				this->Button16->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button16->Location = System::Drawing::Point(159, 1048);
-				this->Button16->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button16->Margin = System::Windows::Forms::Padding(2);
 				this->Button16->Name = L"Button16";
 				this->Button16->Size = System::Drawing::Size(40, 40);
 				this->Button16->TabIndex = 113;
@@ -324,7 +324,7 @@ namespace allmodel {
 				this->Button15->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button15.BackgroundImage")));
 				this->Button15->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button15->Location = System::Drawing::Point(603, 974);
-				this->Button15->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button15->Margin = System::Windows::Forms::Padding(2);
 				this->Button15->Name = L"Button15";
 				this->Button15->Size = System::Drawing::Size(40, 40);
 				this->Button15->TabIndex = 112;
@@ -338,7 +338,7 @@ namespace allmodel {
 				this->Button14->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button14.BackgroundImage")));
 				this->Button14->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button14->Location = System::Drawing::Point(140, 880);
-				this->Button14->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button14->Margin = System::Windows::Forms::Padding(2);
 				this->Button14->Name = L"Button14";
 				this->Button14->Size = System::Drawing::Size(40, 40);
 				this->Button14->TabIndex = 111;
@@ -352,7 +352,7 @@ namespace allmodel {
 				this->Button13->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button13.BackgroundImage")));
 				this->Button13->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button13->Location = System::Drawing::Point(492, 811);
-				this->Button13->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button13->Margin = System::Windows::Forms::Padding(2);
 				this->Button13->Name = L"Button13";
 				this->Button13->Size = System::Drawing::Size(40, 40);
 				this->Button13->TabIndex = 110;
@@ -447,7 +447,7 @@ namespace allmodel {
 				this->Button12->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button12.BackgroundImage")));
 				this->Button12->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button12->Location = System::Drawing::Point(823, 650);
-				this->Button12->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button12->Margin = System::Windows::Forms::Padding(2);
 				this->Button12->Name = L"Button12";
 				this->Button12->Size = System::Drawing::Size(40, 40);
 				this->Button12->TabIndex = 105;
@@ -461,7 +461,7 @@ namespace allmodel {
 				this->Button10->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button10.BackgroundImage")));
 				this->Button10->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button10->Location = System::Drawing::Point(823, 570);
-				this->Button10->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button10->Margin = System::Windows::Forms::Padding(2);
 				this->Button10->Name = L"Button10";
 				this->Button10->Size = System::Drawing::Size(40, 40);
 				this->Button10->TabIndex = 104;
@@ -475,7 +475,7 @@ namespace allmodel {
 				this->Button9->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button9.BackgroundImage")));
 				this->Button9->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button9->Location = System::Drawing::Point(410, 650);
-				this->Button9->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button9->Margin = System::Windows::Forms::Padding(2);
 				this->Button9->Name = L"Button9";
 				this->Button9->Size = System::Drawing::Size(40, 40);
 				this->Button9->TabIndex = 103;
@@ -489,7 +489,7 @@ namespace allmodel {
 				this->Button8->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button8.BackgroundImage")));
 				this->Button8->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button8->Location = System::Drawing::Point(391, 570);
-				this->Button8->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button8->Margin = System::Windows::Forms::Padding(2);
 				this->Button8->Name = L"Button8";
 				this->Button8->Size = System::Drawing::Size(40, 40);
 				this->Button8->TabIndex = 102;
@@ -591,7 +591,7 @@ namespace allmodel {
 				this->Button7->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button7.BackgroundImage")));
 				this->Button7->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button7->Location = System::Drawing::Point(863, 408);
-				this->Button7->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button7->Margin = System::Windows::Forms::Padding(2);
 				this->Button7->Name = L"Button7";
 				this->Button7->Size = System::Drawing::Size(40, 40);
 				this->Button7->TabIndex = 95;
@@ -605,7 +605,7 @@ namespace allmodel {
 				this->Button6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button6.BackgroundImage")));
 				this->Button6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button6->Location = System::Drawing::Point(864, 327);
-				this->Button6->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button6->Margin = System::Windows::Forms::Padding(2);
 				this->Button6->Name = L"Button6";
 				this->Button6->Size = System::Drawing::Size(40, 40);
 				this->Button6->TabIndex = 94;
@@ -619,7 +619,7 @@ namespace allmodel {
 				this->Button5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button5.BackgroundImage")));
 				this->Button5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button5->Location = System::Drawing::Point(467, 408);
-				this->Button5->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button5->Margin = System::Windows::Forms::Padding(2);
 				this->Button5->Name = L"Button5";
 				this->Button5->Size = System::Drawing::Size(40, 40);
 				this->Button5->TabIndex = 93;
@@ -633,7 +633,7 @@ namespace allmodel {
 				this->Button4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button4.BackgroundImage")));
 				this->Button4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button4->Location = System::Drawing::Point(435, 327);
-				this->Button4->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button4->Margin = System::Windows::Forms::Padding(2);
 				this->Button4->Name = L"Button4";
 				this->Button4->Size = System::Drawing::Size(40, 40);
 				this->Button4->TabIndex = 92;
@@ -736,7 +736,7 @@ namespace allmodel {
 				this->Button3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button3.BackgroundImage")));
 				this->Button3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button3->Location = System::Drawing::Point(444, 165);
-				this->Button3->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button3->Margin = System::Windows::Forms::Padding(2);
 				this->Button3->Name = L"Button3";
 				this->Button3->Size = System::Drawing::Size(40, 40);
 				this->Button3->TabIndex = 79;
@@ -750,7 +750,7 @@ namespace allmodel {
 				this->Button2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button2.BackgroundImage")));
 				this->Button2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button2->Location = System::Drawing::Point(429, 82);
-				this->Button2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button2->Margin = System::Windows::Forms::Padding(2);
 				this->Button2->Name = L"Button2";
 				this->Button2->Size = System::Drawing::Size(40, 40);
 				this->Button2->TabIndex = 78;
@@ -764,7 +764,7 @@ namespace allmodel {
 				this->Button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button1.BackgroundImage")));
 				this->Button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button1->Location = System::Drawing::Point(853, 165);
-				this->Button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button1->Margin = System::Windows::Forms::Padding(2);
 				this->Button1->Name = L"Button1";
 				this->Button1->Size = System::Drawing::Size(40, 40);
 				this->Button1->TabIndex = 77;
@@ -778,7 +778,7 @@ namespace allmodel {
 				this->Button11->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Button11.BackgroundImage")));
 				this->Button11->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 				this->Button11->Location = System::Drawing::Point(853, 82);
-				this->Button11->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Button11->Margin = System::Windows::Forms::Padding(2);
 				this->Button11->Name = L"Button11";
 				this->Button11->Size = System::Drawing::Size(40, 40);
 				this->Button11->TabIndex = 76;
@@ -878,8 +878,8 @@ namespace allmodel {
 				// 
 				this->panel1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 				this->panel1->Controls->Add(this->panel2);
-				this->panel1->Location = System::Drawing::Point(719, 255);
-				this->panel1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->panel1->Location = System::Drawing::Point(249, 265);
+				this->panel1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 				this->panel1->Name = L"panel1";
 				this->panel1->Size = System::Drawing::Size(1408, 629);
 				this->panel1->TabIndex = 1;
@@ -897,7 +897,7 @@ namespace allmodel {
 				this->Controls->Add(this->pictureBox1);
 				this->Controls->Add(this->decorleft);
 				this->Controls->Add(this->lesson3);
-				this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Margin = System::Windows::Forms::Padding(2);
 				this->MaximumSize = System::Drawing::Size(1920, 1080);
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"ex0";

@@ -63,7 +63,7 @@ namespace allmodel {
 		private: System::Windows::Forms::PictureBox^ pic1;
 
 		private: System::Windows::Forms::PictureBox^ pic2;
-		private: System::Windows::Forms::PictureBox^ pictureBox4;
+
 		private: System::Windows::Forms::PictureBox^ pic3;
 		private: System::Windows::Forms::PictureBox^ pic4;
 		private: System::Windows::Forms::PictureBox^ pic5;
@@ -150,7 +150,6 @@ namespace allmodel {
 				this->decorleft = (gcnew System::Windows::Forms::PictureBox());
 				this->pic1 = (gcnew System::Windows::Forms::PictureBox());
 				this->pic2 = (gcnew System::Windows::Forms::PictureBox());
-				this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
 				this->pic3 = (gcnew System::Windows::Forms::PictureBox());
 				this->pic4 = (gcnew System::Windows::Forms::PictureBox());
 				this->pic5 = (gcnew System::Windows::Forms::PictureBox());
@@ -185,7 +184,6 @@ namespace allmodel {
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic1))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic2))->BeginInit();
-				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic3))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic4))->BeginInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic5))->BeginInit();
@@ -455,14 +453,6 @@ namespace allmodel {
 				this->pic2->Size = System::Drawing::Size(290, 277);
 				this->pic2->TabIndex = 134;
 				this->pic2->TabStop = false;
-				// 
-				// pictureBox4
-				// 
-				this->pictureBox4->Location = System::Drawing::Point(0, 0);
-				this->pictureBox4->Name = L"pictureBox4";
-				this->pictureBox4->Size = System::Drawing::Size(100, 50);
-				this->pictureBox4->TabIndex = 162;
-				this->pictureBox4->TabStop = false;
 				// 
 				// pic3
 				// 
@@ -755,7 +745,6 @@ namespace allmodel {
 				this->Controls->Add(this->pic5);
 				this->Controls->Add(this->pic4);
 				this->Controls->Add(this->pic3);
-				this->Controls->Add(this->pictureBox4);
 				this->Controls->Add(this->pic2);
 				this->Controls->Add(this->pic1);
 				this->Controls->Add(this->pictureBox3);
@@ -790,7 +779,6 @@ namespace allmodel {
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->decorleft))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic1))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic2))->EndInit();
-				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic3))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic4))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pic5))->EndInit();

@@ -246,7 +246,7 @@ namespace allmodel {
 				this->tableLayoutPanel1->Controls->Add(this->label25, 9, 2);
 				this->tableLayoutPanel1->Controls->Add(this->button4, 9, 3);
 				this->tableLayoutPanel1->Location = System::Drawing::Point(285, 271);
-				this->tableLayoutPanel1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->tableLayoutPanel1->Margin = System::Windows::Forms::Padding(2);
 				this->tableLayoutPanel1->Name = L"tableLayoutPanel1";
 				this->tableLayoutPanel1->RowCount = 4;
 				this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 25)));
@@ -942,7 +942,7 @@ namespace allmodel {
 				this->Controls->Add(this->tableLayoutPanel1);
 				this->Controls->Add(this->pictureBox1);
 				this->Controls->Add(this->decorleft);
-				this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+				this->Margin = System::Windows::Forms::Padding(2);
 				this->MaximumSize = System::Drawing::Size(1920, 1080);
 				this->MinimumSize = System::Drawing::Size(1918, 1030);
 				this->Name = L"number";
