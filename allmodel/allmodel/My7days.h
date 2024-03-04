@@ -180,12 +180,12 @@ namespace allmodel {
 					static_cast<System::Byte>(0)));
 				this->lesson3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(44)),
 					static_cast<System::Int32>(static_cast<System::Byte>(51)));
-				this->lesson3->Location = System::Drawing::Point(464, 10);
+				this->lesson3->Location = System::Drawing::Point(503, 12);
 				this->lesson3->Margin = System::Windows::Forms::Padding(16, 0, 16, 0);
 				this->lesson3->Name = L"lesson3";
-				this->lesson3->Size = System::Drawing::Size(999, 150);
+				this->lesson3->Size = System::Drawing::Size(920, 150);
 				this->lesson3->TabIndex = 35;
-				this->lesson3->Text = L"Lesson 3 : Where";
+				this->lesson3->Text = L"Lesson 3 : Time";
 				this->lesson3->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 				// 
 				// decorleft
