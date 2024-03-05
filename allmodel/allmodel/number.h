@@ -671,7 +671,7 @@ namespace allmodel {
 				this->label23->Name = L"label23";
 				this->label23->Size = System::Drawing::Size(77, 68);
 				this->label23->TabIndex = 20;
-				this->label23->Text = L"Yī";
+				this->label23->Text = L"yī";
 				this->label23->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
 				// label22
@@ -686,7 +686,7 @@ namespace allmodel {
 				this->label22->Name = L"label22";
 				this->label22->Size = System::Drawing::Size(81, 68);
 				this->label22->TabIndex = 19;
-				this->label22->Text = L"Èr";
+				this->label22->Text = L"èr";
 				this->label22->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				this->label22->Click += gcnew System::EventHandler(this, &number::label22_Click);
 				// 
@@ -702,7 +702,7 @@ namespace allmodel {
 				this->label30->Name = L"label30";
 				this->label30->Size = System::Drawing::Size(123, 68);
 				this->label30->TabIndex = 27;
-				this->label30->Text = L"Sān";
+				this->label30->Text = L"sān";
 				this->label30->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
 				// label31
@@ -717,7 +717,7 @@ namespace allmodel {
 				this->label31->Name = L"label31";
 				this->label31->Size = System::Drawing::Size(76, 68);
 				this->label31->TabIndex = 28;
-				this->label31->Text = L"Sì";
+				this->label31->Text = L"sì";
 				this->label31->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
 				// label28
@@ -732,7 +732,7 @@ namespace allmodel {
 				this->label28->Name = L"label28";
 				this->label28->Size = System::Drawing::Size(107, 68);
 				this->label28->TabIndex = 25;
-				this->label28->Text = L"Wǔ";
+				this->label28->Text = L"wǔ";
 				this->label28->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
 				// label29
@@ -747,7 +747,7 @@ namespace allmodel {
 				this->label29->Name = L"label29";
 				this->label29->Size = System::Drawing::Size(106, 68);
 				this->label29->TabIndex = 26;
-				this->label29->Text = L"Liù";
+				this->label29->Text = L"liù";
 				this->label29->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
 				// label32
@@ -762,7 +762,7 @@ namespace allmodel {
 				this->label32->Name = L"label32";
 				this->label32->Size = System::Drawing::Size(82, 68);
 				this->label32->TabIndex = 29;
-				this->label32->Text = L"Qī";
+				this->label32->Text = L"qī";
 				this->label32->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
 				// label27
@@ -777,7 +777,7 @@ namespace allmodel {
 				this->label27->Name = L"label27";
 				this->label27->Size = System::Drawing::Size(95, 68);
 				this->label27->TabIndex = 24;
-				this->label27->Text = L"Bā";
+				this->label27->Text = L"bā";
 				this->label27->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
 				// label26
@@ -792,7 +792,7 @@ namespace allmodel {
 				this->label26->Name = L"label26";
 				this->label26->Size = System::Drawing::Size(95, 68);
 				this->label26->TabIndex = 23;
-				this->label26->Text = L"Jiǔ";
+				this->label26->Text = L"jiǔ";
 				this->label26->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
 				// label25
@@ -807,7 +807,7 @@ namespace allmodel {
 				this->label25->Name = L"label25";
 				this->label25->Size = System::Drawing::Size(107, 68);
 				this->label25->TabIndex = 22;
-				this->label25->Text = L"Shí";
+				this->label25->Text = L"shí";
 				this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				// 
 				// button4
